@@ -16,5 +16,5 @@ Documentation on building simple experiments to understand deep learning concept
   - Memory Networks
 6. Regularization
 
-## Numerical Python and Tensorflow (tf) Experiments
+## Numerical Python (np) and Tensorflow (tf) Experiments
 1. Hello World! in tf [code](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/hello.py) 
