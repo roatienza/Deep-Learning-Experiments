@@ -17,3 +17,4 @@ Documentation on building simple experiments to understand deep learning concept
 6. Regularization
 
 ## Numerical Python and Tensorflow Experiments
+1. [Hello World!](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/hello.py) 
