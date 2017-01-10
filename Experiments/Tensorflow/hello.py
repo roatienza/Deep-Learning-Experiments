@@ -1,5 +1,5 @@
-# run as python hello.py
-# Prerequisite : tensorflow (see tensorflow.org)
+# On command line: python hello.py
+# Prerequisite: tensorflow (see tensorflow.org)
 
 import tensorflow as tf
 
