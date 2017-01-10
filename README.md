@@ -1,7 +1,7 @@
 # Deep Learning Experiments
 Documentation on building simple experiments to understand deep learning concepts
 
-1. Background Tools
+1. Background Materials
   - Linear Algebra
   - Probability
   - Numberical Computation
@@ -13,4 +13,7 @@ Documentation on building simple experiments to understand deep learning concept
 5. Recurrent Neural Networks
   - RNN
   - LSTM
+  - Memory Networks
 6. Regularization
+
+## Numerical Python and Tensorflow Experiments
