@@ -22,3 +22,4 @@ Documentation on building simple experiments to understand deep learning concept
 2. Linear Algebra [code](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Math/linear_algebra.py)
 3. Matrix Decomposition [code](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Math/decomposition.py)
 4. Probability Distributions [code](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Probability/distributions.py)
+5. Linear Regression Using SVD [code](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Regression/linear_inv.py)
