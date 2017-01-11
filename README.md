@@ -17,7 +17,7 @@ Documentation on building simple experiments to understand deep learning concept
 6. Regularization
 
 ## [Tensorflow](https://www.tensorflow.org/) (tf) Experiments
-### Uses Numerical Python (numpy.org)
+#### Uses [Numerical Python](http://www.numpy.org/) (np)
 1. Hello World! [code](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Intro/hello.py) 
 2. Linear Algebra [code](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Math/linear_algebra.py)
 3. Matrix Decomposition [code](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Math/decomposition.py)
