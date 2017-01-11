@@ -1,7 +1,7 @@
 '''
 Hello World on TensorFlow
 Author: Rowel Atienza
-Project: https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/hello.py
+Project: https://github.com/roatienza/Deep-Learning-Experiments
 '''
 # On command line: python hello.py
 # Prerequisite: tensorflow (see tensorflow.org)
