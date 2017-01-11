@@ -42,9 +42,9 @@ print("S_ = S = ")
 S_ = tf.matmul(U,tf.matmul(D,tf.transpose(V1)))
 print(S_.eval(session=tf.Session()))
 # Moore-Penrose pseudoinverse
-D = tf.diag(np.reciprocal(d))
+D = tf.transpose(tf.diag(np.reciprocal(d)))
 print("pseudo_inv(S) = ")
-S_ = tf.matmul(U,tf.matmul(D,tf.transpose(V1)))
+S_ = tf.matmul(V1,tf.matmul(D,tf.transpose(U)))
 print(S_.eval(session=tf.Session()))
 
 # inverse of S BUT applicable to non-singular square matrices only
