@@ -1,7 +1,7 @@
 '''
-Decomposition on TensorFlow
+Matrix Decomposition on TensorFlow
 Author: Rowel Atienza
-Project: https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/decomposition.py
+Project: https://github.com/roatienza/Deep-Learning-Experiments
 '''
 # On command line: python decomposition.py
 # Prerequisite: tensorflow (see tensorflow.org)
@@ -16,9 +16,9 @@ S = tf.constant([ [1.,2.], [2.,1.] ])
 print("S = ")
 print(S.eval(session=tf.Session()))
 
-# Eigen Decomposition
+# Eigen Decomposition - for square matrices only
 e,Q = tf.self_adjoint_eig(S)
-# diagonal matrix made of eigenvalues of S
+# Diagonal matrix made of eigenvalues of S
 V = tf.diag(e)
 # S_ = S since S = Q*V*tran(Q) for real symmetric matrix
 S_ = tf.matmul(Q,tf.matmul(V,Q))

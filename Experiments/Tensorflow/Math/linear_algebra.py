@@ -1,7 +1,7 @@
 '''
 Linear Algebra on TensorFlow
 Author: Rowel Atienza
-Project: https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/linear_algebra.py
+Project: https://github.com/roatienza/Deep-Learning-Experiments
 '''
 # On command line: python linear_algebra.py
 # Prerequisite: tensorflow (see tensorflow.org)
