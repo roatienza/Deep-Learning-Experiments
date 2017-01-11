@@ -7,7 +7,6 @@ Project: https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Expe
 # Prerequisite: tensorflow (see tensorflow.org)
 
 import tensorflow as tf
-import numpy as np
 import sys
 
 # Square matrix A of rank 2
@@ -16,6 +15,7 @@ A = tf.constant([ [1.,2.], [3.,4.] ])
 # 2x2 Square matrix B will all elements 2.
 B = tf.fill([2,2], 2.)
 
+# 2x1 matrix will all elements equal to 1
 x = tf.ones([2,1])
 
 # 2x1 matrix will all elements equal to 2.0
