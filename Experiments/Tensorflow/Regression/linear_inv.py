@@ -8,11 +8,12 @@ Project: https://github.com/roatienza/Deep-Learning-Experiments
 #             : matplotlib (http://matplotlib.org/)
 
 import tensorflow as tf
+import matplotlib.pyplot as plt
 import numpy as np
 
 # Tunable parameters (Try changing the values and see what happens)
 # Variable samples >= 3 ; stddev > 0.; xcoeff are real numbers
-samples = 300
+samples = 100
 stddev = 1.0
 # xcoeff should be predicted by solving y = A*x using SVD; try changing the values
 xcoeff = tf.transpose(tf.constant([[2., -3.5, 12.5]]))
@@ -20,6 +21,7 @@ xcoeff = tf.transpose(tf.constant([[2., -3.5, 12.5]]))
 # The computation
 # We get x1 by sampling a normal dist
 x1 = tf.Variable(tf.random_normal([samples,1],stddev=stddev))
+
 # Input
 A = tf.concat(1,[tf.concat(1,[x1*x1,x1]),tf.ones_like(x1)])
 # Output
@@ -52,6 +54,15 @@ with tf.Session() as session:
     # values are the xcoeff
     print("Actual x =")
     print(xcoeff.eval())
+
+    x1 = tf.reshape(x1,[x1.get_shape().as_list()[0]])
+    y = tf.reshape(y,[y.get_shape().as_list()[0]])
+
     print("\nPredicted x = ")
     print(x.eval())
 
+    # Let's plot
+    yp = tf.matmul(A,x)
+    yp = tf.reshape(yp,[yp.get_shape().as_list()[0]])
+    plt.plot(x1.eval(), y.eval(), 'r.', x1.eval(), yp.eval(), 'bx')
+    plt.show()
