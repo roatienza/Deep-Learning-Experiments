@@ -10,31 +10,48 @@ Project: https://github.com/roatienza/Deep-Learning-Experiments
 import tensorflow as tf
 import numpy as np
 
-# variable samples >= 3 ; stddev > 0
+# Tunable parameters (Try changing the values and see what happens)
+# Variable samples >= 3 ; stddev > 0.; xcoeff are real numbers
 samples = 300
 stddev = 1.0
-x1 = tf.Variable(tf.random_normal([samples,1],stddev=stddev))
-y = 2.0*x1*x1 - 3.0*x1 - 12.0
+# xcoeff should be predicted by solving y = A*x using SVD; try changing the values
+xcoeff = tf.transpose(tf.constant([[2., -3.5, 12.5]]))
 
-x2 = tf.mul(x1,x1)
-x0 = tf.ones_like(x1)
-A = tf.concat(1,[tf.concat(1,[x2,x1]),x0])
+# The computation
+# We get x1 by sampling a normal dist
+x1 = tf.Variable(tf.random_normal([samples,1],stddev=stddev))
+# Input
+A = tf.concat(1,[tf.concat(1,[x1*x1,x1]),tf.ones_like(x1)])
+# Output
+y = tf.matmul(A,xcoeff)
+
+# SVD
 d, U, V = tf.svd(A, full_matrices=True, compute_uv=True)
+
+# Wondering why tensorflow does not generate the diagonal matrix directly
+# D is the diagonal matrix with the diagonal elements being the reciprocal of d
 D = tf.diag(np.reciprocal(d))
+
+# D is actually nxm so zero padding is needed
 r = D.get_shape().as_list()[0]
 Z = tf.zeros([r,samples-r])
 D = tf.concat(1,[D,Z])
-# the coefficients of y are determined using Moore-Penrose pseudoinverse
+
+# x (predicted xcoeff) is determined using Moore-Penrose pseudoinverse
 A_ = tf.matmul(V,tf.matmul(D,tf.transpose(U)))
 x = tf.matmul(A_,y)
 
-# Ax = y  mx3 3x1 = mx1
-# x = Inv(A)y = 3xm mx1
+# This is linear regression by SVD
+# Ax = y  mxn nx1 = mx3 3x1 = mx1
+# x = Inv(A)y = nxm mx1 = 3xm mx1  ; x is our predicted xcoeff
 # Inv(A) = VDtran(U) = nxn nxm mxm = nxm = 3x3 3xm 3xm = 3xm
 
 init = tf.global_variables_initializer()
 with tf.Session() as session:
     session.run(init)
-    # values are the coefficents of y
+    # values are the xcoeff
+    print("Actual x =")
+    print(xcoeff.eval())
+    print("\nPredicted x = ")
     print(x.eval())
 
