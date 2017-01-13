@@ -1,5 +1,5 @@
 '''
-Linear Regression using Pseudo Inverse on TensorFlow
+Linear Regression by SVD on TensorFlow
 Author: Rowel Atienza
 Project: https://github.com/roatienza/Deep-Learning-Experiments
 '''
@@ -9,6 +9,7 @@ Project: https://github.com/roatienza/Deep-Learning-Experiments
 
 import tensorflow as tf
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
 import numpy as np
 
 # Tunable parameters (Try changing the values and see what happens)
@@ -19,15 +20,19 @@ stddev = 1.0
 xcoeff = tf.transpose(tf.constant([[2., -3.5, 12.5]]))
 
 # The computation
-# We get x1 by sampling a normal dist
-x1 = tf.Variable(tf.random_normal([samples,1],stddev=stddev))
+# We get elements of A by sampling a normal distribution
+a = tf.Variable(tf.random_normal([1, samples],stddev=stddev))
+# Sort to produce a nice plot later
+b, _ = tf.nn.top_k(a,k=samples)
+# Correct the shape
+a = tf.reshape(b,[samples,1])
 
-# Input
-A = tf.concat(1,[tf.concat(1,[x1*x1,x1]),tf.ones_like(x1)])
-# Output
+# Inputs
+A = tf.concat(1,[tf.concat(1,[a*a,a]),tf.ones_like(a)])
+# Observable outputs
 y = tf.matmul(A,xcoeff)
 
-# SVD
+# SVD - Singular Value Decomposition
 d, U, V = tf.svd(A, full_matrices=True, compute_uv=True)
 
 # Wondering why tensorflow does not generate the diagonal matrix directly
@@ -39,14 +44,14 @@ r = D.get_shape().as_list()[0]
 Z = tf.zeros([r,samples-r])
 D = tf.concat(1,[D,Z])
 
-# x (predicted xcoeff) is determined using Moore-Penrose pseudoinverse
-A_ = tf.matmul(V,tf.matmul(D,tf.transpose(U)))
-x = tf.matmul(A_,y)
-
 # This is linear regression by SVD
 # Ax = y  mxn nx1 = mx3 3x1 = mx1
 # x = Inv(A)y = nxm mx1 = 3xm mx1  ; x is our predicted xcoeff
-# Inv(A) = VDtran(U) = nxn nxm mxm = nxm = 3x3 3xm 3xm = 3xm
+# Inv(A) = A_ = VDtran(U) = nxn nxm mxm = nxm = 3x3 3xm 3xm = 3xm
+
+# x (predicted xcoeff) is determined using Moore-Penrose pseudoinverse
+A_ = tf.matmul(V,tf.matmul(D,tf.transpose(U)))
+x = tf.matmul(A_,y)
 
 init = tf.global_variables_initializer()
 with tf.Session() as session:
@@ -55,14 +60,17 @@ with tf.Session() as session:
     print("Actual x =")
     print(xcoeff.eval())
 
-    x1 = tf.reshape(x1,[x1.get_shape().as_list()[0]])
-    y = tf.reshape(y,[y.get_shape().as_list()[0]])
-
     print("\nPredicted x = ")
     print(x.eval())
 
-    # Let's plot
+    # Let's plot; Make all variables 1D by reshaping
+    a = tf.reshape(a,[a.get_shape().as_list()[0]])
+    y = tf.reshape(y,[y.get_shape().as_list()[0]])
+    # Predicted model, yp, based on x
     yp = tf.matmul(A,x)
     yp = tf.reshape(yp,[yp.get_shape().as_list()[0]])
-    plt.plot(x1.eval(), y.eval(), 'r.', x1.eval(), yp.eval(), 'bx')
+    plt.plot(a.eval(), y.eval(), 'ro', a.eval(), yp.eval(), 'b')
+    red = mpatches.Patch(color='red', label='Data')
+    blue = mpatches.Patch(color='blue', label='Model')
+    plt.legend(handles=[red,blue])
     plt.show()
