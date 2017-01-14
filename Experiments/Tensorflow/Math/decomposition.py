@@ -23,10 +23,9 @@ V = tf.diag(e)
 # S_ = S since S = Q*V*tran(Q) for real symmetric matrix
 S_ = tf.matmul(Q,tf.matmul(V,Q))
 print("S_ = S = ")
-tf.Print(S,[S])
 print(S_.eval(session=tf.Session()))
 
-# Frobenius, Euclidean or L2 norm using np - unfortunately tf does not have a function to compute L1 norm
+# Frobenius, Euclidean or L2 norm using np
 print("l2(S) =")
 print(la.norm(S.eval(session=tf.Session())))
 
