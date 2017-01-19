@@ -3,7 +3,7 @@ Logical Operation by 2-layer Neural Networks on TensorFlow
 Author: Rowel Atienza
 Project: https://github.com/roatienza/Deep-Learning-Experiments
 '''
-# On command line: python logic_gate.py
+# On command line: python logic_gate_mse.py
 # Prerequisite: tensorflow (see tensorflow.org)
 
 
@@ -14,7 +14,7 @@ learning_rate = 0.4
 x_data = np.reshape(np.array( [[0., 0.], [0., 1.], [1., 0.], [1., 1.]], dtype=np.float32 ),[4,2])
 
 # try other logics; xor = [0., 1., 1., 0.], or = [0., 1., 1., 1.], and = [0., 0., 0., 1.], etc
-logic_out = np.array([0., 1., 1.,0.], dtype=np.float32)
+logic_out = np.array([0., 1., 1., 0.], dtype=np.float32)
 y_data = np.reshape(logic_out,[4,1])
 # n = y_data.shape[0]
 
@@ -27,7 +27,7 @@ W0 = tf.Variable(tf.random_normal([2, nhidden],stddev=0.1))
 b0 = tf.Variable(tf.zeros([nhidden]))
 
 W1 = tf.Variable(tf.random_normal([nhidden, 1],stddev=0.1))
-b1 = tf.Variable(tf.zeros([1, 1]))
+b1 = tf.Variable(tf.zeros([1]))
 
 hidden = tf.matmul(x, W0) + b0
 yp = tf.matmul(tf.nn.relu(hidden), W1) + b1
@@ -40,7 +40,7 @@ init = tf.global_variables_initializer()
 with tf.Session() as session:
     session.run(init)
     for i in range(1000):
-        # mini-batch can also be used but we a small set of data only
+        # mini-batch can also be used but we have a small set of data only
         # offset = (i*2)%(n-2)
         # feed_dict ={x:x_data[offset:(offset+2),:], y:y_data[offset:(offset+2)]}
         # so we use all data during training

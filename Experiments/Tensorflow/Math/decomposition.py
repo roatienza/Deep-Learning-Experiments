@@ -16,7 +16,9 @@ S = tf.constant([ [1.,2.], [2.,1.] ])
 print("S = ")
 print(S.eval(session=tf.Session()))
 
-# Eigen Decomposition - for square matrices only
+# Eigen Decomposition - for square symmetric matrices only
+# self_adjoint_eig works only bec symmetric matrix is equal to its self adjoint
+# otherwise, use np.linalg.eig
 e,Q = tf.self_adjoint_eig(S)
 # Diagonal matrix made of eigenvalues of S
 V = tf.diag(e)
@@ -24,10 +26,6 @@ V = tf.diag(e)
 S_ = tf.matmul(Q,tf.matmul(V,Q))
 print("S_ = S = ")
 print(S_.eval(session=tf.Session()))
-
-# Frobenius, Euclidean or L2 norm using np
-print("l2(S) =")
-print(la.norm(S.eval(session=tf.Session())))
 
 # SVD decomposition
 d, U, V1 = tf.svd(S, full_matrices=True, compute_uv=True)
