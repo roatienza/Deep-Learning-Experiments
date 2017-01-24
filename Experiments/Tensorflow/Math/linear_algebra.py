@@ -19,7 +19,7 @@ B = tf.diag([5.,6.])
 C = tf.constant([ [1.,2.], [2.,4.] ])
 
 # 2x1 vector will all elements equal to 1
-x = tf.ones([2,1.])
+x = tf.ones([2,1])
 
 # 2x1 vector will all elements equal to 2.0
 b = tf.fill([2,1], 2.)
