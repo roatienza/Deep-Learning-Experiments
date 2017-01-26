@@ -4,7 +4,7 @@ Documentation on building simple experiments to understand deep learning concept
 1. Background Materials
   - [Linear Algebra](https://docs.google.com/presentation/d/1VBAb1C07dAQxRPIat0lDfTxWO9amnJvuHziNyVLkaFo/edit?usp=sharing)
   - [Probability](https://docs.google.com/presentation/d/1eygyQDzngXLGJjixNidUXJL-c12SFkQhztbdXDAhgR8/edit?usp=sharing)
-  - Numerical Computation
+  - [Numerical Computation] (https://docs.google.com/presentation/d/1Nt9vr-8_Tcgez8jmz7sPsbXc0PDpU0d04-f2MFR5XZg/edit?usp=sharing)
 2. Machine Learning Basics
   - Linear Regression
   - Logistic Regression
