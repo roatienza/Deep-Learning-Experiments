@@ -27,7 +27,7 @@ b, _ = tf.nn.top_k(a,k=samples)
 # Correct the shape
 a = tf.reshape(b,[samples,1])
 
-# Inputs
+# Inputs to form y = a*a*xcoeff[0] + a*xcoeff[1] + xcoeff[2]
 A = tf.concat(1,[tf.concat(1,[a*a,a]),tf.ones_like(a)])
 # Observable outputs
 y = tf.matmul(A,xcoeff)
