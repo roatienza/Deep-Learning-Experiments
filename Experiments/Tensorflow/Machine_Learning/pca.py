@@ -3,7 +3,7 @@ Principal Component Analysis
 Author: Rowel Atienza
 Project: https://github.com/roatienza/Deep-Learning-Experiments
 '''
-# On command line: regression_nn.py
+# On command line: pca.py
 # Prerequisite: tensorflow (see tensorflow.org)
 
 
