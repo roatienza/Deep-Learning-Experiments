@@ -7,6 +7,8 @@ Project: https://github.com/roatienza/Deep-Learning-Experiments
 # Prerequisite: tensorflow (see tensorflow.org)
 #             : matplotlib (http://matplotlib.org/)
 
+from __future__ import print_function
+
 import tensorflow as tf
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches

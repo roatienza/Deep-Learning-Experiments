@@ -6,6 +6,8 @@ Project: https://github.com/roatienza/Deep-Learning-Experiments
 # On command line: python hello.py
 # Prerequisite: tensorflow (see tensorflow.org)
 
+from __future__ import print_function
+
 import tensorflow as tf
 
 # create a tensorflow constant string
