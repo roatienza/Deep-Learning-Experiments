@@ -28,5 +28,6 @@ Documentation on building simple experiments to understand deep learning concept
 7. [Optimal Fitting in Linear Regression](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Machine_Learning/optfit_regression.py)
 8. [Over Fitting in Linear Regression](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Machine_Learning/overfit_regression.py)
 9. [Nearest Neighbor](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Machine_Learning/regression_nn.py)
-10. Logical Ops by a 2-layer NN (MSE) [code](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Neural_Networks/logic_gate.py)
-11. Logical Ops by a 2-layer NN (Logistic Regression) [code](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Neural_Networks/logic_gate_logits.py)
+10. [Principal Component Analysis](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Machine_Learning/pca.py)
+11. Logical Ops by a 2-layer NN (MSE) [code](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Neural_Networks/logic_gate.py)
+12. Logical Ops by a 2-layer NN (Logistic Regression) [code](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Neural_Networks/logic_gate_logits.py)
