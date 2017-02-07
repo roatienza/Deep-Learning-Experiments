@@ -10,7 +10,7 @@ Documentation on building simple experiments to understand deep learning concept
   - [MLE, Bayesian, Other ML Algorithms] (https://docs.google.com/presentation/d/1Dp2IBWnxQmKMszX0uL5HSfK302q6kpMfiexYAoT9z-k/edit?usp=sharing)
   - [Stochastic Gradient Descent, etc] (https://docs.google.com/presentation/d/1Ss2BhwyarFGFiEIgqbQ-CW9zq0LJxmaOcHZKMzRWJ5k/edit?usp=sharing)
 3. Deep Neural Networks
-  - [Deep Feedforward Neural Networks, Cost, Output, Hiddent Units](https://docs.google.com/presentation/d/1woHBsNgnwzjJndMcXXznaBKlLvWywuA6T7BFi0K7Yhg/edit?usp=sharing)
+  - [Deep Feedforward Neural Networks, Cost, Output, Hidden Units](https://docs.google.com/presentation/d/1woHBsNgnwzjJndMcXXznaBKlLvWywuA6T7BFi0K7Yhg/edit?usp=sharing)
   - Back Propagation
 4. Convolutional Neural Networks
 5. Recurrent Neural Networks
@@ -31,5 +31,5 @@ Documentation on building simple experiments to understand deep learning concept
 8. [Over Fitting in Linear Regression](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Machine_Learning/overfit_regression.py)
 9. [Nearest Neighbor](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Machine_Learning/regression_nn.py)
 10. [Principal Component Analysis](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Machine_Learning/pca.py)
-11. Logical Ops by a 2-layer NN (MSE) [code](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Neural_Networks/logic_gate_mse.py)
-12. Logical Ops by a 2-layer NN (Logistic Regression) [code](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Neural_Networks/logic_gate_logits.py)
+11. [Logical Ops by a 2-layer NN (MSE)](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Neural_Networks/logic_gate_mse.py)
+12. [Logical Ops by a 2-layer NN (Cross Entropy)](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Neural_Networks/logic_gate_logits.py)
