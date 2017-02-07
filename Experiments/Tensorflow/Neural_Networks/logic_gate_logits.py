@@ -6,6 +6,7 @@ Project: https://github.com/roatienza/Deep-Learning-Experiments
 # On command line: python logic_gate_logits.py
 # Prerequisite: tensorflow (see tensorflow.org)
 
+from __future__ import print_function
 
 import tensorflow as tf
 import numpy as np
@@ -13,7 +14,7 @@ import numpy as np
 learning_rate = 0.4
 x_data = np.reshape(np.array( [[0., 0.], [0., 1.], [1., 0.], [1., 1.]], dtype=np.float32 ),[4,2])
 # try other logics; xor = [0., 1., 1., 0.], or = [0., 1., 1., 1.], and = [0., 0., 0., 1.], etc
-logic_out = np.array([0., 1., 1., 1.], dtype=np.float32)
+logic_out = np.array([0., 1., 1., 0.], dtype=np.float32)
 y_data = np.reshape(logic_out,[4,1])
 n = y_data.shape[0]
 
@@ -21,7 +22,7 @@ x = tf.placeholder(tf.float32, shape=(None, 2))
 y = tf.placeholder(tf.float32, shape=(None, 1))
 
 # try other values for nhidden
-nhidden = 16
+nhidden = 2
 W0 = tf.Variable(tf.random_normal([2, nhidden],stddev=0.1))
 b0 = tf.Variable(tf.zeros([nhidden]))
 

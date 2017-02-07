@@ -7,10 +7,12 @@ Project: https://github.com/roatienza/Deep-Learning-Experiments
 # Prerequisite: tensorflow (see tensorflow.org)
 
 
+from __future__ import print_function
+
 import tensorflow as tf
 import numpy as np
 
-learning_rate = 0.4
+learning_rate = 0.3
 x_data = np.reshape(np.array( [[0., 0.], [0., 1.], [1., 0.], [1., 1.]], dtype=np.float32 ),[4,2])
 
 # try other logics; xor = [0., 1., 1., 0.], or = [0., 1., 1., 1.], and = [0., 0., 0., 1.], etc
@@ -31,6 +33,7 @@ b1 = tf.Variable(tf.zeros([1]))
 
 hidden = tf.matmul(x, W0) + b0
 yp = tf.matmul(tf.nn.relu(hidden), W1) + b1
+# yp = tf.matmul(hidden, W1) + b1
 
 loss = tf.reduce_mean(tf.square(yp - y))
 optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate)
@@ -56,4 +59,5 @@ with tf.Session() as session:
     hidden = tf.matmul(input, W0) + b0
     print("Predicted output:")
     yp = tf.matmul(tf.nn.relu(hidden), W1) + b1
+    # yp = tf.matmul(hidden, W1) + b1
     print(print(1*np.greater(yp.eval(),0.25)))
