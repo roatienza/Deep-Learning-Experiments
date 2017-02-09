@@ -12,9 +12,8 @@ from __future__ import print_function
 import tensorflow as tf
 import numpy as np
 
-learning_rate = 0.3
+learning_rate = 0.6
 x_data = np.reshape(np.array( [[0., 0.], [0., 1.], [1., 0.], [1., 1.]], dtype=np.float32 ),[4,2])
-
 # try other logics; xor = [0., 1., 1., 0.], or = [0., 1., 1., 1.], and = [0., 0., 0., 1.], etc
 logic_out = np.array([0., 1., 1., 0.], dtype=np.float32)
 y_data = np.reshape(logic_out,[4,1])
@@ -24,12 +23,15 @@ x = tf.placeholder(tf.float32, shape=(None, 2))
 y = tf.placeholder(tf.float32, shape=(None, 1))
 
 # try other values for nhidden
-nhidden = 16
+nhidden = 32
 W0 = tf.Variable(tf.random_normal([2, nhidden],stddev=0.1))
 b0 = tf.Variable(tf.zeros([nhidden]))
+# b0 = tf.Variable(tf.constant(0.1,dtype=tf.float32,shape=[nhidden]))
+
 
 W1 = tf.Variable(tf.random_normal([nhidden, 1],stddev=0.1))
 b1 = tf.Variable(tf.zeros([1]))
+# b1 = tf.Variable(tf.constant(0.1,dtype=tf.float32,shape=[1]))
 
 hidden = tf.matmul(x, W0) + b0
 yp = tf.matmul(tf.nn.relu(hidden), W1) + b1
