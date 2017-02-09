@@ -1,8 +1,8 @@
-'''
+"""
 Deep Neural Networks on Not MNIST
 Author: Rowel Atienza
 Project: https://github.com/roatienza/Deep-Learning-Experiments
-'''
+"""
 # On command line: python notmnist_mlp.py
 # Prerequisite: tensorflow (see tensorflow.org)
 
@@ -18,19 +18,6 @@ from os import walk
 from os.path import join
 from mnist_library import readfile
 from six.moves.urllib.request import urlretrieve
-
-# datadir = 'notMNIST_small'
-
-train_dir = 'notMNIST_small'
-test_dir = 'notMNIST_small'
-
-train_dirnames = []
-
-# filenames = []
-# dirnames = []
-# imagedirs = []
-
-# samples = 10
 
 url = 'http://yaroslavvb.com/upload/notMNIST/'
 
@@ -55,9 +42,13 @@ num_classes = 10
 
 def extract(filename):
     root = os.path.splitext(os.path.splitext(filename)[0])[0]  # remove .tar.gz
-    data_folders = [os.path.join(root, d)
-                    for d in sorted(os.listdir(root)) if d != '.DS_Store']
+    data_folders = []
+    if os.path.exists(root):
+        data_folders = [os.path.join(root, d)
+                        for d in sorted(os.listdir(root)) if d != '.DS_Store']
     if len(data_folders) == num_classes:
+        print("Previously extracted files...")
+        print(data_folders)
         return data_folders
     tar = tarfile.open(filename)
     print('Extracting data for %s. This may take a while. Please wait.' % root)
@@ -76,23 +67,14 @@ def extract(filename):
 train_folders = extract(train_filename)
 test_folders = extract(test_filename)
 
-def get_dirs(dir):
-    for (dirpath, dirs, files) in walk(dir):
-        # files = [f for f in files if not f[0] == '.']
-        return [d for d in dirs if not d[0] == '.']
-        # dirnames.extend(dirs)
-
 def read_dir_image_files(dirs):
-    # dirs = extract(train_filename)
     imagelabels = []
     imagedata = []
     for dir in dirs:
-        # dir is label
-        # imagedir = join(datadir,dir)
         for (path, folders, files) in walk(dir):
             print("Reading folder ", dir, "...")
             files = [f for f in files if not f[0] == '.']
-            label =  ( np.arange(num_classes) == (ord(dir[0])-ord('A')) ).astype(np.float32)
+            label =  ( np.arange(num_classes) == (ord(dir[-1])-ord('A')) ).astype(np.float32)
             for f in files:
                 data = readfile(join(dir,f))
                 if (data.size > 0):
@@ -101,9 +83,6 @@ def read_dir_image_files(dirs):
             break
 
     return np.array(imagedata),np.array(imagelabels)
-
-# train_labels = np.array(imagelabels)
-# train_dataset = np.array(imagedata)
 
 train_dataset, train_labels = read_dir_image_files(train_folders)
 test_dataset, test_labels = read_dir_image_files(test_folders)
@@ -114,17 +93,13 @@ image_size = train_dataset.shape[2]
 train_dataset = train_dataset.reshape((-1,image_size*image_size)).astype(np.float32)
 test_dataset = test_dataset.reshape((-1,image_size*image_size)).astype(np.float32)
 
-# test_dataset = train_dataset
-# test_labels = train_labels
-
 print(train_dataset.shape)
 print(train_labels.shape)
 print(test_dataset.shape)
 print(test_labels.shape)
 
-# Test accuracy: 99.9% at 1024*16 hidden units
-batch_size = 128
-hidden_units = 1024*16
+batch_size = 25000
+hidden_units = 1024+256
 
 graph = tf.Graph()
 with graph.as_default():
@@ -140,28 +115,33 @@ with graph.as_default():
     biases1 = tf.Variable(tf.zeros([hidden_units]))
 
     weights2 = tf.Variable(
+        tf.truncated_normal([hidden_units, hidden_units]))
+    biases2 = tf.Variable(tf.zeros([hidden_units]))
+
+    weights3 = tf.Variable(
         tf.truncated_normal([hidden_units, num_labels]))
-    biases2 = tf.Variable(tf.zeros([num_labels]))
+    biases3 = tf.Variable(tf.zeros([num_labels]))
 
     def model(data):
         logits1 = tf.matmul(data, weights1) + biases1
         relu1 = tf.nn.relu(logits1)
-        logits = tf.matmul(relu1, weights2) + biases2
+        logits2 = tf.matmul(relu1, weights2) + biases2
+        relu2 = tf.nn.relu(logits2)
+        logits = tf.matmul(relu2, weights3) + biases3
         return logits, tf.nn.softmax(logits)
 
     train_logits, train_pred = model(tf_train_dataset)
     loss = tf.reduce_mean(
          tf.nn.softmax_cross_entropy_with_logits(train_logits, tf_train_labels))
-    optimizer = tf.train.GradientDescentOptimizer(0.05).minimize(loss)
+    optimizer = tf.train.GradientDescentOptimizer(0.0005).minimize(loss)
 
-    # tf_test_dataset = tf.constant(readfile(testfile).reshape(-1,image_size*image_size).astype(np.float32))
     test_logits, test_pred = model(test_dataset)
 
 def accuracy(predictions, labels):
     return (100.0 * np.sum(np.argmax(predictions, 1) == np.argmax(labels, 1)) /
             predictions.shape[0])
 
-num_steps = 10001
+num_steps = 20001
 
 with tf.Session(graph=graph) as session:
     tf.global_variables_initializer().run()
