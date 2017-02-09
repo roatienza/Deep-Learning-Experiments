@@ -22,7 +22,7 @@ x = tf.placeholder(tf.float32, shape=(None, 2))
 y = tf.placeholder(tf.float32, shape=(None, 1))
 
 # try other values for nhidden
-nhidden = 2
+nhidden = 16
 W0 = tf.Variable(tf.random_normal([2, nhidden],stddev=0.1))
 b0 = tf.Variable(tf.zeros([nhidden]))
 
