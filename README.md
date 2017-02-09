@@ -11,7 +11,7 @@ Documentation on building simple experiments to understand deep learning concept
   - [Stochastic Gradient Descent, etc] (https://docs.google.com/presentation/d/1Ss2BhwyarFGFiEIgqbQ-CW9zq0LJxmaOcHZKMzRWJ5k/edit?usp=sharing)
 3. Deep Neural Networks
   - [Deep Feedforward Neural Networks, Cost, Output, Hidden Units](https://docs.google.com/presentation/d/1woHBsNgnwzjJndMcXXznaBKlLvWywuA6T7BFi0K7Yhg/edit?usp=sharing)
-  - Back Propagation
+  - [Back Propagation](https://docs.google.com/presentation/d/1XD0tA6oxOETfFn1DTGJByhhyH3MF586OCN06WvAP22E/edit?usp=sharing)
 4. Convolutional Neural Networks
 5. Recurrent Neural Networks
   - RNN
@@ -33,3 +33,4 @@ Documentation on building simple experiments to understand deep learning concept
 10. [Principal Component Analysis](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Machine_Learning/pca.py)
 11. [Logical Ops by a 2-layer NN (MSE)](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Neural_Networks/logic_gate_mse.py)
 12. [Logical Ops by a 2-layer NN (Cross Entropy)](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Neural_Networks/logic_gate_logits.py)
+13. [NotMNIST Deep Feedforward Network](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Deep_Feedforward_Networks/mnist_a2j_mlp.py)
