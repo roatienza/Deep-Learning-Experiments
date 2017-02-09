@@ -22,7 +22,11 @@ x = tf.placeholder(tf.float32, shape=(None, 2))
 y = tf.placeholder(tf.float32, shape=(None, 1))
 
 # try other values for nhidden
+<<<<<<< HEAD
 nhidden = 32
+=======
+nhidden = 16
+>>>>>>> origin/master
 W0 = tf.Variable(tf.random_normal([2, nhidden],stddev=0.1))
 b0 = tf.Variable(tf.zeros([nhidden]))
 
