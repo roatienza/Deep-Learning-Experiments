@@ -1,6 +1,6 @@
-# Deep Learning Experiments
-Documentation on building simple experiments to understand deep learning concepts
+# Deep Learning: Theory and Experiments
 
+## Notes
 1. Background Materials
   - [Linear Algebra](https://docs.google.com/presentation/d/1VBAb1C07dAQxRPIat0lDfTxWO9amnJvuHziNyVLkaFo/edit?usp=sharing)
   - [Probability](https://docs.google.com/presentation/d/1eygyQDzngXLGJjixNidUXJL-c12SFkQhztbdXDAhgR8/edit?usp=sharing)
