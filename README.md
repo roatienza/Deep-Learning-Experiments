@@ -13,7 +13,7 @@
   - [Deep Feedforward Neural Networks, Cost, Output, Hidden Units](https://docs.google.com/presentation/d/1woHBsNgnwzjJndMcXXznaBKlLvWywuA6T7BFi0K7Yhg/edit?usp=sharing)
   - [Back Propagation](https://docs.google.com/presentation/d/1XD0tA6oxOETfFn1DTGJByhhyH3MF586OCN06WvAP22E/edit?usp=sharing)
 4. [Regularization] (https://docs.google.com/presentation/d/1lg4oxRDvfUIEtzMJ7E-Lqv1cDNiwoNeT1r5T-XnFIQI/edit?usp=sharing)
-5. Optimization
+5. [Optimization](https://docs.google.com/presentation/d/1wt53ds5dywq3WUm-jkdKFUjiHayBAV6-CSFAJg76Clg/edit?usp=sharing)
 6. Convolutional Neural Networks
 7. Recurrent Neural Networks
   - RNN
