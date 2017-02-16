@@ -37,22 +37,28 @@ print("Validation labels: ", valid_labels.shape)
 print("Test size: ", test_dataset.shape)
 print("Test labels: ", test_labels.shape)
 
-num_labels =  train_labels.shape[1]
+num_labels = train_labels.shape[1]
+num_data = train_labels.shape[0]
+
 image_size = 28
-batch_size = 512
-hidden_units = 512*16
+batch_size = 32
+# batch_sizes = np.array([32, 32, 32, 32, 32, 32, 256])
+# change_size_at = 10000
+hidden_units = 512*4
 learning_rate = 0.0002
-num_steps = 50001
+# decay_base = 0.8
+num_steps = 20001
 dropout = 0.8
+
 
 graph = tf.Graph()
 with graph.as_default():
     # Input data. For the training data, we use a placeholder that will be fed
     # at run time with a training minibatch.
     tf_train_dataset = tf.placeholder(tf.float32,
-                                      shape=(batch_size, image_size *
+                                      shape=(None, image_size *
                                              image_size))
-    tf_train_labels = tf.placeholder(tf.float32, shape=(batch_size, num_labels))
+    tf_train_labels = tf.placeholder(tf.float32, shape=(None, num_labels))
 
     weights1 = tf.Variable(
         tf.truncated_normal([image_size * image_size, hidden_units]))
@@ -80,7 +86,18 @@ with graph.as_default():
     train_logits, train_pred = model(tf_train_dataset,dropout=dropout)
     loss = tf.reduce_mean(
          tf.nn.softmax_cross_entropy_with_logits(train_logits, tf_train_labels))
+
+    # Various optimization techniques; SGD has the best performance for this model with the current settings
     optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate).minimize(loss)
+
+    # global_step = tf.Variable(0, trainable=False)
+    # decaying_learning_rate = tf.train.exponential_decay(learning_rate, global_step,
+    #                                            change_size_at, decay_base, staircase=True)
+    # optimizer = tf.train.GradientDescentOptimizer(learning_rate=decaying_learning_rate).minimize(loss, global_step=global_step)
+    # optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(loss)
+    # optimizer = tf.train.RMSPropOptimizer(learning_rate=learning_rate).minimize(loss)
+    # optimizer = tf.train.AdagradOptimizer(learning_rate=learning_rate).minimize(loss)
+    # optimizer = tf.train.MomentumOptimizer(learning_rate=learning_rate,momentum=0.2).minimize(loss)
 
     valid_logits, valid_pred = model(valid_dataset, dropout=1.0)
     test_logits, test_pred = model(test_dataset,dropout=1.0)
@@ -95,7 +112,9 @@ with tf.Session(graph=graph) as session:
     tf.global_variables_initializer().run()
     print(tf.__version__)
     for step in range(num_steps):
-        offset = (step * batch_size) % (train_labels.shape[0] - batch_size)
+        # batch_size = batch_sizes[min(batch_sizes.size-1,(int)(step/change_size_at))]
+        rand_offset = np.random.randint(0,batch_size/2)
+        offset = ((step * batch_size ) + rand_offset)% (num_data - batch_size)
         # Generate a minibatch.
         batch_data = train_dataset[offset:(offset + batch_size), :]
         batch_labels = train_labels[offset:(offset + batch_size), :]
@@ -104,12 +123,11 @@ with tf.Session(graph=graph) as session:
         _, l, predictions = session.run(
             [optimizer, loss, train_pred], feed_dict=feed_dict)
         if (step % 500 == 0):
-            print("Minibatch loss at step %d: %f" % (step, l))
+            print("Minibatch (size=%d) loss at step %d: %f" % (batch_size, step, l))
             print("Minibatch accuracy: %.1f%%" % accuracy(predictions,
                                                           batch_labels))
             print("Validation accuracy: %.1f%%" % accuracy(valid_pred.eval(),
                                                           valid_labels))
             print("Test accuracy: %.1f%%" % accuracy(test_pred.eval(),
                                                           test_labels))
-
     print(np.rint(test_pred.eval()))

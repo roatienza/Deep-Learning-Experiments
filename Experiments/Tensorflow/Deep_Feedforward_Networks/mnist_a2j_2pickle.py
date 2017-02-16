@@ -71,6 +71,7 @@ def readfile(path):
         data = img.imread(path)
         return data
     except:
+        print("Error reading: ", path)
         return np.array([])
 
 def read_image_files(files):
