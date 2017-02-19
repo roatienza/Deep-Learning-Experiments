@@ -3,8 +3,8 @@ Common Distributions in TensorFlow
 Author: Rowel Atienza
 Project: https://github.com/roatienza/Deep-Learning-Experiments
 '''
-# On command line: python distributions.py
-# Prerequisite: tensorflow (see tensorflow.org)
+# On command line: python3 distributions.py
+# Prerequisite: tensorflow 1.0 (see tensorflow.org)
 
 from __future__ import print_function
 
@@ -31,11 +31,11 @@ with tf.name_scope('multinomial'):
     # multi_dist = C # tf.mul(C,[1])
 
 # Create a summary to monitor normal dist
-tf.histogram_summary("normal", normal_dist)
+tf.summary.histogram("normal", normal_dist)
 # Create a summary to monitor uniform dist
-tf.histogram_summary("uniform", uniform_dist)
+tf.summary.histogram("uniform", uniform_dist)
 # Create a summary to monitor multinomial dist
-tf.histogram_summary("multinomial", multi_dist)
+tf.summary.histogram("multinomial", multi_dist)
 
 # Merge all summaries into a single op
 merged = tf.summary.merge_all()
@@ -44,7 +44,7 @@ merged = tf.summary.merge_all()
 with tf.Session() as session:
     tf.global_variables_initializer().run()
     # Logs to Tensorboard
-    writer = tf.train.SummaryWriter(logs_path, graph=tf.get_default_graph())
+    writer = tf.summary.FileWriter(logs_path, graph=tf.get_default_graph())
     for i in range(2):
         _, _, _, summary = session.run([normal_dist,uniform_dist,multi_dist, merged])
         writer.add_summary(summary,i)

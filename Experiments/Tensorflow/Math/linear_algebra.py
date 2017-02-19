@@ -99,7 +99,7 @@ with tf.Session() as session:
 
     # Element-wise multiplication
     print("elem(A)*elem(B) = ")
-    print(tf.mul(A,B).eval())
+    print(tf.multiply(A,B).eval())
 
     # Element-wise addition
     print("elem(A)+elem(B) = ")

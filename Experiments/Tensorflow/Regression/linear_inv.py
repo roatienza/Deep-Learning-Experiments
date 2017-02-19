@@ -3,8 +3,8 @@ Linear Regression by SVD on TensorFlow
 Author: Rowel Atienza
 Project: https://github.com/roatienza/Deep-Learning-Experiments
 '''
-# On command line: python linear_inv.py
-# Prerequisite: tensorflow (see tensorflow.org)
+# On command line: python3 linear_inv.py
+# Prerequisite: tensorflow 1.0 (see tensorflow.org)
 #             : matplotlib (http://matplotlib.org/)
 
 from __future__ import print_function
@@ -30,7 +30,7 @@ b, _ = tf.nn.top_k(a,k=samples)
 a = tf.reshape(b,[samples,1])
 
 # Inputs to form y = a*a*xcoeff[0] + a*xcoeff[1] + xcoeff[2]
-A = tf.concat(1,[tf.concat(1,[a*a,a]),tf.ones_like(a)])
+A = tf.concat([tf.concat([a*a,a],1),tf.ones_like(a)],1)
 # Observable outputs
 y = tf.matmul(A,xcoeff)
 
@@ -44,7 +44,7 @@ D = tf.diag(np.reciprocal(d))
 # D is actually nxm so zero padding is needed
 r = D.get_shape().as_list()[0]
 Z = tf.zeros([r,samples-r])
-D = tf.concat(1,[D,Z])
+D = tf.concat([D,Z],1)
 
 # This is linear regression by SVD
 # Ax = y  mxn nx1 = mx3 3x1 = mx1

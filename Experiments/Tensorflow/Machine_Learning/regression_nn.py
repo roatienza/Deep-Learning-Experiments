@@ -3,8 +3,8 @@ Nearest Neighbor
 Author: Rowel Atienza
 Project: https://github.com/roatienza/Deep-Learning-Experiments
 '''
-# On command line: regression_nn.py
-# Prerequisite: tensorflow (see tensorflow.org)
+# On command line: python3 regression_nn.py
+# Prerequisite: tensorflow 1.0 (see tensorflow.org)
 
 
 from __future__ import print_function
@@ -33,7 +33,7 @@ b = tf.linspace(-4.,4.,samples)
 b = tf.reshape(b,[samples,1])
 
 # Inputs to form y = a*a*xcoeff[0] + a*xcoeff[1] + xcoeff[2]
-A = tf.concat(1,[tf.concat(1,[a*a,a]),tf.ones_like(a)])
+A = tf.concat([tf.concat([a*a,a],1),tf.ones_like(a)],1)
 
 # Observed outputs
 y = tf.matmul(A,xcoeff)
@@ -42,7 +42,7 @@ noise = tf.sin(math.pi*a)
 y = tf.add(y,noise)
 
 # L1 distance of each b from sample distribution x
-l1 = tf.abs(tf.sub(x,b))
+l1 = tf.abs(tf.subtract(x,b))
 # get the nearest neighbor index
 nn = tf.argmin(l1,1)
 
@@ -53,7 +53,7 @@ with tf.Session() as session:
     xnn = x.eval()[nn.eval()]
     ann = tf.reshape(xnn, [samples, 1])
     # Use the same model generating inputs y = a*a*xcoeff[0] + a*xcoeff[1] + xcoeff[2]
-    Ann = tf.concat(1, [tf.concat(1, [ann * ann, ann]), tf.ones_like(ann)])
+    Ann = tf.concat([tf.concat([ann * ann, ann],1), tf.ones_like(ann)],1)
     # Predicted outputs
     yp = tf.matmul(Ann, xcoeff)
     noisenn = tf.sin(math.pi * ann)

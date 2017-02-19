@@ -3,8 +3,8 @@ Logical Operation by 2-layer Neural Networks (Logistic Regression) on TensorFlow
 Author: Rowel Atienza
 Project: https://github.com/roatienza/Deep-Learning-Experiments
 '''
-# On command line: python logic_gate_logits.py
-# Prerequisite: tensorflow (see tensorflow.org)
+# On command line: python3 logic_gate_logits.py
+# Prerequisite: tensorflow 1.0 (see tensorflow.org)
 
 from __future__ import print_function
 
@@ -22,11 +22,7 @@ x = tf.placeholder(tf.float32, shape=(None, 2))
 y = tf.placeholder(tf.float32, shape=(None, 1))
 
 # try other values for nhidden
-<<<<<<< HEAD
-nhidden = 32
-=======
 nhidden = 16
->>>>>>> origin/master
 W0 = tf.Variable(tf.random_normal([2, nhidden],stddev=0.1))
 b0 = tf.Variable(tf.zeros([nhidden]))
 
@@ -37,7 +33,7 @@ hidden = tf.matmul(x, W0) + b0
 yp = tf.matmul(tf.nn.relu(hidden), W1) + b1
 logits = tf.nn.softmax(yp,dim=0)
 
-entropy = -tf.mul(y,tf.log(logits))
+entropy = -tf.multiply(y,tf.log(logits))
 loss = tf.reduce_mean(entropy)
 optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate)
 train_step = optimizer.minimize(loss)

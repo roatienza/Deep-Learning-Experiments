@@ -1,10 +1,10 @@
 '''
-Optimal fitting in Linear Regression
+Optimal Fitting in Linear Regression
 Author: Rowel Atienza
 Project: https://github.com/roatienza/Deep-Learning-Experiments
 '''
-# On command line: python optfit_regression.py
-# Prerequisite: tensorflow (see tensorflow.org)
+# On command line: python3 optfit_regression.py
+# Prerequisite: tensorflow 1.0 (see tensorflow.org)
 #             : matplotlib (http://matplotlib.org/)
 
 from __future__ import print_function
@@ -29,10 +29,10 @@ a = tf.reshape(a,[samples,1])
 
 # Inputs to form yp = a*a*xp[0] + a*xp[1] + xp[2], xp[] are the weights
 # Optimal fit since our data generating model is quadratic
-Ap = tf.concat(1,[tf.concat(1,[a*a,a]),tf.ones_like(a)])
+Ap = tf.concat([tf.concat([a*a,a],1),tf.ones_like(a)],1)
 
 # Inputs to form y = a*a*xcoeff[0] + a*xcoeff[1] + xcoeff[2]
-A = tf.concat(1,[tf.concat(1,[a*a,a]),tf.ones_like(a)])
+A = tf.concat([tf.concat([a*a,a],1),tf.ones_like(a)],1)
 
 # Initial guess on coefficients of predicted linear model
 xp = tf.Variable(tf.random_uniform([3,1], -1.0, 1.0))

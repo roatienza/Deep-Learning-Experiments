@@ -4,7 +4,7 @@ Author: Rowel Atienza
 Project: https://github.com/roatienza/Deep-Learning-Experiments
 '''
 # On command line: python logic_gate_mse.py
-# Prerequisite: tensorflow (see tensorflow.org)
+# Prerequisite: tensorflow 1.0 (see tensorflow.org)
 
 
 from __future__ import print_function
@@ -23,7 +23,7 @@ x = tf.placeholder(tf.float32, shape=(None, 2))
 y = tf.placeholder(tf.float32, shape=(None, 1))
 
 # try other values for nhidden
-nhidden = 32
+nhidden = 16
 W0 = tf.Variable(tf.random_normal([2, nhidden],stddev=0.1))
 b0 = tf.Variable(tf.zeros([nhidden]))
 # b0 = tf.Variable(tf.constant(0.1,dtype=tf.float32,shape=[nhidden]))

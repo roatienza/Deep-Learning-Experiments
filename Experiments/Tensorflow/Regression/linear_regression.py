@@ -3,8 +3,8 @@ Linear Regression by Machine Learning on TensorFlow
 Author: Rowel Atienza
 Project: https://github.com/roatienza/Deep-Learning-Experiments
 '''
-# On command line: python linear_regression.py
-# Prerequisite: tensorflow (see tensorflow.org)
+# On command line: python3 linear_regression.py
+# Prerequisite: tensorflow 1.0 (see tensorflow.org)
 #             : matplotlib (http://matplotlib.org/)
 
 from __future__ import print_function
@@ -33,7 +33,7 @@ b, _ = tf.nn.top_k(a,k=samples)
 a = tf.reshape(b,[samples,1])
 
 # Inputs to form y = a*a*xp[0] + a*xp[1] + xp[2], xp[] are the weights
-A = tf.concat(1,[tf.concat(1,[a*a,a]),tf.ones_like(a)])
+A = tf.concat([tf.concat([a*a,a],1),tf.ones_like(a)],1)
 
 # Initial guess on coefficients of predicted linear model
 xp = tf.Variable(tf.random_uniform([3,1], -1.0, 1.0))
@@ -62,7 +62,7 @@ with tf.Session() as session:
     # Note we have to resample a and save in a constant array a
     # Before this, everytime you call a.eval(), it is resampled
     a = np.array(a.eval())
-    A = tf.concat(1,[tf.concat(1,[a*a,a]),tf.ones_like(a)])
+    A = tf.concat([tf.concat([a*a,a],1),tf.ones_like(a)],1)
     yp = tf.matmul(A,xp)
     y = tf.matmul(A,xcoeff)
     plt.plot(a, y.eval(), 'ro', a, yp.eval(), 'b')

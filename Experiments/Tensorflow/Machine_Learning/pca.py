@@ -3,8 +3,8 @@ Principal Component Analysis
 Author: Rowel Atienza
 Project: https://github.com/roatienza/Deep-Learning-Experiments
 '''
-# On command line: pca.py
-# Prerequisite: tensorflow (see tensorflow.org)
+# On command line: python3 pca.py
+# Prerequisite: tensorflow 1.0 (see tensorflow.org)
 
 
 from __future__ import print_function
