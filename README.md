@@ -14,7 +14,7 @@
   - [Back Propagation](https://docs.google.com/presentation/d/1XD0tA6oxOETfFn1DTGJByhhyH3MF586OCN06WvAP22E/edit?usp=sharing)
 4. [Regularization] (https://docs.google.com/presentation/d/1lg4oxRDvfUIEtzMJ7E-Lqv1cDNiwoNeT1r5T-XnFIQI/edit?usp=sharing)
 5. [Optimization](https://docs.google.com/presentation/d/1wt53ds5dywq3WUm-jkdKFUjiHayBAV6-CSFAJg76Clg/edit?usp=sharing)
-6. Convolutional Neural Networks
+6. [Convolutional Neural Networks] (https://docs.google.com/presentation/d/1vxCMwjbssYKisIWt2UYiuOFMsJaFv-5-I6mYvtJ6Hr8/edit?usp=sharing)
 7. Recurrent Neural Networks
   - RNN
   - GRU
@@ -34,4 +34,9 @@
 10. [Principal Component Analysis](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Machine_Learning/pca.py)
 11. [Logical Ops by a 2-layer NN (MSE)](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Neural_Networks/logic_gate_mse.py)
 12. [Logical Ops by a 2-layer NN (Cross Entropy)](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Neural_Networks/logic_gate_logits.py)
-13. NotMNIST Deep Feedforward Network: [Code for NN](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Deep_Feedforward_Networks/mnist_a2j_mlp.py) and [Code for Pickle](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Deep_Feedforward_Networks/mnist_a2j_2pickle.py)
+13. NotMNIST Deep Feedforward Network: [Code for NN](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Deep_Networks/mnist_a2j_mlp.py) and [Code for Pickle](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Deep_Networks/mnist_a2j_2pickle.py)
+14. [NotMNIST CNN](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Deep_Networks/mnist_a2j_cnn.py)
+
+## [Keras](https://keras.io) on Tensorflow Experiments
+1. [NotMNIST Deep Feedforward Network](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Deep_Networks/mnist_a2j_mlp_keras.py)
+2. [NotMNIST CNN](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Deep_Networks/mnist_a2j_cnn_keras.py)
