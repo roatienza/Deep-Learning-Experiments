@@ -4,7 +4,7 @@ Author: Rowel Atienza
 Project: https://github.com/roatienza/Deep-Learning-Experiments
 """
 # On command line: python3 mnist_a2j_mlp.py
-# Prerequisite: tensorflow (see tensorflow.org)
+# Prerequisite: tensorflow 1.0 (see tensorflow.org)
 # must run mnist_a2j_2pickle.py first (one-time) to generate the data
 
 from __future__ import print_function
@@ -12,19 +12,26 @@ from __future__ import print_function
 import numpy as np
 import tensorflow as tf
 import pickle
+import time
+
+start_time = time.time()
+def elapsed(sec):
+    if sec<60:
+        return str(sec) + " sec"
+    elif sec<(60*60):
+        return str(sec/60) + " min"
+    else:
+        return str(sec/(60*60)) + " hr"
 
 # use of pickle to speed up loading of data
 pickle_file = open( "mnist_a2j.pickle", "rb" )
 data = pickle.load(pickle_file)
 test_labels = data["test_labels"]
-all_labels = data["all_labels"]
+train_labels = data["all_labels"]
 test_dataset = data["test_dataset"]
-all_dataset = data["all_dataset"]
+train_dataset = data["all_dataset"]
 del data
 pickle_file.close()
-
-train_dataset = all_dataset
-train_labels = all_labels
 
 print("Training size: ", train_dataset.shape)
 print("Training labels: ", train_labels.shape)
@@ -35,12 +42,11 @@ num_labels = train_labels.shape[1]
 num_data = train_labels.shape[0]
 
 image_size = 28
-batch_size = 64
+batch_size = 128
 hidden_units = 512*4
 learning_rate = 0.0002
 num_steps = 20001
 dropout = 0.8
-
 
 graph = tf.Graph()
 with graph.as_default():
@@ -84,15 +90,13 @@ with graph.as_default():
 def accuracy(predictions, labels):
     correct_prediction = tf.equal(tf.argmax(labels, 1), tf.argmax(predictions, 1))
     accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
-    return accuracy.eval()*100
+    return accuracy.eval()*100.0
 
 # with tf.Session(graph=graph,config=tf.ConfigProto(log_device_placement=True)) as session:
 with tf.Session(graph=graph) as session:
     tf.global_variables_initializer().run()
     print(tf.__version__)
     for step in range(num_steps):
-        # batch_size = batch_sizes[min(batch_sizes.size-1,(int)(step/change_size_at))]
-        # rand_offset = np.random.randint(0,batch_size/2)
         offset = (step * batch_size)% (num_data - batch_size)
         # Generate a minibatch.
         batch_data = train_dataset[offset:(offset + batch_size), :]
@@ -105,6 +109,9 @@ with tf.Session(graph=graph) as session:
             print("Minibatch (size=%d) loss at step %d: %f" % (batch_size, step, l))
             print("Minibatch accuracy: %.1f%%" % accuracy(predictions,
                                                           batch_labels))
-            print("Test accuracy: %.1f%%" % accuracy(test_pred.eval(),
-                                                          test_labels))
-    print(np.rint(test_pred.eval()))
+    # Accuracy: 91.6%
+    print("Test accuracy: %.1f%%" % accuracy(test_pred.eval(),
+                                             test_labels))
+    print("Elapsed: ", elapsed(time.time() - start_time))
+    # print(np.rint(test_pred.eval()))
+
