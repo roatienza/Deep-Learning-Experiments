@@ -1,5 +1,6 @@
 '''
-A Recurrent Neural Network (LSTM) implementation example using TensorFlow library.
+A Recurrent Neural Network (LSTM) implementation example using TensorFlow..
+Next word prediction after n_input words learned from text file
 
 Author: Rowel Atienza
 Project: https://github.com/roatienza/Deep-Learning-Experiments
@@ -28,6 +29,7 @@ def elapsed(sec):
 logs_path = '/tmp/tensorflow/rnn_words'
 writer = tf.summary.FileWriter(logs_path)
 
+# Text file containing words for training
 training_file = 'belling_the_cat.txt'
 
 def read_data(fname):
@@ -36,10 +38,11 @@ def read_data(fname):
     content = [x.strip() for x in content]
     content = [content[i].split() for i in range(len(content))]
     content = np.array(content)
-    content = np.reshape(content,[content.shape[1],])
+    content = np.reshape(content, [-1, ])
     return content
 
 training_data = read_data(training_file)
+print(training_data.shape)
 print("Loaded training data...")
 
 def build_dataset(words):
@@ -55,7 +58,7 @@ vocab_size = len(word_dict)
 
 # Parameters
 learning_rate = 0.001
-training_iters = 150000
+training_iters = 50000
 display_step = 1000
 n_input = 3
 
@@ -66,7 +69,7 @@ n_hidden = 512
 x = tf.placeholder("float", [None, n_input, 1])
 y = tf.placeholder("float", [None, vocab_size])
 
-# Define weights
+# RNN output node weights and biases
 weights = {
     'out': tf.Variable(tf.random_normal([n_hidden, vocab_size]))
 }
@@ -75,25 +78,33 @@ biases = {
 }
 
 def RNN(x, weights, biases):
+
+    # reshape to [1, n_input]
     x = tf.reshape(x, [-1, n_input])
+
+    # Generate a n_input-element sequence of inputs (eg. [the] [quick] [brown] -> [131] [12] [4])
     x = tf.split(x,n_input,1)
 
-    # Define a lstm cell with tensorflow
-    # rnn_cell = rnn.BasicLSTMCell(n_hidden)
-    # rnn_cell = rnn.BasicRNNCell(n_hidden)
+    # 2-layer LSTM, each layer has n_hidden units. Average Accuracy= 93.00% at 50k iter
     rnn_cell = rnn.MultiRNNCell([rnn.BasicLSTMCell(n_hidden),rnn.BasicLSTMCell(n_hidden)])
-    # rnn_cell = rnn.DropoutWrapper(rnn_cell,input_keep_prob=0.8,output_keep_prob=1.0)
-    # Get rnn cell output
+
+    # 1-layer LSTM with n_hidden units but with lower accuracy. Uncomment to test. Average Accuracy= 90.60% 50k iter
+    # rnn_cell = rnn.BasicLSTMCell(n_hidden)
+
+    # generate prediction
     outputs, states = rnn.static_rnn(rnn_cell, x, dtype=tf.float32)
+
+    # there are n_input outputs but
+    # we only want the last output
     return tf.matmul(outputs[-1], weights['out']) + biases['out']
 
 pred = RNN(x, weights, biases)
 
-# Define loss and optimizer
+# Loss and optimizer
 cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=pred, labels=y))
 optimizer = tf.train.RMSPropOptimizer(learning_rate=learning_rate).minimize(cost)
 
-# Evaluate model#
+# Model evaluation
 correct_pred = tf.equal(tf.argmax(pred,1), tf.argmax(y,1))
 accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
 
@@ -130,7 +141,7 @@ with tf.Session() as session:
         if (step+1) % display_step == 0:
             print("Iter= " + str(step+1) + ", Average Loss= " + \
                   "{:.6f}".format(loss_total/display_step) + ", Average Accuracy= " + \
-                  "{:.5f}".format(acc_total/display_step))
+                  "{:.2f}%".format(100*acc_total/display_step))
             acc_total = 0
             loss_total = 0
             words_in = [training_data[i] for i in range(offset, offset + n_input)]
@@ -151,7 +162,10 @@ with tf.Session() as session:
         words = sentence.split(' ')
         if len(words) != n_input:
             continue
-        words_in_keys = [ word_dict[str(words[j])] for j in range(len(words)) ]
-        words_in_keys = np.reshape(np.array(words_in_keys), [-1, n_input, 1])
-        onehot_pred = session.run(pred, feed_dict={x: words_in_keys})
-        print("Predicted: %s" % word_rev_dict[int(tf.argmax(onehot_pred, 1).eval())])
+        try:
+            words_in_keys = [word_dict[str(words[i])] for i in range(len(words))]
+            words_in_keys = np.reshape(np.array(words_in_keys), [-1, n_input, 1])
+            onehot_pred = session.run(pred, feed_dict={x: words_in_keys})
+            print("Predicted: %s" % word_rev_dict[int(tf.argmax(onehot_pred, 1).eval())])
+        except:
+            print("Word not in dictionary")
