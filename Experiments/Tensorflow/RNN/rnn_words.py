@@ -1,6 +1,7 @@
 '''
 A Recurrent Neural Network (LSTM) implementation example using TensorFlow..
-Next word prediction after n_input words learned from text file
+Next word prediction after n_input words learned from text file.
+A story is automatically generated if the predicted word is fed back as input.
 
 Author: Rowel Atienza
 Project: https://github.com/roatienza/Deep-Learning-Experiments
@@ -164,8 +165,15 @@ with tf.Session() as session:
             continue
         try:
             words_in_keys = [word_dict[str(words[i])] for i in range(len(words))]
-            words_in_keys = np.reshape(np.array(words_in_keys), [-1, n_input, 1])
-            onehot_pred = session.run(pred, feed_dict={x: words_in_keys})
-            print("Predicted: %s" % word_rev_dict[int(tf.argmax(onehot_pred, 1).eval())])
+            for i in range(32):
+                keys = np.reshape(np.array(words_in_keys), [-1, n_input, 1])
+                onehot_pred = session.run(pred, feed_dict={x: keys})
+                onehot_pred_index = int(tf.argmax(onehot_pred, 1).eval())
+                sentence = "%s %s" % (sentence,word_rev_dict[onehot_pred_index])
+                # print(" %s" % word_rev_dict[int(tf.argmax(onehot_pred, 1).eval())])
+                words_in_keys = words_in_keys[1:]
+                words_in_keys.append(onehot_pred_index)
+            print(sentence)
         except:
             print("Word not in dictionary")
+
