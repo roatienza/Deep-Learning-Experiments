@@ -6,7 +6,7 @@
   - [Probability](https://docs.google.com/presentation/d/1eygyQDzngXLGJjixNidUXJL-c12SFkQhztbdXDAhgR8/edit?usp=sharing)
   - [Numerical Computation](https://docs.google.com/presentation/d/1Nt9vr-8_Tcgez8jmz7sPsbXc0PDpU0d04-f2MFR5XZg/edit?usp=sharing)
 2. Machine Learning Basics
-  - [Concepts, Capacity, Estimators, Linear Regression] (https://docs.google.com/presentation/d/1Xn6FaPiGTLnCRKQjIXySxpdteLVT1F8WDFketIUiTlI/edit?usp=sharing) 
+  - [Concepts, Capacity, Estimators, Linear Regression](https://docs.google.com/presentation/d/1Xn6FaPiGTLnCRKQjIXySxpdteLVT1F8WDFketIUiTlI/edit?usp=sharing) 
   - [MLE, Bayesian, Other ML Algorithms](https://docs.google.com/presentation/d/1Dp2IBWnxQmKMszX0uL5HSfK302q6kpMfiexYAoT9z-k/edit?usp=sharing)
   - [Stochastic Gradient Descent, etc](https://docs.google.com/presentation/d/1Ss2BhwyarFGFiEIgqbQ-CW9zq0LJxmaOcHZKMzRWJ5k/edit?usp=sharing)
 3. Deep Neural Networks
