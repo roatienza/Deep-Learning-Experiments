@@ -16,10 +16,7 @@
 5. [Optimization](https://docs.google.com/presentation/d/1wt53ds5dywq3WUm-jkdKFUjiHayBAV6-CSFAJg76Clg/edit?usp=sharing)
 6. [Convolutional Neural Networks] (https://docs.google.com/presentation/d/1vxCMwjbssYKisIWt2UYiuOFMsJaFv-5-I6mYvtJ6Hr8/edit?usp=sharing)
 7. [Embeddings] (https://docs.google.com/presentation/d/1YtKWA53T2NqXoL0vnk8jWl1WCBWCLhbh5OWz_1JrGdU/edit?usp=sharing) 
-8. Recurrent Neural Networks
-  - RNN
-  - GRU
-  - LSTM
+8. [Recurrent Neural Networks (RNN), LSTM, GRU](https://docs.google.com/presentation/d/1qjQkUwnr2V--7JPz0H_wkzRyTYX3UtJsYrB3MQPGKLE/edit?usp=sharing)
 
 ## [Tensorflow](https://www.tensorflow.org/) (tf) Experiments
 1. [Hello World!](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Intro/hello.py) 
@@ -38,6 +35,7 @@
 13. NotMNIST Deep Feedforward Network: [Code for NN](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Deep_Networks/mnist_a2j_mlp.py) and [Code for Pickle](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Deep_Networks/mnist_a2j_2pickle.py)
 14. [NotMNIST CNN](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Deep_Networks/mnist_a2j_cnn.py)
 15. [word2vec](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Word2Vec/word2vec.py)
+16. [Word Prediction using LSTM](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/RNN/rnn_words.py). [Sample Story](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/RNN/belling_the_cat.txt)
 
 ## [Keras](https://keras.io) on Tensorflow Experiments
 1. [NotMNIST Deep Feedforward Network](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Deep_Networks/mnist_a2j_mlp_keras.py)
