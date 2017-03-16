@@ -86,10 +86,13 @@ def RNN(x, weights, biases):
     # Generate a n_input-element sequence of inputs (eg. [the] [quick] [brown] -> [131] [12] [4])
     x = tf.split(x,n_input,1)
 
-    # 2-layer LSTM, each layer has n_hidden units. Average Accuracy= 93.00% at 50k iter
+    # 2-layer LSTM, each layer has n_hidden units.
+    # Average Accuracy= 95.20% at 50k iter
     rnn_cell = rnn.MultiRNNCell([rnn.BasicLSTMCell(n_hidden),rnn.BasicLSTMCell(n_hidden)])
 
-    # 1-layer LSTM with n_hidden units but with lower accuracy. Uncomment to test. Average Accuracy= 90.60% 50k iter
+    # 1-layer LSTM with n_hidden units but with lower accuracy.
+    # Average Accuracy= 90.60% 50k iter
+    # Uncomment line below to test but comment out the 2-layer rnn.MultiRNNCell above
     # rnn_cell = rnn.BasicLSTMCell(n_hidden)
 
     # generate prediction
