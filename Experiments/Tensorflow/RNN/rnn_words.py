@@ -43,7 +43,6 @@ def read_data(fname):
     return content
 
 training_data = read_data(training_file)
-print(training_data.shape)
 print("Loaded training data...")
 
 def build_dataset(words):
@@ -52,10 +51,10 @@ def build_dataset(words):
     for word, _ in count:
         dictionary[word] = len(dictionary)
     reverse_dictionary = dict(zip(dictionary.values(), dictionary.keys()))
-    return count, dictionary, reverse_dictionary
+    return dictionary, reverse_dictionary
 
-count, word_dict, word_rev_dict = build_dataset(training_data)
-vocab_size = len(word_dict)
+dictionary, reverse_dictionary = build_dataset(training_data)
+vocab_size = len(dictionary)
 
 # Parameters
 learning_rate = 0.001
@@ -83,7 +82,8 @@ def RNN(x, weights, biases):
     # reshape to [1, n_input]
     x = tf.reshape(x, [-1, n_input])
 
-    # Generate a n_input-element sequence of inputs (eg. [the] [quick] [brown] -> [131] [12] [4])
+    # Generate a n_input-element sequence of inputs
+    # (eg. [had] [a] [general] -> [20] [6] [33])
     x = tf.split(x,n_input,1)
 
     # 2-layer LSTM, each layer has n_hidden units.
@@ -127,19 +127,19 @@ with tf.Session() as session:
     writer.add_graph(session.graph)
 
     while step < training_iters:
-        # Generate a minibatch.
+        # Generate a minibatch. Add some randomness on selection process.
         if offset > (len(training_data)-end_offset):
             offset = random.randint(0, n_input+1)
 
-        words_in_keys = [ [word_dict[ str(training_data[i])]] for i in range(offset, offset+n_input) ]
-        words_in_keys = np.reshape(np.array(words_in_keys), [-1, n_input, 1])
+        symbols_in_keys = [ [dictionary[ str(training_data[i])]] for i in range(offset, offset+n_input) ]
+        symbols_in_keys = np.reshape(np.array(symbols_in_keys), [-1, n_input, 1])
 
-        word_out_onehot = np.zeros([vocab_size], dtype=float)
-        word_out_onehot[word_dict[str(training_data[offset+n_input])]] = 1.0
-        word_out_onehot = np.reshape(word_out_onehot,[1,-1])
+        symbols_out_onehot = np.zeros([vocab_size], dtype=float)
+        symbols_out_onehot[dictionary[str(training_data[offset+n_input])]] = 1.0
+        symbols_out_onehot = np.reshape(symbols_out_onehot,[1,-1])
 
         _, acc, loss, onehot_pred = session.run([optimizer, accuracy, cost, pred], \
-                                                feed_dict={x: words_in_keys, y: word_out_onehot})
+                                                feed_dict={x: symbols_in_keys, y: symbols_out_onehot})
         loss_total += loss
         acc_total += acc
         if (step+1) % display_step == 0:
@@ -148,10 +148,10 @@ with tf.Session() as session:
                   "{:.2f}%".format(100*acc_total/display_step))
             acc_total = 0
             loss_total = 0
-            words_in = [training_data[i] for i in range(offset, offset + n_input)]
-            word_out = training_data[offset + n_input]
-            word_out_pred = word_rev_dict[int(tf.argmax(onehot_pred, 1).eval())]
-            print("%s - [%s] vs [%s]" % (words_in,word_out,word_out_pred))
+            symbols_in = [training_data[i] for i in range(offset, offset + n_input)]
+            symbols_out = training_data[offset + n_input]
+            symbols_out_pred = reverse_dictionary[int(tf.argmax(onehot_pred, 1).eval())]
+            print("%s - [%s] vs [%s]" % (symbols_in,symbols_out,symbols_out_pred))
         step += 1
         offset += (n_input+1)
     print("Optimization Finished!")
@@ -167,15 +167,14 @@ with tf.Session() as session:
         if len(words) != n_input:
             continue
         try:
-            words_in_keys = [word_dict[str(words[i])] for i in range(len(words))]
+            symbols_in_keys = [dictionary[str(words[i])] for i in range(len(words))]
             for i in range(32):
-                keys = np.reshape(np.array(words_in_keys), [-1, n_input, 1])
+                keys = np.reshape(np.array(symbols_in_keys), [-1, n_input, 1])
                 onehot_pred = session.run(pred, feed_dict={x: keys})
                 onehot_pred_index = int(tf.argmax(onehot_pred, 1).eval())
-                sentence = "%s %s" % (sentence,word_rev_dict[onehot_pred_index])
-                # print(" %s" % word_rev_dict[int(tf.argmax(onehot_pred, 1).eval())])
-                words_in_keys = words_in_keys[1:]
-                words_in_keys.append(onehot_pred_index)
+                sentence = "%s %s" % (sentence,reverse_dictionary[onehot_pred_index])
+                symbols_in_keys = symbols_in_keys[1:]
+                symbols_in_keys.append(onehot_pred_index)
             print(sentence)
         except:
             print("Word not in dictionary")
