@@ -4,7 +4,7 @@ Author: Rowel Atienza
 Project: https://github.com/roatienza/Deep-Learning-Experiments
 """
 # On command line: python3 mnist_a2j_cnn_keras.py
-# Prerequisite: tensorflow 1.0 and keras
+# Prerequisite: tensorflow 1.0 and keras 2.0
 # must run mnist_a2j_2pickle.py first (one-time) to generate the data
 
 from __future__ import print_function
@@ -15,7 +15,8 @@ import time
 
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Activation, Flatten
-from keras.layers import Convolution2D, MaxPooling2D
+from keras.layers import MaxPooling2D
+from keras.layers import Conv2D
 from keras.optimizers import Adam
 
 start_time = time.time()
@@ -65,10 +66,10 @@ learning_rate = 0.001
 model = Sequential()
 # input: 28x28 images with 1 channel -> (28, 28, 1) tensors.
 # this applies 32 convolution filters of size 3x3 each.
-model.add(Convolution2D(depth1, patch_size, patch_size, border_mode='same', input_shape=(image_size, image_size, channel)))
+model.add(Conv2D(depth1, patch_size, input_shape=(image_size, image_size, channel), padding='same'))
 model.add(Activation('relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
-model.add(Convolution2D(depth2, patch_size, patch_size))
+model.add(Conv2D(depth2, patch_size))
 model.add(Activation('relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
 model.add(Flatten())
@@ -85,7 +86,7 @@ model.compile(loss='categorical_crossentropy',
               metrics=['accuracy'])
 
 model.fit(train_dataset, train_labels,
-          nb_epoch=10,
+          epochs=10,
           batch_size=batch_size, shuffle=False)
 score = np.asarray(model.evaluate(test_dataset, test_labels, batch_size=batch_size))*100.0
 # Accuracy: 98.0%

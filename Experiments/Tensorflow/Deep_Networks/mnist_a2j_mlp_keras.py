@@ -4,7 +4,7 @@ Author: Rowel Atienza
 Project: https://github.com/roatienza/Deep-Learning-Experiments
 """
 # On command line: python3 mnist_a2j_mlp_keras.py
-# Prerequisite: tensorflow 1.0 and keras
+# Prerequisite: tensorflow 1.0 and keras 2.0
 # must run mnist_a2j_2pickle.py first (one-time) to generate the data
 
 from __future__ import print_function
@@ -66,7 +66,7 @@ model.compile(loss='categorical_crossentropy',
               metrics=['accuracy'])
 
 model.fit(train_dataset, train_labels,
-          nb_epoch=5,
+          epochs=5,
           batch_size=batch_size, shuffle=False)
 score = np.asarray(model.evaluate(test_dataset, test_labels, batch_size=batch_size))*100.0
 # Accuracy: 86.0%
