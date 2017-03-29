@@ -40,3 +40,4 @@
 ## [Keras](https://keras.io) on Tensorflow Experiments
 1. [NotMNIST Deep Feedforward Network](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Deep_Networks/mnist_a2j_mlp_keras.py)
 2. [NotMNIST CNN](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Deep_Networks/mnist_a2j_cnn_keras.py)
+3. [DCGAN on MNIST](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/GAN/dcgan_mnist.py)
