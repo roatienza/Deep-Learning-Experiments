@@ -91,4 +91,4 @@ model.fit(train_dataset, train_labels,
 score = np.asarray(model.evaluate(test_dataset, test_labels, batch_size=batch_size))*100.0
 # Accuracy: 98.0%
 print("\nTest accuracy: %.1f%%" % score[1])
-print("Elapsed: " , elapsed(time.time() - start_time))
+

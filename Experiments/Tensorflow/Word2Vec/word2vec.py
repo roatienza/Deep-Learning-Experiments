@@ -35,7 +35,7 @@ from tensorflow.contrib.tensorboard.plugins import projector
 url = 'http://mattmahoney.net/dc/'
 
 # Target log path
-logs_path = '/tmp/tensorflow/word2vec/1'
+logs_path = '/tmp/tensorflow/word2vec'
 writer = tf.summary.FileWriter(logs_path)
 
 def maybe_download(filename, expected_bytes):
@@ -64,7 +64,7 @@ words = read_data(filename)
 print('Data size', len(words))
 
 # Step 2: Build the dictionary and replace rare words with UNK token.
-vocabulary_size = 50000
+vocabulary_size = 500
 
 def build_dataset(words):
   count = [['UNK', -1]]
