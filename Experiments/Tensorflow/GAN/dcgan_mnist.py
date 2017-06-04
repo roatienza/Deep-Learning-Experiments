@@ -10,7 +10,7 @@ import numpy as np
 import time
 from tensorflow.examples.tutorials.mnist import input_data
 
-from keras.models import Sequential 
+from keras.models import Sequential
 from keras.layers import Dense, Activation, Flatten, Reshape
 from keras.layers import Conv2D, Conv2DTranspose, UpSampling2D
 from keras.layers import LeakyReLU, Dropout
@@ -51,22 +51,23 @@ class DCGAN(object):
         depth = 64
         dropout = 0.4
         # In: 28 x 28 x 1, depth = 1
-        # Out: 10 x 10 x 1, depth=64
+        # Out: 14 x 14 x 1, depth=64
         input_shape = (self.img_rows, self.img_cols, self.channel)
         self.D.add(Conv2D(depth*1, 5, strides=2, input_shape=input_shape,\
-            padding='same', activation=LeakyReLU(alpha=0.2)))
+            padding='same'))
+        self.D.add(LeakyReLU(alpha=0.2))
         self.D.add(Dropout(dropout))
 
-        self.D.add(Conv2D(depth*2, 5, strides=2, padding='same',\
-                activation=LeakyReLU(alpha=0.2)))
+        self.D.add(Conv2D(depth*2, 5, strides=2, padding='same'))
+        self.D.add(LeakyReLU(alpha=0.2))
         self.D.add(Dropout(dropout))
 
-        self.D.add(Conv2D(depth*4, 5, strides=2, padding='same',\
-                activation=LeakyReLU(alpha=0.2)))
+        self.D.add(Conv2D(depth*4, 5, strides=2, padding='same'))
+        self.D.add(LeakyReLU(alpha=0.2))
         self.D.add(Dropout(dropout))
 
-        self.D.add(Conv2D(depth*8, 5, strides=1, padding='same',\
-                activation=LeakyReLU(alpha=0.2)))
+        self.D.add(Conv2D(depth*8, 5, strides=1, padding='same'))
+        self.D.add(LeakyReLU(alpha=0.2))
         self.D.add(Dropout(dropout))
 
         # Out: 1-dim probability
@@ -82,7 +83,7 @@ class DCGAN(object):
         self.G = Sequential()
         dropout = 0.4
         depth = 64+64+64+64
-        dim = 7 
+        dim = 7
         # In: 100
         # Out: dim x dim x depth
         self.G.add(Dense(dim*dim*depth, input_dim=100))
@@ -116,7 +117,7 @@ class DCGAN(object):
     def discriminator_model(self):
         if self.DM:
             return self.DM
-        optimizer = RMSprop(lr=0.0008, clipvalue=1.0, decay=6e-8)
+        optimizer = RMSprop(lr=0.0002, decay=6e-8)
         self.DM = Sequential()
         self.DM.add(self.discriminator())
         self.DM.compile(loss='binary_crossentropy', optimizer=optimizer,\
@@ -126,7 +127,7 @@ class DCGAN(object):
     def adversarial_model(self):
         if self.AM:
             return self.AM
-        optimizer = RMSprop(lr=0.0004, clipvalue=1.0, decay=3e-8)
+        optimizer = RMSprop(lr=0.0001, decay=3e-8)
         self.AM = Sequential()
         self.AM.add(self.generator())
         self.AM.add(self.discriminator())
@@ -141,15 +142,15 @@ class MNIST_DCGAN(object):
         self.channel = 1
 
         self.x_train = input_data.read_data_sets("mnist",\
-                one_hot=True).train.images
+        	one_hot=True).train.images
         self.x_train = self.x_train.reshape(-1, self.img_rows,\
-                self.img_cols, 1).astype(np.float32)
+        	self.img_cols, 1).astype(np.float32)
 
         self.DCGAN = DCGAN()
         self.discriminator =  self.DCGAN.discriminator_model()
         self.adversarial = self.DCGAN.adversarial_model()
         self.generator = self.DCGAN.generator()
-    
+
     def train(self, train_steps=2000, batch_size=256, save_interval=0):
         noise_input = None
         if save_interval>0:
