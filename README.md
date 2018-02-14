@@ -18,7 +18,7 @@
   - [Back Propagation](https://docs.google.com/presentation/d/1XD0tA6oxOETfFn1DTGJByhhyH3MF586OCN06WvAP22E/edit?usp=sharing)
 - Keras Sample Codes
   - [Overview](https://docs.google.com/presentation/d/15Y1snbE73g8vw16RN6uehVHyDFxAK_b0iKcmId1j5qM/edit?usp=sharing)
-  - [Linear Model](https://github.com/roatienza/dl-keras/blob/master/chapter1-introduction/linear-model-1.2.1.py)
+  - [MLP on Linear Model](https://github.com/roatienza/dl-keras/blob/master/chapter1-introduction/linear-model-1.2.1.py)
   - [MLP on MNIST](https://github.com/roatienza/dl-keras/blob/master/chapter2-neural-networks/mlp-mnist-2.1.2.py)
   - [MNIST Sampler](https://github.com/roatienza/dl-keras/blob/master/chapter2-neural-networks/mnist-sampler-2.1.1.py)
 4. [Regularization](https://docs.google.com/presentation/d/1lg4oxRDvfUIEtzMJ7E-Lqv1cDNiwoNeT1r5T-XnFIQI/edit?usp=sharing)
