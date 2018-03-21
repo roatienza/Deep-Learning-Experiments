@@ -31,10 +31,12 @@
 5. [Optimization](https://docs.google.com/presentation/d/1wt53ds5dywq3WUm-jkdKFUjiHayBAV6-CSFAJg76Clg/edit?usp=sharing)
   
 6. [Convolutional Neural Networks (CNN)](https://docs.google.com/presentation/d/1vxCMwjbssYKisIWt2UYiuOFMsJaFv-5-I6mYvtJ6Hr8/edit?usp=sharing)
+- Keras Sample Codes
   - [CNN on MNIST](https://github.com/roatienza/dl-keras/blob/master/chapter2-neural-networks/cnn-mnist-2.2.1.py)
   - [CNN using functional API](https://github.com/roatienza/dl-keras/blob/master/chapter3-deep-networks/cnn-functional-3.1.1.py)
   - [CNN Siamese Network](https://github.com/roatienza/dl-keras/blob/master/chapter3-deep-networks/cnn-y-network-3.1.2.py)
 7. [Deep Networks](https://docs.google.com/presentation/d/14aFawAa4zNqvPRkhmS5YATVxSlS01fig7qnstecRgG0/edit?usp=sharing)
+- Keras Sample Codes
   - [DenseNet](https://github.com/roatienza/dl-keras/blob/master/chapter3-deep-networks/cifar10-densenet.3.4.2.py)  
   - [ResNet](https://github.com/keras-team/keras/blob/master/examples/cifar10_resnet.py)
 8. [Embeddings](https://docs.google.com/presentation/d/1YtKWA53T2NqXoL0vnk8jWl1WCBWCLhbh5OWz_1JrGdU/edit?usp=sharing) 
