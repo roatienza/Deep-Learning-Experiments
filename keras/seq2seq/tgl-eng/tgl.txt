@@ -1,0 +1,3144 @@
+Who?	Sino?
+Hello!	Kamusta!
+I try.	Sinusubukan ko.
+Smile.	Ngiti.
+Smile.	Ngumiti ka.
+Attack!	Sugod!
+He ran.	Tumakbo siya.
+Hug me.	Yakapin mo ako.
+I fell.	Nahulog ako.
+I know.	Alam ko.
+Really?	Talaga?
+We won.	Nanalo kami.
+Why me?	Bakit ako?
+Call me.	Tawagan mo ako.
+Call us.	Tawagan mo kami.
+Call us.	Tawagan niyo kami.
+Get out!	Labas!
+Get out!	Lumabas ka!
+Get out.	Alis.
+Go home.	Umuwi ka.
+Help me!	Tulungan mo ako!
+Help us.	Tulungan niyo kami.
+Hug Tom.	Yakapin mo si Tom
+I tried.	Sinubukan ko.
+Me, too.	Ako rin.
+Show me.	Ipakita sa akin.
+Show me.	Ipakita mo sa akin.
+Show me.	Ipakita niyo sa akin.
+Take it.	Kuhanin mo.
+Take it.	Kuhanin niyo.
+Tom ran.	Tumakbo si Tom.
+Wait up.	Intay.
+Wake up!	Gising!
+Wake up!	Gumising ka!
+Wake up!	Gumising kayo!
+We lost.	Natalo kami.
+Who ate?	Sinong kumain?
+Who ran?	Sinong tumakbo.
+Why not?	Bakit hindi?
+You run.	Tumatakbo ka.
+You won.	Nanalo ka.
+Ask them.	Tanungin mo sila.
+Be brave.	Maging matapang ka.
+Call Tom.	Tawagin mo si Tom.
+Call Tom.	Tawagan mo si Tom.
+Find Tom.	Hanapin si Tom.
+Fix this.	Ayusin mo 'to.
+Fix this.	Ayusin mo ito.
+Good job!	Ang galing!
+Grab him.	Hablutin siya.
+Have fun.	Magpakasaya kayo.
+Have fun.	Magsaya ka.
+Have fun.	Magsaya kayo.
+Help Tom.	Tulungan mo si Tom.
+Help him.	Tulungan mo siya.
+How deep?	Gaano kalalim?
+I agreed.	Sumang-ayon ako.
+I stayed.	Nanatili ako.
+I waited.	Nagintay ako.
+It helps.	Nakakatulong.
+It hurts.	Ang sakit.
+Kiss Tom.	Halikan mo si Tom.
+Let's go!	Tara!
+Save Tom.	Iligtas mo si Tom.
+Sit down.	Umupo ka.
+They won.	Nanalo sila.
+Tom came.	Dumating si Tom.
+Tom fell.	Nahulog si Tom.
+Tom left.	Umalis si Tom.
+Tom left.	Wala na si Tom.
+Tom lied.	Nagsinungaling si Tom.
+Tom lies.	Nagsisinungaling si Tom.
+Tom lost.	Natalo si Tom.
+Tom paid.	Nagbayad si Tom.
+Tom swam.	Lumangoy si Tom.
+Too late.	Huli ka na.
+Use this.	Gamitin ito.
+Use this.	Gamitin mo ito.
+Use this.	Gamitin niyo ito.
+Watch me.	Panoorin ako.
+Watch me.	Panoorin mo ako.
+Watch me.	Panoorin niyo ako.
+What for?	Para saan?
+Who fell?	Sinong nahulog?
+Who swam?	Sinong lumangoy?
+Birds fly.	Lumilipad ang mga ibon.
+Bless you.	Pagpalain ka.
+Calm down.	Huminahon ka.
+Calm down.	Kumalma ka.
+Catch Tom.	Hulihin si Tom.
+Catch him.	Saluhin mo siya.
+Come back.	Bumalik ka.
+Come back.	Bumalik kayo.
+Excuse me.	Mawalang-galang na.
+Follow me.	Sundan mo ako.
+Follow me.	Sundin mo ako.
+Follow us.	Sundan kami.
+Follow us.	Sundan mo kami.
+Follow us.	Sundan niyo kami.
+Go inside.	Pumasok ka.
+Humor Tom.	Patawanin mo si Tom.
+I am sure.	Sigurado ako.
+I laughed.	Tumawa ako.
+I like it.	Gusto ko.
+I noticed.	Napansin ko.
+Ignore it.	Wag mong pansinin.
+Is it hot?	Mainit ba?
+It burned.	Nasunog.
+It failed.	Hindi nagtagumpay.
+It worked.	Gumana.
+It's cold.	Malamig.
+It's cold.	Ang lamig.
+Jump down.	Tumalon ka pababa.
+Let's try!	Subukan natin!
+She cried.	Umiyak siya.
+She tried.	Sinubukan niya.
+Start now.	Magumpisa ngayon.
+Stay here.	Manatili ka dito.
+Stop that.	Tigilan iyan.
+They fell.	Nahulog sila.
+They left.	Umalis sila.
+They lied.	Nagsinungaling sila.
+Tom cried.	Umiyak si Tom.
+Tom drove.	Nagmaneho si Tom.
+Tom knows.	Alam ni Tom.
+Tom spoke.	Nagsalita si Tom.
+Tom stood.	Tumayo si Tom.
+Tom tried.	Sinubukan ni Tom.
+Tom voted.	Bumoto si Tom.
+Tom walks.	Lumalakad si Tom.
+Tom waved.	Kumaway si Tom.
+Trust Tom.	Pagkatiwalaan mo si Tom.
+Try again.	Subukan mo ulit.
+Wait here.	Magintay ka dito.
+Watch Tom.	Subaybayan mo si Tom.
+Watch Tom.	Panoorin mo si Tom.
+We agreed.	Sumang-ayon tayo.
+We forgot.	Nakalimutan namin.
+We talked.	Nag-usap kami.
+We waited.	Naghintay kami.
+What's up?	Anong mayroon?
+Who cares?	Sinong may pakialam?
+Who is he?	Sino siya?
+Who knows?	Sinong may alam?
+Who stood?	Sinong tumayo?
+Write Tom.	Isulat mo ang Tom.
+You start.	Ikaw magsimula.
+You tried.	Sinubukan mo.
+You tried.	Sumubok ka.
+Answer Tom.	Sagutin mo si Tom.
+Ask around.	Magtanong-tanong.
+Birds sing.	Kumakanta ang mga ibon.
+Bring food.	Magdala ng pagkain.
+Bring food.	Magdala ka ng pagkain.
+Bring food.	Magdala kayo ng pagkain.
+Bring help.	Magdala ng tulong.
+Bring help.	Magdala kayo ng tulong.
+Bring help.	Magdala ng ka ng tulong.
+Bring wine.	Magdala ng alak.
+Bring wine.	Magdala ka ng alak.
+Bring wine.	Magdala kayo ng alak.
+Carry this.	Buhatin ito.
+Carry this.	Buhatin mo ito.
+Carry this.	Buhatin niyo ito.
+Eat slowly.	Kumain ng mahinahon.
+Follow Tom.	Sundan si Tom.
+Follow him.	Sundan siya.
+Forget Tom.	Kalimutan si Tom.
+Forgive us.	Patawarin mo kami.
+Forgive us.	Patawarin niyo kami.
+He coughed.	Umubo siya.
+He's lying.	Nagsisinungaling siya.
+He's smart.	Matalino siya.
+I am sorry.	Paumanhin.
+I got sick.	Nagkasakit ako.
+I like you.	May gusto ako sa iyo.
+I like you.	Gusto kita.
+I love Tom.	Mahal ko si Tom.
+I need you.	Kailangan kita.
+I saw that.	Nakita ko yun.
+I screamed.	Sumigaw ako.
+I want you.	Ninanais kita.
+I'm honest.	Matapat ako.
+I'm sleepy.	Inaantok ako.
+Ignore Tom.	Wag pansinin si Tom.
+It happens.	Nangyayari.
+It's early.	Maaga pa.
+It's magic.	Mahiya siya.
+It's windy.	Mahangin.
+Scoot over.	Umusog ka.
+She smiled.	Ngumiti siya.
+Smell this.	Amuyin mo ito.
+Stand back.	Atras.
+Start here.	Magsimula dito.
+Stay alert.	Manatiling alisto.
+Stay awake.	Manatiling gising.
+Step aside.	Umusog ka.
+Step aside.	Tumabi ka.
+That works.	Gumagana yoon.
+They voted.	Bumoto sila.
+This works.	Gumagana ito.
+Tom agreed.	Sumangayon si Tom.
+Tom agrees.	Sumasangayon si Tom.
+Tom burped.	Dumighay si Tom.
+Tom called.	Tumawag si Tom.
+Tom cheats.	Nangdadaya si Tom.
+Tom danced.	Nagsayaw si Tom.
+Tom drinks.	Umiinom si Tom.
+Tom drives.	Nagmamaneho si Tom.
+Tom jumped.	Tumalon si Tom.
+Tom looked.	Tumingin si Tom.
+Tom obeyed.	Sumunod si Tom.
+Tom prayed.	Nagdasal si Tom.
+Tom sighed.	Huminga ng malalim si Tom.
+Tom smiled.	Ngumiti si Tom.
+Tom snores.	Humihilik si Tom.
+Tom talked.	Nagsalita si Tom.
+Tom waited.	Naghintay si Tom.
+Tom walked.	Naglakad si Tom.
+Tom winked.	Kumindat si Tom.
+Tom worked.	Nagtrabaho si Tom.
+Watch this.	Panoorin mo 'to.
+Who is she?	Sino siya?
+Who talked?	Sinong nagsalita?
+Who yelled?	Sinong sumigaw?
+Wood burns.	Nasusunog ang kahoy.
+You called?	Tumawag ka?
+Are you mad?	Galit ka ba?
+Be yourself.	Isipin mo ang sarili mo.
+Come closer.	Lapit.
+Come closer.	Lumapit kayo.
+Come closer.	Lumapit ka.
+Come inside.	Pumasok ka.
+Come inside.	Pasok.
+Come inside.	Pumasok kayo.
+Do it again!	Ulitin mo!
+Don't shout.	Huwag sumigaw.
+Finish this.	Tapusin ito.
+Get serious.	Sumeryoso ka nga.
+Get serious.	Sumeryoso ka.
+He can swim.	Nakakalangoy siya.
+He is lying.	Nagsisinungaling siya.
+I am French.	Pranses ako.
+I am Korean.	Ako ay Koreano.
+I am taller.	Mas matangkad ako.
+I feel cold.	Nilalamig ako.
+I like dogs.	Gusto ko ng mga aso.
+I loved Tom.	Minahal ko si Tom.
+I'm too fat.	Masyado akong mataba.
+It can't be!	Di maaari!
+It happened.	Nangyari.
+It saved me.	Ito ang nagligtas sa akin.
+Let's drink.	Uminom tayo.
+No one came.	Walang pumunta.
+Nobody came.	Walang nagpunta.
+Nobody came.	Walang pumunta.
+Nobody came.	Walang dumating.
+Nobody died.	Walang namatay.
+OK. I agree.	Ayos. Sang-ayon ako.
+Release Tom.	Pakawalan mo si Tom.
+Release him.	Pakawalan mo siya.
+Stay inside.	Manatili ka sa loob.
+Take a rest.	Magpahinga ka.
+That helped.	Nakatulong iyon.
+That worked.	Gumana yoon.
+That's life.	Ganyan ang buhay!
+They burned.	Nasunog sila.
+They called.	Tumawag sila.
+They danced.	Nagsayaw sila.
+They danced.	Nagsayawan sila.
+They danced.	Sumayaw sila.
+They hugged.	Nagyakapan sila.
+Think again.	Isipin muli.
+This is new.	Bago ito.
+Tom blinked.	Kumurap si Tom.
+Tom changed.	Nagbago si Tom.
+Tom cheated.	Nangdaya si Tom.
+Tom clapped.	Pumalakpak si Tom.
+Tom coughed.	Umubo si Tom.
+Tom drowned.	Nalunod si Tom.
+Tom escaped.	Nakawala si Tom.
+Tom fainted.	Nahimatay si Tom.
+Tom fainted.	Nawalan ng malay si Tom.
+Tom frowned.	Sumimangot si Tom.
+Tom laughed.	Tumawa si Tom.
+Tom listens.	Nakikinig si Tom.
+Tom noticed.	Napansin ni Tom.
+Tom paid me.	Binayaran ako ni Tom.
+Tom shouted.	Sumigaw si Tom.
+Tom slipped.	Nadulas si Tom.
+Tom sneezed.	Bumahing si Tom.
+Tom sweated.	Nagpawis si Tom.
+Tom teaches.	Nagtuturo si Tom.
+Tom tripped.	Nadapa si Tom.
+Walk slowly.	Bagalan mo ang iyong paglakad.
+Walk slowly.	Maglakad ka nang mabagal.
+We remember.	Naaalala namin.
+Who cheated?	Sinong nandaya?
+Who escaped?	Sinong nakatakas?
+Who escaped?	Sinong nakawala?
+You cheated.	Nandaya ka.
+You fainted.	Nahimatay ka.
+Are you lost?	Nawawala ka ba?
+Are you okay?	Ayos ka ba?
+Are you okay?	Ayos ka lang ba?
+Can you swim?	Kaya mo bang lumangoy?
+Come forward.	Sulong.
+Come forward.	Sumulong ka.
+Come forward.	Sumulong kayo.
+Come quickly!	Halika!
+Come quickly!	Halikayo!
+Do you agree?	Sang-ayon ka ba?
+Drive slowly.	Dahandahang magmaneho.
+Have a drink.	Uminom ka.
+He is asleep.	Natutulog siya.
+He is cranky.	Masungit siya.
+How arrogant!	Ang yabang!
+How arrogant!	Ang arogante!
+I am married.	Kasal ako.
+I am working.	Nagtatrabaho ako.
+I don't care.	Wala akong pakialam.
+I drink milk.	Nainom ako ng gatas.
+I feel funny.	Kakaiba ang pakiramdam ko.
+I hugged Tom.	Niyakap ko si Tom.
+I kissed Tom.	Hinalikan ko si Tom.
+I play piano.	Tumutugtog ako ng piano.
+I understand.	Naiintindihan ko.
+I understood.	Naiintindihan ko.
+I won't lose!	Di ako magpapatalo!
+I've seen it.	Nakita ko na.
+Is that okay?	Ayos ba iyon?
+It's bedtime.	Oras na ng pagtulog.
+It's too big.	Masyadong malaki.
+Kiss me, Tom.	Halikan mo ako, Tom.
+Life goes on.	Tumutuloy ang buhay.
+Mary is tall.	Matangkad si Mary.
+Nobody cares.	Walang may pakialam.
+Now have fun.	Magpakasaya kayo.
+Please hurry.	Pakidalian.
+Someone came.	May dumating.
+Speak softly.	Magsalita ka nang mahinhin.
+Stop smoking.	Tigilan mo nga ang paninigarilyo.
+Stop smoking.	Tigilan mo ang iyong paninigarilyo.
+Thanks again.	Salamat ulit.
+They escaped.	Nakawala sila.
+They laughed.	Tumawa sila.
+Tom answered.	Sumagot si Tom.
+Tom chuckled.	Tumawa si Tom.
+Tom listened.	Nakinig si Tom.
+Tom loved me.	Minahal ako ni Tom.
+Tom loves me.	Mahal ako ni Tom.
+Tom screamed.	Sumigaw si Tom.
+Tom's a liar.	Sinungaling si Tom.
+Unbelievable!	Hindi kapanipaniwala!
+Wait outside.	Magintay ka sa labas.
+What is that?	Ano iyan?
+Who listened?	Sinong nakinig?
+Years passed.	Lumipas ang mga taon.
+You are rich.	Mayaman ka.
+You are rich.	Ikaw ay mayaman.
+You go first.	Mauna ka.
+You may swim.	Maaari kang lumangoy.
+You promised.	Ipinangako mo.
+Don't be long.	Huwag kang magtagal.
+Draw a circle.	Gumuhit ka ng isang bilog.
+Eat and drink.	Kumain at uminom.
+Flowers bloom.	Sumisibol ang mga bulaklak.
+He is my boss.	Hepe ko siya.
+He looks pale.	Mukha siyang maputla.
+He needs help.	Kailangan niya ng tulong.
+Help yourself.	Tulungan mo ang iyong sarili.
+How about you?	Eh ikaw?
+How beautiful!	Kay ganda!
+How delicious!	Napakasarap!
+Hurry up, Tom.	Bilisan mo, Tom.
+I believe you.	Naniniwala ako sayo.
+I believe you.	Pinaniniwalaan kita.
+I can't sleep.	Hindi ako makatulog.
+I did see him.	Nakita ko nga siya.
+I like apples.	Gusto ko ng mansanas.
+I woke you up.	Ginising kita.
+I'll call him.	Tatawagin ko siya.
+I'll call you.	Tatawagan kita.
+I'll eat here.	Dito ako kakain.
+I'll take him.	Kukunin ko sya.
+I'm Tom's mom.	Ako ang nanay ni Tom.
+It's my treat.	Blow-awt ko.
+Just watch me.	Basta tingnan ako.
+Let him enter.	Papasukin mo siya.
+May I go home?	Puwede ba akong umuwi na?
+Memorize this.	Kabisaduhin ito.
+Nobody called.	Walang tumawag.
+People change.	Nagiiba ang mga tao.
+She helps him.	Siya ang tumutulong sa kanya.
+Start running.	Simulan ang pagtakbo.
+Start running.	Magsimula kang tumakbo.
+Start singing.	Simulan ang pagkanta.
+Start singing.	Magsimula kang kumanta.
+Start writing.	Magsimula kang magsulat.
+Start writing.	Simulan ang pagsusulat.
+That's a joke.	Kalokohan iyon.
+That's a tree.	Puno iyon.
+They are dead.	Patay na sila.
+They embraced.	Nagyakapan sila.
+Tom applauded.	Pumalakpak si Tom.
+Tom confessed.	Umamin si Tom.
+Tom hugged me.	Niyakap ako ni Tom.
+Tom remembers.	Naaalala ni Tom.
+We must check.	Kailangan nating siguraduhin.
+We understand.	Naiintindihan namin.
+We want a car.	Gusto namin ng kotse.
+What was that?	Ano yun?
+When was that?	Kailan yun?
+When's dinner?	Kailan ang almusal?
+Where are you?	Nasaan ka?
+Where are you?	Nasaan kayo?
+Which is mine?	Alin yung saakin?
+Who is coming?	Sino'ng darating?
+Who remembers?	Sinong nakakaalala?
+Who's winning?	Sinong nananalo?
+Whose is this?	Kanino ito?
+You are lying.	Nagsisinungaling ka.
+You look busy.	Mukhang bisi ka.
+You should go.	Dapat pumunta ka.
+You'll go far.	Malayo ang mararating mo.
+You're stupid!	Bobo ka!
+Come back here.	Bumalik ka dito.
+Come down here!	Bumaba ka dito!
+Drink some tea.	Uminom ka ng tsa.
+Everybody left.	Umalis ang lahat.
+Everybody left.	Lahat ay umalis.
+Everybody paid.	Nagbayad ang lahat.
+Everyone stood.	Ang bawat tao'y tumayo.
+Form two lines.	Pumila nang dalawang linya.
+Have you eaten?	Kumain ka na?
+He became rich.	Naging mayaman siya.
+He loves music.	Mahal niya ang musika.
+He sang a song.	Kumanta siya ng kanta.
+He surrendered.	Sumuko siya.
+How disgusting!	Napakakadiri!
+How wide is it?	Gaano iyon kalawak?
+I am a tourist.	Turista ako.
+I drink coffee.	Umiinom ako ng kape.
+I drink coffee.	Umiinom ng kape ako.
+I hate Mondays.	Ayaw ko ng mga Lunes.
+I hurried home.	Binilisan ko umuwi.
+I like castles.	Gusto ko ang mga kastilyo.
+I like the dog.	Gusto ko yung aso.
+I like turtles.	Gusto ko ang mga pagong.
+I love bananas.	Mahal ko ang saging.
+I love lasagna.	Gusto ko ang lasagna.
+I said shut up!	Sabi ko'y sarhan ang bunganga mo!
+I walked alone.	Naglakad ako mag-isa.
+I'm Tom's wife.	Ako ang asawa ni Tom.
+I'm eating now.	Kumakain ako ngayon.
+It was nothing.	Wala yun.
+It's his fault.	Sinisi ko siya sa kasalanan niya.
+Leave me alone!	Iwanan mo ako!
+Louder, please.	Paki lakasan.
+Lynn runs fast.	Mabilis tumakbo si Lynn.
+May I use this?	Maaari ko bang gamitin ito?
+Men are simple.	Simple lang ang kalalakihan.
+Nobody laughed.	Walang tumawa.
+Nobody listens.	Walang nakikinig.
+Open your eyes.	Buksan mo ang mata mo.
+Shall we dance?	Magsayaw ba tayo?
+Shall we dance?	Maaari ba tayong sumayaw?
+She came alone.	Dumating siyang mag-isa.
+She sings well.	Magaling siyang kumanta.
+Start counting.	Simulan ang pagbibilang.
+Start counting.	Magsimula ng pagbibilang.
+The tea is hot.	Mainit ang tsa.
+Their eyes met.	Nagtagpo ang mga mata nila.
+They quarreled.	Nagaway sila.
+Tom approached.	Lumapit si Tom.
+Tom intervened.	Namagitan si Tom.
+Tom remembered.	Naalala ni Tom.
+Tom understood.	Naiintindihan ni Tom.
+Tom volunteers.	Nagboluntaryo si Tom.
+Wash your face.	Hugasan mo ang iyong mukha.
+We surrendered.	Sumuko kami.
+Who complained?	Sinong nagreklamo?
+You look bored.	Mukha kang inip.
+You're nothing.	Wala ka.
+Are drinks free?	Libre ba and mga inumin?
+Are we finished?	Tapos na ba tayo?
+Are we prepared?	Handa ba tayo?
+Are we prepared?	Handa na ba tayo?
+Change is scary.	Nakakatakot ang pagbabago.
+Come downstairs.	Bumaba ka.
+Did you make it?	Ginawa mo ba?
+Do you remember?	Naaalala mo ba?
+Don't be greedy.	Huwag maging sakim.
+Don't overdo it.	Huwag sobra.
+Drink your milk.	Inumin ang gatas mo.
+Everybody knows.	Alam ng lahat.
+Everyone agreed.	Sumang-ayon ang lahat.
+Everyone looked.	Ang bawat tao'y tumingin.
+Everyone prayed.	Ang bawat tao'y nanalangin.
+Everyone smiled.	Ang bawat tao'y ngumiti.
+Everyone waited.	Ang bawat tao'y naghintay.
+Get back inside.	Bumalik ka sa loob.
+Green suits you.	Bagay sayo ang luntian.
+He bought a hat.	Bumili siya ng sumbrero.
+He was standing.	Nakatindig siya.
+He's my husband.	Asawa ko siya.
+Hold the candle.	Hawakan mo ang kandila.
+How do you feel?	Anong pakiramdam mo?
+How is everyone?	Kumusta kayong lahat?
+How'd you do it?	Paano mo ginawa iyon?
+I am speechless.	Wala akong masabi.
+I couldn't stop.	Hindi ako makatigil.
+I couldn't wait.	Hindi ako makapaghintay.
+I didn't scream.	Hindi ako sumigaw.
+I have homework.	Mayroon akong takdang-aralin.
+I have to leave.	Kailangan kong umalis.
+I haven't slept.	Hindi pa ako nakakatulog.
+I haven't tried.	Hindi ko pa nasubukan.
+I just finished.	Kakatapos ko lang.
+I know Tom lied.	Alam kong nagsinungaling si Tom.
+I know you know.	Alam kong alam mo.
+I like that dog.	Gusto ko yung asong yun.
+I like this dog.	Gusto ko itong asong ito.
+I like your dog.	Gusto ko yung aso mo.
+I lost my phone.	Nawala ko ang aking telepono.
+I lost my watch.	Nawala ko ang relo ko.
+I love teaching.	Mahal ko ang pagtuturo.
+I love you, Tom.	Mahal kita, Tom.
+I need to sleep.	Dapat akong matulog.
+I saw Tom blink.	Nakita kong kumurap si Tom.
+I saw Tom there.	Nakita ko si Tom doon.
+I saw something.	May nakita ako.
+I think it's OK.	Sa tingin ko OK lang.
+I voted for Tom.	Ibinoto ko si Tom.
+I want to drink.	Gusto kong uminom.
+I was surprised.	Nagulat ako.
+I'd rather stay.	Mas gusto kong manatili dito.
+I'll allow this.	Papayagan ko ito.
+I'll ask around.	Magtatanong-tanong ako sa paligid.
+I'll assist you.	Tutulungan kita.
+I'll come along.	Sasama ako.
+I'll follow you.	Susundan kita.
+I'm a foreigner.	Dayuhan ako.
+I'm just joking.	Nagbibiro lang ako.
+I'm needed here.	Kailangan ako dito.
+I'm not certain.	Hindi ako sigurado.
+I'm not sulking.	Hindi ako nagmumukmok.
+I'm not thirsty.	Hindi ako uhaw.
+I'm not working.	Hindi ako nagtatrabaho.
+I'm not yelling.	Hindi ako sumisigaw.
+Is Tom dreaming?	Nananaginip ba si Tom?
+Is he satisfied?	Kontento ba siya?
+Is this car new?	Bago ba itong awto?
+It's a nice day.	Maganda ang araw.
+Large, isn't it?	Malaki, di ba?
+Let's finish up.	Tapusin na natin ito.
+Let's forget it.	Kalimutan na natin.
+Life's not fair.	Hindi matuwid ang buhay.
+My house is big.	Malaki ang bahay ko.
+Nobody answered.	Walang sumagot.
+Please sit down.	Maupo ka.
+Put your hat on.	Isuot mo ang sumbrero mo.
+Rules are rules.	Ang alituntunin ay alituntunin.
+She disappeared.	Nawala siya.
+She worked hard.	Matiyaga siyang nagtrabaho.
+That can happen.	Pwedeng mangyari iyon.
+That is a table.	Mesa iyon.
+That is a table.	Mesa iyan.
+That's too much!	Sobra na yan!
+There's no salt.	Walang asin.
+These are birds.	Mga ibon ito.
+They angered me.	Ginalit nila ako.
+They didn't run.	Hindi sila tumakbo.
+They ignored me.	Hindi nila ako pinansin.
+They lost again.	Natalo nanaman sila.
+They lost again.	Natalo ulit sila.
+They were lucky.	Sinuwerte sila.
+They're in love.	Nagmamahalan sila.
+Tom disappeared.	Nawala si Tom.
+Tom drinks wine.	Umiinom ng alak si Tomas.
+Tom felt uneasy.	Nababalisa si Tom.
+Tom is new here.	Bago dito si Tom.
+Tom is shopping.	Namamalengke si Tomas.
+Tom surrendered.	Sumuko si Tom.
+Tom understands.	Naiintindihan ni Tom.
+We have bananas.	May saging kami.
+We have bananas.	May saging tayo.
+We love picnics.	Gusto namin ang mga piknik.
+We met a writer.	Natagpo namin ang manunulat.
+We sang for her.	Ipinagkanta namin siya.
+We study Arabic.	Nag-aaral kami ng Arabo.
+We're neighbors.	Magkapitbahay kami.
+We're neighbors.	Magkakapitbahay kami.
+What time is it?	Ano'ng oras na?
+What was stolen?	Anong nanakaw?
+Where is Father?	Nasaan si tatay?
+Who did you ask?	Sinong tinanong mo?
+Who surrendered?	Sinong sumuko?
+Who volunteered?	Sinong nagboluntaryo?
+You always sing.	Palagi kang kumakanta.
+You always sing.	Parati kang kumakanta.
+You look stupid.	Mukha kang tanga.
+Any book will do.	Puwede ang anumang libro.
+Are you all lost?	Nawawala ba kayong lahat?
+Breathe normally.	Huminga nang normal.
+Can you call him?	Puwede mo bang tawagan siya?
+Cut the potatoes.	Maghiwa ng patatas.
+Did you know him?	Kilala mo ba siya?
+Did you see that?	Nakita mo iyon?
+Do as I told you.	Gawin mo ang sinabi ko sa iyo.
+Do you deny that?	Itinatanggi mo ba iyon?
+Do you live here?	Nakatira ka ba rito?
+Does Tom like me?	Gusto ba ako ni Tom?
+Drink this juice.	Inumin ang katas na ito.
+Everybody jumped.	Ang lahat ay tumalon.
+Everybody jumped.	Tumalon ang lahat.
+Everybody laughs.	Tumatawa ang lahat.
+Everybody smiled.	Ngumiti ang lahat.
+Everybody stayed.	Nanatili ang lahat.
+Everybody waited.	Naghintay ang lahat.
+Everyone escaped.	Nakatakas ang lahat.
+Explain yourself.	Ipaliwanag mo ang iyong sarili.
+Give me a little.	Bigyan mo ako ng konti.
+Go on without me.	Tuloy ka nang wala ako.
+Hand me my towel.	Iabot mo sa akin ang tuwalya ko.
+Have you done it?	Ginawa mo ba?
+He must be tired.	Siguro pagod siya.
+How much is this?	Magkano ito?
+How would I know?	Paano ko maaalaman?
+I almost drowned.	Muntik na akong malunod.
+I already saw it.	Nakita ko na.
+I also like cake.	Gusto ko rin ng keyk.
+I am from Brazil.	Taga-Brasil ako.
+I am from Norway.	Ako ay taga Norway.
+I am from Norway.	Taga Norway ako.
+I believe in God.	Naniniwala ako sa Diyos.
+I didn't like it.	Ayoko nyan.
+I didn't mean it.	Di ko sinadya.
+I didn't see her.	Di ko siya nakita.
+I feel something.	May nararamdaman ako.
+I feel something.	Mayroon akong nararamdaman.
+I hit on an idea.	Meron akong naisip.
+I like your dogs.	Gusto ko yung mga aso mo.
+I love astronomy.	Mahal ko ang astronomiya.
+I made it myself.	Ginawa ko iyon nang sarili ko.
+I still love Tom.	Mahal ko pa rin si Tom.
+I swim every day.	Naglalangoy ako araw-araw.
+I understand you.	Naiintindihan kita.
+I will shoot him.	Babarilin ko siya.
+I wish I had one.	Sana meron din ako.
+I'll go with you.	Sasamahan kita.
+I'm a vegetarian.	Isa akong vegetarian.
+I'm going to bed.	Matutulog na ako!
+I'm proud of you.	Ipinagmamalaki kita.
+It needs washing.	Kailangang labhan.
+It's so exciting.	Talagang masigla.
+Leave this to me.	Iwanan mo ito sa akin.
+Let's fly a kite.	Magpalipad tayo ng saranggola.
+Let's have a try.	Subukan natin.
+Let's have sushi.	Mag-sushi tayo.
+Make way, please.	Makikiraan po.
+My stomach hurts.	Masakit ang aking tiyan.
+My tie is orange.	Narangha ang kurbata ko.
+No need to worry.	Huwag mag-alala.
+Nobody remembers.	Walang nakakaalala.
+Nobody will know.	Walang makakaalam.
+Oh no, not again!	Ayan na naman!
+Please don't cry.	Tahan na.
+She has gone out.	Lumabas na siya.
+She is an expert.	Dalubhasa siya.
+She may not come.	Maaaring hindi siya dumating.
+She smokes a lot.	Malimit siyang manigarilyo.
+She startled him.	Ginitla niya siya.
+Someone screamed.	Mayroong sumigaw.
+That man is dead.	Patay iyong taong iyon.
+That's realistic.	Makatotohanan iyon.
+The boy was full.	Busog na ang batang lalaki.
+The can is empty.	Walang laman ang lata.
+There's no doubt.	Walang duda.
+They disappeared.	Nawala sila.
+Things got worse.	Lumala ang mga bagay-bagay.
+This fish is big.	Malaki ang isdang ito.
+This fish is big.	Malaki ang isda.
+Tom arrived last.	Huling dumating si Tom.
+Tom is resilient.	Hindi madaling mabigo si Tom.
+Tom will like me.	Magugustuhan ako ni Tom.
+Turn right there.	Lumiko ka diyan.
+Walk more slowly.	Bagalan mo ang iyong paglalakad.
+We arrived first.	Nauna tayong dumating.
+We met on Sunday.	Nagkita kami nung Linggo.
+We sat in a ring.	Umupo kami nang pabilog.
+We're in a hurry.	Nagmamadali kami.
+We're in a hurry.	Nagmamadali tayo.
+What did you buy?	Anong binili mo?
+What do you want?	Anong gusto mo?
+What does she do?	Ano ang ginagawa niya?
+What is wabisabi?	Ano ba ang "wabi-sabi"?
+What woke you up?	Anong nakagising sa iyo?
+What's happening?	Anong nangyayari?
+What's your wish?	Anong nais mo?
+Where do I start?	Saan ako magsisimula?
+You may go there.	Puwede kang pumaroon.
+You really stink.	Ang baho mo masyado.
+You should sleep.	Dapat matulog ka na.
+You're the owner.	Ikaw ang may-ari.
+Your fly is open!	Bukas ang zipper mo!
+Your shoe stinks.	Ang baho ng sapatos mo.
+Your shoes stink.	Ang baho ng sapatos mo.
+Aren't you sleepy?	Di ka ba inaantok?
+Call an ambulance.	Tumawag ka ng ambulansya.
+Did you know that?	Alam mo ba iyon?
+Do you wish to go?	Gusto mo bang pumunta?
+Don't rely on him.	Huwag mo siyang asahan.
+Everybody laughed.	Tumawa ang lahat.
+Everyone screamed.	Ang bawat tao'y sumigaw.
+Get ready quickly.	Maghanda ka nang mabilis.
+Go ahead and talk.	Sige't magsalita.
+He asked for food.	Humingi siya ng pagkain.
+He does not smoke.	Hindi siya naninigarilyo.
+He is a good shot.	Mahusay siyang bumaril.
+He lives close by.	Malapit siyang nakatira.
+He sat on the bed.	Umupo siya sa kama.
+He's studying now.	Nag-aaral siya ngayon.
+How lucky you are!	Kay suwerte mo naman!
+How lucky you are!	Suwerte mo naman!
+How should I know?	Paano ko maaalaman?
+I am almost ready.	Halos handa na ako.
+I didn't kiss Tom.	Hindi ko hinalikan si Tom.
+I don't have time.	Wala akong oras.
+I have a headache.	Masakit ang ulo ko.
+I listen to music.	Nakikinig ako sa musika.
+I lost an earring.	Nawalan ako ng hikaw.
+I saw an airplane.	Nakita ko ang eroplano.
+I want to be rich.	Gusto kong maging mayaman.
+I was out all day.	Buong araw akong wala sa bahay.
+I was very hungry.	Ginutom ako ng maigi.
+I went on reading.	Tinuloy ko ang pagbabasa.
+I'll get some ice.	Kukuha ako ng yelo.
+Is his story true?	Totoo ba ang istorya niya?
+It is very simple.	Talagang simple.
+It's only a dream.	Pangarap lamang iyon.
+It's only a dream.	Panaginip lamang iyon.
+It's raining here.	Umuulan dito.
+Life is beautiful.	Maganda ang buhay.
+Mary is beautiful.	Maganda si Mary.
+May I talk to you?	Maari ba kitang makausap?
+May I talk to you?	Puwede ba kitang kausapin?
+My uncle is angry.	Galit ang aking tiyo.
+Nothing had moved.	Walang gumalaw.
+Nothing had moved.	Walang umibo.
+Please explain it.	Pakipaliwanag mo nga.
+She took her book.	Dinala niya ang kanyang aklat.
+She took her book.	Dinala niya ang kanyang libro.
+Somebody answered.	Merong sumagot.
+Something changed.	Mayroong nagbago.
+Stand up and walk.	Tumayo at maglakad.
+That is all right.	Ayos lang iyon.
+The bus just left.	Kakaalis lang ng bus.
+The cake is tasty.	Masarap ang keyk.
+The pain has gone.	Nawala na ang pananakit.
+The pen is broken.	Sira ang panulat.
+The price is good.	Magaling ang presyo.
+There is a strike.	May welga.
+Tom loved bananas.	Nagustuhan ni Tomas ang saging.
+Tom wants to talk.	Gusto ni Tom magsalita.
+Try to look happy.	Subukan mong magmukhang masaya.
+We're all waiting.	Naghihintay tayong lahat.
+What a lovely day!	Kay gandang araw!
+What is happening?	Anong nangyayari?
+What is happiness?	Ano ang kasiyahan?
+What would happen?	Anong mangyayari?
+Where is the book?	Nasaan yung libro?
+Where is the book?	Nasaan yung aklat?
+You are beautiful.	Maganda ka.
+You are my father.	Ikaw ang tatay ko.
+You are my friend.	Ikaw ang aking kaibigan.
+You came too late.	Hulí ka na.
+You don't have it.	Wala ka.
+You're disgusting!	Kadiri ka!
+Bananas are yellow.	Dilaw ang saging.
+Do you like apples?	Gusto mo ng mansanas?
+Do you like movies?	Gusto mo ng pelikula?
+Don't be like that.	Wag kang ganyan.
+Everything changed.	Lahat ay nagbago.
+Everything changes.	Lahat ay nagbabago.
+Have you eaten yet?	Kumain ka na ba?
+He appeared hungry.	Parang gutom siya.
+He has white teeth.	Mayroon siyang puting ngipin.
+He should be angry.	Dapat galit siya.
+He should thank me.	Dapat niya akong pasalamatan.
+He stopped talking.	Tumigil siyang magdaldal.
+He's a good person.	Mabuting tao sya.
+How was your night?	Kamusta ang gabi mo?
+How was your night?	Kumusta ang gabi mo?
+I am grilling fish.	Nag-iihaw ako ng isda.
+I am not a teacher.	Hindi ako guro.
+I don't have a car.	Wala akong kotse.
+I don't have a car.	Wala akong awto.
+I had to walk home.	Napalakad akong pauwi.
+I have to tell Tom.	Dapat kong sabihin kay Tom.
+I like all of them.	Gusto ko lahat sila.
+I like candlelight.	Gusto ko ang ilaw ng kandila.
+I like your mirror.	Gusto ko ang salamin mo.
+I may die tomorrow.	Maaari akong mamatay bukas.
+I miss her so much.	Namimiss ko na siya.
+I sort of like him.	Medyo gusto ko siya.
+I think he'll come.	Tingin ko darating siya.
+I want to go there.	Gusto kong pumunta roon.
+I want you to sing.	Gusto kong kumanta ka.
+I'll call you back.	Tatawagan uli kita.
+Is he back already?	Bumalik na ba siya?
+Is there any sugar?	May asukal ba?
+It's a small world.	Ito'y maliit na mundo.
+It's raining again.	Umuulan nanaman.
+It's raining again.	Umuulan ulit.
+Keep off the grass.	Iwasan ang damo.
+Knowledge is power.	Lakas ang kaalaman.
+Let me take a look.	Patingin ako.
+May I begin to eat?	Puwede na bang magsimulang kumain ako?
+Nobody understands.	Walang nakaintindi.
+Owls have big eyes.	May malalaking mata ang mga kuwago.
+Return immediately.	Bumalik agad-agad.
+Send me a postcard.	Padalhan mo ako ng postcard.
+She kept on crying.	Iyak siya ng iyak.
+She's my professor.	Propesor ko siya.
+Something happened.	May nangyari.
+The boy eats bread.	Kumakain ng tinapay ang batang lalaki.
+The crow flew away.	Lumipad ang uwak.
+The waves are high.	Mataas ang alon.
+The world is small.	Maliit ang daigdig.
+They're not afraid.	Hindi sila takot.
+This is Mary's dog.	Aso ni Mary ito.
+This story is true.	Totoo itong kuwento.
+Tom can't help you.	Hindi ka kayang tulungan ni Tom.
+Tom didn't do that.	Hindi si Tom ang gumawa noon.
+Tom got very drunk.	Nalasing si Tomas.
+Tom has bad breath.	Mabaho ang hininga ni Tom.
+Tom kissed my hand.	Hinalikan ni Tom ang aking kamay.
+Tom likes swimming.	Gusto ni Tom lumangoy.
+We slept in a tent.	Natulog kami sa tolda.
+We're ignoring Tom.	Di namin papansinin si Tom.
+What a lovely doll!	Kay gandang manika!
+What a strong wind!	Ang lakas ng hangin!
+What're you saying?	Anong sinasabi mo?
+When does it begin?	Kailan ba magsisimula?
+Where do you write?	Saan ka nagsusulat?
+Where do you write?	Saan kayo nagsusulat?
+Where should we go?	Saan ang dapat nating puntahan?
+Who are those guys?	Sino sila?
+Why are you crying?	Bakit ka umiiyak?
+Why can't you come?	Bakit di ka makakapunta?
+You can study here.	Puwede kang mag-aral dito.
+You look very pale.	Maputla ka.
+You need a haircut.	Kailangan mong magpagupit ng buhok.
+Breakfast is served.	Nahain na ang almusal.
+Can you drive a car?	Marunong kang magmaneho ng sasakyan?
+Can you swim at all?	Makakalangoy ka ba?
+Do you have a match?	Meron kang pangsindi?
+Do you have a table?	Meron ba kayong mesa?
+Enjoy your holidays.	Mag-enjoy sa inyong bakasyon.
+Everything is ready.	Handa na ang lahat.
+Evil sometimes wins.	Minsan, nananalo ang kasamaan.
+Family is important.	Mahalaga ang pamilya.
+Glass breaks easily.	Madaling mabasag ang bubog.
+He can be relied on.	Hindi ka makakaasa sa kanya.
+He has a loud voice.	Malakas ang boses niya.
+He ran out of money.	Naubos niya ang pera niya.
+He ran out of money.	Naubusan siya ng pera.
+He took off his hat.	Inalis niya ang sombrero niya.
+Her face turned red.	Namula ang mukha niya.
+Here is your change.	Sukli mo.
+His ideas are crazy.	Sira-ulo ang mga ideya niya.
+How do you feel now?	Anong pakiramdam mo na?
+I am peeling apples.	Nagtatalop ako ng mansanas.
+I can't swim at all.	Talagang di ako makalangoy.
+I come from Holland.	Galing ako sa Olanda.
+I do not understand.	Hindi ko naiintindihan.
+I find swimming fun.	Natutuwa ako sa paglalangoy.
+I highly doubt that.	Parang hindi naman kapani-paniwala yan.
+I just want to sleep	Gusto ko lang matulog.
+I like your mirrors.	Gusto ko ang inyong mga salamin.
+I love to play golf.	Gustung-gusto kong naglalaro ng golf.
+I see how you study.	Kita ko kung paano ka nag-aaral.
+I stole it from Tom.	Ninakaw ko ito kay Tom.
+I talked to friends.	Kinausap ko ang mga kaibigan.
+I want to eat steak.	Gusto kong kumain ng isteyk.
+I'll call back soon.	Tatawag ako agad.
+I'm not a bit tired.	Hindi pa ako pagod.
+I'm not really sure.	Hindi ako sigurado.
+I've just come back.	Kababalik ko lang.
+It was a great trip.	Magaling na biyahe iyon.
+It was getting dark.	Kumulimlim na.
+It's a real bargain.	Sulit 'yan.
+Let's make it brief.	Gawin natin itong maikli.
+Let's make it brief.	Bilisan lang natin.
+Let's try something.	Subukan natin to.
+Look straight ahead.	Diretso lang ang tingin.
+May I take a shower?	Puwede bang magdutsa ako?
+Monkeys climb trees.	Umaakyat ng mga puno ang mga unggoy.
+My hair is so messy!	Napakagulo ng aking buhok!
+Only time will tell.	Oras lamang ang magsasabi.
+She baked me a cake.	Nagbeyk siya ng keyk.
+She can't cook well.	Hindi siya masyadong marunong magluto.
+She kept on talking.	Tuloy siyang dumaldal.
+Thailand is in Asia.	Nasa Asya ang Taylandiya.
+Thailand is in Asia.	Nasa Asya ang Siyam.
+That boy is running.	Tumatakbo ang batang lalaki.
+That's a great poem.	Magaling na tula iyan.
+The air became warm.	Uminit ang hangin.
+The roads are dirty.	Marumi ang mga daan.
+The trees are green.	Berde ang mga puno.
+These are not words.	Hindi ito mga salita.
+They don't like Tom.	Hindi nila gusto si Tom.
+They have the horse.	Nasa kanila yung kabayo.
+This is my daughter.	Ito ang anak kong babae.
+This isn't possible.	Di posible ito.
+Tom isn't ready yet.	Di pa handa si Tomas.
+We aren't like that.	Hindi kami ganun.
+We're short on time.	Kaunti na ang oras natin.
+What are they doing?	Anong ginagawa nila?
+What does this mean?	Anong ibig-sabihin nito?
+What is on the desk?	Ano ang nasa pupitre?
+What pretty flowers!	Kay gandang mga bulaklak!
+What was that noise?	Ano yung ingay na iyon?
+What's worrying you?	Anong winowori ka?
+What's your problem?	Anong problema mo?
+Where are you going?	Pasaan ka?
+Where are you going?	Saan ka pupunta?
+Where did it happen?	Saan iyon nangyari?
+Who is your teacher?	Sino ang titser mo?
+Why are you yelling?	Ba't ka sumisigaw?
+Why didn't she come?	Ba't di siya pumunta?
+Why is the sky blue?	Bakit bughaw ang langit?
+You can't swim here.	Di ka puwedeng lumangoy dito.
+You know I love you.	Alam mo na mahal kita.
+You must study hard.	Mag-aral kang mabuti.
+Apples grow on trees.	Sa puno lumalaki ang mansanas.
+Can you really do it?	Kaya mo ba talagang gawin ito?
+Did something happen?	Meron bang nangyari?
+Do you like baseball?	Mahilig ka ba sa baseball?
+Do you speak English?	Marunong ka bang mag-Ingles?
+Do you speak English?	Marunong ba kayong mag-Ingles?
+Do you want anything?	Meron ka bang gusto?
+Don't worry about it.	Huwag mong alalahanin.
+Father fixed the car.	Inayos ni tatay ang sasakyan.
+Get some sleep, okay?	Tumulog ka nang konti, ayos ba?
+He aimed at the bird.	Tinudla niya ang ibon.
+He arrived too early.	Masyado siyang maagang dumating.
+He came to my rescue.	Pumunta siya para iligtas ako.
+He got angry with me.	Nagalit siya sa akin.
+He has good eyesight.	Magaling ang mata niya.
+He hit me by mistake.	Hindi niya sinadyang matamaan ako.
+He is good at tennis.	Magaling siyang magtenis.
+He needs an umbrella.	Kailangan niya ng payong.
+He seems to be lying.	Parang nagsisinungaling siya.
+He spoke very loudly.	Malakas siyang magsalita.
+He went to the store.	Pumunta siya sa tindahan.
+He's got a white cat.	Mayroon syang puting pusa.
+How deep is the lake?	Gaano kalalim ang lawa?
+How was your holiday?	Kamusta ang bakasyon mo?
+I don't want to rest.	Ayaw kong magpahinga.
+I have to go to work.	Kailangan kong pumasok sa trabaho.
+I know him very well.	Kilala ko siyang mabuti.
+I lost consciousness.	Nawalan ako ng malay.
+I love fried bananas.	Gusto ko ang pritong saging.
+I must go right away.	Dapat basta umalis na ako.
+I need more blankets.	Kailangan ko pa ng mga kumot.
+I think I understand.	Isip ko'y naiintindihan ko.
+I think you're right.	Isip ko'y tama ka.
+I walked up the hill.	Naglakad akong pataas ng burol.
+I wish I were a bird.	Sana'y ako'y ibon.
+I work as a salesman.	Ahente ang trabaho ko.
+I work as a salesman.	Nagtitinda ang trabaho ko.
+I'm an honest person.	Matapat ako.
+It just doesn't work.	Hindi ito gumagana.
+May I ask a question?	Maaari ba akong magtanong?
+My memory is failing.	Mahina na ang memorya ko.
+Nobody spoke with me.	Walang nakipagusap sa akin.
+Please do it quickly.	Pakigawa nang mabilis nga.
+Please hold the line.	Maghintay lang po kayo sandali.
+Please wait a moment.	Maghintay lang po kayo sandali.
+She is a slow runner.	Mabagal siyang tumakbo.
+She is angry with me.	Galit siya sa akin.
+She is my dream girl.	Siya ang pinapangarap kong babae.
+There isn't any soap.	Walang sabon.
+They're all upstairs.	Nasa taas silang lahat.
+This bicycle is mine.	Ito'y aking bisikleta.
+This is the best way.	Ito ang pinakamainam na paraan.
+This must be changed.	Dapat itong baguhin.
+This one is prettier.	Mas marikit ito.
+This tastes like tea.	Lasa itong tsaa.
+This wall feels cold.	Malamig itong dingding.
+This wall feels cold.	Malamig itong pader.
+Tom doesn't eat meat.	Hindi kumakain ng karne si Tom.
+Tom is frying an egg.	Nagpriprito ng itlog si Tomas.
+Tom is grilling meat.	Nag-iihaw ng karne si Tomas.
+Tom is ready for you.	Handa na si Tom para sayo.
+Tom is wearing a hat.	Nakasuot si Tomas ng sombrero.
+Tom was worried, too.	Nagaalala rin si Tom.
+Water reflects light.	Manalamin ang ilaw sa tubig.
+What are you reading?	Ano'ng binabasa mo?
+You are not a coward.	Hindi ka duwag.
+You are now an adult.	Malaki ka na.
+You keep out of this.	Huwag kang makialam.
+You should apologize.	Humingi ka ng tawad.
+You're going nowhere.	Hindi ka makakaalis dito.
+Your dog is very big.	Malaki ang aso mo.
+Are there any bananas?	Meron bang saging?
+Are there any bananas?	Mayroon bang saging?
+Are they all the same?	Magkapareho ba sila?
+Are you angry with me?	Galit ka ba sa akin?
+Are you being serious?	Seryoso ka ba?
+Bananas are delicious.	Masarap ang saging.
+Call me at the office.	Tawagan mo ako sa opisina.
+Can I open the window?	Puwede ko bang buksan ang bintana?
+Do you have a lighter?	Meron kang pangsindi?
+Do you know who he is?	Kilala mo sya?
+Do you own a computer?	Meron ka bang kompyuter?
+Don't ask me anything.	Huwag kang magtanong ng kahit ano sa akin.
+Don't forget about us!	Wag mo kaming kalimutan!
+Don't leave me behind!	Huwag ninyo akong iwanan!
+Have you eaten dinner?	Naghapunan ka na?
+He came to pick me up.	Pumarini siya para sunduin ako.
+He gave me an example.	Binigyan niya ako ng halimbawa.
+His story may be true.	Baka totoo ang istorya niya.
+How can I become rich?	Paano ba ako yayaman?
+I can't find my watch.	Di ko mahanap ang relo ko.
+I didn't get his joke.	Di ko naintindihan ang biro niya.
+I didn't see anything.	Wala akong nakita.
+I didn't vote for Tom.	Hindi ko binoto si Tom.
+I have borrowed a car.	Nanghiram ako ng sasakyan.
+I have class tomorrow.	May klase ako bukas.
+I have lost my wallet.	Nawala ko ang aking pitaka.
+I know you are clever.	Alam kong matalino ka.
+I like playing tennis.	Gusto kong magtenis.
+I remember that night.	Naalala ko ang gabing iyon.
+I stayed home all day.	Napabahay ako buong araw.
+I think he won't come.	Isip kong di siya paparini.
+I thought it was true.	Akala ko totoo yun.
+I walked about a mile.	Mga isang milya ang nilakad ko.
+I want to sing a song.	Gusto kong kumanta.
+I won't lose anything.	Walang mawawala sa akin.
+I wonder who they are.	Nagtataka ako kung sino sila.
+I'm not afraid of you.	Di ako takot sa iyo.
+I'm not made of money.	Hindi ako gawa sa pera.
+It might rain tonight.	Maaaring umulan ngayong gabi.
+It was cold yesterday.	Malamig kahapon.
+It's my favorite song.	Paborito kong kanta iyon.
+Let me think about it.	Pag-iisipan ko.
+Let's postpone dinner.	Ipagpaliban natin ang hapunan.
+Nobody understands me.	Walang nakakaintindi saakin.
+Please light a candle.	Magsindi ka naman ng kandila.
+Put away your bicycle.	Itago mo ang iyong bisikleta.
+She became an actress.	Naging artista siya.
+She dashed downstairs.	Tumakbo siya pababa ng hagdan.
+She is afraid of dogs.	Takot siya sa mga aso.
+She is weak by nature.	Likas siyang mahina.
+She's not at home now.	Wala siya sa bahay ngayon.
+Sorry, I've got to go.	Sori, dapat umalis na ako.
+Tadpoles become frogs.	Nagiging palaka ang butete.
+Thanks for your reply.	Salamat sa sagot mo.
+The baby cried loudly.	Umiyak ng malakas ang sanggol.
+The bookstore is open.	Bukas ang bukstor.
+The bookstore is open.	Bukas ang tindahan ng libro.
+There's nothing there.	Walang anuman doon.
+They don't have a car.	Wala silang kotse.
+This is a joke, right?	Biro ito, tama?
+This is enough for me.	Husto na ito para sa akin.
+This is my brainchild.	Ito ang aking anak-utak.
+This is what I wanted.	Ito ang gusto ko.
+Tom appears exhausted.	Mukhang pagod si Tom.
+Tom can't read French.	Di makabasa ng Pranses si Tomas.
+Tom felt disappointed.	Nabigo si Tom.
+Tom is bigger than me.	Mas malaki sa akin si Tom.
+Tom wanted to be sure.	Gustong makasigurado ni Tom.
+Was Tom working alone?	Mag-isa bang nagtrabaho si Tom?
+Where are the toilets?	Nasaan ang banyo?
+Where's everyone else?	Nasaan ang iba?
+Why do you suspect me?	Bakit mo ako pinagsususpetsahan?
+Why would Tom help us?	Bakit naman tayo tutulungan ni Tom?
+You have to work hard.	Kailangan mong sumipag.
+You must do your best.	Galingan mo.
+You recovered quickly.	Nagrekober ka nang mabilis.
+You'll never be alone.	Hindi ka nag-iisa.
+Are these bananas ripe?	Hinog na ba ang saging na ito?
+Bring me the magazines.	Dalhin mo sa akin ang mga magasin.
+Can I have a paper bag?	Puwede ba sa akin ang papel na sako?
+Can we talk in private?	Puwede ba tayong magsalita nang pribado?
+Can you say that again?	Puwede mo bang ulitin iyon?
+Come on! We'll be late.	Dali! Mahuhuli na tayo.
+Did you read it at all?	Nabasa mo ba lahat?
+Do you believe in UFOs?	Naniniwala ka ba sa mga UFO?
+Do you believe in UFOs?	Naniniwala ka ba sa mga hindi tukoy na lumilipad na bagay?
+Do you drink green tea?	Umiinom ka ba ng berdeng tsa?
+Do you like this color?	Gusto mo nitong kulay?
+Do you mind if I smoke?	Mangestorbo ba kung managarilyo ako?
+Do you speak Esperanto?	Nakakapag-Esperanto ka ba?
+Don't approach the dog.	Huwag lapitan ang aso.
+Don't tell anyone this.	Huwag mong sabihin ito sa kung sinuman.
+Give me another chance.	Bigyan mo ako ng isa pang pagkakataon.
+Give me some milk, too.	Bigyan mo rin ako ng gatas.
+Has Flight 123 arrived?	Dumating na ba ang Playt 123?
+Have you told your mom?	Sinabi mo na ba sa iyong ina?
+He doesn't like coffee.	Ayaw niya ng kape.
+He exhausted his money.	Naubos niya ang pera niya.
+He kept reading a book.	Tinuloy niyang magbasa ng libro.
+He lay down on the bed.	Humiga siya sa kama.
+He respects his father.	Iginagalang niya ang kanyang tatay.
+His story must be true.	Totoo yata ang istorya niya.
+How high is that tower?	Gaanong kataas yang tore?
+How long is the bridge?	Gaano kahaba ang tulay?
+I ate lunch in a hurry.	Nagmamadaling kumain ako ng tanghalian.
+I didn't do it for you.	Di ko ginawa para sa iyo.
+I don't agree with him.	Di ako sang-ayon sa kanya.
+I don't want any sugar.	Ayaw ko ng may asukal.
+I fell asleep in class.	Napatulog ako nang klase.
+I have a cat and a dog.	Meron akong pusa't aso.
+I know all their names.	Alam ko ang pangalan nilang lahat.
+I like pink grapefruit.	Gusto ko ang suhang kulay rosas.
+I like summer the best.	Pinakagusto ko ang tag-init.
+I love taking pictures.	Mahilig akong kumuha ng mga litrato.
+I make lunch every day.	Gumagawa ako ng tanghalian bawat araw.
+I saved a lot of money.	Marami akong naipong pera.
+I saw Tom a while back.	Nakita ko si Tom kanina.
+I shook hands with her.	Nakipagkamayan ako sa kaniya.
+I will not do it again.	Hindi ko uulitin.
+I won't stand for this.	Hindi ko papayagan ito.
+I won't stand for this.	Hindi maaari ito.
+I wrote a song for you.	Nagsulat ako ng kanta para sa iyo.
+I'll miss your cooking.	Mamimis ko ang luto mo.
+I'm trying to remember.	Sinusubukan kong tandaan.
+I've found another job.	Nakahanap ako ng isa pang trabaho.
+Is Tom suggesting that?	Iminumungkahi ba ni Tom iyon?
+Is it not clear enough?	Di ba malinaw na?
+It doesn't surprise me.	Di ako magugulat.
+It smelled really good.	Ang bango.
+It was cold last night.	Malamig kagabi.
+Let's start right away.	Magsimula na tayo.
+My grandmother is sick.	May sakit ang lola ko.
+Nothing really matters.	Wala naman talagang may kasaysayan.
+Please give me a drink.	Pahingi ng inumin.
+She had white shoes on.	Suot niya'y puting sapatos.
+She stood close to him.	Tumindig siya sa tabi niya.
+Take me to your leader.	Dalhin mo ako sa hepe mo.
+The news can't be true.	Di yata totoo ang balita.
+The ship came in sight.	Nakita ang barko.
+The ship came in sight.	Nakita ang bapor.
+The sun shone brightly.	Sumisinag ang araw nang maliwanag.
+The tea is boiling hot.	Kumukulong mainit na ang tsa.
+These bananas went bad.	Namulok na itong saging.
+They admire each other.	Kapwa silang naghahangaan.
+They stopped the music.	Pinigil nila ang musika.
+This is an uphill road.	Ito'y daang pataas ng burol.
+This is excellent wine.	Magaling na alak ito.
+Tom had no place to go.	Wala si Tomas mapuntahan.
+Tom is eating a banana.	Kumakain ng saging si Tomas.
+Tom is fanning himself.	Nagpapaypay si Tomas ng sarili niya.
+Tom is trying on shoes.	Sinusubukan ni Tomas ang sapatos.
+Tom wanted to find out.	Gustong malaman ni Tom.
+We like playing soccer.	Gusto naming maglaro ng soccer.
+We live in the suburbs.	Nakatira kami sa nayon.
+We ran after the thief.	Hinabol namin ang magnanakaw.
+We're also out of eggs.	Wala na rin tayong itlog.
+We're also out of eggs.	Naubusan din tayo ng itlog.
+What did she do to you?	Anong ginawa niya sa 'yo?
+What time shall I come?	Ano'ng oras ako pupunta?
+When is he coming back?	Kailan siya babalik?
+Who teaches you French?	Sinong nagtuturo sa iyo ng Pranses?
+Whose notebook is that?	Kaninong notbuk iyan?
+Whose textbook is this?	Kaninong teksbuk ito?
+Whose umbrella is this?	Kaninong payong ito?
+Why are you busy today?	Ba't ka bisi ngayon?
+Why is the baby crying?	Ba't umiiyak ang beybi?
+Won't you take a chair?	Gusto niyo po bang umupo?
+Would you like to come?	Gusto mong sumama?
+You can't count on him.	Hindi ka makakaasa sa kanya.
+You never told me that.	Hindi mo yan nasabi sa akin kahit kailan.
+You speak good English.	Magaling kang mag-ingles.
+You're running a fever.	Mayroon kang lagnat.
+"Don't hurry," he added.	"Hindi mo kailangang magmadali," dagdag niya.
+Are you afraid of death?	Takot ka bang mamatay?
+Are you referring to me?	Ako ba ang tinutukoy mo?
+Did they write a letter?	Gumawa ba sila ng sulat?
+Don't try to deceive me.	Huwag mo akong niloloko.
+Everything is connected.	May koneksyon ang lahat.
+Everything is connected.	Konektado ang lahat.
+Give me a second chance.	Bigyan mo ako ng isa pang pagkakataon.
+Good morning, everybody.	Magandang umaga sa inyong lahat.
+Haven't you decided yet?	Di ka pa nagdisisyon?
+He doesn't need to work.	Hindi niya kailangang magtrabaho.
+He is at home in France.	Nasa tahanan siya sa Pransiya.
+He is not angry anymore.	Hindi na siya galit.
+He is putting on weight.	Tumataba siya.
+He is tall and handsome.	Matangkad siya at guwapo.
+He keeps his room clean.	Palaging malinis ang kuwarto niya.
+He lives here all alone.	Nakatira sya dito magisa.
+He looked like a doctor.	Mukha siyang doktor.
+He talked about himself.	Pinag-usapan niya ang sarili niya.
+How can I make him stop?	Paano ko ba siya mapipigilan?
+How do you go to school?	Paano ka pumupunta sa paaralan?
+I don't think I'm ready.	Sa tingin ko hindi pa ako handa.
+I heard a strange sound.	May narinig akong ibang tunog.
+I know that she is cute.	Alam kong kyut siya.
+I like grape jelly best.	Dyeli ng ubas ang pinakagusto ko.
+I like studying history.	Gusto kong mag-aral ng kasaysayan.
+I studied before supper.	Nag-aral ako bago naghapunan.
+I suppose you're hungry.	Palagay ko'y gutom ka.
+I'll be back in an hour.	Pabalik ako sa isang oras.
+I'll leave it up to you.	Nasa iyo na iyon.
+I'm kind of tired today.	Medyo pagod ako ngayon.
+I'm too sleepy to drive.	Masyado akong antok para magmaneho.
+I'm too sleepy to drive.	Antok na antok ako para magmaneho.
+Is this a tax-free shop?	Wala bang buwis sa tindahang ito?
+It doesn't seem to work.	Parang hindi umaandar.
+It may freeze next week.	Baka magyelo sa susunod na linggo.
+It really is your fault.	Talaga namang kasalanan mo.
+It's fun to knead dough.	Nakakatuwang magmasa.
+It's the perfect number.	Iyon ay perpektong numero.
+Jump as high as you can.	Tumalon ka nang pinakamataas na kaya mo.
+My sister has long legs.	Mahahaba ang binti ng kapatid kong babae.
+Peel two of the bananas.	Magtalop nang dalawa sa mga saging.
+Please open the package.	Pakibukas ng balutan, nga.
+She is not always happy.	Hindi siya masaya lagi.
+She turned on the light.	Sinindihan niya ang ilaw.
+She went out for a walk.	Lumabas siya para maglakad.
+Sorry, we're full today.	Sori po, puno na kami ngayon.
+Thank you for listening.	Salamat sa pakikinig.
+That's perfectly normal.	Pangkaraniwan na iyon.
+The flower is not black.	Hindi itim ang bulaklak.
+Their car overtook ours.	Inunahan nila ang aming sasakyan.
+These grapes taste sour.	Maasim ang mga ubas na ito.
+They laughed at my idea.	Tinawanan nila ang ideya ko.
+They were afraid of you.	Natakot sila sa iyo.
+They will agree on that.	Magsasang-ayon sila roon.
+This book is very thick.	Napakakapal ng librong ito.
+This food smells rotten.	Bulok ang amoy nitong pagkain.
+This is a gorgeous town.	Ito'y marikit na bayan.
+Those flowers have died.	Namatay na yung mga bulaklak.
+Tom felt like a new man.	Ang pakiramdam ni Tomas ay bago siyang tao.
+Tom got out of the taxi.	Lumabas si Tomas ng taksi.
+Tom knows what you need.	Alam ni Tom kung anong kailangan mo.
+Tom sat down and waited.	Umupo si Tom at naghintay.
+Tom tried to reach Mary.	Sinubukan niyang makipag-ugnayan kay Mary.
+Turn your face this way.	Lingon ka dito.
+We all wished for peace.	Nais nating lahat ang kapayapaan.
+We all wished for peace.	Nais naming lahat ang kapayapaan.
+We dined at our uncle's.	Naghapunan kami sa tiyo ko.
+Were you busy yesterday?	Bisi ka ba kahapon?
+What do you want to say?	Anong gusto mong sabihin?
+Where can one buy books?	Saan puwedeng mamili ng libro?
+Which of these is yours?	Alin dito ang sayo?
+Who are you waiting for?	Sino ang hinihintay mo?
+Who lives in that house?	Sinong nakatira sa bahay na iyon?
+Why are you thanking me?	Bakit mo ako pinasasalamatan?
+Why did you buy flowers?	Ba't bumili ka ng bulaklak?
+Why do people tell lies?	Ba't nagsisinungaling ang tao?
+Will you please help me?	Pwede mo ba akong tulungan?
+You aren't kids anymore.	Di na kayo mga bata.
+You dropped your pencil.	Nahulog mo ang lapis mo.
+You have very sexy legs.	Talagang seksi ang mga binti mo.
+You left your lights on.	Nakalimutan mong patayin ang ilaw.
+You must make an effort.	Dapat magtiyaga ka.
+You two are really kind.	Talagang mabait kayong dalawa.
+A glass of water, please.	Basong tubig, nga.
+Bring a bucket of apples.	Magdala ka ng isang balde ng mansanas.
+Call me before you leave.	Tawagan mo ako bago ka umalis.
+Can you count in Italian?	Marunong ka bang magbilang sa Italian?
+Can you possibly help me?	Pwede mo ba akong tulungan?
+Choose any of these pens.	Pumili ka sa alinmang bolpen na ito.
+Come and see me tomorrow.	Pumarini ka at magkita tayo bukas.
+Did I hurt your feelings?	Nasaktan ko ba ikaw?
+Do not eat too much cake.	Huwag kang masyadong kumain ng keyk.
+Do you have a pen on you?	May pangsulat ka?
+Don't rush into marriage.	Huwag kang magmadaling magpakasal.
+Everyone knows our names.	Alam ng bawat tao ang aming mga pangalan.
+He ate bread with butter.	Kumain siya ng tinapay na may mantikilya.
+He didn't mean to hit me.	Hindi niya sinadyang matamaan ako.
+He grinned broadly at us.	Ngumiti siyang malapad sa amin.
+He is wearing sunglasses.	May suot siyang sunglasses.
+He likes science fiction.	Gusto niya ang siyensiyang piksiyon.
+He looked me in the face.	Tiningnan niya ako sa mukha.
+He loves science fiction.	Mahal niya ang siyensiyang piksiyon.
+He signaled them to stop.	Sinenyasan niya silang tumigil.
+He told me where to shop.	Sinabi niya sa akin kung saan mamalengke.
+He wants to see us again.	Gusto niya tayong makita ulit.
+He was knee-deep in snow.	Hanggang sa tuhod siya nang isnow.
+He was then a boy of ten.	Noon ay sampung taong gulang lang siya.
+He was very busy all day.	Talagang bisi siya buong araw.
+He will be back tomorrow.	Babalik siya bukas.
+He wore a light blue tie.	Maputlang asul na kurbata ang sinuot niya.
+Help me lift the package.	Tulungan mo akong buhatin ang paketeng ito.
+How did you open the box?	Paano mo binuksan ang kahon?
+How did you open the box?	Paano mo nabuksan ang kahon?
+How does this soup taste?	Paano ang lasa ng sopas?
+How long is the stopover?	Gaano katagal ang stopover?
+How many plums are there?	Ilang sirwelas ang nandiyan?
+How often do you see her?	Gaano kadalas mo siyang nakikita?
+Hunger is the best sauce.	Ang gútom ang pinakamagaling na salsa.
+I admit that he is right.	Inaamin kong tama siya.
+I don't want to lie down.	Ayokong humiga.
+I heard someone knocking.	May narinig akong tumutuktok.
+I provided him with food.	Nag-alay ako ng pagkain para sa kanya.
+I read a book last night.	Nagbasa ako ng aklat kagabi.
+I read a book last night.	Kagabi, nagbasa ako ng aklat.
+I saw her clean the room.	Nakita ko siyang naglinis ng kuwarto.
+I take the bus to school.	Nagbubus akong paeskuwela.
+I think it's a good idea.	Isip kong magaling na ideya.
+I waited for ten minutes.	Naghintay ako ng sampung minuto.
+I walked toward the park.	Naglakad ako papunta sa parke.
+I will go to the meeting.	Pupunta ako sa meeting.
+I wonder why he did that.	Bakit kaya niya ginawa iyon?
+I'm going to take a bath.	Maliligo na ako.
+I'm only thinking of you.	Iniisip ko lamang ikaw.
+I'm running out of ideas.	Wala na akong maisip.
+I've been to Kyoto twice.	Dalawang beses na akong nakapunta sa Kyoto.
+Is it this hot every day?	Ganito ba kainit araw-araw?
+It's a quote from a book.	Sipi iyon na galing sa libro.
+It's six o'clock already.	Alas 6 na.
+Let's just hope it works.	Umasa tayong aandar siya.
+Let's leave it up to him.	Bahala na siya.
+May I have this magazine?	Puwede bang akin na itong magasin?
+My dog is always barking.	Laging tumatahol ang aso ko.
+No one will hold us back.	Walang pipigil sa atin.
+One of us has to do this.	Isa sa atin ang dapat gagawa nito.
+Perhaps Tom can help you.	Baka matulungan ka ni Tom.
+Plants die without water.	Namamatay ang halaman nang walang tubig.
+Please speak more loudly.	Pakilaksan ang pagsasalita, nga.
+Sharks are good swimmers.	Magaling tagalangoy ang pating.
+She doesn't need to work.	Hindi niya kailangang magtrabaho.
+She is brushing her hair.	Nagsusuklay siya ng kaniyang buhok.
+She read one poem to him.	Binasa niya ang isang tula sa kanya.
+She sang better than him.	Mas maganda ang pagkanta niya kaysa sa kanya.
+She showed him the photo.	Pinakita niya sa kanya ang larawan.
+She suddenly fell silent.	Bigla siyang tumahimik.
+She took him to the lake.	Dinala niya siya sa lawa.
+She went down the stairs.	Bumaba siya ng hagdan.
+Shut the door behind you.	Sarhan mo ang pinto sa likod mo.
+Sugar dissolves in water.	Natutunaw ang asukal sa tubig.
+Take as many as you want.	Kumuha ka lang.
+The bills keep piling up.	Nagpapatong-patong ang mga bayarin.
+The desk is made of wood.	Gawa sa kahoy ang pupitre.
+The forest is very thick.	Talagang makapal ang gubat.
+The ice cream is melting.	Natutunaw ang ayskrim.
+The museum is closed now.	Sarado na ang museo.
+These things aren't mine!	Di akin ang mga ito.
+They did not clap for us.	Di sila pumalakpak para sa atin.
+They did not clap for us.	Di sila pumalakpak para sa amin.
+They did the right thing.	Ginawa nila ang tama.
+They put the blame on me.	Ako ang sinisi nila.
+They set out on a picnic.	Umalis sila para magpiknik.
+They vacationed together.	Magkasama silang nagbakasyon.
+This book is about stars.	Tungkol sa mga bituwin itong libro.
+This book is about stars.	Tungkol sa mga estrelya itong libro.
+This book is about stars.	Tungkol sa mga tala itong aklat.
+This book is about stars.	Tungkol sa mga bituin itong aklat.
+This book is about stars.	Itong libro'y tungkol sa mga bituin.
+This movie is just great.	Talagang mahusay ang sine.
+Tom did what he was told.	Ginawa ni Tomas ang sinabi sa kanya.
+Tom fell asleep in class.	Nakatulog si Tom sa klase.
+Tom glanced at his watch.	Sinulyapan ni Tom ang relo niya.
+Tom is going to the bank.	Papunta sa bangko si Tomas.
+Tom is watching the news.	Nanonood ng balita si Tom.
+Tom lied about his grade.	Nagsinungaling si Tom tungkol sa kanyang grado.
+Tom took out the garbage.	Nilabas ni Tomas ang basura.
+We are worried about you.	Nagwowori kami sa inyo.
+We have run out of cream.	Naubusan tayo ng krema.
+We need some more coffee.	Kailangan pa natin ng kape.
+We ran for 10 kilometers.	Tumakbo kami nang sampung kilometro.
+We watched TV last night.	Nanood kami ng TV kagabi.
+Wouldn't you like to eat?	Di mo ba gustong kumain?
+You must act more wisely.	Dapat kumilos ka nang mas paham.
+Your room number, please.	Ang numero ng kuwarto ninyo, po.
+A horse can run very fast.	Nakakatakbong mabilis ang kabayo.
+Anyway, you'll never know.	Anuman ang mangyari, hindi mo malalaman.
+Anyway, you'll never know.	Kung sabagay, di-kailanman mo maaalaman.
+Are you free this weekend?	Libre ka ba nitong wik-end?
+Bread is baked in an oven.	Nagtitinapay sa hurno.
+Bring the water to a boil.	Pakuluan ang tubig.
+Can you unjam the printer?	Puwede mo bang alisin ang bara sa printer?
+Change trains at Shinjuku.	Magpalit ng tren sa Shinjuku.
+Children like fruit juice.	Gusto ng mga bata ang frut dyus.
+Do you want a little cake?	Gusto mo ng kaunting keyk?
+Does he have a girlfriend?	Meron ba siyang girlfriend?
+Does your friend like tea?	Gusto ba ng tsa ang kaibigan mo?
+Everyone likes big pizzas.	Gusto ng lahat ang malalaking pizza.
+Happiness can't be bought.	Di mabibili ang kaligayahan.
+He agrees with my opinion.	Sumasangayon siya sa aking opinyon.
+He came back before eight.	Bumalik siya bago mag-alas otso.
+He can run faster than me.	Mas mabilis siyang tumakbo kaysa sa akin.
+He got good marks in math.	Magaling ang marka niya sa matematika.
+He grew up to be a doctor.	Lumaki siyang naging doktor.
+He is a little over forty.	Lampas lang siya ng kuwarenta anyos.
+He is interested in music.	Interesado siya sa musika.
+He likes playing football.	Mahilig siyang maglaro ng football.
+He often plays the guitar.	Madalas siyang tumugtog ng gitara.
+He will be really pleased.	Tiyak na matutuwa siya.
+Her heart was full of joy.	Ang puso niya'y puno nang kaligayahan.
+How many colors are there?	Ilan ang mga kulay?
+I am able to read English.	Nakakapagbasa ako ng Ingles.
+I can see it in your eyes.	Nakikita ko sa mata mo.
+I can't explain it either.	Di ko rin maipaliwanag.
+I can't live without a TV.	Hindi ako mabubuhay nang walang telebisyon.
+I can't remember his name.	Hindi ko maalala ang pangalan niya.
+I can't remember his name.	Hindi ko matandaan ang pangalan niya.
+I don't care what he does.	Wala akong pakialam kung anong gawin niya.
+I dream of being in Japan.	Ang pangarap ko'y nasa Hapon ako.
+I feel like taking a walk.	Parang gusto kong maglakad-lakad.
+I go home early every day.	Maaga akong umuwi bawat araw.
+I like this color as well.	Gusto ko rin itong kulay.
+I like to play with words.	Gusto kong maglaro ng mga salita.
+I like traveling by train.	Gusto kong magbiyaheng nakatren.
+I read the New York Times.	Binasa ko ang New York Times.
+I read the New York Times.	Nagbabasa ako ng New York Times.
+I saw him after ten years.	Nakita ko siya pagkalipas ng sampung taon.
+I saw you with a tall boy.	Nakita kitang may kasamang matangkad na lalaki.
+I should ask, shouldn't I?	Dapat magtanong ako, di ba?
+I understand how you feel.	Naiintindihan ko ang pakiramdam mo.
+I want to be in your plan.	Gusto kong ako'y maging nasa plano mo.
+I went to a haunted house.	Pumunta ako sa nimumultong bahay.
+I'd love to see the movie.	Gusto kong mapanood ang pelikula.
+I'm often only half-awake.	Malimit na ako'y kalahating gising lamang.
+If you don't eat, you die.	Kung di ka kumain, mamamatay ka.
+It hardly ever rains here.	Bihira lang umulan dito.
+It has become much warmer.	Mas mainit-init na.
+It may rain at any moment.	Maaaring umulan anumang oras.
+It seems he's still alive.	Parang buhay pa siya.
+It's almost midnight here.	Halos hatinggabi na dito.
+It's totally dark outside.	Talagang madilim sa labas.
+Little remains to be done.	Kaunti na lang ang kailangang gawin.
+May I borrow your bicycle?	Puwede ko bang hiramin ang bisikleta mo?
+Please tell me when to go.	Pakisabi sa akin kung kailan pupunta.
+She denied having met him.	Tinanggi niyang natagpo niya siya.
+She has an eye for beauty.	May mata siya para sa kagandahan.
+She pulled her sweater on.	Hinila niyang pataklob ang sweater niya.
+Speak more slowly, please!	Pakibagalan niyo po ang inyong pagsasalita.
+Speak more slowly, please!	Dahan-dahan magsalita, nga!
+Suddenly it began to rain.	Biglang umulan.
+Suddenly, it became noisy.	Biglang naging maingay.
+The bell has not rung yet.	Di pa kumalembang ang kampana.
+The station is pretty far.	Medyo malayo ang estasyon.
+Their daughter is a nurse.	Nars ang anak nilang babae.
+There are almost no books.	Halos walang mga libro.
+There is no TV in my room.	Walang TV sa kuwarto ko.
+They elected him chairman.	Hinalal nila siyang chairman.
+They fought until the end.	Nag-away sila hanggang sa katapusan.
+This box is full of books.	Puno ng aklat itong kahon.
+This desk is made of wood.	Gawa sa kahoy itong sulatan.
+Tom drank a cup of coffee.	Uminom ng tasang kape si Tomas.
+Tom is facing a challenge.	Humaharap ng hamon si Tom.
+Tom likes science fiction.	Gusto ni Tomas ang siyensiyang piksiyon.
+Tom loves science fiction.	Mahal ni Tomas ang siyensiyang piksiyon.
+We are having a good time.	Nagkakasayihan kami.
+We bought the man's house.	Binili namin ang bahay ng mama.
+We bought the man's house.	Binili natin ang bahay ng mama.
+We had a party last night.	May parti kami kagabi.
+We kept quiet in the room.	Nanahimik kami sa silid.
+We're going to come again.	Babalik kami muli.
+What about his girlfriend?	Ano naman ang kasintahan niya?
+What did Tom say about me?	Anong sinabi ni Tom tungkol sa akin?
+What happened to our food?	Anong nangyari sa pagkain natin?
+Whatever she says is true.	Anumang sinasabi niya'y totoo.
+When can we eat, I wonder.	Kailan tayo kakain, kaya.
+Where is the nearest bank?	Saan ang pinakamalapit na bangko dito?
+Which shoes are too small?	Aling sapatos ang napakaliit?
+You must do as I tell you.	Sumunod ka sa sasabihin ko.
+You'd better not go there.	Mas magaling na huwag mong puntahan iyon.
+You've given me your cold.	Nahawa ako sa sipon mo.
+Your house needs painting.	Kailangan ng pintura ng bahay mo.
+Almost no one believed him.	Halos walang naniwala sa kanya.
+Bad weather is no obstacle.	Ang hindi magandang panahon ay hindi hadlang.
+Can I borrow this umbrella?	Pwede ko bang hiramin itong payong?
+Can I speak to Tom, please?	Maaari ko bang makausap si Tom?
+Can you find your way home?	Alam mo ba ang daan pauwi sa inyo?
+Did you receive the letter?	Natanggap mo na ba ang sulat?
+Do you drink tea or coffee?	Umiinom ka ba ng tsa, o kape?
+Do you prefer meat or fish?	Alin ang mas gusto mo, ang ulam, o ang isda?
+Do you really want to know?	Gusto mo talagang malaman?
+Do you really want to know?	Gusto mo talagang maalaman?
+Do you want to take a look?	Gusto mo bang tignan?
+Do your homework right now.	Gawin mo na ang takdang-aralin mo.
+Don't pick on younger kids.	Huwag kang pumatol sa mas bata sa iyo.
+Have you ever seen a koala?	Nakakita ka na ba ng koala?
+He is an artist in a sense.	Sa isang sens, artista siya.
+He is hunted by the police.	Pinaghahahanap siya ng mga pulis.
+He painted his bicycle red.	Pininturahan niya ang bisikleta niyang pula.
+He smiled and said goodbye.	Ngumiti siya, tapos nagpaalam.
+He studies Chinese as well.	Nag-aaral din siya ng Intsik.
+He wants to sing old songs.	Gusto niyang kumanta ng mga lumang kanta.
+He will get well very soon.	Malapit na siyang gumaling.
+He's a high school student.	Hayskul na estudyante siya.
+He's definitely not coming.	Talagang di siya paparini.
+He's writing a long letter.	Nagsusulat siya ng mahabang liham.
+How about going to a movie?	Ano kaya kung pumunta sa sine?
+How about some more coffee?	Gusto pa ninyo ng kape?
+How much money do you want?	Magkano ang kailangan mo?
+I advised him not to drive.	Pinaalala ko siyang huwag magmaneho.
+I am just going for a walk.	Maglalakad-lakad lang ako.
+I didn't want to come here.	Di ko gustong pumarini.
+I don't see any difference.	Di ko kita ang kaibahan.
+I had intended to go there.	Balak kong pumaroon.
+I have a few English books.	Konti lang ang libro kong Ingles.
+I have never been to Paris.	Hindi pa ako nakapunta sa Paris.
+I have to go to the toilet.	Kailangan kong gumamit ng palikuran.
+I know where he comes from.	Alam ko kung saan siya nanggaling.
+I like to travel by myself.	Gusto kong magbiyahe nang magsarili.
+I like your way of smiling.	Gusto ko kung paano ka ngumingiti.
+I prefer oranges to apples.	Gusto ko mas ang dalandan kaysa sa mansanas.
+I really wanted to see Tom.	Gusto ko talaga makita si Tom.
+I see a flower on the desk.	Kita kong may bulaklak sa ibabaw ng pupitre.
+I suspect that he is lying.	Palagay ko nagsisinungaling siya.
+I think it was intentional.	Sa tingin ko sinadya iyon.
+I wish I could go to Japan.	Sana makapunta ako ng Japan.
+I wish he were on our team.	Sana nasa pangkat natin siya.
+I'd like a map of the city.	Gusto ko ng mapa ng siyudad.
+I'll be back at six-thirty.	Babalik ako nang alas 6 y medya.
+I'll open the window a bit.	Bubuksan kong kaunti ang bintana.
+I'm not afraid of anything.	Wala akong kinatatakutan.
+I've been on edge recently.	Nitong mga nakaraang araw, hindi ako mapakali.
+It's a pleasure to be here.	Masaya akong nandito ako.
+It's none of your business.	Wala kang pakialam doon.
+It's not worth crying over.	Walang kuwentang pag-iyakan.
+Let's go by taxi, shall we?	Magtaksi tayo, ano?
+Let's have a picture taken.	Magpakuha tayo ng litrato.
+Many young men went to war.	Maraming batang lalaki ang pumunta sa digmaan.
+No one could find the cave.	Walang makahanap ng kuweba.
+No one trusts him any more.	Wala nang nagtitiwala sa kanya.
+Nobody can know everything.	Walang taong makakaalam ng lahat.
+Nobody lives in this house.	Walang nakatira sa bahay na ito.
+Please don't speak so fast.	Huwag pong magsalita nang napakabilis.
+Please turn down the radio.	Pakibaba ng radyo.
+Please wake me up at seven.	Pakigising ako nang alas siyete.
+She just leaned against me.	Sumandal siya sa akin.
+That's very naughty of you.	Pilyo ka.
+That's your responsibility.	Responsibilidad mo iyan.
+The box was open and empty.	Bukas ang kahon at walang laman.
+The cat is under the table.	Nasa ilalim ng mesa ang pusa.
+The dog was burnt to death.	Sinunog ang aso hanggang mamatay ito.
+The leaves have all fallen.	Lumagpak na ang mga dahon.
+The store closes at eleven.	Nagsasara ang tindahan nang alas onse.
+The students have returned.	Bumalik na ang mga estudyante.
+The water has been cut off.	Pinatay ang tubig.
+There were no clouds today.	Walang ulap ngayong araw.
+There's hope for everybody.	May pag-asa para sa lahat.
+These bananas are not ripe.	Di pa hinog ang mga saging na ito.
+They watched me in silence.	Pinanuod nila ako sa katahimikan.
+This girl changed her look.	Iniba nitong dalaga ang itsura niya.
+This is a book about stars.	Itong libro ay tungkol sa mga bituin.
+This is just a paperweight.	Ito'y pisapapeles lamang.
+This is me eating a banana.	Ito akong kumakain ng saging.
+This is never going to end.	Di ito matatapos.
+This radio is out of order.	Sira itong radyo.
+Tom has moved to Australia.	Lumipat si Tom sa Australya.
+Tom poured himself a drink.	Nagbuhos si Tomas ng inumin para sa sarili niya.
+Tom would like some coffee.	Gusto ni Tomas ng kape.
+We usually eat cooked fish.	Kadalasan, kumakain kami ng isda.
+We worry about your future.	Nagwowori kami sa iyong kinabukasan.
+Well, what happened to her?	Oh, ano'ng nangyari sa kanya?
+What Tom ate was delicious.	Masarap ang kinain ni Tomas.
+What are you going to play?	Anong lalaruin mo?
+What are you talking about?	Ano ba ang sinasabi mo?
+What are you talking about?	Ano bang sinasabi mo?
+What's the matter with you?	Anong problema mo?
+What's your favorite color?	Anong paborito mong kulay?
+When did you buy the watch?	Kailan mo binili ang relo?
+Where is there a drugstore?	Nasaan ang may botika?
+Where is there a drugstore?	Nasaan ang may parmasya?
+Why don't you come with me?	Ba't di ka sumama sa akin?
+Why wouldn't they be happy?	Bakit naman hindi sila magiging masaya?
+You are always complaining.	Masyado kang mareklamo.
+You had better tell me now.	Dapat sabihin mo na sa akin.
+You haven't changed at all.	Hindi ka nagbago.
+You lied to me, didn't you?	Nagsinungaling ka sa akin, di ba?
+You may be late for school.	Mahuhuli ka na sa eskwela.
+You need to have breakfast.	Kailangan mong mag-almusal.
+You should give up smoking.	Itigil mo na ang paninigarilyo.
+"May I join you?" "Why not?"	"Puwede bang samahan kita?" "Bakit hindi?"
+A dog suddenly jumped at me.	May asong biglang dumamba sa akin.
+Are you selling these lamps?	Ipinagbibili ninyo ba ang pupitreng lampara dito?
+Come into the room after me.	Sumunod ka sa akin sa silid.
+Cookie is under 5 years old.	Wala pang limang taong gulang si Cookie.
+Did you carry out your plan?	Sinundan mo ba ang plano mo?
+Did you have a good weekend?	Marikit ba ang wik-end mo?
+Do you sell desk lamps here?	Ipinagbibili ninyo ba ang pupitreng lampara dito?
+Do you want anything to eat?	Gusto ninyong kumain ng anuman?
+Don't walk alone after dark.	Huwag kang maglakad nang sarili pagka madilim na.
+Everybody desires happiness.	Gusto ng lahat ang kaligayahan.
+French developed from Latin.	Ang Pranses ay nagdebelop sa Latin.
+He annoys me with questions.	Makulit siyang magtanong sa akin.
+He failed to come yesterday.	Hindi siya nakarating kahapon.
+He lives alone in the woods.	Nakatira siya nang sarili sa gubat.
+He pretended to be a doctor.	Nagkunwari siyang doktor.
+He pretended to be sleeping.	Nagkunwari siyang natutulog.
+He put the box on the table.	Inilagay niya ang kahon sa mesa.
+He really knows how to cook.	Talagang marunong siyang magluto.
+He talked about her illness.	Pinag-usapan niya ang sakit niya.
+He threw a stone at the dog.	Binato niya yung aso ng bato.
+He told me his life's story.	Sinabi niya sa akin ang istorya ng buhay niya.
+He was talking as he walked.	Nagsasalita siya nang naglalakad siya.
+Here's a big map of Germany.	Ito'y malaking mapa ng Alemanya.
+Here's a big map of Germany.	Are'y malaking mapa ng Alemanya.
+His hair was long last year.	Mahaba ang buhok niya noong lumipas na taon.
+Hold the ball in both hands.	Hawakan ang bola nang parehong kamay.
+How come she hung up on you?	Bakit ka niya binabaan ng telepono?
+How did you get to know him?	Paano mo nakilala siya?
+How did you learn Esperanto?	Paano ka natuto ng Esperanto?
+How do you like your coffee?	Paano mo gusto ang kape mo?
+How long do you want it for?	Gaano mo sya katagal na gusto?
+I bought it for ten dollars.	Binili ko ito nang sampung dolyar.
+I didn't get along with her.	Hindi ko kabisado siya.
+I don't understand anything.	Wala akong naiintindihan.
+I fell asleep while reading.	Nakatulog ako nang nagbabasa.
+I go shopping every morning.	Namamalengke ako bawat umaga.
+I have some noisy neighbors.	Mayroon akong maiingay na mga kapitbahay.
+I haven't the faintest idea.	Wala akong kaalam-alam.
+I really like these stories.	Talagang gusto ko itong mga kuwento.
+I showered before breakfast.	Nagdutsa ako bago mag-almusal.
+I usually go to bed at nine.	Karaniwang nasa kama na ako nang alas nuwebe.
+I want you to do it at once.	Gusto kong gawin mo agad.
+I was born in Kyoto in 1980.	Pinanganak ako sa Kyoto noong 1980.
+I will start after he comes.	Magsisimula ako pagdating niya.
+I'll peel an orange for you.	Magtatalop ako ng dalandan para sa 'yo.
+I've heard you've been sick.	Ang balita ko nagkasakit ka raw.
+Is he a hardworking student?	Masipag na estudyante ba siya?
+It is a sheer waste of time.	Talagang aksaya ng panahon iyon.
+It is easier than I thought.	Mas madali iyon kaysa sa aking akala.
+It rained all day yesterday.	Umulan buong araw kahapon.
+It was very windy yesterday.	Napakahangin kahapon.
+Learn from others' mistakes.	Matuto ka mula sa pagkakamali ng iba.
+Let's start with Lesson Ten.	Magsimula tayo sa ika-10 leksiyon.
+May I have a napkin, please?	Isang napkin, nga?
+My mother is a teacher, too.	Ang aking ina ay isa ring guro.
+My uncle has a large family.	Malaki ang pamilya ng tiyo ko.
+No one believed me at first.	Walang naniwala sa akin nung una.
+Please give me a cup of tea.	Isang tasang tsa, nga.
+Please paint the door white.	Pakipinturahan ang pintong puti.
+Please pour me a little tea.	Kaunting tsa, nga.
+Please put on your slippers.	Magsuot po kayo ng tsinelas.
+Rome was not built in a day.	Di nagawa ang Roma sa isang araw.
+Selling cars is my business.	Ang pagbenta ng mga kotse ang aking negosyo.
+She didn't have any pencils.	Wala siyang pensil.
+She intended to go shopping.	Tinangka niyang mamalengke.
+She is proficient in French.	Magaling siya sa Pranses.
+She was trembling with fear.	Nanginginig siya sa takot.
+She will give birth in July.	Manganganak siya sa July.
+She will give birth in July.	Sa July siya manganganak.
+Someone is calling for help.	May tumatawag ng tulong.
+Thanks for your explanation.	Salamat sa iyong paliwanag.
+The cat sleeps on the table.	Natutulog ang pusa sa mesa.
+The party is just beginning.	Nagsisimula pa lang ang party.
+The rain spoiled our picnic.	Sinira ng ulan ang piknik namin.
+The ship left ahead of time.	Maagang umalis ang barko.
+The train station is nearby.	Malapit ang estasyon ng tren.
+The trip was very expensive.	Talagang mahal ang biyahe.
+The wound is not yet healed.	Hindi pa magaling ang sugat.
+There are five pencils here.	May limang lapis dito.
+There are five pencils here.	Mayroong limang lapis dito.
+There seems to be a mistake.	Mukhang may mali.
+There's no one sitting here.	Walang nakaupo rito.
+They stayed up late talking.	Nagpuyat silang leyt nang nagdadaldalan.
+Tom chose to live in Boston.	Pinili ni Tomas na tumira sa Boston.
+Tom expected this to happen.	Inasahan na ni Tom na mangyayari ito.
+Tom is currently unemployed.	Walang trabaho si Tomas ngayon.
+Tom thanked me for the gift.	Pinasalamatan ako ni Tom para sa regalo.
+Tom's parents don't like me.	Hindi ako gusto ng mga magulang ni Tom.
+What did she whisper to you?	Anong binulong niya sa iyo?
+Which of you was here first?	Sino ang nauna sa inyo?
+Which team is likely to win?	Aling pangkat ang nakalalamang?
+Who do you want to speak to?	Kanino mo gustong magsalita?
+Who was the book written by?	Sinong sumulat ng libro?
+Who's up for some ice cream?	Sino may gusto ng sorbetes?
+Why are you telling me this?	Bakit mo sinasabi yan sa akin?
+Why did she come home early?	Bakit siya umuwi nang maaga?
+Would you like to be seated?	Gusto niyo po bang umupo?
+Write your name and address.	Isulat mo ang pangalan at address mo.
+You can always count on Tom.	Maaasahan mo si Tom.
+You must be back before ten.	Bumalik ka bago mag ika-10.
+You will see the difference.	Makikita mo ang kaibahan.
+All those flowers look alike.	Magkamukha ang lahat niyong bulaklak.
+Are you all set for the trip?	Handa na ba kayo para sa biyahe?
+Are you bringing your camera?	Dadalhin mo ba ang kamera mo?
+As for me, I don't like eggs.	Ayoko ng itlog.
+Can you tell me what this is?	Puwede mo bang sabihin sa akin kung ano ito?
+Can your brother drive a car?	Marunong bang magmaneho ng kotse ang kapatid mong lalaki?
+Don't tell Father about this.	Huwag mong sabihin sa tatay tungkol nito.
+Draw me a seven-pointed star.	Ipagdrowing mo ako ng bituwin na may pitong dulo.
+Each individual is different.	Ang bawat indibidwal ay iba.
+Europeans like to drink wine.	Mahilig sa alak ang mga European.
+Fishing is my favorite hobby.	Pangingisda ang libangang paborito ko.
+Have you ever eaten raw fish?	Nakakain ka na ba ng hilaw na isda?
+Have you ever eaten raw fish?	Nakakain ka na ba ng hilaw na mga isda?
+Have you ever heard him sing?	Napakinig mo na ba siyang kumanta?
+He is an expert in astronomy.	Eksperto siya sa astronomiya.
+He is fond of playing tennis.	Gusto niyang magtenis.
+He knows New York inside out.	Labas at loob niyang alam ang New York.
+He lived alone in the forest.	Tumira siyang mag-isa sa gubat.
+He mentioned your name to me.	Binanggit niya ang pangalan mo sa akin.
+He thinks only about himself.	Sarili lang nya iniisip nya.
+He took a book off the shelf.	Kumuha siya ng libro sa aklatan.
+He took out a piece of chalk.	Pinalabas niya ang isang pirasong tsok.
+He was able to read the book.	Nakakapagbasa siya ng aklat.
+He was wounded in the battle.	Nasugatan siya sa labanan.
+He wrote a book on porcelain.	Sumulat siya ng libro tungkol sa porselana.
+Her skin is whiter than snow.	Mas maputi pa ang kanyang balat sa niyebe.
+His new film is worth seeing.	May halagang makita ang bagong pelikula niya.
+His wife nags him constantly.	Madalas siyang pinapagalitan ng asawa niya.
+How did you come to know her?	Paano kayo nagkakilala?
+How many flowers did you buy?	Ilang bulaklak ang binili mo?
+How much longer will it take?	Gaano pa katagal?
+I also heard a similar story.	Naparinig ko rin ang kahawig na kuwento.
+I bought my sister a new hat.	Binilhan ko ang kapatid kong babae ng bagong sumbrero.
+I don't care how old you are.	Wala akong paki-alam kung gaano ka katanda.
+I don't care how old you are.	Wala akong paki-alam kung gaano kayo katanda.
+I followed him into his room.	Sinundan ko siya sa kaniyang kuwarto.
+I gazed at the sea for hours.	Tumanaw ako sa dagat nang ilang oras.
+I got up at six this morning.	Alas sais ako gumising nitong umaga.
+I have a good sense of smell.	Magaling ang pandama kong pang-amoy.
+I have access to his library.	May akses ako sa kanyang laybrari.
+I love you with all my heart.	Buong puso kitang minamahal.
+I ordered pizza by telephone.	Nag-order ako ng pizza sa telepono.
+I put some milk in my coffee.	Nilagyan ko ng gatas ang kape ko.
+I rarely listen to the radio.	Madalang akong makinig sa radyo.
+I saw the man enter the room.	Nakita ko 'yong taong pumasok sa silid.
+I told him to leave the room.	Sabi kong umalis siya sa silid.
+I want Tom to know the truth.	Gusto kong malaman ni Tom ang katotohanan.
+I was alone in the classroom.	Nag-isa ako sa silid ng klase.
+I'd like to attend the party.	Gusto kong mag-atend ng parti.
+I'm sorry, I can't stay long.	Sori, pero di ako puwedeng magtagal.
+In my opinion, he is correct.	Sa tingin ko, tama siya.
+Is there life in outer space?	May buhay ba sa labas na espasyo?
+It's all in your imagination.	Lahat ito'y sa guni-guni mo.
+It's going to rain, for sure.	Uulan panigurado.
+It's going to rain, for sure.	Siguradong uulan.
+Mary showed the letter to me.	Pinatingin ni Maria sa akin ang sulat.
+Our teacher looks very young.	Mukhang talagang bata ang titser namin.
+Shall we walk to the station?	Maglakad kaya tayo sa estasyon?
+She has a flower in her hand.	May bulaklak siya sa kamay niya.
+She saw a tall man yesterday.	Nakita niya ang isang matangkad na lalaki kahapon.
+She writes to him every week.	Nagsusulat sya sa kanya linggo linggo.
+Tell me how to play the game.	Turuan mo akong maglaro.
+The ice is too hard to crack.	Masyadong matigas ang yelo para mabiyak.
+There is a desk in this room.	May sulatan sa kuwartong ito.
+There is a house on the hill.	May bahay sa burol.
+There is a large supermarket.	Mayroong malaking supermarket.
+They are talking about music.	Pinag-uusapan nila ang musika.
+They each received a present.	Binigyan ang bawat isa ng pasalubong.
+This is the very best method.	Ito ang pinakamainam na paraan.
+This student's books are new.	Bago ang mga libro ng estudyanteng ito.
+This student's books are new.	Bago ang mga aklat ng estudyanteng ito.
+This student's books are new.	Bago ang mga aklat ng mag-aaral na ito.
+This student's books are new.	Bago ang mga libro ng mag-aaral na ito.
+Tom doesn't know where it is.	Hindi alam ni Tom kung nasaan iyon.
+Tom doesn't remember my name.	Di matandaan ni Tomas ang pangalan ko.
+Tom listened to me carefully.	Nakinig ng mabuti sa akin si Tom.
+Tom was the star of the show.	Si Tom ang bida sa palabas.
+We need you to get here ASAP.	Kailangan ka namin dito ngayon din.
+What is the capital of Haiti?	Ano ang kabisera ng Haiti?
+What would you like to drink?	Anong gusto mong inumin?
+What's your favorite perfume?	Anong paborito mong pabango?
+What's your favorite podcast?	Anong paborito mong podcast?
+Who wants some hot chocolate?	Sinong gusto ng mainit na tsokolate?
+Why are people scared of you?	Bakit takot ang mga tao sa iyo?
+Will he fail the examination?	Babagsak kaya siya sa pagsusulit?
+Will you sell your car to me?	Ipagbibili mo ba sa akin ang awto mo?
+Would 9 o'clock be all right?	Ayos ba ang nayn oklak?
+Would 9 o'clock be all right?	Ayos ba ang alas nuwebe?
+Would you like a cup of milk?	Gusto mo ba ng isang tasang gatas?
+You are not a child any more.	Hindi ka na bata.
+You may not pick the flowers.	Hindi mo pwedeng pitasin ang mga bulaklak.
+You must not go out at night.	Dapat huwag kang lumabas sa gabi.
+You should get your hair cut.	Pagupit ka na ng buhok.
+You should have come earlier.	Dapat dumating ka nang mas maaga.
+You've done more than enough.	Labis nang husto ang ginawa mo.
+A dog was run over by a truck.	Isang aso ang nasagasaan ng trak.
+Close the door when you leave.	Sarhan mo ang pinto pag-alis mo.
+Do I have to do it over again?	Dapat ko bang ulitin?
+Do you speak French every day?	Nagsasalita ka ba ng Pranses araw-araw?
+Don't call us, we'll call you.	Huwag mo kaming tawagan. Kami ang tatawag sa'yo.
+Don't forget to bolt the door.	Huwag mo kalimutang ikandado ang pinto.
+Have you ever traveled by air?	Nakabiyahe ka na bang palipad?
+He believes that he is a hero.	Ang isip niya'y bayani siya.
+He can speak a little English.	Marunong siya ng konting Ingles.
+He gave each of them a pencil.	Binigyan niya ang bawat isa ng lapis.
+He lives just across the road.	Nakatira siya sa kabila ng daan.
+He loves going to the theater.	Gusto niyang napuntang teatro.
+He married a very pretty girl.	Nagasawa siya ng napakagandang babae.
+He stayed at his aunt's house.	Nanatili siya sa bahay ng tiyahin niya.
+He took his bike to the store.	Dinala niya ang kanyang bisikleta sa tindahan.
+He was looking out the window.	Nakatanaw siya sa labas ng bintana.
+He was ready to face his fate.	Handa na siyang harapin ang kapalaran niya.
+He whispered something to her.	May binulong siya sa kanya.
+He will be killed by his boss.	Papatayin siya ng amo niya.
+He wrote this novel at twenty.	Sinulat niya itong nobela noong beynte siya.
+Her house is across the river.	Sa kabila ng ilog ang bahay niya.
+I accompanied him on the trip.	Sinamahan ko siya sa biyahe.
+I am thinking of going abroad.	Isip ko'y mag-aabrod ako.
+I asked Tom to close the door.	Pinasara ko kay Tomas ang pinto.
+I caught three fish yesterday.	Nakahuli ako ng tatlong isda kahapon.
+I couldn't catch what he said.	Hindi ko makuha ang sinabi niya.
+I didn't say I would help you.	Hindi ko sinabing tutulungan kita.
+I do my homework after school.	Ginagawa ko ang takdang-aralin pagkauwi mula sa eskwelahan.
+I don't know how much it cost.	Hindi ko alam kung magkano 'to.
+I don't want to fail my exams.	Ayoko bumagsak sa aking mga pagsusulit.
+I gave my sister a dictionary.	Binigyan ko ang kapatid ko ng diksiyunaryo.
+I got a good grade in English.	Magaling ang marka ko sa Ingles.
+I got up early in the morning.	Gumising akong maaga sa umaga.
+I have not read all the books.	Di ko pa nabasa ang lahat ng aklat.
+I have nothing to add to that.	Wala akong maiidagdag doon.
+I hope I'm not disturbing you.	Sana'y hindi kita naaabala.
+I just don't know what to say.	Di ko lang talaga alam kung ano sasabihin.
+I know that you are a teacher.	Alam kong guro ka.
+I know that you are a teacher.	Alam kong maestro ka.
+I know that you are a teacher.	Alam kong titser ka.
+I like science fiction better.	Mas gusto ko ang siyensiyang piksiyon.
+I met my friend on the street.	Natagpo ko ang kaibigan ko sa kalye.
+I planted roses in the garden.	Nagtanim ako ng rosas sa hardin.
+I put the money into the safe.	Nilagay ko ang pera sa kaha de yero.
+I really don't want you to go.	Ayaw ko talagang umalis ka.
+I think he'll understand this.	Isip ko'y maiintindihan niya ito.
+I think his life is in danger.	Tingin ko nanganganib ang buhay niya.
+I want us to start over again.	Gusto kong magsimula ulit tayo.
+I wanted to go to the concert.	Gusto ko sanang pumunta sa concert.
+I was waiting for a long time.	Naghintay ako nang matagal.
+I went inside to drink coffee.	Pumasok ako sa loob para uminom ng kape.
+I will be seventeen next week.	Maglalabing-pitong taon na ako nang kasunod na linggo.
+I wish I were a little taller.	Sana mas matangkad ako nang kaunti.
+I've no idea what's happening.	Hindi ko alam kung ano'ng nangyayari.
+It is fun to speak in English.	Nakakatuwa ang mag-ingles.
+It'll soon be time for dinner.	Malapit nang mag-hapunan.
+It's late, so turn off the TV.	Tanghali na, kaya patayin mo ang telebisyon.
+Look at me when I talk to you!	Tingnan mo ako pag kinakausap kita!
+Look it up in your dictionary.	Hanapin mo sa diksiyunaryo.
+Mathematics is her weak point.	Mahina siya sa sipnayan.
+May I have a road map, please?	Pakiabot ng mapa ng kalye, nga?
+May I recommend another hotel?	Puwede ko bang irekomenda ang ibang otel?
+Only peace can save the world.	Ang kapayapaan lamang ang makakaligtas ng daigdig.
+Please come whenever you like.	Pumunta ka lang kapag gusto mo.
+Please take these dishes away.	Pakialis nga nitong mga pinggan.
+She did not turn up after all.	Di siya sumipot nga.
+She dried her face on a towel.	Tinuyo niya ang kanyang mukha sa tuwalya.
+She made coffee for all of us.	Gumawa siya ng kape para sa lahat kami.
+She made coffee for all of us.	Gumawa siya ng kape para sa lahat tayo.
+She met her uncle at the shop.	Nakita niya ang tiyuhin niya sa tindahan.
+She studies English every day.	Nag-aaral siya ng Ingles araw-araw.
+She was living alone in a hut.	Tumira siyang mag-isa sa bahay kubo.
+That incident made him famous.	Ang pangyayaring iyon ang nagpasikat sa kanya.
+The baby isn't crying anymore.	Di na umiiyak ang beybi.
+The children's room is a mess.	Magulo ang kuwarto ng mga bata.
+The government was overthrown.	Napabagsak ang pamahalaan.
+The old clock is still in use.	Ginagamit pa ang lumang orasan.
+The ship is bound for Finland.	Papuntang Finland ang barko.
+There is a glass on the table.	May baso sa mesa.
+There is no other explanation.	Wala nang iba pang paliwanag.
+They are having breakfast now.	Nag-aalmusal sila ngayon.
+They were alarmed at the news.	Nagulat sila sa balita.
+This chair is made of plastic.	Gawa sa plastik ang silya.
+This chair is made of plastic.	Gawa sa plastik ang upuan.
+This fruit doesn't taste good.	Hindi masarap ang prutas na ito.
+This morning it was very cold.	Talagang malamig nitong umaga.
+To my surprise, she was alive.	Sa kagitlaan ko, buhay siya.
+Tom almost spilled his coffee.	Muntik nang natabig ni Tomas ang kape niya.
+Tom and Mary have no children.	Walang anak sina Tomas at Maria.
+Tom certainly complains a lot.	Talaga namang mareklamo si Tom.
+Tom has something to ask Mary.	May gustong itanong si Tomas kay Maria.
+Tom hid himself under the bed.	Nagtago si Tomas sa ilalim ng kama.
+Tom thanked Mary for her help.	Pinasalamatan ni Tom si Mary para sa kanyang tulong.
+Tom was on the verge of tears.	Paiyak na si Tomas.
+Tom went back to his hometown.	Bumalik si Tomas sa kanyang bayang sinilangan.
+Tom went back to his hometown.	Bumalik si Tom sa bayan niyang sinilangan.
+Velvet pants are out of style.	Hindi na uso ang pantalong velvet.
+We like swimming in the ocean.	Gusto naming lumangoy sa karagatan.
+What do your friends call you?	Anong tawag ng mga kaibigan mo sa iyo?
+What kind of work will you do?	Ano'ng klaseng trabaho ang papasukan mo?
+Where are the toilets, please?	Nasaan po ang banyo?
+Where do you watch television?	Saan ka nanuod ng telebisyon?
+Who is going to speak tonight?	Sinong magsasalita ngayong gabi?
+Why didn't you say so earlier?	Ba't di mo mas maagang sinabi?
+Why do you want to be a nurse?	Bakit gusto mong maging nars?
+Why were you absent yesterday?	Bakit ka liban kahapon?
+You can certainly rely on him.	Siguradong makaaasa ka sa kanya.
+You can eat whatever you like.	Kumain ka ng anumang gusto mo.
+You really are fond of eating.	Gusto mo talagang kumain.
+You should do that right away.	Gawin mo na iyan agad.
+You'd better go there on foot.	Dapat maglakad ka lang papunta doon.
+You're respected by everybody.	Tinitingala ka ng lahat.
+Your parents ought to know it.	Dapat malaman ng magulang mo iyon.
+A dog followed me to my school.	May asong sumunod sa akin sa paaralan.
+Another bottle of wine, please.	Isa pang bote ng alak, po.
+Can I have the key now, please?	Pakibigay ho ang susi sa akin, nga?
+Come along with us if you like.	Sumama ka sa amin kung gusto mo.
+Cookie's house is made of wood.	Gawa sa kahoy ang bahay ni Kuki.
+Don't cut in with your remarks.	Huwag mong isingit ang mga puna mo.
+First of all, I will read this.	Sa umpisa, babasahin ko ito.
+He couldn't take it any longer.	Hindi na niya matiis.
+He disappeared without a trace.	Nawala sya na parang bula.
+He has been dead for ten years.	Patay na siya nang sampung taon na.
+He is something of a celebrity.	Para siyang selebriti.
+He is the tallest in his class.	Pinakatangkad siya sa klase niya.
+He threw a stone into the pond.	Naghagis siya ng bato sa lawa.
+He took a picture of the koala.	Nilitratuhan niya ang koala.
+He understood he could not win.	Alam niyang hindi siya mananalo.
+He's a science fiction fanatic.	Panatiko siya ng siyensiyang piksiyon.
+Her hope is to become a doctor.	Ang hiling niya ay maging manggagamot.
+I am going to America by plane.	Pupunta ako sa America sa pamamagitan ng eroplano.
+I am thankful for the holidays.	Nagpapasalamat ako para sa bakasyon.
+I am very interested in French.	Talagang interesado ako sa Pranses.
+I asked him about his new book.	Tinanong ko siya tungkol sa bagong libro niya.
+I didn't know he drank so much.	Hindi ko alam na malakas pala siya uminom.
+I don't want to miss the plane.	Ayaw kong mamis ang eroplano.
+I don't want to read this book.	Di ko gustong basahin itong libro.
+I don't wear shoes in my house.	Hindi ako nagsusuot ng sapatos sa loob ng bahay ko.
+I don't wear shoes in my house.	Hindi ako nagsusuot ng sapatos sa loob ng aking bahay.
+I feel that something is wrong.	Pakiramdam kong may mali.
+I gave my brother a dictionary.	Binigyan ko ng diksyunaryo ang aking lalaking kapatid.
+I have a dictionary in my hand.	May diksiyunaryo ako sa kamay ko.
+I have never been there myself.	Ako mismo'y di pa nakakarating doon.
+I have no time to write to her.	Wala akong oras na sulatan siya.
+I have seen the picture before.	Nakita ko na ang larawan.
+I have to reply to this letter.	Dapat sumagot ako sa sulat na ito.
+I like your pair of eyeglasses.	Gusto ko ang salamin mo.
+I myself have never seen a UFO.	Ako mismo ay hindi pa nakakakita ng UFO.
+I need to get my oboe repaired.	Kailangan kong ipaayos ang oboe ko.
+I saw someone go into the room.	Nakita ko 'yong taong pumasok sa silid.
+I was invited to dinner by her.	Inimbitahan niya akong mag-hapunan.
+I wish I could buy that guitar.	Sana mabili ko ang gitarang iyan.
+I wrote her a letter every day.	Sinulatan ko siya araw-araw.
+I'm going to Paris in the fall.	Papuntang Paris ako sa otonyo.
+I'm going to Paris in the fall.	Pupunta ako sa Paris sa taglagas.
+I'm sorry, I don't have change.	Pasensya na, wala akong panukli.
+It has been raining off and on.	Pabalik-balik ang ulan.
+It's a waste of time and money.	Aksaya iyon ng oras at pera.
+It's getting warmer and warmer.	Umiinit na nang umiinit.
+Let's get our photograph taken.	Magpakuha tayo ng litrato.
+Mary is interested in politics.	Interesado si Maria sa politika.
+My hobby is playing the guitar.	Paggigitara ang hilig ko.
+My mother is cooking breakfast.	Nagluluto ng almusal ang nanay ko.
+Neither you nor I are mistaken.	Walang mali sa ating dalawa.
+Nobody will believe that rumor.	Walang maniniwala sa tsismis na iyon.
+Not everybody succeeds in life.	Hindi lahat ay nagtatagumpay sa buhay.
+Our school is near the station.	Malapit ang aming paaralan sa istasyon.
+She doesn't like wearing heels.	Hindi siya mahilig magtakong.
+She had achieved her objective.	Natupad na niya ang layunin niya.
+She has a great fear of snakes.	Talagang takot siya sa mga ahas.
+She held on to my hand tightly.	Mahigpit niyang hinawakan ang kamay ko.
+She rarely goes out on Sundays.	Bihira siyang lumabas kapag Linggo.
+She was brought up by her aunt.	Pinalaki siya ng kanyang tiyahin.
+That kid kept crying for hours.	Umiyak yung bata nang ilang oras.
+That's almost impossible to do.	Halos imposibleng gawin 'yan.
+The children are growing tired.	Napapagod na ang mga bata.
+The frog came out of the water.	Lumabas ang palaka sa tubig.
+The music stopped for a minute.	Tumigil ang musika nang saglit.
+There are many hotels downtown.	Maraming otel sa dawntawn.
+There is a Picasso on the wall.	May Picasso sa dingding.
+There is a picture on the wall.	May litrato sa dingding.
+There is a time for everything.	May oras para sa lahat.
+There is no use talking to her.	Walang kuwenta siyang kausapin.
+There's still a long way to go.	Malayo pa.
+They are in favor of your plan.	Pabor sila sa plano mo.
+They say that he's still alive.	Sabi nila'y buhay pa siya.
+This bus can hold fifty people.	Kasya ang limampung tao sa bus.
+This word has a double meaning.	Dobleng ibig-sabihin itong salita.
+Tom arrived half an hour early.	Dumating si Tomas nang kalahating oras na maaga.
+Tom can't control his children.	Di makontrol ni Tomas ang mga anak niya.
+Tom couldn't speak French well.	Di masyadong marunong magpranses si Tomas.
+Tom forgot Mary's phone number.	Nakalimutan ni Tom ang numero ni Mary.
+Tom hardly ever loses at chess.	Halos hindi natatalo sa Tom sa chess.
+Tom is a stranger in this town.	Dayuhan si Tomas sa bayang ito.
+Tom was sent here to take over.	Pinadala dito si Tom para pumalit.
+Waiter, please split the check.	Waiter, pakisingil kami nang hiwa-hiwalay.
+We took part in the discussion.	Sumali kami sa usapan.
+We wear uniforms at our school.	Nagsusuot kami ng uniporme sa aming paaralan.
+We went to the mountain to ski.	Nagpuntang bundok kami para mag-iski.
+We've got to protect ourselves.	Kailangan nating protektahan ang ating mga sarili.
+We've just cleaned the toilets.	Kalilinis lang namin ng mga kubeta.
+What kind of books do you need?	Anong klaseng libro ang kailangan mo?
+What's this got to do with Tom?	Anong kinalaman nito kay Tom?
+When are we eating? I'm hungry!	Kailan tayo kakain? Gutom na ako!
+Where is the nearest telephone?	Saan ang malapit na telepono?
+Why didn't you use a pay phone?	Bakit hindi ka gumamit ng pay phone?
+Why do you want to leave today?	Bakit gusto mong umalis ngayon?
+Would anybody like more coffee?	Meron bang gusto pa ng kape?
+Would you please open the door?	Pakibukas mo nga ng pinto?
+Write an essay on "Friendship".	Magsulat ng sanaysay tungkol sa "Pagkakaibigan".
+You may invite anyone you like.	Maaari mong imbitahin ang kahit na sinong gusto mo.
+You should rest after exercise.	Dapat magpahinga ka pagkatapos ng eksersays.
+You'll forget about me someday.	Makakalimutan mo rin ako balang araw.
+You're asking the wrong person.	Hindi ako ang dapat mong tanungin.
+Your name is first on the list.	Una ang pangalan mo sa listahan.
+A strong wind blew all day long.	Malakas ang hangin buong araw.
+About how many books do you own?	Mga ilang libro meron ka?
+All plants need water and light.	Lahat ng halaman ay kailangan ang tubig at ilaw.
+Astronomy is an expensive hobby.	Mahal na hobi ang astronomiya.
+Can you count to ten in Chinese?	Marunong ka bang magbilang hanggang sampu sa Intsik?
+Do you have a complaint to make?	Mayroon ka bang reklamo?
+Do you know how to play mahjong?	Marunong ka bang magmahjong?
+Everything is getting expensive.	Nagiging mahal ang lahat.
+He always borrows money from me.	Palagi siyang humihiram ng pera sa akin.
+He asked me whether I like math.	Tinanong niya kung gusto ko ang math.
+He had his car stolen yesterday.	Nanakaw 'yong kotse niya kahapon.
+He really likes science fiction.	Talagang gusto niya ang siyensiyang piksiyon.
+How about another cup of coffee?	Isang tasa pa ng kape?
+How do you write your last name?	Paano sinusulat ang apelyido mo?
+How far is the next gas station?	Gaano kalayo ang sumusunod na estasyon ng gasolina?
+How many languages do you speak?	Ilang wika ang marunong ka?
+I am fed up with talking to her.	Sawa na akong kausapin siya.
+I can't drink the beer any more.	Di ko na mainom ang serbesa.
+I disagree with this completely.	Talagang hindi ako sumasang-ayon dito.
+I don't believe they understood.	Isip kong hindi nila naintindihan.
+I don't feel like eating at all.	Ayaw kong kumain.
+I don't know if I still have it.	Di ko alam kung nasa akin pa.
+I found the picture interesting.	Natutuwa ako sa litrato.
+I go to school every day by bus.	Araw-araw nagbubus akong papuntang eskuwela.
+I grow orchids in my greenhouse.	Nagpapalaki ako ng mga orkid sa grinhaws ko.
+I hope they aren't deceiving me.	Sana'y hindi nila ako niloloko.
+I think he ate about 10 oysters.	Mga sampung talaba yata ang kinain niya.
+I thought Tom was Mary's father.	Akala ko tatay ni Mary si Tom.
+I want to go back there tonight.	Gusto kong bumalik doon ngayong gabi.
+I want you to tell me the truth.	Sabihin mo sa akin ang katotohanan.
+I will finish this work somehow.	Basta tatapusin ko itong trabaho.
+I would never have guessed that.	Di ko yun mahuhulaan.
+If I were you, I'd study harder.	Kung ako ikaw, mag-aaral ako nang mas mabuti.
+In England, Labor Day is in May.	Sa Inglatera, ang Labor Day ay ginaganap tuwing Mayo.
+Is English harder than Japanese?	Mas mahirap ba ang Ingles kaysa sa Hapon?
+Is that to eat here or take out?	Kakain ba rito, o magteteyk-awt?
+It doesn't have to be like this.	Hindi kailangang maging ganito.
+It is getting warmer and warmer.	Umiinit nang umiinit na.
+It's getting darker outside now.	Kumukulimlim na sa labas.
+It's more complicated than that.	Mas komplikado kaysa sa iyan.
+Last night, I listened to radio.	Kagabi, nakinig ako sa radyo.
+Let's have a drink or something.	Inom tayo o kung ano man.
+My grandfather comes from Osaka.	Galing Osaka ang lolo ko.
+My sister is playing with dolls.	Naglalaro ng manika ang kapatid ko.
+Please excuse me for being rude.	Pawalang galang, po.
+Pollution is damaging our earth.	Nakakasira ng ating Tiyera ang polusyon.
+She asked him why he was crying.	Tinanong niya kung ba't siya umiiyak.
+She has a cat. The cat is white.	May pusa siya. Puti ang pusa niya.
+She knows your mother very well.	Kilalang-kilala niya ang nanay mo.
+She says that she likes flowers.	Sabi niya'y gusto niya ng mga bulaklak.
+She took the taxi to the museum.	Nag-taxi siya papunta sa museo.
+She wrote a book about the bird.	Nagsulat siya ng libro tungkol sa ibon.
+Tell us what you know about Tom.	Sabihin mo samin kung anong alam mo tungkol kay Tom.
+That old woman lives by herself.	Nag-iisang nakatira ang matandang babae.
+The bottle is filled with water.	Puno ang bote na ng tubig.
+The boy ran away when he saw me.	Tumakbo 'yong bata nang nakita niya ako.
+The city has a large population.	Malaki ang populasyon ng siyudad.
+The moon moves around the earth.	Nililibot ng Buwan ang Tiyera.
+The rules were recently relaxed.	Kamakailan lamang pinaluwag ang mga alituntunin.
+The rumor turned out to be true.	Tunay pala yung tsismis.
+The scissors won't cut anything.	Hindi makagupit iyong gunting.
+There is a heavy tax on tobacco.	May mabigat na buwis sa tabako.
+They had no choice but to leave.	Wala silang tsoys kundi umalis.
+They sell imports at that store.	Nagbebenta ng mga angkat sila sa tindahang iyon.
+Tom died with a gun in his hand.	Namatay si Tom nang may hawak na baril.
+Tom had every right to be angry.	May rason si Tomas na magalit.
+Tom needs time to think it over.	Kailangan ni Tomas ng oras para mag-isip.
+Tom's parents are John and Mary.	Ang mga magulang ni Tom ay si John at Mary.
+Two families live in that house.	Dalawang pamilya ang nakatira sa bahay na iyon.
+We are eating breakfast indoors.	Nag-aalmusal kami sa loob ng gusali.
+What are you punishing them for?	Bakit mo sila pinaparusahan?
+What do you need this money for?	Saan mo gagamitin ang perang 'to?
+Where are the rest of the files?	Nasaan na yung iba pang files?
+Where are the rest of the files?	Nasaan na yung iba pang mga file?
+Which kind of music do you like?	Anong klaseng musika ang gusto mo?
+Why did you paint the bench red?	Ba't mo pininturahang pula ang bangkito?
+Why don't you tell her directly?	Bakit di mo sabihin sa kanya nang diretso?
+Won't you join our conversation?	Di ka ba sasama sa aming pagdaldalan?
+You are very early this morning.	Talagang maaga ka nitong umaga.
+You know that I don't like eggs.	Alam mong ayaw ko ng itlog.
+You should refrain from smoking.	Dapat huwag ka nang manigarilyo.
+You won't be in time for school.	Mahuhuli ka sa eskuwela.
+You'd better consult the doctor.	Magpatingin ka na sa doktor.
+Your problem is similar to mine.	Ang problema mo'y parang yung akin.
+Your wristwatch is on the table.	Ang relo mo'y nasa mesa.
+Your wristwatch is on the table.	Ang relo mo'y nasa ibabaw ng mesa.
+A driver was sleeping in the car.	Tumutulog ang tsuper sa kotse.
+All of the students were present.	Naroon ang lahat ng mag-aaral.
+Are you thinking of helping them?	Isip mo bang tulungan sila?
+Autumn is just around the corner.	Malapit na ang taglagas.
+Can we roller-skate in this park?	Puwede bang magrolerskeyt sa parkeng ito?
+Can you pass me the salt, please?	Pakiabot nga ng asin?
+Does someone here speak Japanese?	Meron ba ditong marunong ng Hapon?
+Dolphins and whales are not fish.	Ang mga dolphin at balyena ay hindi mga uri ng isda.
+Father showed him into the study.	Pinapasok siya ni tatay sa study.
+Go away before they see you here.	Umalis ka na bago makita ka nila dito.
+Have you taken your medicine yet?	Uminom ka na ba ng gamot?
+He eats nothing other than fruit.	Wala siyang kinakain kundi prutas.
+He handed me the letter and left.	Binigay niya sa akin ang sulat at umalis.
+He has not come home yet, has he?	Di pa siya umuwi, ano?
+He introduced his daughter to me.	Ipinakilala niya sa akin ang anak niyang babae.
+He just ate sushi and drank beer.	Kakakain lang niya ng sushi at uminom ng serbesa.
+He lives in a village near Osaka.	Nakatira siya sa nayong katabi ng Osaka.
+He lives in a village near Osaka.	Nakatira siya sa isang baranggay malapit sa Osaka.
+He pretended not to be listening.	Nagkunyari siyang hindi nakikinig.
+He said that it was nine o'clock.	Sabi niya'y alas nuwebe na.
+He seems disappointed in his son.	Mukhang nabigo siya sa kanyang anak.
+He thinks of nothing but himself.	Wala siyang iniisip kung hindi sarili niya.
+He used his umbrella as a weapon.	Ginamit niya ang kanyang payong nang sandata.
+His face is known to many people.	Kilala ng maraming tao ang mukha niya.
+His invention deserves attention.	Marapat ang imbensiyon niya ng atensiyon.
+How do you know all these things?	Paano mo nalaman itong mga bagay na ito?
+I can't believe you're giving up.	Hindi ako makapaniwala na sumusuko ka na.
+I can't do anything but obey him.	Wala akong magawa kung hindi sundin siya.
+I don't remember him saying that.	Sa memorya ko, hindi niya sinabi ang ganoon.
+I don't remember how tall she is.	Hindi ko matandaan kung kaanong kataas siya.
+I don't understand him sometimes.	Kung minsan, hindi ko siya maintindihan.
+I like winter better than summer.	Mas gusto ko ang tag-lamig kaysa sa tag-init.
+I love you more than you love me.	Mas malaki ang pagmamahal ko sa'yo kaysa sa pagmamahal mo sa akin.
+I may go out if the rain lets up.	Baka lumabas ako kung tumila na ang ulan.
+I think you're a really nice guy.	Isip kong talagang mabait na tao ka.
+I was raised eating Mexican food.	Lumaki akong nakain ng pagkaing Meksikano.
+I was vaccinated against the flu.	Na-bakunahan ako laban sa trangkaso.
+I will not go to school tomorrow.	Di ako pupunta sa paaralan bukas.
+I'll set out for China next week.	Pupunta ako sa Tsina sa susunod na linggo.
+I'm certain that he has finished.	Sigurado akong tapos na siya.
+I'm looking for my ballpoint pen.	Hinahanap ko ang aking bolpen.
+I've changed my website's layout.	Iniba ko ang ley-awt ng websayt ko.
+Is there a golf course near here?	May golpkors bang malapit dito?
+Is there a supermarket near here?	May supermarket bang malapit dito?
+Is this your first time in Japan?	Unang beses mo ba ito sa Hapon?
+It is impossible for me to do so.	Imposibleng gawin kong ganoon.
+It looks like we have everything.	Parang meron na tayo ng lahat.
+It seems to me that he is honest.	Sa tingin ko ay matapat siya.
+Let me know where you're staying.	Ipaalam mo sa akin kung saan ka mananatili.
+Let's wait and see how things go.	Tingnan natin kung anong mangyayari.
+Mary set the basket on the table.	Nilagay ni Maria ang buslo sa ibabaw ng mesa.
+May I talk with you for a moment?	Puwede ba kitang makausap sandali?
+My hobby is collecting old coins.	Libangan kong mangolekta ng lumang barya.
+Nobody says you can't go fishing.	Wala namang nagsasabing hindi ka pwedeng mangisda.
+Not all of the staff was present.	Hindi lahat ng mga tauhan ay dumalo.
+Oh, no! We're running out of gas.	Ay naku! Nauubusan tayo ng gasolina.
+Oh, no! We're running out of gas.	Ay naku! Nauubusan kami ng gasolina.
+Please buy me the new Shakira CD.	Pakibili mo nga ako ng bagong kompakdisk ni Shakira.
+Please come to our town some day.	Punta naman kayo sa bayan namin minsan.
+She advised him against doing it.	Pinaalala niyang huwag niyang gawin.
+She doesn't smile for me anymore.	Hindi na siya ngumingiti para sa akin.
+She is fond of singing old songs.	Gusto niyang kumanta ng mga lumang kanta.
+She postponed her trip to Mexico.	Pinospon niya ang biyahe niya sa Meksiko.
+Some people pursue only pleasure.	Humahabol ang ilang tao ng kagalakan lamang.
+Something has happened to my car.	May nangyari sa kotse ko.
+Speaking English is a lot of fun.	Nakakatuwa ang pagsasalita ng Ingles.
+Success depends mostly on effort.	Ang tagumpay ay depende sa ginagawa mo.
+Tell me when you'd like to order.	Pakisabi sa akin kung kailan ninyo gustong mag-order.
+That plane will take off at five.	Maglalayag ang eroplano sa ika-5.
+That was the best day of my life.	Iyon ang pinakamagaling na araw sa buhay ko.
+That's a waste of time and money.	Aksaya iyon ng oras at pera.
+The cat is sleeping on the table.	Natutulog ang pusa sa mesa.
+The man was branded as a traitor.	Nabansagang traydor ang lalaki.
+The noise awoke me from my sleep.	Ginising ako ng ingay.
+The old castle is in a sad state.	Gula-gulanit na ang lumang kastilyo.
+The police need someone to blame.	Naghahanap ang pulisya ng masisisi.
+The water flows under the bridge.	Umaagos ang tubig sa ilalim ng tulay.
+There is an apple under the desk.	May mansanas sa ilalim ng pupitre.
+These chairs are not comfortable.	Di komportable ang mga upuang ito.
+They dried themselves in the sun.	Nagbilad sila sa araw.
+They talked over a cup of coffee.	Nagsalita silang nagkakape.
+They want to talk about religion.	Gusto nilang pag-usapan ang mga bagay tungkol sa relihiyon.
+This T-shirt is too small for me.	Masyadong maliit itong T-shirt sa akin.
+This is a difficult math problem.	Ito'y mahirap na problemang matematika.
+This watch is not mine but yours.	Di akin itong relo, kundi iyo.
+Today is the best day of my life.	Pinakamagandang araw ito ng buhay ko.
+Tom doesn't know what else to do.	Di alam ni Tomas kung ano pang gagawin niya.
+Tom likes coffee better than tea.	Mas gusto ni Tomas ang kape kaysa sa tsa.
+Tom loves pizza and French fries.	Gusto ni Tomas ang pizza at pritong patatas.
+Tom pays Mary to clean his house.	Binabayaran ni Tom si Mary para linisin ang kanyang bahay.
+Wake us up in time for breakfast.	Gisingin mo kami para sa almusal.
+Was it cloudy in Tokyo yesterday?	Maulap ba sa Tokyo kahapon?
+We have been to Tokyo many times.	Nagpunta kami sa Tokyo nang maraming beses na.
+We must not speak in the library.	Dapat huwag tayong magdaldalan sa aklatan.
+We were not invited to the party.	Hindi ka imbitado sa party.
+We've walked all around the lake.	Naglakad kaming palibot ng lawa.
+What do you do in your free time?	Anong ginagawa mo sa mga libreng oras mo?
+When will his new novel come out?	Kailan lalabas ang bago niyang nobela?
+Will you go to the party tonight?	Pupunta ka ba sa party mamayang gabi?
+You never see a fault in anybody.	Wala kang makitang kamalian sa kahit sino.
+You shouldn't eat anything spicy.	Hindi ka dapat kumain ng kahit anong maanghang.
+Your friends are waiting for you.	Iniintay ka ng mga kaibigan mo.
+Accidents arise from carelessness.	Ang aksidente ay bunga ng kawalang-isip.
+After I watched TV, I went to bed.	Pagkatapos manuod ng tibi, natulog na ako.
+Cherries are ripe in June or July.	Hinog ang seresa sa Hunyo o Hulyo.
+Close your eyes for three minutes.	Sarhan mo ang mga mata mo nang tatlong minuto.
+Did Tom help his mother yesterday?	Tinulungan ba ni Tomas ang nanay niya kahapon?
+Did you enter the singing contest?	Sumali ka ba sa singing contest?
+Do you have this in a bigger size?	Meron ba kayo nito sa mas malaking says?
+Don't be afraid to make a mistake.	Huwag kang matakot magkamali.
+Don't you want to go to the party?	Ayaw mo bang pumunta sa party?
+Have you ever eaten Japanese food?	Nakakain ka na ba ng pagkaing Hapon?
+Have you ever traveled in a plane?	Nakapaglakbay ka na ba sa pamamagitan ng eroplano?
+He got up at eight in the morning.	Gumising siya nang alas-otso ng umaga.
+He is an archeologist's assistant.	Katulong ng arkeyologo siya.
+He is busy preparing for the trip.	Abala siya sa paghahanda para sa biyahe.
+He is eager to go to the hospital.	Atat siyang pumunta sa ospital.
+He lives in that house over there.	Nakatira siya sa bahay doon.
+He refused to say more about that.	Ayaw na niyang pag-usapan pa tungkol doon.
+He showed me the way to the store.	Ipinakita niya sa akin ang daan papunta sa tindahan.
+He smokes twenty cigarettes a day.	Dalawampung sigarilyo siya sa isang araw.
+He wants to live in North America.	Gusto niyang tumira sa Hilagang Amerika.
+He wants to study music and dance.	Gusto niyang mag-aral ng musika at sayaw.
+How many people are in your group?	Gaano karami ang mga tao sa iyong grupo?
+How many people are in your group?	Ilang tao ang nasa grupo mo?
+I believe it is a genuine Picasso.	Naniniwala akong wagas na Picasso iyon.
+I didn't promise anybody anything.	Wala akong pinangako na kahit ano sa kahit na sino.
+I don't exercise a lot these days.	Hindi ako masyadong nakakapag-ehersisyo nitong mga nakaraang araw.
+I don't have any homework tonight.	Wala akong takdang aralin ngayong gabi.
+I found a good Mexican restaurant.	May nahanap akong isang mahusay na Mehikanong karinderya.
+I have just come back from school.	Kababalik ko lamang galing sa paaralan.
+I like to study foreign languages.	Gusto kong mag-aral ng mga wikang dayuhan.
+I like to study foreign languages.	Gusto kong mag-aral ng wikang dayuhan.
+I think Tom looks a lot like John.	Sa tingin ko masyadong kamukha ni Tom si John.
+I think he is something of a poet.	Isip kong para siyang manunula.
+I went for a walk to get some air.	Naglakad-lakad ako para magpahangin.
+I wonder if I'll ever get married.	Ikakasal pa kaya ako?
+I'd like a glass of water, please.	Isang baso ng tubig, po.
+I'd like to work at the cafeteria.	Gusto kong magtrabaho sa kapetirya.
+I'll be with you in a few minutes.	Sasamahan kita pagkatapos nang ilang minuto.
+I'll wait here till he comes back.	Maghihintay ako rito hanggang bumalik siya.
+I'm looking forward to seeing him.	Sabik akong makita siyang muli.
+In that case, I'll change my mind.	Kung ganoon, magbabago ako ng isip.
+It has been raining since Tuesday.	Noong pang Martes na umuulan.
+It is not far away from the hotel.	Hindi malayo sa otel.
+It is probable that she will come.	Maaaring pumarini siya.
+It seems that he is telling a lie.	Parang nagsisinungaling siya.
+It's hard to handle crying babies.	Mahirap alagaan ang umiiyak na sanggol.
+Keep an eye on my bag for a while.	Pakiguwardiyahan mo ang bag ko nang sandali.
+Keep your room as neat as you can.	Dapat maayos ang kuwarto mo nang kaya mong maayos.
+Let's wait until it stops raining.	Maghintay tayo hanggang tumila ang ulan.
+Mary is going to help us tomorrow.	Tutulungan tayo ni Maria bukas.
+Mary took out the eggs one by one.	Isa-isang nilabas ni Mary ang mga itlog.
+My best friend dances really well.	Magaling magbayla ang bespren ko.
+My best friend dances really well.	Magaling sumayaw ang bespren ko.
+No one was present at the meeting.	Walang tao sa miting.
+Our paths have crossed very often.	Madalas nagku-krus ang aming mga landas.
+Phoenix is the capital of Arizona.	Phoenix ang kabisera ng Arizona.
+Please help yourself to more cake.	Kumuha ka pa ng keyk.
+She stirred the soup with a spoon.	Hinalo niya nang kutsara ang sopas.
+Sorry, I've got my hands full now.	Pasensya na, medyo marami akong gagawin ngayon.
+That hotel was very near the lake.	Yaong otel ay talagang malapit sa lawa.
+The boy got in through the window.	Pumasok ang bata sa bintana.
+The quality of rice is going down.	Bumababa ang kalidad ng bigas.
+There are various kinds of coffee.	Maraming uri ng kape.
+They wake up at six every morning.	Gumigising sila ng ika-6 ng umaga araw-araw.
+This house and this land are mine.	Akin ang bahay at lupang ito!
+This train leaves at nine o'clock.	Paalis ang tren nang alas nuwebe.
+Tom bought two copies of the book.	Bumili si Tom ng dalawang kopya ng libro.
+Tom didn't believe what Mary said.	Hindi naniwala si Tom sa sinabi ni Mary.
+Tom didn't know Mary was so funny.	Di alam ni Tomas na ganoong nakakatawa si Maria.
+Tom doesn't know how to tie a tie.	Di marunong si Tomas magtali ng kurbata.
+Tom is going to be back here soon.	Malapit nang bumalik si Tom.
+Tom was the last student to leave.	Si Tom ang pinakahuling mag-aaral na umalis.
+We cannot really predict anything.	Di natin talagang mahuhulaan ang anuman.
+We cannot really predict anything.	Di namin talagang mahuhulaan ang anuman.
+We enjoyed ourselves at the party.	Nag-enjoy kami sa party.
+We ran all the way to the station.	Tumakbo kami sa kalahatan ng daan papuntang estasyon.
+We usually have breakfast at 7:30.	Karaniwang nag-aalmusal kami nang 07:30.
+We were late because of the storm.	Nahuli kami dahil ng bagyo.
+What do you associate with summer?	Sa iyo, anong umaanib sa tag-init?
+What do you think I've been doing?	Ano sa tingin mo ang ginagawa ko?
+What would you like for breakfast?	Anong gusto mong pang-almusal?
+What's your favorite kind of food?	Ano ang paborito mong uri ng pagkain?
+Where is the captain of this ship?	Nasaan ang kapitan ng barkong ito?
+Who is in charge of this building?	Sinong hepe nitong gusali?
+Why couldn't you sleep last night?	Ba't di ka makatulog kagabi?
+Why is it that you're always late?	Bakit ba na palaging huli ka?
+You have eaten lunch, haven't you?	Kumain ka na ng tanghalian, di ba?
+You have only to push this button.	Pipindutin mo lamang itong butones.
+You have ten seconds left to live.	May sampung segundo na ang natitira sa buhay mo.
+You may choose whichever you like.	Pumili kayo ng alinmang gusto ninyo.
+You may choose whichever you want.	Puwede kang pumili kung alinman ang gusto mo.
+You may choose whichever you want.	Maaari kang pumili kung alinman yung gusto mo.
+You may go with him if you choose.	Sumama ka sa kanya kung gusto mo.
+You should prepare for the future.	Dapat maghanda na siya para sa kinabukasan.
+You're the only one who can do it.	Ikaw lamang ang makakagawa niyon.
+Algebra is a branch of mathematics.	Ang alhebra ay isang sangay ng matematika.
+America is the land of opportunity.	Ang Amerika ay lugar ng oportunidad.
+Could you call again later, please?	Maaari ka bang tumawag ulit mamaya?
+Did you bring an umbrella with you?	Dinala mo ba ang payong mo?
+Do you have any Japanese magazines?	Meron kayong magasing Hapon?
+Do you like science fiction movies?	Gusto mo ba ng mga pelikulang siyensiyang piksiyon?
+Do you like to cook Japanese foods?	Gusto mo bang magluto ng pagkaing Hapon?
+Everyone always speaks well of Tom.	Laging maganda ang sinasabi tungkol kay Tom.
+Good morning. It's time to wake up.	Magandang umaga. Oras nang gumising.
+Great! Let's get together sometime.	Magaling! Magkita pa uli tayo.
+Have you ever sharpened this knife?	Nakapagtulis ka na ba nitong kutsilyo?
+He came in spite of the heavy snow.	Dumating siya kahit malakas ang pag-snow.
+He doesn't speak English very well.	Hindi siya marunong masyadong mag-ingles.
+He has great confidence in himself.	Malaki ang tiwala niya sa kanyang sarili.
+He is wandering around in a trance.	Naglilibot siya nang pagkawalang diwa.
+He lay at full length on the grass.	Humiga siya nang ganap na pahaba sa damo.
+He let the dog loose in the garden.	Pinakawalan niya ang aso sa hardin.
+He was looking for this very thing.	Itong-ito ang hinahanap niya.
+Hey! What are you doing in my room?	Hoy! Anong ginagawa mo sa kwarto ko?
+I am taking a holiday at the beach.	Nagbabakasyon ako sa dalampasigan.
+I didn't know that he was Japanese.	Di ko alam na Hapon siya.
+I need some sugar. Do you have any?	Kailangan ko ng asukal. Meron ka ba?
+I recognized your voice right away.	Nakilala ko ang boses mo agad.
+I somehow understand your feelings.	Naiintidihan ko ang pakiramdam mo.
+I travel to all parts of the globe.	Nagbiyahe ako sa lahat ng parte ng daigdig.
+I went to bed at twelve last night.	Nakatulog ako nang alas dose ng gabi.
+I'll be out of town for a few days.	Wala ako sa bayan nang ilang araw.
+It's more difficult than you think.	Mas mahirap kaysa sa iniisip mo.
+Japanese forces marched into Burma.	Nag-martsa ang mga puwersang Hapones patungo sa Burma.
+Lets play video games or something.	Magbidyugeym tayo o kaya ano.
+My family goes skiing every winter.	Sa taglamig, nag-iiski ang pamilya ko.
+My grandfather died five years ago.	Limang taon na ang nakalipas nang namatay ang lolo ko.
+Our budget won't allow that luxury.	Di kaya ng pondo natin ang ganyang luho.
+Our fate depends on your decisions.	Ang aming kapalaran ay depende sa iyong mga desisyon.
+Oxygen is necessary for combustion.	Kailangan sa kombustiyon ang oksiheno.
+Parrots often imitate human speech.	Nangongopyang malimit ng pagsasalita ng tao ang loro.
+Rural life appeals to me very much.	Talagang mas gusto ko ang buhay sa bukid.
+She doesn't speak Japanese at home.	Di siya naghahapon sa bahay.
+She greeted me with "Good morning."	Ginrit niya ako ng "Magandang umaga."
+She was burning to tell the secret.	Kating-kati na siyang ibunyag ang sikreto.
+That country has natural resources.	Maraming likas na kayamanan ang bansang ito.
+That man is in love with my sister.	Umiibig sa kapatid kong babae ang lalaking iyon.
+That tie goes well with your shirt.	Bagay ang kurbatang iyan sa baro mo.
+That was exactly what she intended.	Yun talaga ang gusto nyang mangyari.
+The assignment was too much for me.	Masyadong mahirap ang takdang-aralin.
+The birds are singing in the trees.	Kumakanta ang mga ibon sa mga puno.
+The boy lay listening to the radio.	Nakikinig sa radyo ang bata nang nakahiga.
+The letter will be mailed tomorrow.	Ipadadala nang koreo ang sulat bukas.
+The party took place in a big room.	Nasa malaking kuwarto ang parti.
+The price of this car is very high.	Mahal talaga ang presyo ng awtong ito.
+The prince was changed into a frog.	Naging palaka ang prinsipe.
+The travelers came from many lands.	Ang mga nagbiyabiyahe'y galing sa iba-ibang bansa.
+The weather has been nice all week.	Maganda ang panahon nang buong linggo.
+They believe in a life after death.	Naniniwala sila sa buhay pagkatapos ng kamatayan.
+This database contains many errors.	Maraming mali itong databeys.
+This is the second time I've flown.	Pangalawang beses ko itong lumipad.
+Tom acted like he didn't know Mary.	Umarte si Tomas na parang di niya kilala si Maria.
+Tom is turning thirty this October.	Magtatatlumpo na si Tom sa Oktubre.
+Tom puts too much sugar in his tea.	Masyadong maraming maglagay ng asukal si Tomas sa kanyang tsa.
+We are sorry about the bad weather.	Nanghihingi kami ng paumanhin dahil sa masamang panahon.
+We can deliver the product in June.	Maihahatid namin ang produkto sa Hunyo.
+We have no secrets from each other.	Bawat kitang walang sikreto.
+We measured the depth of the river.	Sinukat namin ang kalaliman ng ilog.
+We reached the top of the mountain.	Inabot namin ang tuktok ng bundok.
+We were to have met there at seven.	Dapat nagtagpo tayo nang alas siyete.
+We were to have met there at seven.	Dapat nagtagpo kami nang alas siyete.
+We'll resume the meeting after tea.	Itutuloy natin ang miting pagkatapos ng tsa.
+What is your impression of America?	Anong impresyon mo ng Isteyts?
+What kind of chocolate do you like?	Anong klaseng tsokolate ang gusto mo?
+What time do you usually go to bed?	Anong oras ka natutulog?
+What're your plans for the weekend?	Anong plano mo ba para sa wik-end?
+Whatever you do, don't forget this.	Anumang gawin mo, huwag mong kalimutan ito.
+When and where is breakfast served?	Kailan at saan ang handa ng almusal?
+Where there is life, there is hope.	Kung saan may buhay, may pag-asa.
+Which do you prefer, rice or bread?	Alin ang gusto mo, kanin o tinapay?
+While I was reading, I fell asleep.	Nang nagbabasa, nakatulog ako.
+Will you come with me to the store?	Sasama ka ba sa akin sa tindahan?
+Winter is over and spring has come.	Tapos na ang taglamig; tagsibol na.
+Won't you come in for a cup of tea?	Bakit hindi ka pumasok para sa tasang tsa?
+Yesterday I heard a beautiful song.	Kahapon, napakinig ko ang isang magandang kanta.
+You should always do what is right.	Dapat palaging gawin ang tama.
+You talk as if you knew everything.	Pagka nagsasalita ka, akala mo'y alam lahat.
+You're more popular than you think.	Mas sikat ka sa akala mo.
+A home is more than a mere building.	Ang bahay ay hindi lang basta gusali.
+A picture is worth a thousand words.	Ang larawan ay kahalaga nang libong salita.
+After breakfast, we went for a walk.	Pagkatapos ng almusal, naglakad kami.
+All major credit cards are accepted.	Tinatanggap ang lahat ng mahalagang kredit kard.
+All of us looked through the window.	Lahat kami'y tumanaw sa bintana.
+Although it was raining, I went out.	Kahit na umuulan, lumabas ako.
+Are you going to attend the meeting?	Mag-aatend ka ba ng miting?
+Are you ready to start your journey?	Handa na ba kayong pasimulan ang inyong biyahe?
+As far as I know, he is not married.	Ang alam ko ay hindi siya nag-asawa.
+Do you have anything further to say?	Meron ka bang gusto pang sabihin?
+English is taught in most countries.	Tinuturo ang Ingles sa karamihang bayan.
+Have you finished reading the novel?	Natapos mo na ba ang nobela?
+He is apparently responsible for it.	Mukhang siya ang may gawa nito.
+He wants to go to the United States.	Gusto niyang pumunta sa Amerika.
+Her face betrayed her real feelings.	Hindi naitago ng mukha niya ang tunay niyang nararamdaman.
+How can I get to the police station?	Paano ako makakapunta sa estasyon ng pulis?
+How many people can fit in your car?	Gaano karaming mga tao ang kakasya sa iyong kotse?
+How many people can fit in your car?	Gaano karaming tao ang kasya sa kotse mo?
+I am all alone in a foreign country.	Nag-iisa ako sa dayuhang bansa.
+I am mixing mayonnaise with ketchup.	Hinahalo ko ang mayones at ketsap.
+I can't imagine what he is thinking.	Di ko maguni-guni kung anong iniisip niya.
+I couldn't answer all the questions.	Hindi ko masagot lahat ng mga tanong.
+I couldn't think of anything to say.	Wala akong maisip na sabihin.
+I didn't expect you to come so soon.	Hindi ko inaasahan na darating ka nang ganito kaaga.
+I don't know if I have enough money.	Hindi ko alam kung sapat ang pera ko.
+I feel happiest when I am in school.	Pinakamaligaya ako nang nasa paaralan ako.
+I have been here since five o'clock.	Nandito na ako noon pang alas singko.
+I have found what I was looking for.	Nakita ko ang hinahanap ko.
+I no longer have the energy to talk.	Wala na akong enerhiya para magsalita.
+I picked out a new hat at the store.	Pumili ako ng bagong sombrero sa tindahan.
+I wanna have dinner in a restaurant.	Gusto kong maghapunan sa restawran.
+I want to live close to the station.	Gusto kong tumira nang hindi malayo sa estasyon.
+I'd like a word with you in private.	Gusto kong kausapin ka sa pribado.
+I'd like a word with you in private.	Gusto kong kausapin kayo sa pribado.
+I'd like to invite you to the party.	Gusto kong imbitahin kita sa parti.
+I'll soon finish reading this novel.	Patapos ko nang basahin itong nobela.
+I'm sorry, but they're out of stock.	Sori po, pero awt op stak na sila.
+If I had time, I would study French.	Kung may panahon ako, mag-aaral ako ng Pranses.
+In Japan, all children go to school.	Sa Hapon, lahat ng bata'y pumupunta sa paaralan.
+Is this building open to the public?	Bukas ba sa lahat ang gusaling ito?
+It is not polite to point at others.	Bastos ang tumuro sa iba.
+It's up to you to decide what to do.	Sa iyo na ang magdisisyon kung anong gagawin.
+Let's go grab a burger or something.	Tara, mag-burger tayo.
+Not everybody wants to be an artist.	Di lahat ay gustong maging tagasining.
+She cooked her husband an apple pie.	Nilutuan nya yung asawa nya ng apple pie.
+She has read a lot of Tagalog books.	Maraming libro siyang binasa sa Tagalog.
+She talks as if she knew everything.	Kung magsalita siya, akala'y alam lahat.
+She was shy in her high school days.	Mahiyain siya noong high school pa lang siya.
+Tell her that I am writing a letter.	Sabihin mo sa kanya na gumagawa ako ng sulat.
+Tell me the name of the ninth month.	Sabihin mo sa akin ang pangalan ng ika-9 na buwan.
+That article was written in English.	Nakasulat sa Ingles ang artikulong iyon.
+That she was tired was plain to see.	Halatang pagod na siya.
+That's the house where Tom was born.	Iyon ang bahay na pinanganak si Tomas.
+The old city is surrounded by walls.	Pader ang pumaligid sa lumang lungsod.
+The result was rather disappointing.	Nakakabigo ang kinahinatnan.
+The volcano may erupt at any moment.	Baka pumutok na ang bulkan.
+Their hut is situated in the valley.	Ang kubo nila'y nasa lambak.
+There is no factory in this village.	Walang pabrika sa nayong ito.
+They advertised a new product on TV.	Nagpakita sila ng bagong produkto sa telebisyon.
+This year is going to be prosperous.	Magiging masagana ang taong ito.
+Tom's mother died when he was young.	Namatay ang ina ni Tom noong bata pa siya.
+Twenty teams entered the tournament.	Dalawampung pangkat ang pumasok sa torneo.
+We can't sleep because of the noise.	Di kami makatulog dahil sa ingay.
+We spent a quiet day in the country.	Matahimik na araw kami sa bukid.
+What kind of house does Tom live in?	Anong klaseng bahay ang tinitirhan ni Tomas?
+What time do you usually have lunch?	Anong oras ka nanananghalian?
+When did you begin studying English?	Kailan ka nagsimula mag-aral ng Ingles?
+When did you begin to learn English?	Kailan ka nag-umpisang mag-aral ng Ingles?
+When did you have your wall painted?	Kailan mo pinapintahan ang dingding mo?
+Will you come to the party tomorrow?	Papuntang parti ka ba bukas?
+Will you translate this into French?	Maiisalin mo ba ito sa Pranses?
+Would you like to have a cup of tea?	Gusto mo ba ng tasang tsa?
+You cannot get blood out of a stone.	Hindi mo mapipiga ang dugo galing sa bato.
+You do not have to bring your lunch.	Hindi mo kailangang dalhin ang tanghalian mo.
+You'll find the book in the library.	Mahahanap mo ang libro sa silid-aklatan.
+Your handwriting is similar to mine.	Katulad ng akin ang sulat-kamay mo.
+"Do you have some fish?" "Yes, I do."	"Mayroon kang isda?" "Opo, meron."
+Children are prohibited from smoking.	Bawal manigarilyo ang mga bata.
+Could you please put the baby to bed?	Pwede mo bang patulugin ang sanggol?
+Did you do your homework by yourself?	Magsarili mo bang ginawa ang homework mo?
+Do you know who painted this picture?	Alam mo ba kung sinong nagpinta nitong pintura?
+Don't take his remarks too literally.	Huwag mong masyadong gawing literal ang mga sinasabi niya.
+English is an international language.	Ang Ingles ay isang wikang pandaigdig.
+French was the language of diplomacy.	Wika ng diplomasya ang Pranses noon.
+He had a slight edge on his opponent.	May kaunting lamang siya sa kalaban niya.
+He memorized ten English words a day.	Nagsasaulo siya ng sampung salitang Ingles kada araw.
+He stood up with his hat in his hand.	Tumindig siyang may sombrero sa kamay niya.
+He wants Einstein to play the violin.	Gustong magbiyolin si Einstein.
+Hurry up! You should be ready by now.	Dali ka! Dapat handa ka na.
+I believe in this method of teaching.	Naniniwala ako sa paraang itong pagtuturo.
+I can tell you that it didn't happen.	Kaya kong sabihin sayo na hindi yun nangyari.
+I can't figure out what he is saying.	Hindi ko maintindihan ang sinasabi niya.
+I don't feel like sleeping right now.	Paramdam kong di ako makakatulog ngayon din.
+I don't have anything to give to you.	Wala akong ibibigay sa iyo.
+I don't particularly want to do that.	Hindi ko talagang gustong gawin yan.
+I don't want to discuss this anymore.	Ayaw ko nang pag-usapan ito.
+I drank a glass of milk this morning.	Isang basong gatas ang ininom ko sa umaga.
+I have never heard him speak English.	Di ko pa narinig siyang mag-ingles.
+I have no more time to talk with you.	Wala na akong panahong makipag-usap sa iyo.
+I need a Japanese-English dictionary.	Kailangan ko ng Hapon-Ingles na diksiyunaryo.
+I only want what's best for everyone.	Gusto ko lamang ang pinakamagaling para sa lahat.
+I remember that she wore a green hat.	Natatandaan kong nagsuot siya ng luntiang sombrero.
+I talk to Tom on the phone every day.	Kinakausap ko si Tom sa telepono araw-araw.
+I took a taxi because it was raining.	Nag-taxi ako kasi umuulan.
+I used to fish for hours on holidays.	Noon, nangingisda ako nang ilang oras tuwing bakasyon.
+I'm getting tired of your complaints.	Napapagod na ako sa mga reklamo mo.
+I'm on good terms with the neighbors.	Kasundo ko ang mga kapitbahay ko.
+I've drunk way too much coffee today.	Masyado ang kape ko ngayon.
+I've never been to such a nice party.	Hindi ko pa naranasan ang ganitong kagandahang party.
+Imagine that you have a time machine.	Magguni-guni na may makina ng oras ka.
+Is she satisfied with her daily life?	Kontento na ba siya sa buhay niya?
+Let's stay until the end of the game.	Tapusin natin ang laro.
+That music always reminded me of you.	Palaging naiisip kita dahil ng musikang iyan.
+The boys bring their books every day.	Dala ng mga batang lalaki ang mga libro nila araw-araw.
+The chicken laid an egg this morning.	Nangitlog ang manok nitong umaga.
+The doctor didn't allow me to go out.	Hindi ako pinayagan ng doktor na lumabas.
+The man was hiding in a dense forest.	Nagtatago sa mayabong na gubat ang mama.
+The people knew he did not like them.	Alam ng mga tao na ayaw niya sa kanila.
+The plane is flying above the clouds.	Sa itaas ng mga ulap lumilipad ang eroplano.
+The store is open all the year round.	Buong taong bukas ang tindahan.
+The workers were proud of their work.	Pinagmamalaki ng mga trabahador ang kanilang trabaho.
+The world doesn't revolve around you.	Hindi umiikot ang mundo sayo.
+There appears to have been a mistake.	Mukhang may mali.
+There seems to be a misunderstanding.	Tila may hindi nagkaintindihan.
+There was nothing left in the fridge.	Walang natira sa ref.
+There's something I want to show you.	May ipapakita ako sa iyo.
+They were playing a game of checkers.	Naglalaro sila ng dama.
+This custom dates from ancient times.	Itong kostumbre ay noong pang antigong panahon.
+Tom bought a sewing machine for Mary.	Bumili si Tom ng makinilya para kay Mary.
+Tom carefully read over the contract.	Binasang maigi ni Tom ang kontrata.
+Tom is leaving Kobe tomorrow morning.	Aalis si Tom ng Kobe bukas ng umaga.
+Tom took part in the summer festival.	Sumali si Tomas sa piyesta ng tag-init.
+We were cooking tempura at that time.	Nagluluto kami ng tempura noon.
+We were not prepared for the assault.	Hindi kami handa para sa pananalakay.
+What is the use of reading magazines?	Anong kasaysayan ang pagbabasa ng magasin?
+What time does the first train leave?	Anong oras naalis ang unang tren?
+What's your favorite part of the day?	Anong paborito mong parte ng araw?
+What's your favorite type of dessert?	Anong paborito mong klaseng panghimagas?
+What's your favorite type of dessert?	Anong paborito mong klaseng matamis?
+When did you see him dancing for her?	Kailan mo nakitang sinayawan niya siya?
+Who broke the window? Tell the truth.	Sinong bumasag ng bintana? Magsabi sa katotohanan.
+Would you like another cup of coffee?	Gusto mo ng isa pang tasang kape?
+You did not come to school yesterday.	Hindi ka pumunta sa paaralan kahapon.
+You did not come to school yesterday.	Di ka pumunta sa eskuwela kahapon.
+Your names were crossed off the list.	Tinanggal sa listahan ang mga pangalan niyo.
+"How are you?" "I am fine, thank you."	"Kamusta ka?" "Ayos naman ako, salamat."
+All you have to do is sweep the floor.	Pagwawalis lamang ang gagawin mo.
+Anyway, we'll see each other tomorrow.	Magkikita naman tayo bukas.
+Are you going to go to Tokyo tomorrow?	Pa-Tokyo ka ba bukas?
+As a matter of fact, she is my sister.	Sa totoo lang, kapatid ko siya.
+Can't you reach the book on the shelf?	Hindi mo ba abot ang mga libro sa shelf?
+Could you suggest an alternative date?	Maaari ka bang magbigay ng alternatibong petsa?
+Even though he was poor, he was happy.	Kahit na pobre siya, maligaya naman.
+Follow me and I will show you the way.	Sundan mo ako at ipakikita ko sa iyo ang daan.
+Have you made sure the door is locked?	Sinigurado mo bang nilak mo ang pinto?
+He doesn't know what it is to be poor.	Hindi niya alam kung ano ang mahirap na buhay.
+He emphasized the importance of peace.	Binigyang-diin niya ang kahalagahan ng kapayapaan.
+He patted his brother on the shoulder.	Tinapik niya ang balikat ng kapatid niyang lalaki.
+He said nothing, which made her angry.	Wala siyang sinabi, kaya nagalit siya.
+He started talking with his neighbors.	Nagsimula siyang makipag-usap sa mga kapitbahay niya.
+He struck a match and lit the candles.	Nagkiskis siya ng posporo't pinasindi niya ang mga kandila.
+He watches television before studying.	Nagtitibi siya bago mag-aral.
+He will arrive by eight at the latest.	Dadating siya nang alas otso nang pinakahuli.
+He writes to his parents once a month.	Sumusulat siya sa kanyang mga magulang isang beses kada buwan.
+He's rich, but he lives like a beggar.	Mayaman siya, ngunit ang buhay niya'y parang taong nagpapalimos.
+I am uncertain when he will come next.	Hindi ako sigurado kung kailan siya susunod na pupunta.
+I didn't have a good time last Sunday.	Hindi masaya nung linggo.
+I like eating pineapple for breakfast.	Mahilig akong mag-almusal ng pinya.
+I watched the news on TV after supper.	Nanuod ako ng balita sa telebisyon pagkatapos ng hapunan.
+I'll save the money for the next time.	Mag-iipon ako ng kuwarta para sa susunod.
+I'll take him with me to the hospital.	Dadalhin ko siya sa ospital.
+If only I hadn't been in such a hurry!	Sana'y hindi ako nagmadaling ganoon!
+Let's go out and get something to eat.	Tara at maghanap tayo ng makakain.
+Money doesn't grow on trees, you know.	Hindi namumunga ng pera ang mga puno, nga.
+Most people can't tell the difference.	Di kita ang kaibahan ng karamihan.
+No one knows what has happened to him.	Walang may alam kung anong nangyari sa kanya.
+Please send my regards to your family.	Pakibigay ng aking regards sa pamilya mo.
+Please tell me when to serve the food.	Pakisabi po sa akin kung kailan maghahain.
+Please write to me as soon as you can.	Sulatan mo ako nang kaagad mong puwede.
+She boasts that she's good at cooking.	Pinagmamalaki niyang magaling siyang magluto.
+She has a daughter whose name is Mary.	May anak siyang babae na ang pangalan ay Maria.
+She looks pale. She may have been Ill.	Ang putla niya. Baka may sakit siya.
+She may realize later on what I meant.	Kalaunan, malalaman din niya kung anong ibig kong sabihin.
+She went to the mall with her friends.	Pumunta siya sa mall nang kasama ang kanyang mga kaibigan.
+Talking in the library is not allowed.	Bawal ang pagsasalita sa aklatan.
+Thank you for your beautiful postcard.	Salamat sa iyong magandang postkard.
+The apricot trees are in full blossom.	Bundat na namumulaklak ang mga punong albarikoke.
+The farmer sowed his field with wheat.	Nagtanim ang magsasaka ng trigo sa kanyang bukid.
+The train's departure will be delayed.	Maaantala ang pag-alis ng tren.
+There is a little water in the bottle.	May konting tubig sa bote.
+They are very interested in astronomy.	Talagang interesado sila sa astronomiya.
+This box is too heavy for me to carry.	Masyadong mabigat itong kahon para bitbitin ko.
+This custom dates from the Edo period.	Itong kostumbre'y noon pang panahong Edo.
+This dictionary is as useful as yours.	Parehong may kwenta ang mga talatinigan natin.
+This is the hospital where I was born.	Ito ang ospital kung saan ako ipinanganak.
+This is the village where he was born.	Ito ang nayon na pinanganak siya.
+Tom divided the bread into two pieces.	Hinati ni Tomas ang tinapay nang dalawang piraso.
+Tom has a house not too far from here.	Si Tomas ay may bahay na di masyadong malayo rito.
+Tom has to clean his room before 2:30.	Kailangan malinis ni Tom ang kuwarto niya bago mag-2:30.
+Tom likes popcorn with lots of butter.	Gusto ni Tomas ang popcorn na maraming mantikilya.
+Walk faster, or you'll miss the train.	Lumakad ka nang mas mabilis, o mamimis mo ang tren.
+We had hoped to go abroad this summer.	Gusto sana naming mangibang bansa ngayong tag-araw.
+We went shopping in Shibuya yesterday.	Namili kami sa Shibuya kahapon.
+We'll probably be away for a few days.	Siguro ay mawawala kami nang ilang araw.
+Where does the airport bus leave from?	Saan naalis ang bus ng erport?
+Would you like to go shopping with me?	Gusto mong mamalengkeng kasama ako?
+"How old are you?" "Sixteen years old".	"Ilang taon ka na?" "Labing-anim."
+Astronomy is by no means a new science.	Di bagong agham talaga ang astronomiya.
+But the night is really long, isn't it?	E, talagang matagal ang gabi, di ba?
+He feels happy in spite of his failure.	Ramdam niya ang saya kahit na siya'y nabigo.
+He got wet from the waist to the knees.	Nabasa siya sa baywang hanggang tuhod.
+He has something to do with the matter.	May kuwan siya sa ano.
+He is the boy who painted this picture.	Siya ang batang lalaking nagpinta nitong pintura.
+Her new novel will come out next month.	Lalabas ang bago niyang nobela sa susunod na buwan.
+I almost left my umbrella on the train.	Kamuntik ko nang nalimutan ang payong ko sa tren.
+I am certain that he will quit his job.	Sigurado akong magreretiro siya sa trabaho niya.
+I don't know when Tom will leave Japan.	Di ko alam kung kailan si Tomas aalis ng Hapon.
+I had him take my suitcase to the room.	Pinadala ko ang maleta ko sa kuwarto.
+I have brought his umbrella by mistake.	Nagkamali kong dinala ang payong niya.
+I have many Esperanto-speaking friends.	Marami akong mga kaibigang nakakapag-Esperanto.
+I've had enough, so my stomach is full.	Tama na ako; busog na ako.
+If he knows the truth, he will tell us.	Kung alam niya ang katotohanan, sasabihin niya sa atin.
+In fact, he has never been to New York.	Sa katotohanan, di-kailanman siyang nakapunta sa Nuweba York.
+In my opinion, soccer is a great sport.	Sa palagay ko, ang soccer ay isang kahanga-hangang paligsahan.
+Is it difficult eating with chopsticks?	Mahirap bang kumain nang gamit ay sipit?
+Is this your first conference in Paris?	Ito ba'y una mong komperensiya sa Paris?
+May I see your collection of old books?	Maaari ko bang makita ang koleksyon mo ng mga lumang libro?
+My grandfather is very fond of reading.	Mahilig magbasa ang lolo ko.
+Oxygen from the air dissolves in water.	Sa tubig natutunaw ang oksihenong galing sa hangin.
+She walked slowly so she wouldn't slip.	Mabagal siyang naglakad upang hindi siya madulas.
+Sorry, you're calling the wrong number.	Pasensiya na, pero maling numero ang tinatawagan mo.
+Sweeping the room is my daughter's job.	Trabaho ng anak kong babae ang pagwawalis sa kwarto.
+The administration approved the budget.	Inaprub ng administrasyon ang badyet.
+The cats are drinking milk from a bowl.	Umiinom ang mga pusa ng gatas sa isang mangkok.
+The dog ran around and around the tree.	Tumakbo ang asong palibut-libot ng puno.
+The pen I lost yesterday was a new one.	Ang bolpen na nawala ko kahapon ay bago pa.
+The street was blocked by a huge truck.	Naharangan ng malaking trak ang kalye.
+The telephone rang while I was reading.	Nang nagbabasa ako, kumililing ang telepono.
+The water rose to a level of 10 meters.	Umakyat ang tubig sa antas nang 10 metro.
+They arrived in Paris at the same time.	Parehong oras silang dumating sa Paris.
+They sat in the shade of that big tree.	Umupo sila sa lilim ng malaking punong iyon.
+This is a book on modern English usage.	Ito ay libro tungkol sa modernong paggamit ng Ingles.
+This year has been a lucky one for him.	Maswerte itong taon na ito para sa kanya.
+Tom and Mary bought a home with a pool.	Bumili si Tomas at Maria ng bahay na may palanguyan.
+Tom asked Mary how to get to her house.	Tinanong ni Tomas kay Maria kung paano pumunta sa kanyang bahay.
+We have something special for you, sir.	Meron kaming espesyal na kuwan para sa inyo, po.
+What have you bought her for Christmas?	Ano'ng binili mo para sa kanya noong Pasko?
+What kinds of meat dishes do you serve?	Ano'ng klase ng karne ang ihinahain niyo?
+Who are you and where do you come from?	Sino ka at saan ka galing?
+You may spend a maximum of 100 dollars.	Maaari ka lamang gumastos ng hanggang 100 dolyar.
+You must observe the rules of the club.	Dapat mong sundin ang alituntunin ng samahan.
+You would have failed without his help.	Mabibigo ka sana kung hindi ka niya tinulungan.
+A lot of books are published every year.	Maraming libro ang pina-publish bawat taon.
+A rabbit has long ears and a short tail.	Mahaba ang taynga't maikli ang buntot ng kuneho.
+Could you lend me your pink pen, please?	Pakihiram nga ng pink na pen mo, plis?
+Don't forget to invite Tom to the party.	Huwag mong kalimutan anyayahan si Tom sa salusalo.
+Europeans today are just like Americans.	Para lamang mga Amerikano ngayon ang mga Taga-Europa.
+Even if I wanted to, I couldn't do that.	Kahit gustuhin ko, hindi ko kayang gawin iyon.
+Few passengers survived the catastrophe.	Kaunti lang ang nabuhay sa disgrasya.
+Give me a table for two near the window.	Isang mesa para sa dalawa na malapit sa bintana, nga.
+He has a great influence on his country.	May malaking impluwensiya siya sa kanyang bansa.
+He represented his class at the meeting.	Siya ang kumatawan sa klase niya sa pagtitipon.
+He represented his class at the meeting.	Nirepresent niya ang klase niya sa miting.
+He was walking with a stick in his hand.	Naglalakad siya nang may hawak na stick.
+I dealt out three candies to each child.	Nagbigay ako ng tatlong kendi sa bawat bata.
+I felt exhausted when the game was over.	Naramdaman ko ang pagod pagkatapos ng laro.
+I have an aunt who lives in Los Angeles.	May tiya ako sa Los Angeles.
+I like your cat, but it doesn't like me.	Gusto ko ang pusa mo, pero di niya gusto ako.
+I need a little time to talk to you now.	Kailangan kitang makausap ngayon.
+I visited the village where he was born.	Binisita ko ang nayon na pinanganak siya.
+I was raised on the east side of Boston.	Lumaki ako sa silangang bahagi ng Boston.
+I will return the book as soon as I can.	Isasauli ko itong libro agad.
+I'll take care of your children tonight.	Aalagaan ko ang mga anak mo nitong gabi.
+I'll try not to make mistakes next time.	Susubukan kong huwag nang magkamali sa susunod.
+It took me three days to read this book.	Inabot ako ng tatlong araw sa pagbabasa ng librong ito.
+Little presents keep a friendship alive.	Mga maliliit na regalo ang nakakabuhay sa kaibigan.
+Mary senses the aliens are watching her.	Naramdaman ni Maria na may mga taga-ibang-mundong pinapanuod siya.
+My mother tried to reconcile the couple.	Sinubukan ng nanay ko na pagbatiin ang magkasintahan.
+My watch may be one or two minutes fast.	Maaaring mabilis nang isa o dalawang minuto ang relo ko.
+Our school is in the middle of the city.	Aming paaralan ay nasa kalagitnaan ng siyudad.
+She claimed to be the owner of the land.	Inaangkin niya ang lupa.
+She needs someone to turn to for advice.	Kailangan niya ng mahihingan ng payo.
+She said she will go to Paris in August.	Sabi niyang papuntang Paris siya sa Agosto.
+Tell us the story from beginning to end.	Mag-istorya ka nang pasimula hanggang katapusan.
+The building is one hundred meters high.	Isang daang metrong kataasan ang gusali.
+The data has been fed into the computer.	Pinasok na ang data sa kompyuter.
+The entire town was destroyed in a fire.	Nasira ang buong bayan dahil sa sunog.
+The history of Rome is very interesting.	Nakakatuwa ang istorya ng Roma.
+The teacher didn't give us any homework.	Hindi tayo binigyan ng takdang aralin ng guro.
+They were stranded on a deserted island.	Naiwanan sila sa isang pulong walang tao.
+Water was found in the dead man's lungs.	May natagpuang tubig sa baga ng patay.
+We went to Rome, where we stayed a week.	Pumunta kami sa Roma na natigilan namin nang isang linggo.
+What do you want to be when you grow up?	Anong gusto mong maging paglaki mo?
+What is the purpose of the stock market?	Anong layon ng istakmarket?
+Why do you allow Mary to do this to you?	Bakit mo hinahayaang gawin sa iyo ito ni Mary?
+Will you tell me where to change trains?	Makitanong lamang po kung saan ang pagpalit ng tren?
+Would you like to go to a movie tonight?	Gusto mong magsine ngayong gabi?
+You can't go against the laws of nature.	Hindi ka makakasalungat sa batas ng kalikasan.
+Choose a food from each part of the menu.	Pumili ng pagkain sa bawat bahagi ng menu.
+Did you know he is good at making coffee?	Alam mo bang magaling siyang gumawa ng kape?
+England resembles Japan in many respects.	Ang Inglatera ay katulad ng Hapon sa maraming kadahilanan.
+Go get her medicine and a glass of water.	Kunin mo ang gamot niya't basong tubig.
+He pays no attention to others' feelings.	Di niya iniingatan ang pakiramdam ng iba.
+He stays a long time every time he comes.	Matagal siyang tumitigil bawat pagparini niya.
+He was granted permission to leave early.	Binigyan siya ng pahintulot na umalis nang maaga.
+I always take a bath before going to bed.	Palagi akong naliligo bago matulog.
+I don't know how much this motorcycle is.	Hindi ko alam kung magkano ang motorsiklong ito.
+I have no idea what you're talking about.	Wala akong ideya kung anong sinasabi mo.
+I have no time to explain this in detail.	Wala akong oras na ipaliwanag ito nang detalye.
+I used to smoke a lot, but now I've quit.	Noon, malakas akong manigarilyo, pero tumigil ako.
+I'm sick of listening to your complaints.	Sawa na ako sa mga reklamo mo.
+If it is raining, I won't go out tonight.	Kung uulan, di ako aalis sa gabi.
+It doesn't matter whether you win or not.	Hindi mahalaga kung manalo ka o hindi.
+Mary won't listen to her friend's advice.	Hindi nakikinig si Mary sa payo ng kanyang kaibigan.
+She stayed at the hotel for several days.	Tumigil siya sa otel nang ilang araw.
+The air conditioner doesn't seem to work.	Parang di umaandar ang erkon.
+The game was postponed until next Sunday.	Ipinagpaliban ang laro sa susunod na Linggo.
+The library is in the middle of the city.	Ang aklatan ay nasa kalagitnaan ng lungsod.
+The picnic was cancelled due to the rain.	Kinansela ang piknik dahil sa ulan.
+The president addressed a large audience.	Nagtalumpati ang pangulo sa maraming tao.
+The shop is just in front of the station.	Sa harap lamang ng tindahan ang estasyon.
+The station is in the center of the city.	Nasa kalagitnaan ng lungsod ang estasyon.
+The time bomb exploded with a loud noise.	Pumutok nang malakas ang bomba ng oras.
+The time will come when she'll regret it.	Pagsisisihan niya iyon pagdating ng panahon.
+There are a lot of factories in Kawasaki.	Maraming pabrika sa Kawasaki.
+There is no need to reply to that letter.	Hindi kailangang sagutin ang sulat na iyan.
+There was a great deal of snow last year.	Marami talagang yelo noong nakalipas na taon.
+There was a great deal of snow last year.	Marami talagang niyebe noong nakalipas na taon.
+There was a pair of handcuffs on the bed.	May posas sa kama.
+There was no taxi, so I had to walk home.	Dahil walang taksi, napalakad akong pabalik sa bahay.
+There were hundreds of birds on the lake.	May daan-daang ibon sa lawa.
+They are content with things as they are.	Malugod sila sa sitwasyong ganoon.
+This afternoon we will have an interview.	Magkakaroon tayo ng panayam ngayong tanghali.
+This is the first time I've baked a cake.	Unang beses kong magbeyk ng keyk.
+Tom told Mary that he'd be free tomorrow.	Sinabi ni Tom kay Mary na puwede siya bukas.
+What do you call this animal in Japanese?	Anong tawag sa hayop na ito sa Hapon?
+What time does this train reach Yokohama?	Anong oras darating itong tren sa Yokohama?
+When the rain stops, we'll go for a walk.	Pagka tumila na ang ulan, maglalakad tayo.
+When were potatoes introduced into Japan?	Kailan inintrodyus ang patatas sa Hapon?
+Why don't you try on this yellow sweater?	Bakit ayaw mong subukan itong dilaw na sweater?
+You ought to adjust the clock. It's slow.	Dapat iadyast mo ang klak. Huli siya.
+You'll want for nothing while I am alive.	Wala ka nang hahanapin pa habang nabubuhay ako.
+A stranger asked me the way to the school.	May mamang nagtanong sa akin ang papunta sa paaralan.
+Although he may be clever, he is not wise.	Bagamat matalino man siya, di siya wais.
+Are you willing to help me with that work?	OK lang ba sayo'ng tulungan ako sa trabahong iyon?
+Brazil has almost 200 million inhabitants.	Halos 200 milyon na tao na sa Brazil.
+Did you take the book back to the library?	Sinauli mo na ba ang aklat sa aklatan?
+Don't forget to take an umbrella with you.	Huwag mo kalimutang magdala ng payong.
+Don't you have anything smaller than this?	Wala ka bang mas maliit kaysa sa rito?
+Even if it rains, the game will be played.	Kung umulan man, maglalaro.
+He ended his life by jumping off a bridge.	Tinapos niya ang buhay niya nang tumalon sa tulay.
+He has a bad reputation with his students.	Hindi maganda ang reputasyon niya sa mga estudyante niya.
+He is a doctor and a university professor.	Doktor siya at propesor sa unibersidad.
+He took me over to the island in his boat.	Dinala niya ako sa isla nang bangka niya.
+He was constantly borrowing money from me.	Lagi na lang siyang humihiram ng pera sa akin.
+I didn't know apple trees grow from seeds.	Hindi ko alam na galing pala sa binhi ang puno ng mansanas.
+I do not for a moment think you are wrong.	Di ko isip sa isang saglit na mali ka.
+I don't know when he got back from France.	Di ko alam kung kailan siya bumalik galing sa Pransiya.
+I have already finished reading this book.	Tinapos ko nang basahin itong aklat.
+I have only half as many books as he does.	Meron akong kalahating karaming librong meron siya.
+I refuse to answer such a stupid question.	Hindi ko sasagutin ang ganyan katangang tanong.
+I used to play tennis with him on Sundays.	Naglalaro kami ng tennis kapag Linggo noon.
+I wish our classroom were air-conditioned.	Sana may aircon ang silid namin.
+I wonder if you could get me another beer.	Ikuha mo kaya ako ng isa pang serbesa.
+If he hadn't been tired, he would've gone.	Kung hindi siya pagod, aalis sana siya.
+If you want me to help Tom, I'll help him.	Kung gusto mong tulungan ko si Tom, tutulungan ko siya.
+It was said that that lady was an actress.	Sinasabi na artista ang babaeng iyon.
+It's Sunday. He can't have gone to school.	Linggo ngayon. Hindi pwedeng nasa skwelahan sya.
+It's been five years since I last saw you.	Limang taon na ang lumipas nang huli kitang makita.
+It's been five years since I last saw you.	Limang taon na mula nung huli kitang makita.
+It's not what you say, but how you say it.	Di sa kung anong sinasabi, kundi kung paano.
+It's time you had a dose of your medicine.	Oras nang nabigyan ka ng dosis ng gamot mo.
+Many flowers start blooming in springtime.	Nag-uumpisang mamulaklak sa tagsibol.
+Mother bought two bottles of orange juice.	Bumili si nanay ng dalawang bote ng orange juice.
+Mother divided the cake into eight pieces.	Piniraso ng nanay nang walo ang keyk.
+My father is going to go abroad next week.	Mangingibang-bansa ang tatay ko sa susunod na linggo.
+My grandfather gave me a birthday present.	Binigyan ako ng lolo ko ng regalo sa aking kaarawan.
+None of the students were late for school.	Walang estudyanteng nahuli para sa eskuwela.
+She asked about the location of the house.	Nagtanong siya tungkol sa kinaroroonan ng bahay.
+She read an amusing story to the children.	Binabasa niya ang isang kuwentong nakakatuwa sa mga bata.
+She was loved by everybody in the village.	Mahal siya ng lahat sa nayon.
+Thai is the official language of Thailand.	Ang Thai ay wikang opisyal ng Thailand.
+The airport was closed because of the fog.	Sarado ang erport dahil sa ulap na hamog.
+The firemen rushed into the burning house.	Sumugod ang mga bumbero sa nasusunog na bahay.
+The girl screamed when she saw the flames.	Sumigaw 'yung babae nang makakita siya ng apoy.
+The magician had the children's attention.	Nakuha ng mago ang atensiyon ng mga bata.
+The whole experiment was recorded on film.	Ang buong experimento ay naitala sa pelikula.
+There were hundreds of cars on the street.	Daan-daan ang mga kotse sa kalye.
+There's something wrong with this machine.	May diperensiya itong makina.
+Tom and Mary failed to reach an agreement.	Hindi nagkasundo sina Tom at Mary.
+Tom doesn't know what Mary is looking for.	Hindi alam ni Tomas kung anong hinahanap ni Maria.
+Tom grabbed Mary to keep her from falling.	Hinila ni Tom si Mary para hindi ito malaglag.
+Wood can be made into all sorts of things.	Maraming bagay ang pwedeng magawa mula sa kahoy.
+You may go as long as you come home early.	Puwede kang pumunta, pero basta maaga kang umuwi.
+A foreigner asked me where the station was.	Tinanong ako ng isang dayuhan kung nasaan ang estasyon.
+After days of warm weather, it became cold.	Pagkatapos ng mainit na panahon, naging malamig.
+All the members of the club agreed with me.	Lahat ng kasapi ng club ay sumang-ayon sa akin.
+Astronomy deals with the stars and planets.	Tungkol sa mga bituwin at planeta ang astronomiya.
+Could you please repeat what you just said?	Pakiulit nga ang kasasabi mo?
+Every word in this dictionary is important.	Bawat salita sa diksiyunaryong ito'y importante.
+He has the bad habit of chewing his pencil.	May masamang habit siyang ngumuya sa kanyang lapis.
+He is tall, but his brother is much taller.	Matangkad siya, pero lalong mas matangkad ang kapatid niyang lalaki.
+He knows Germany like the back of his hand.	Kabisado niya ang bansang Alemanya.
+He lives in the neighborhood of the school.	Nakatira siya sa pook ng eskuwela.
+He studied very hard to become a scientist.	Nag-aral siya nang mabuti para maging dalub-agham.
+He studied very hard to become a scientist.	Para maging dalub-agham, nag-aral siya nang mabuti.
+How much longer will the thunderstorm last?	Gaano pa katagal ang bagyo?
+I am writing to express my dissatisfaction.	Sumusulat ako sa inyo para ipaalam na hindi ako nakontento.
+I don't know how much those two bikes cost.	Hindi ko alam kung magkano yang dalawan bike na yan.
+I eat lunch here two or three times a week.	Nanananghalian ako dito dalawa o tatlong beses sa isang linggo.
+I ran out of money during my stay in India.	Naubusan ako ng pera noong nagtagal ako sa India.
+I remember the day you were born very well.	Alaala ko talaga ang araw na pinanganak ka.
+I spent the whole day cleaning up the room.	Buong araw ay naglinis ako ng kuwarto.
+I was rereading the letters you sent to me.	Binasa ko muli ang mga sulat mong pinadala sa akin.
+I would go to the movies if I had the time.	Pupunta ako sa sine kung may oras ako.
+If I were you, I'd put the money in a bank.	Kung ako sa'yo, ilalagay ko ang pera sa banko.
+Is the cat on the chair or under the chair?	Ang pusa ba'y nasa ibabaw ng silya o sa ilalim ng silya?
+It is high time you started a new business.	Kailangan mo nang magsimula ng bagong negosyo.
+It is not easy to learn a foreign language.	Di madaling pag-aralan ang isang banyagang wika.
+It is not easy to learn a foreign language.	Di madaling pag-aralan ang isang dayuhang wika.
+Mary said she was going to dance all night.	Sabi ni Maria na magsasayaw siya buong gabi.
+My dream is to take a round-the-world trip.	Ang pangarap ko ay magbiyaheng palibot ng mundo.
+My father is an architect, not an engineer.	Arkitekto ang tatay ko, hindi inhenyero.
+She brought up her children to be truthful.	Pinalaki niya ang kanyang mga anak nang matapat.
+She gave him her name and telephone number.	Binigay niya ang kanyang pangalan at numero sa telepono.
+Such toys have a bad influence on children.	Ang ganyang uri ng laruan ay may masamang impluwensiya sa mga kabataan.
+That's the tallest building I've ever seen.	Iyan ang pinakamataas na gusaling nakita ko.
+The blue lines on the map designate rivers.	Dinedesigneyt ng mga linyang asul sa mapa ang mga ilog.
+The peach tree is beautiful when in flower.	Pagka namumulaklak, maganda ang puno ng milokoton.
+There is nothing like summer and ice cream.	Walang kagaya ng tag-init at ayskrim.
+This clock is far more expensive than that.	Mas mahal ang orasan na ito kaysa doon.
+This is exactly what I've been looking for.	Eksaktong ito ang hinahanap ko.
+This is the first time I've ridden a horse.	Unang beses kong sakyan ang kabayo.
+This is the first time I've swum in a lake.	Unang beses kong lumangoy sa lawa.
+This movie is for adults, not for children.	Para sa matatanda itong pelikula, di para sa bata.
+Tom asked you a question. Please answer it.	May tinanong sayo si Tom. Paki sagot.
+Tom is fatter now than when I last saw him.	Mas mataba si Tom ngayon kaysa nung huli ko siyang nakita.
+We sometimes lack patience with old people.	Kung minsan nawawalan tayo ng pasensiya para sa matatanda.
+Who's your favorite science fiction writer?	Sino ang paborito mong manunulat ng siyensiyang piksiyon?
+You shouldn't have come here to begin with.	Dapat hindi ka na nagparini sa simula, e.
+"What did you say?" "I didn't say anything."	"Anong sinabi mo?" "Wala akong sinabi."
+A beautiful lake lay just beyond the forest.	Isang magandang lawa'y nasa dako paroon ng gubat.
+After the heavy rain, there was a big flood.	Pagkatapos ng malakas na ulan, bumahang maigi.
+Do it your own way if you don't like my way.	Gawin mo sa iyong paraan kung ayaw mo ang akin.
+Even if you stop me, I won't change my mind.	Kahit na pigilin mo ako, di ko iibahin ang isip ko.
+Have you finished reading today's paper yet?	Natapos mo na bang basahin ang dyaryo ngayong araw?
+Have you forgotten that you were young once?	Nakalimutan mo nang bata ka noon?
+He is serious when he talks about his hobby.	Pagka pinag-uusapan niya ang hobby niya, palagi siyang parang seryoso.
+He pressed his face against the shop window.	Dinagan niya ang kanyang mukha sa bintana ng tindahan.
+He was a very good skier when he was little.	Magaling siyang mag-ski noong maliit pa siya.
+His house is on the south side of the river.	Ang bahay niya'y nasa timugang tabi ng ilog.
+His poetry does not translate into Japanese.	Hindi masalin ang tula niya sa Hapon.
+How much time do you spend with your spouse?	Gaano katagal kayong nagkakasama ng asawa mo?
+I am sorry that I have troubled you so much.	Sori na inabala kita talaga.
+I am thinking of closing my savings account.	Iniisip kong ipasara na ang savings account ko.
+I gave up smoking and I feel like a new man.	Pinigil ko na ang pananagarilyo at parang bagong tao na ako.
+I must offer you an apology for coming late.	Pasensiya na at nahulí ako.
+I was absent from school because I was sick.	Ako ay lumiban mula sa paaralan dahil ako ay nagkasakit.
+I was wondering if you could give me a lift.	Pwede mo ba akong isakay?
+I've been waiting for you since two o'clock.	Simula alas-dos hinihintay na kita.
+It is difficult to walk 60 kilometers a day.	Mahirap maglakad ng 60 kilometro sa isang araw.
+It seems that he is interested in astronomy.	Parang natutuwa siya sa astronomiya.
+It was so cold yesterday that I stayed home.	Napakalamig kagabi kaya nanatili lang ako sa bahay.
+My grandfather died in the Second World War.	Namatay ang aking lolo sa Ikalawang Digmaang Pandaigdig.
+Nobody goes outside in this kind of weather.	Walang lumalabas sa gantong klaseng panahon.
+Our plane was flying over the Pacific Ocean.	Lumipad ang aming eroplano sa itaas ng Karagatang Pasipiko.
+The children chased after the circus parade.	Hinabol ng mga bata ang parada ng sirkus.
+The village was isolated by the heavy storm.	Ang nayon ay binukod ng malakas na bagyo.
+There were curtains hanging over the window.	May mga kurtinang nakabitin sa bintana.
+There were three people waiting in front me.	Tatlong tao ang nakapila sa harap ko.
+Tom accused Mary of lying through her teeth.	Inakusahan ni Tom si Mary ng pagsisinungaling.
+Tom acted happy, but deep inside he was sad.	Umarteng masaya si Tomas, pero sa kalaliman niya, malungkot siya.
+Tom and Mary took the boat out of the water.	Inalis nina Tom at Mary ang bangka sa tubig.
+What are you doing at school this afternoon?	Anong gagawin mo sa eskuwela nitong tanghali?
+What will actually happen is anyone's guess.	Kung anuman ang mangyayari ay hula ng sinuman.
+Whatever he may say, I won't change my mind.	Kahit ano'ng sabihin niya, hindi magbabago ang isip ko.
+You haven't washed your hands yet, have you?	Di ka pa naghugas ng kamay, di ba?
+Zoology deals with the study of animal life.	Ang soolohiya ay tungkol sa pag-aaral ng buhay ng hayop.
+America is the greatest country in the world.	Ang Amerika ang pinaka-magandang lugar sa buong mundo.
+Are you interested in buying an encyclopedia?	Interesado ka bang bumili ng encyclopedia?
+Back in those days, I loved to play checkers.	Noon, gustung-gusto kong maglaro ng checkers.
+By what authority do you order me to do this?	Anong karapatan mong utusan akong gawin ito?
+He gave witness to the truth of my statement.	Siya ang nagbigay ng patunay sa pahayag ko.
+He was afraid about what was going to happen.	Natakot siya sa mangyayari.
+He was the first to carry out the experiment.	Siya ang unang nag-eksperimento.
+I don't think that she looks like her mother.	Sa tingin ko hindi niya kamukha ang nanay niya.
+I usually do my shopping at this supermarket.	Kalimitang sa supermarket na ito ako namimili.
+I wish I had not bought such a useless thing.	Sana ay hindi na lang ako bumili ng isang walang kuwentang bagay.
+If it is fine tomorrow, we'll go on a picnic.	Kung maganda bukas, magpipiknik tayo.
+If it rains tomorrow, I'll just stay at home.	Kung umulan bukas, nasa bahay na lamang ako.
+If you see a mistake, then please correct it.	Kung makakita ka ng pagkakamali, pakitama ito.
+It's about ten minutes to the station by bus.	Mga sampung minuto papunta sa istasyon gamit ang bus.
+It's not my opinion, but just my translation.	Hindi ko opinyon, kundi translasyon ko lamang.
+My brother takes good care of his belongings.	Inaalagaan ng kapatid ko ang lahat ng gamit nya.
+She has a bad habit of chewing on her pencil.	May masamang habit siyang ngumuya sa kanyang lapis.
+The boy has grown out of all his old clothes.	Nilakihan ng batang lalaki ang kanyang mga lumang suot.
+The magazine you lent me is very interesting.	Nakakatuwa ang magasin na pinahiram mo sa akin.
+The vast majority of children love ice cream.	Talagang ang karamihan ng bata'y gusto ang ayskrim.
+This is the first time I've seen this animal.	Unang beses kong makita itong hayop.
+Tom doesn't understand how to use a computer.	Di alam ni Tomas ang paggamit ng kompyuter.
+Tomorrow night, I am going to Narita airport.	Bukas ng gabi, papunta ako sa paliparang Narita.
+We must learn to live in harmony with nature.	Dapat matuto tayong tumira sa armonya sa kalikasan.
+What was your mother doing when you got home?	Anong ginagawa ng nanay mo pagdating mo sa bahay?
+As soon as he finished his work, he went home.	Nang matapos niya ang kanyang trabaho, agad siyang umuwi.
+Can you give me another sentence to translate?	Pwede mo ba akong bigyan ng iba pang pangungusap na isasalin?
+Could you tell me how to get to Osaka station?	Maaari mo bang sabihin sa akin kung paano pumunta sa istasyon ng Osaka?
+He cloaks his wickedness under a smiling face.	Tinatago niya ang kasamaan niya sa likod ng mga ngiti.
+He couldn't wait to try out his new surfboard.	Sabik na niyang subukan ang surpbord na bago niya.
+He told us he had gone through many hardships.	Sinabi niya sa amin na naranasan niya ang maraming kahirapan.
+He was drunk and forgot to shut the back door.	Lasing siya't nakalimutan sarhan ang pinto sa likod.
+He was kind enough to take me to the bus stop.	Mabait naman siyang tinuro sa akin ang tigilan ng bus.
+I bought a camera, but I lost it the next day.	Bumili ako ng camera, pero nawala ko sa sumunod na araw.
+I don't believe the child came to Tokyo alone.	Di ako naniniwalang bata siyang nagsariling pumunta sa Tokyo.
+I fall asleep in the class every now and then.	Nakakatulog ako sa klase paminsan-minsan.
+I feed my cat every morning and every evening.	Pinapakain ko ang aking pusa sa araw at sa gabi.
+I met her in the winter a number of years ago.	Natagpo ko siya sa taglamig nang ilang taon na.
+I'll go to Hokkaido next month with my friend.	Sa susunod na buwan, papuntang Hokkaido akong kasama ang kaibigan ko.
+I'm not wearing a diamond ring, but I'm happy.	Wala akong brilyanteng singsing, pero masaya pa rin ako.
+If you mix blue and red, the result is purple.	Pagka ihalo mo ang asul at pula, ang resulta'y kulay ube.
+If you take this medicine, you'll feel better.	Pagka uminom ka nitong gamot, mas gagaling ang paramdam mo.
+It is interesting for me to read my old diary.	Nakakatuwa para sa akin ang magbasa ng aking lumang talaan sa araw-araw.
+It is no use blaming him for the accident now.	Wala ng magagawa ang paninisi mo sa kanya sa aksidente.
+It'll take not less than one hour to go there.	Di bawas nang isang oras ang pagpunta roon.
+It's clear that he doesn't want to talk to me.	Klarong di niya gustong kausapin ako.
+Nothing is more important in life than health.	Walang mas importante sa buhay kundi ang kalusugan.
+The boy reached out for another piece of cake.	Umabot ang bata para isa pang pirasong keyk.
+The children built a sand castle on the beach.	Gumawa ng kastilyong buhangin ang mga bata sa dalampasigan.
+The first thing you have to do is take a bath.	Ang unang dapat mong gawin ay magligo.
+The man admitted having broken into the house.	Inamin ng lalaki na pinasok niya ang bahay.
+The population explosion is a serious problem.	Seryosong problema ang biglaang pagtaas ng populasyon.
+The stars look dim because of the city lights.	Hindi maliwanag ang mga bituin dahil sa mga ilaw ng siyudad.
+This lake is among the deepest in the country.	Itong lawa'y isa sa pinakalalim sa bansa.
+Tom and his grandmother went to the bookstore.	Si Tomas at ang lola niya ay nagpuntang bukstor.
+Tom could be in the kitchen, but I don't know.	Baka nasa kusina si Tom, pero ewan ko.
+Tom could be in the kitchen, but I don't know.	Maaaring nasa kusina si Tom, pero hindi ko alam.
+Tom definitely seems to be interested in Mary.	Mukhang interesado talaga si Tom kay Mary.
+Tom's dog woke him up a little after midnight.	Nagising si Tom ng aso niya nang mga hatinggabi.
+You'll soon get used to living in the country.	Masasanay ka agad nang pamumuhay sa bukid.
+About one third of the earth's surface is land.	Mga katlo ng ibabaw ng Tiyera'y lupa.
+Generally speaking, women live longer than men.	Karaniwang mas mahaba ang buhay ng mga babae kaysa sa mga lalaki.
+He concentrated his attention on what she said.	Pinakinggan niyang mabuti ang sinabi nito.
+He should have the right to decide for himself.	May karapatan siyang mag-desisyon para sa sarili niya.
+He told me that he would visit Nara next month.	Sabi niya sa akin na baka papuntang Nara siya sa susunod na buwan.
+He will commit suicide if he can't see his son.	Magpapakamatay siya kapag hindi niya nakita ang anak niya.
+Her voice could hardly be heard over the noise.	Halos hindi marinig ang boses niya sa ingay.
+Historically, the Persian Gulf belongs to Iran.	Ayon sa kasaysayan, ang Persian Gulf ay pagmamay-ari ng Iran.
+I am not used to drinking coffee without sugar.	Di ako sanay magkape nang walang asukal.
+I have kept a diary in English these ten years.	Nagtago ako ng talaarawan sa Ingles nitong sampung taon.
+I postponed my date because I had to work late.	Kinailangan kong magtrabaho hanggang gabi kaya ipinagpaliban ko ang aking date.
+I'm sorry, but I don't understand English well.	Sori po, pero hindi ko masyadong maintindihan ang Ingles.
+I've been living in San Salvador for six years.	Nakatira ako sa San Salvador nang anim na taon na.
+Is there anything you want that you don't have?	May gusto ka ba ng wala ka?
+It is human nature to be bugged by such things.	Kalikasang tao ang maabala ng mga ganoong bagay.
+It's very rude of you to say a thing like that.	Napakabastos naman ng sinabi mo.
+Our teacher said, "Water boils at 100 degrees."	Sabi ng guro namin, "Ang tubig ay kumukulo sa 100 antas ng sentigrado."
+Please give us your answer as soon as possible.	Pakibigay po sa amin ang inyong sagot sa pinakabilis na posible.
+She was very surprised when she heard the news.	Nagitla siya nang narinig niya ang balita.
+Some people gain weight when they quit smoking.	May ibang mga tao na tumataba kapag tinigilan ang paninigarilyo.
+Someone must have taken my umbrella by mistake.	Baka may nagkamaling kumuha ng payong ko.
+The cafeteria's primary problem is its quality.	Ang pangunang problema sa kapetirya ay ang kalidad.
+The children would play for hours on the beach.	Ilang oras nang maglalaro ang mga bata sa dalampasigan.
+The newspaper says that the typhoon hit Kyushu.	Sabi ng pahayagan, tinamaan daw ng bagyo ang Kyushu.
+There are times when we have to hide the truth.	May mga pagkakataon na kailangan nating itago ang katotohanan.
+Tom currently lives alone in a small apartment.	Sa ngayon, mag-isang nakatira si Tom sa isang maliit na apartment.
+When I entered his room, he was reading a book.	Noong pumasok ako sa kuwarto niya, nagbabasa siya ng libro.
+While in London, he visited the British Museum.	Pinuntahan niya ang British Museum noong siya ay nasa London.
+You had better give up smoking for your health.	Dapat itigil mo na ang paninigarilyo para sa kalusugan mo.
+A big tree in the field was struck by lightning.	Kinidlatan ang malaking puno sa bukid.
+Everyone was really impressed with that machine.	Na-impres ang lahat sa makinang iyon.
+He said he was tired, so he would go home early.	Sabi niya pagod daw siya kaya uuwi siya nang maaga.
+I asked him not to go, but he left all the same.	Pinakiusapan ko na siyang huwag umalis, pero umalis pa rin siya.
+I cannot thank you enough for all your kindness.	Lubos ang pasasalamat ko sa iyo para sa lahat ng kabutihan mo.
+I hope this will not inconvenience you too much.	Sana hindi ka masyadong maabala.
+I passed the city hall on my way to the station.	Dumaan ako sa munisipyo ng bayan papunta sa estasyon.
+I think this medicine will do you a lot of good.	Sa tingin ko, makabubuti sa iyo ang gamot na ito.
+I was just about to go to bed when he phoned me.	Mahihiga na sana ako nang tumawag siya.
+It's high time you got married and settled down.	Oras na para lumagay ka sa tahimik.
+Science has not solved all the problems of life.	Hindi malutas ng agham ang lahat ng problema sa buhay.
+She was able to cross the Pacific Ocean by boat.	Natawid niya ang Karagatang Pasipiko nang bangka.
+There are many interesting animals in Australia.	Maraming kaakit-akit na hayop sa Australia.
+There's a white building just around the corner.	May puting gusali sa palibot ng kanto.
+Tom eats at least three bowls of rice every day.	Kumakain ng hindi bababa sa tatlong mangkok ng kanin si Tom araw-araw.
+Tom returned the shirt because it was too small.	Binalik ni Tom ang damit kasi masiyado itong maliit.
+Tom thinks that he's the center of the universe.	Akala ni Tom na siya'y kalagitnaan ng uniberso.
+Valencia is famous for its unusual architecture.	Sikat ang Valencia sa arkitektura.
+Water, taken in moderation, cannot hurt anybody.	Hindi makákasama ang pag-inom ng tubig, basta huwag sobra.
+What you do is more important than what you say.	Ang ginagawa mo'y mas importante kaysa sa sinasabi mo.
+Who will take care of the dog while we are away?	Sinong mag-aalaga sa aso habang wala tayo?
+Why does the US government let people have guns?	Bakit hinahayaan ng gobyerno ng US na magkaroon ng baril ang mga tao?
+Father wants me to study abroad while I am young.	Gusto ni Tatay na mag-aral ako sa ibang bansa habang bata pa ako.
+He was out of breath because he had been running.	Hinihingal siya dahil tumatakbo siya kanina.
+He will kill himself if he doesn't see his child.	Magpapakamatay siya kapag hindi niya nakita ang anak niya.
+How much longer will it take for the tub to fill?	Gaano pa katagal bago mapuno ang tub?
+Hurry up, or you will be late for the last train.	Magmadali ka, o maleleyt ka sa huling tren.
+I'm not willing to cook dinner for twenty people.	Ayaw kong magluto ng hapunan para sa dalawampung tao.
+It is not clear what the writer is trying to say.	Hindi malinaw ang nais sabihin ng manunulat.
+It's a pity that I don't understand English well.	Sayang na di ko masyadong maintindihan ang Ingles.
+My first day in the university was rather boring.	Medyo mainip ang unang araw ko sa unibersidad.
+On New Year's Eve, the trains will run all night.	Sa bagong taon, buong gabi aandar ang mga tren.
+Quite a few people came to the meeting yesterday.	Kakaunting tao lang ang dumalo sa meeting kahapon.
+Several boys had to leave school early yesterday.	Maraming kabataang lalaki ang kinailangang umuwi nang maaga mula sa paaralan kahapon.
+She had no other choice but to marry the old man.	Wala siyang mapilian kundi ikasal ang matandang lalaki.
+She is from Hokkaido, but is now living in Tokyo.	Taga-Hokkaido siya, pero tumitira siya ngayon sa Tokyo.
+The chances are very good that our team will win.	Malaki ang pag-asang manalo ang pangkat natin.
+The train was delayed on account of a heavy snow.	Naantala ang tren dahil sa mabigat na niyebe.
+There is a time to speak and a time to be silent.	May oras na magsalita at oras na tumahimik.
+There's no need to hurry. We have plenty of time.	Hindi kailangang magmadali. Marami tayong panahon.
+There's no need to panic. There's plenty of time.	Di kailangang magpanik. Marami pang oras.
+This committee includes scientists and engineers.	May kasamang mga dalub-agham at inhenyero itong komiti.
+Tom didn't think that anyone would recognize him.	Hindi inakala ni Tom na may makakakilala sa kaniya.
+Tom had meat loaf and mashed potatoes for dinner.	Meat loaf at mashed potatoes ang hapunan ni Tom.
+Tom is the president of the local astronomy club.	Presidente si Tomas ng klubo ng astronomiya sa pook.
+Tom was arrested as a suspect in a criminal case.	Hinuli si Tom bilang isang suspek sa krimen.
+We looked at the sky, but couldn't see any stars.	Tinignan namin ang langit ngunit walang mga bituin.
+We should make it if the traffic isn't too heavy.	Matutuloy tayo kung ang trapik ay di mabigat.
+Whatever happens, you're never going to find out.	Anuman ang mangyari, hindi mo malalaman.
+When was the last time you listened to this song?	Kailan ang pinakahuli mong pakinig sa kantang ito?
+Do you think I can use my cellphone in the shower?	Isip mo bang puwede kong gamitin ang selular ko sa dutsa?
+From now on, you'll have to take care of yourself.	Simula ngayon, dapat ingatan mo ang sarili mo.
+He deliberately kept on provoking a confrontation.	Sinasadya niyang gumawa ng gulo.
+He had difficulty in finding his way to the hotel.	Nahirapan siyang hanapin ang daan papuntang hotel.
+He is very secretive in regard to his family life.	Masikreto siya tungkol sa kanyang pamilya.
+How long does it take to get to the train station?	Gaano katagal bago makarating sa istasyon ng tren?
+I don't need your money. What I need is your time.	Di ko kailangan ang pera mo. Kailangan ko ang oras mo.
+I have not had anything to eat since this morning.	Wala pa akong nakakain simula nitong umaga.
+I would've gone to the movies if I'd had the time.	Kung may oras lang ako, pupunta sana ako sa sinehan.
+I'll try not to disturb you while you're studying.	Susubukan kong huwag kang abalahin habang nag-aaral ka.
+It has been three years since I came to live here.	Tatlong taon nang nakatira ako rito.
+My sister married a high school teacher last June.	Nagpakasal ang kapatid kong babae sa isang guro ng mataas na paaralan noong Hunyo.
+She knows ten times as many English words as I do.	Sampung beses na mas maraming salitang Ingles ang alam niya kaysa sa akin.
+The cottage looked as if nobody were living in it.	Parang walang taong nakatira sa kasita.
+The teacher warned us that the test would be hard.	Pinagbalaan kami ng titser na ang test ay magiging mahirap.
+Tom doesn't understand what Mary is trying to say.	Hindi naiintindihan ni Tom kung anong gustong sabihin ni Mary.
+You have nothing whatever to be embarrassed about.	Wala kang kailangang ikahiya.
+He wrote a book about his adventures in the jungle.	Sinulat niya ang librong tungkol sa kanyang mga abentura sa gubat.
+I find it much easier to speak French than English.	Mas madali sa akin ang magpranses kaysa sa mag-ingles.
+I had to push my bicycle because I had a flat tire.	Tinulak ko ang bisikleta ko dahil flat ang gulong.
+I think he should stay away from drugs of any sort.	Isip ko'y dapat lumayo siya sa mga anumang droga-droga.
+If you can't have children, you could always adopt.	Kung hindi ka maaaring magkaroon ng mga anak, maari ka namang mag-ampon.
+It's hard to believe that Tom could murder someone.	Hindi kapani-paniwalang kayang pumatay ni Tom.
+Late in March 1841, his cold turned into pneumonia.	Sa bandang dulo ng Marso 1841, naging pulmonya ang sipon niya.
+She lives in a valley in a town far from the beach.	Nakatira siya sa lambak sa lalawigang malayo sa dalampasigan.
+The day will soon come when man can travel to Mars.	Darating ang araw na makakapunta ang tao sa Mars.
+The most important thing in life is to be yourself.	Ang pinakaimportante sa buhay ay maging basta sarili.
+This is a good dictionary for high school students.	Ito'y magaling na diksiyunaryo para sa estudyante sa hayskul.
+Tom admitted that he was no match for Mary in golf.	Inamin ni Tom na mas magaling si Mary sa kanya sa golf.
+We went to see the cherry blossoms along the river.	Nagpunta kami sa tabi ng ilog para makita ang bulaklak ng seresa.
+What's the difference between a village and a town?	Anong kaibahan ng nayon at bayan?
+You need to find another way out of this situation.	Kailangan mong maghanap ng ibang paraan para makaalis ka sa sitwasyong ito.
+Afterwards, we went to Bethlehem to see the statues.	Pagkatapos ay pumunta kami sa Bethlehem para makita ang mga rebulto.
+Do you think something like that will repeat itself?	Isip mo bang uulit ang parang ganoon?
+Have you ever heard that music played on the guitar?	Narinig mo na ba ang musikang iyan sa gitara?
+How much longer will I have to stay in the hospital?	Gaano katagal pa ako dito sa ospital?
+I am in the habit of taking a shower in the morning.	Malimit na nagdudutsa ako tuwing umaga.
+I would like to give him a present for his birthday.	Gusto ko syang bigyan ng regalo sa kanyang kaarawan.
+If you would like some help, why don't you call Tom?	Kung kailangan mo ng tulong, bakit hindi mo tawagin si Tom?
+It is important for you to learn a foreign language.	Importante para sa iyo ang mag-aral ng dayuhang wika.
+It is impossible for me to finish the work in a day.	Imposibleng matapos ko yung trabaho sa loob ng isang araw.
+Large amounts of money were spent on the new bridge.	Malaki ang ginastos sa bagong tulay.
+Many children stay after school for club activities.	Maraming bata ang nananatili sa paaralan kahit tapos na ang klase para sa club activities.
+Please come and see us sometime during the vacation.	Bumisita ka nga kaya sa amin kung minsan sa bakasyon.
+The earth rotates on its axis and it orbits the sun.	Umiikot ang Tiyera sa kanyang aksis at inoorbit niya ang Araw.
+The new engine must undergo all the necessary tests.	Dapat maidaan ang makina sa lahat ng mga test.
+This is where they usually have their evening meals.	Dito sila karaniwang naghahapunan.
+We adjourned the meeting until the following Friday.	Ipinagpaliban namin ang pulong hanggang sa susunod na Biyernes.
+What is the good of having a car if you don't drive?	Anong kasaysayan ang may kotse kung di ka nagmamaneho?
+Would you like a window seat or a seat on the aisle?	Gusto mo ba ng upuang malapit sa bintana o malapit sa pasilyo?
+Did you know you are stronger than you think you are?	Alam mo ba na mas malakas ka sa akala mo?
+Generally speaking, the Japanese people are diligent.	Kadalasan, ang mga Hapones ay masigasig.
+He cannot speak French without making a few mistakes.	Di siya makasalita ng Pranses nang walang konting mali.
+I've got a feeling that something is about to happen.	May pakiramdam ako na mayroong mangyayari.
+I've got a feeling that something is about to happen.	Mayroon akong pakiramdam na may mangyayari.
+If I had wings to fly, I would have gone to save her.	Kung may pakpak lamang ako, maililigtas ko sana siya.
+It's difficult to get the car going on cold mornings.	Mahirap simulang patakbuhin ang makina sa malalamig na umaga.
+Tom said that he had been cleaning the house all day.	Sabi raw ni Tomas na naglilinis siya ng bahay nang buong araw.
+We tried to make out the letters written on the wall.	Sinubukan naming maunawaan ang mga letra sa dingding.
+We tried to make out the letters written on the wall.	Sinubukan naming maunawaan ang mga letra sa pader.
+You can never tell how long these meetings will last.	Hindi mo masasabi kung gaano katagal itong mga meeting na ito.
+"Don't wait for me." "I wasn't going to wait for you."	"Huwag mo na akong hintayin." "Hindi naman talaga kita hihintayin."
+Don't forget that smoking is dangerous to your health.	Huwag kalimutan na ang pananagarilyo'y masama sa iyong kalusugan.
+I am very glad to hear that you speak Scottish Gaelic.	Natutuwa akong malaman na marunong kang magsalita ng Scottish Gaelic.
+I can see some small fish swimming about in the water.	Kita ko ang mga maliliiit na isda na lumalangoy sa tubig.
+I found this book by chance in a secondhand bookstore.	Suwerte lamang na nakita ko itong libro sa tindahan ng mga lumang libro.
+I would have gone to the movies if I had had the time.	Kung may oras lang ako, pupunta sana ako sa sinehan.
+If you don't want to go there, then we won't go there.	Kung ayaw mong pumaroon, di hindi tayo paparoon.
+If you find an interesting book, please buy it for me.	Pagka may nakita kang librong nakakatuwa, pakibili.
+If you had a time machine, which year would you visit?	Kung may Makina ng Oras ka, aling taon ka bibisita?
+My parents told me that we should respect the elderly.	Sabi ng magulang ko na dapat nating igalang ang mga nakatatanda.
+She advised him to go abroad while he was still young.	Pinayuhan niyang mag-ibang bansa siya habang siya'y bata pa.
+That kid was almost run over when the truck backed up.	Muntik nang masagasaan ang batang iyon nang umatras ang trak.
+The summit of the mountain is covered with fresh snow.	Ang tuktok ng bundok ay nababalot ng sariwang niyebe.
+"Hello? May I speak with Mary?" "Please wait a moment."	"Hello? Pwede ko bang makausap si Mary?" "Sandali lang."
+Excuse me, but will you tell me where to change trains?	Pawalanggalang po, pero puwede ba po ninyong sabihin sa akin kung saan ang pagpalit ng tren?
+I walked quickly so that I might catch the first train.	Naglakad ako nang mabilis para maabutan ang unang tren.
+It's up to you to decide whether we'll go there or not.	Sa iyo yung magdesisyon kung tayo'y paparoon o hindi.
+People tell you a lot of things that aren't quite true.	Maraming sinasabi sayo ang mga tao na hindi naman talaga totoo.
+She looks young, but actually she's older than you are.	Mukhang bata siya, pero sa katotohanan, mas matanda siya sa iyo.
+She must have been very young when she wrote this poem.	Baka talagang bata siya noong sinulat niya ang tulang ito.
+There are many jobs available in the computer industry.	May maraming trabaho sa kompyuter na industriya.
+There is a great conflict between religion and science.	May dakilang laban ng relihiyon at agham.
+We are looking for someone who is proficient in French.	Naghahanap kami ng taong matatas sa Pranses.
+What we say and what we mean are often quite different.	Kung ano sinasabi natin at ang ibig nating sabihin ay kadalasang magkaiba.
+I didn't really understand where the question came from.	Di ko talagang naintindihan ang kasaysayan ng tanong.
+I felt that he skirted around the most important issues.	Pakiramdam ko'y iniwasan niya ang mga pinakamahalagang problema.
+I like all sorts of Asian foods, particularly Thai food.	Gusto ko ang lahat na iba-ibang pagkaing Asyano, lalu na yung Thai.
+I'm sorry to have kept you waiting for such a long time.	Pasensiya na at pinaghintay kita nang matagal.
+If you buy a new car, what will you do with the old one?	Kung bibili ka ng bagong awto, anong gagawin mo sa luma?
+It's difficult to help people that don't want your help.	Mahirap tulungan ang taong di gusto ang tulong mo.
+She was able to go to college thanks to the scholarship.	Nakapagkolehiyo siya salamat sa scholarship.
+Tom can't quite bring himself to tell Mary he loves her.	Hindi magawa ni Tom na sabihin kay Mary na mahal niya ito.
+We arrived at the airport three hours before our flight.	Dumating kami sa paliparan tatlong oras bago ang paglipad.
+Do you believe our destinies are controlled by the stars?	Naniniwala ka bang kinokontrol ng mga bituwin ang ating mga kapalaran?
+If something goes wrong, just blame it on the translator.	Pagka may nangyari, pagbintangan ang tagasalin.
+Just this morning, Tom repaid Mary the money he owed her.	Nitong umaga lamang, binayaran ni Tom ang utang niya kay Mary.
+Large catches of squid are a sign of a coming earthquake.	Ang mga malalaking kuha ng pusit ay sinyal ng lindol na dadating.
+Many gamblers win and lose money at the horse-race track.	Maraming sugarol ang nananalo at nawawalan ng pera sa karera ng kabayo.
+My parents are away on a trip and I'm alone in our house.	Ang mga magulang ko'y nagbiyabiyahe't ako'y nag-iisa sa aming bahay.
+The students didn't remember what they read in that book.	Hindi matandaan ng mga estudyante kung anong binasa nila sa librong iyon.
+There are people who talk just because they have a mouth.	May taong dumadaldal dahil lamang may bunganga sila.
+He concealed the file in what he thought was a safe place.	Tinago niya ang file sa inaakala niyang ligtas na lugar.
+I don't care where we eat dinner. It's entirely up to you.	Wala akong pakialam kung saan tayo maghahapunan. Nasa iyo na iyon.
+I don't know how things were a hundred or fifty years ago.	Di ko alam ang mga bagay noong nakalipas nang 100 o 50 taon.
+I wouldn't be too surprised if Tom didn't show up on time.	Hindi na ako magugulat kung mahuli si Tom.
+I'm not sure why they were forced to close the restaurant.	Di ako sigurado kung bakit sila'y pinasara ang restawran.
+I'm sorry I am late, but there's been a lot of work to do.	Pasensya na at late ako, ang dami kasi ng kinailangan kong gawin.
+Some Japanese are shy even to the point of appearing rude.	May mga Hapong mahiyain namang hanggang namamasdang parang bastos.
+Strange to say, I dreamed the same dream twice last night.	Kakaiba, pero dalawang beses kong napanaginipan ang iisang panaginip.
+There are more than seven thousand languages in the world.	May mahigit nang pitong libong wika sa daigdig.
+They attacked a group of Frenchmen and killed ten of them.	Sinugod nila ang isang grupo ng mga Pranses at pinatay ang sampu dito.
+I think they must be twins, but she says they cannot be so.	Sa tingin ko kambal sila, pero sabi niya hindi daw ito maaari.
+If you are going abroad, it's necessary to have a passport.	Kung mangingibang-bansa ka, kailangan mo ng pasaporte.
+Many people in Africa were killed as a result of the storm.	Maraming tao sa Africa ang namatay dahil sa bagyo.
+The instant he opened the door, he smelt something burning.	Pagkabukas na pagkabukas niya ng pinto, may naamoy siyang nasusunog.
+The most important thing in a persons life is one's health.	Ang kalusugan ang pinakaimportante sa buhay ng tao.
+The sea covers nearly three-fourths of the earth's surface.	Ang dagat ay nakalatag nang mga tatlong-kapat ng ibabaw ng Tiyera.
+There were many things that I didn't like about that movie.	Ang dami kong hindi nagustuhan sa pelikulang iyon.
+His bag is right here, so he cannot have gone to school yet.	Narito pa ang bag niya, kaya hindi maaaring nakapunta na siya ng paaralan.
+I was just about to leave the house when the telephone rang.	Paalis na sana ako ng bahay nang tumunog ang telepono.
+I will have climbed Mt. Fuji four times if I climb it again.	Apat na beses ko na aakyatin ang Bundok ng Fuji kung muli kong aakyatin.
+Seen from a distance, the big rock looks like an old castle.	Sa malayo, parang lumang kastilyo ang malaking bato.
+Apart from a few spelling mistakes, it is a good composition.	Maliban sa iilang pagkakamali sa pagbaybay, ito ay isang magandang katha.
+He compiled a Japanese folklore anthology for use in schools.	Pinagsamasama niya ang antolohiya ng Hapong alamat para gamitin sa paaralan.
+He says what he thinks regardless of other people's feelings.	Sinasabi niya ang iniisip niya nang pabaya sa paramdam ng ibang tao.
+A bat hunts food and eats at night, but sleeps during the day.	Ang paniki ay nangangaso ng pagkain at kumakain sa gabi, ngunit natutulog sa umaga.
+He does not seem to be able to catch on to what she is saying.	Parang hindi niya maintindihan ang sinasabi ng babae.
+In the 6th century, the Anglo-Saxons adopted Roman characters.	Noong ika-6 na siglo, inadopta ng mga Anglo-Sahon ang mga letrang Romano.
+They teach Chinese as a second national language in Singapore.	Itinuturo ang Chinese bilang ikalawang pambansang wika sa Singapore.
+I think she probably just thinks of herself as one of the boys.	Sa tingin ko, iniisip niyang isa siya sa mga lalaki.
+When I hear that song, I think about the place where I grew up.	Nang parinig ko ang kantang iyon, isip ko ang lugar nang ako'y pinanganak.
+I asked him if you will come with me, but he didn't even answer.	Tinanong ko siya kung sasama ka sa akin, pero ni hindi siya sumagot.
+It is often said that the world is becoming smaller and smaller.	Lumiliit nang lumiliit daw ang daigdig.
+It looks like the party in power will win the upcoming election.	Mukhang mananalo sa darating na eleksyon ang namumunong partido.
+The boy fainted, but he came to when we threw water on his face.	Nahimatay ang batang lalaki, pero nahimasmasan siya nang binuhusan namin siya ng tubig.
+Tom doesn't know the difference between astronomy and astrology.	Di alam ni Tomas ang kaibahan ng astronomiya at astrolohiya.
+Either he doesn't know how to wash the dishes or he is just lazy.	Maaaring di siya marunong maghugas ng pinggan o tamad lang talaga siya.
+His good health enabled him to work till the age of seventy-five.	Nakapagtrabaho siya hanggang 75 taong gulang dahil sa kanyang malusog na katawan.
+Walk three more blocks and you will find the museum on your left.	Maglakad ka pa ng tatlong kanto at makikita mo ang museo sa kaliwa.
+When you shake hands with somebody, you must look him in the eye.	Pagka may kinakamayan ka, dapat tingnan mo ang mata niya.
+He said, "I will say nothing more, because I hate making excuses."	Ang sabi niya, "Ayaw kong gumawa ng palusot, kaya wala na akong sasabihin pa."
+I don't understand how he can speak with a cigarette in his mouth.	Hindi ko alam kung paano siya nakakasalita nang may sagarilyo sa bunganga.
+The article on Buddhism revived my interest in Oriental religions.	Ang artikulo tungkol sa Budismo'y binuhay ang hilig ko sa mga relihiyong Silanganin.
+Though she did not wear expensive clothes, she was neatly dressed.	Kahit hindi siya nagsuot ng mamahaling damit, maayos ang itsura niya.
+When I was in high school, I used to earn extra money babysitting.	Nung nasa hayskul ako, kumita ako ng ekstrang pera nang nagbebeybisit ako.
+It took me more than two hours to translate a few pages of English.	Inabot ako ng mahigit dalawang oras sa pagsalin ng ilang pahina sa Ingles.
+We have lots of bread, and as for butter, we have more than enough.	Marami kaming tinapay at sobra-sobra din ang mantikilya namin.
+Tom can't even play one song on his ukulele without making mistakes.	Di makaisang tugtog si Tomas sa kanyang ukelele nang walang mali.
+Some people claim that there are no more heroes in the Western world.	May mga nagsasabi na wala na daw mga bayani sa Kanluran.
+Can you describe to me the difference between black tea and green tea?	Mapapaliwanag mo ba ang kaibahan ng itim na tsa at berdeng tsa?
+It's probably healthier to eat popcorn than it is to eat potato chips.	Baka mas malusog kumain ng papkorn kaysa sa kumain ng poteyto tsip.
+Just as he was getting the hang of things, they changed all the rules.	Kung kailan naiintindihan na niya, saka pa nila binago ang mga alituntunin.
+The Japanese tend to identify themselves with the group they belong to.	Ang Hapon ay malamang na kilalanin sa grupo nilang pinanggagalingan.
+Tom tried to squeeze into the jeans he had worn when he was a teenager.	Sinubukang dumiin si Tomas sa dyins na sinuot niya noong tineydyer pa siya.
+Money isn't everything, but if you have no money, you can't do anything.	Hindi lahat ang pera, ngunit kung wala kang pera, hindi ka maaaring gumawa ng kahit ano.
+Please telephone me when you have made up your mind what you want to do.	Pakitawagan mo ako kapag alam mo na ang gusto mong gawin.
+The boy pretended he could read, but he was holding the book upside down.	Nagkunwari ang batang lalaki na marunong siyang magbasa, ngunit baliktad ang librong hawak niya.
+I don't feel like filling out this questionnaire. There are too many items.	Parang ayaw ko sagutan itong questionnaire. Masyadong maraming tanong.
+You speak a bit too fast for me. Could you speak a bit more slowly, please?	Masyado kayong mabilis magsalita. Puwede ba hong magsalita kayo nang mas dahan-dahan?
+It's unlikely that anyone other than Tom would be interested in buying this.	Wala yata kundi si Tomas ang interesadong bumili nito.
+Nearly one billion people around the globe lack access to clean, safe water.	Mga isang bilyong tao sa mundo ay walang akses sa malinis at malusog na tubig.
+Primitive calculating machines existed long before computers were developed.	Bago pa man maimbento ang computer, mayroon nang mga mala-calculator na kasangkapan.
+As the recession set in, temporary employees were laid off one after another.	Sa pagpasok ng recession, isa-isang tinanggal sa trabaho ang mga pansamantalang empleyado.
+The village which I visited last summer was a small one in Nagano Prefecture.	Maliit lamang ang binisita kong baranggay sa Nagano Prefecture noong nakaraang tag-araw.
+If my father had not been killed in the war, he would be over sixty years old now.	Kung hindi namatay ang tatay ko sa digmaan, lagpas sisenta na sana siya ngayon.
+I've been trying to talk to you alone, but you always seem to be with other people.	Gusto ko sanang makipag-usap sayo nang tayong dalawa lang, pero parang lagi kang may kasamang ibang tao.
+The twins look so much alike it's next to impossible to distinguish one from the other.	Sa sobrang magkamukha ng kambal, ang hirap makita ng kaibhan nila.
+It is essential that some kind of compromise be reached between Pyongyang and Washington.	Kailangang magkasundo ang Pyongyang at Washington.
+She advised him to visit Boston, because she thought it was the most beautiful city in the world.	Pinayuhan niya siya na bumisita sa Boston dahil para sa kanya, ito ang pinakamagandang siyudad sa mundo.
+If Tom would learn to be a little more positive about things, people would probably like him a bit more.	Kung mas positibo lang si Tom, siguro mas magugustuhan siya ng mga tao.
+No matter what your profession, or how happy you may be in it, there are moments when you wish you had chosen some other career.	Kahit anong trabaho mo, o kahit gaano ka kasaya dito, may mga pagkakataon na naiisip mo na sana ibang trabaho na lang ang pinili mo.
+She has a boyfriend she's been going out with since high school, but she feels their relationship has stagnated, so she's become dissatisfied.	High school pa lamang ay sila na ng kasintahan niya, ngunit nararamdaman niya na wala nang nangyayari sa pagsasama nila kaya hindi na siya masaya.
+No matter how much you try to convince people that chocolate is vanilla, it'll still be chocolate, even though you may manage to convince yourself and a few others that it's vanilla.	Kahit ano pang gawin mo para kumbinsihin ang mga tao na ang tsokolate ay vanilla, tsokolate pa rin ito, kahit pa makumbinsi mo ang sarili mo at ang ilang tao na vanilla ito.
