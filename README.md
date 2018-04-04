@@ -41,6 +41,8 @@
   - [ResNet](https://github.com/keras-team/keras/blob/master/examples/cifar10_resnet.py)
 8. [Embeddings](https://docs.google.com/presentation/d/1YtKWA53T2NqXoL0vnk8jWl1WCBWCLhbh5OWz_1JrGdU/edit?usp=sharing) 
 9. [Recurrent Neural Networks, LSTM, GRU](https://docs.google.com/presentation/d/1qjQkUwnr2V--7JPz0H_wkzRyTYX3UtJsYrB3MQPGKLE/edit?usp=sharing)
+- Keras Sample Code
+  - [Sequence to Sequence for Machine Translation (Filipino-English)](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/keras/seq2seq/seq2seq_translate.py)
 
 ## [Tensorflow](https://www.tensorflow.org/) (tf) Experiments
 1. [Hello World!](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Intro/hello.py) 
