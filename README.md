@@ -1,5 +1,5 @@
 # Deep Learning: Theory and Experiments
-
+### Note: Sample codes have links to other repo that I maintain ([Advanced Deep Learning with Keras](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras) book) or contribute ([Keras](https://github.com/keras-team/keras))
 ## Notes
 0. Course Roadmap
   - [Deep Learning](https://docs.google.com/presentation/d/1JSmMV3SICXJ3SQOSj5WgJipssOpBYZKNZm1YnU5HO3g/edit?usp=sharing)
@@ -18,9 +18,9 @@
   - [Back Propagation](https://docs.google.com/presentation/d/1XD0tA6oxOETfFn1DTGJByhhyH3MF586OCN06WvAP22E/edit?usp=sharing)
 - Keras Sample Codes
   - [Overview](https://docs.google.com/presentation/d/15Y1snbE73g8vw16RN6uehVHyDFxAK_b0iKcmId1j5qM/edit?usp=sharing)
-  - [MLP on Linear Model](https://github.com/roatienza/dl-keras/blob/master/chapter1-introduction/linear-model-1.2.1.py)
-  - [MLP on MNIST](https://github.com/roatienza/dl-keras/blob/master/chapter2-neural-networks/mlp-mnist-2.1.2.py)
-  - [MNIST Sampler](https://github.com/roatienza/dl-keras/blob/master/chapter2-neural-networks/mnist-sampler-2.1.1.py)
+  - [MLP on Linear Model](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter1-keras-quick-tour/linear-model-1.2.1.py)
+  - [MLP on MNIST](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter1-keras-quick-tour/mlp-mnist-1.5.2.py)
+  - [MNIST Sampler](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter1-keras-quick-tour/mnist-sampler-1.5.1.py)
 4. [Regularization](https://docs.google.com/presentation/d/1lg4oxRDvfUIEtzMJ7E-Lqv1cDNiwoNeT1r5T-XnFIQI/edit?usp=sharing)
 - Keras Sample Codes
   - [MLP on MNIST No Regularizer](https://github.com/roatienza/dl-keras/blob/master/chapter2-neural-networks/mlp-mnist-noreg-2.1.6.py)
@@ -32,19 +32,25 @@
   
 6. [Convolutional Neural Networks (CNN)](https://docs.google.com/presentation/d/1vxCMwjbssYKisIWt2UYiuOFMsJaFv-5-I6mYvtJ6Hr8/edit?usp=sharing)
 - Keras Sample Codes
-  - [CNN on MNIST](https://github.com/roatienza/dl-keras/blob/master/chapter2-neural-networks/cnn-mnist-2.2.1.py)
-  - [CNN using functional API](https://github.com/roatienza/dl-keras/blob/master/chapter3-deep-networks/cnn-functional-3.1.1.py)
-  - [CNN Siamese Network](https://github.com/roatienza/dl-keras/blob/master/chapter3-deep-networks/cnn-y-network-3.1.2.py)
+  - [CNN on MNIST](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter1-keras-quick-tour/cnn-mnist-1.6.1.py)
+  - [CNN using functional API](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter2-deep-networks/cnn-functional-2.1.1.py)
+  - [CNN Siamese Network](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter2-deep-networks/cnn-y-network-2.1.2.py)
 7. [Deep Networks](https://docs.google.com/presentation/d/14aFawAa4zNqvPRkhmS5YATVxSlS01fig7qnstecRgG0/edit?usp=sharing)
 - Keras Sample Codes
-  - [DenseNet](https://github.com/roatienza/dl-keras/blob/master/chapter3-deep-networks/cifar10-densenet.3.4.2.py)  
+  - [DenseNet](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter2-deep-networks/densenet-cifar10-2.4.2.py)  
   - [ResNet](https://github.com/keras-team/keras/blob/master/examples/cifar10_resnet.py)
 8. [Embeddings](https://docs.google.com/presentation/d/1YtKWA53T2NqXoL0vnk8jWl1WCBWCLhbh5OWz_1JrGdU/edit?usp=sharing) 
 9. [Recurrent Neural Networks, LSTM, GRU](https://docs.google.com/presentation/d/1qjQkUwnr2V--7JPz0H_wkzRyTYX3UtJsYrB3MQPGKLE/edit?usp=sharing)
 - Keras Sample Code
   - [Sequence to Sequence for Machine Translation (Filipino-English)](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/keras/seq2seq/seq2seq_translate.py)
+10. [AutoEncoders](https://docs.google.com/presentation/d/1gXWl0luuDe1qoQLSKdOUrzoq51WhhNLeq7x3PxQXYkA/edit?usp=sharing)
+- Keras Sample Code
+  - [AutoEncoder](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter3-autoencoders/autoencoder-mnist-3.2.1.py)
+  - [Denoising AutoEncoder](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter3-autoencoders/denoising-autoencoder-mnist-3.3.1.py)
+  - [Colorization AutoEncoder](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter3-autoencoders/colorization-autoencoder-cifar10-3.4.1.py)
 
-## [Tensorflow](https://www.tensorflow.org/) (tf) Experiments
+### Warning: Old Experiments - No longer updated and maintained
+### [Tensorflow](https://www.tensorflow.org/) Experiments
 1. [Hello World!](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Intro/hello.py) 
 2. [Linear Algebra](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Math/linear_algebra.py)
 3. [Matrix Decomposition](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Math/decomposition.py)
