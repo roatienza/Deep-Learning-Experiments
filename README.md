@@ -23,10 +23,10 @@
   - [MNIST Sampler](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter1-keras-quick-tour/mnist-sampler-1.5.1.py)
 4. [Regularization](https://docs.google.com/presentation/d/1lg4oxRDvfUIEtzMJ7E-Lqv1cDNiwoNeT1r5T-XnFIQI/edit?usp=sharing)
 - Keras Sample Codes
-  - [MLP on MNIST No Regularizer](https://github.com/roatienza/dl-keras/blob/master/chapter2-neural-networks/mlp-mnist-noreg-2.1.6.py)
-  - [MLP on MNIST with L2 Regularizer](https://github.com/roatienza/dl-keras/blob/master/chapter2-neural-networks/mlp-mnist-l2-2.1.5.py)
-  - [MLP on MNIST with Dropout Regularizer](https://github.com/roatienza/dl-keras/blob/master/chapter2-neural-networks/mlp-mnist-2.1.2.py)  
-  - [MLP on MNIST with Data Augmentation Regularizer](https://github.com/roatienza/dl-keras/blob/master/chapter2-neural-networks/mlp-mnist-data_augment-2.1.7.py)  
+  - [MLP on MNIST No Regularizer](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/keras/regularization/mlp-mnist-noreg.py)
+  - [MLP on MNIST with L2 Regularizer](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/keras/regularization/mlp-mnist-l2.py)
+  - [MLP on MNIST with Dropout Regularizer](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter1-keras-quick-tour/mlp-mnist-1.5.2.py)  
+  - [MLP on MNIST with Data Augmentation Regularizer](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/keras/regularization/mlp-mnist-data_augment.py)  
   
 5. [Optimization](https://docs.google.com/presentation/d/1wt53ds5dywq3WUm-jkdKFUjiHayBAV6-CSFAJg76Clg/edit?usp=sharing)
   
