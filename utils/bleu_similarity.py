@@ -1,6 +1,13 @@
 """
 Tests the linguistic similarity between two sentences in English
 
+Usage (BLEU-4): 
+python3 bleu_similarity.py --reference="the sun rises in the east" --hypothesis="the sun sets in the west"
+
+Usage (BLEU-1): 
+python3 bleu_similarity.py --reference="the sun rises in the east" --hypothesis="the sun sets in the west" --bleuone
+
+
 """
 
 import argparse
