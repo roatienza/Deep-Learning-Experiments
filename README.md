@@ -43,6 +43,8 @@
 9. [Recurrent Neural Networks, LSTM, GRU](https://docs.google.com/presentation/d/1qjQkUwnr2V--7JPz0H_wkzRyTYX3UtJsYrB3MQPGKLE/edit?usp=sharing)
 - Keras Sample Code
   - [Sequence to Sequence for Machine Translation (Filipino-English)](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/keras/seq2seq/seq2seq_translate.py)
+  - [Sentence Similarity Test (BLEU)](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/utils/bleu_similarity.py)
+  - [Sentence Similarity Test (Spacy)](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/utils/spacy_similarity.py)
 10. [AutoEncoders](https://docs.google.com/presentation/d/1gXWl0luuDe1qoQLSKdOUrzoq51WhhNLeq7x3PxQXYkA/edit?usp=sharing)
 - Keras Sample Code
   - [AutoEncoder](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter3-autoencoders/autoencoder-mnist-3.2.1.py)
