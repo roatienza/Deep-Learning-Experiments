@@ -172,6 +172,12 @@ for i, text, in enumerate(target_texts):
             # and will not include the start character.
             decoder_target_data[i, t - 1, target_dict[word]] = 1.
 
+# indexes = np.random.randint(0, len(input_texts), 40)
+# encoder_test_data = encoder_input_data[indexes]
+# encoder_input_data = np.delete(encoder_input_data, indexes, axis=0)
+# decoder_input_data = np.delete(decoder_input_data, indexes, axis=0)
+# decoder_target_data = np.delete(decoder_target_data, indexes, axis=0)
+
 batch_size = 64  # Batch size for training.
 epochs = 100  # Number of epochs to train for.
 latent_dim = 512 # Latent dimensionality of the encoding space.
@@ -207,7 +213,8 @@ model.fit([encoder_input_data, decoder_input_data],
           decoder_target_data,
           batch_size=batch_size,
           epochs=epochs,
-          validation_split=0.1)
+          shuffle=True,
+          validation_split=0.05)
 
 # Save model
 model.save('s2s.h5')
@@ -274,13 +281,24 @@ def decode_sequence(input_seq):
 
     return decoded_sentence
 
-indexes = np.random.randint(0, len(input_texts), 100)
+# print("-------------------- TEST ---------------------------")
+# for seq_index in range(40):
+#    # Take one sequence (part of the training set)
+#    # for trying out decoding.
+#    input_seq = encoder_test_data[seq_index: seq_index + 1]
+#    decoded_sentence = decode_sequence(input_seq)
+#    print('Input sentence:', input_texts[seq_index])
+#    print('Decoded sentence:', decoded_sentence)
 
+
+
+print("-------------------- TRAIN ---------------------------")
+indexes = np.random.randint(0, len(input_texts), 40)
 for seq_index in indexes:
     # Take one sequence (part of the training set)
     # for trying out decoding.
     input_seq = encoder_input_data[seq_index: seq_index + 1]
     decoded_sentence = decode_sequence(input_seq)
-    print('-')
     print('Input sentence:', input_texts[seq_index])
     print('Decoded sentence:', decoded_sentence)
+    print("----")
