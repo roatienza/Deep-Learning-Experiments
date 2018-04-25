@@ -1,6 +1,9 @@
 """
 Tests the linguistic similarity between two sentences in English
 
+Usage:
+python3 spacy_similarity.py --reference="the sun rises in the east" --hypothesis="the sun sets in the west"
+
 """
 
 import spacy
