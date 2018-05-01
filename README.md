@@ -1,6 +1,6 @@
 # Deep Learning: Theory and Experiments
-### Note: Sample codes have links to other repo that I maintain ([Advanced Deep Learning with Keras](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras) book) or contribute ([Keras](https://github.com/keras-team/keras))
-## Notes
+### Sample codes have links to other repo that I maintain ([Advanced Deep Learning with Keras](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras) book) or contribute ([Keras](https://github.com/keras-team/keras))
+## Lecture Notes
 0. Course Roadmap
   - [Deep Learning](https://docs.google.com/presentation/d/1JSmMV3SICXJ3SQOSj5WgJipssOpBYZKNZm1YnU5HO3g/edit?usp=sharing)
   - [Limits of Deep Learning](https://docs.google.com/presentation/d/13nsjiEjpiUpidxThT6hoCg19o0TMG-ho4tzgvuPkWV8/edit?usp=sharing)
@@ -55,6 +55,10 @@
 - Keras Sample Code
   - [DCGAN](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter4-gan/dcgan-mnist-4.2.1.py)
   - [CGAN](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter4-gan/cgan-mnist-4.3.1.py)
+12. [Variational Autoencoder (VAE)](https://docs.google.com/presentation/d/1ORVwhh5PgWEehcUQYL9t8nBCk9cj4TgXmUJIl6WMkpo/edit?usp=sharing)
+- Keras Sample Codes
+  - [VAE MLP](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter8-vae/vae-mlp-mnist-8.1.1.py)
+  - [VAE CNN](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter8-vae/cvae-cnn-mnist-8.2.1.py)
 
 ### Warning: The following are old experiments that are longer updated and maintained
 ### [Tensorflow](https://www.tensorflow.org/) Experiments
