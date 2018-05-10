@@ -37,9 +37,8 @@ def read_data(fname):
     with open(fname) as f:
         content = f.readlines()
     content = [x.strip() for x in content]
-    content = [content[i].split() for i in range(len(content))]
+    content = [word for i in range(len(content)) for word in content[i].split()]
     content = np.array(content)
-    content = np.reshape(content, [-1, ])
     return content
 
 training_data = read_data(training_file)
