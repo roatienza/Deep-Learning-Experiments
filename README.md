@@ -19,9 +19,11 @@
 - Keras Sample Codes
   - [Overview](https://docs.google.com/presentation/d/15Y1snbE73g8vw16RN6uehVHyDFxAK_b0iKcmId1j5qM/edit?usp=sharing)
   - [(Code) MLP on Linear Model](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter1-keras-quick-tour/linear-model-1.2.1.py)
-  - [(Notebook) MLP on Linear Model](keras/mlp/mlp-mnist.ipynb)
-  - [(Book) MLP on MNIST](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter1-keras-quick-tour/mlp-mnist-1.3.2.py)
-  - [(Book) MNIST Sampler](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter1-keras-quick-tour/mnist-sampler-1.3.1.py)
+  - [(Notebook) MLP on Linear Model](keras/mlp/linear.ipynb)
+  - [(Code) MNIST Sampler](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter1-keras-quick-tour/mnist-sampler-1.3.1.py)
+  - [(Notebook) MLP on Linear Model](keras/mlp/mnist-sampler.ipynb)
+  - [(Code) MLP on MNIST](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter1-keras-quick-tour/mlp-mnist-1.3.2.py)
+  - [(Notebook) MLP on MNIST](keras/mlp/mlp-mnist.ipynb)
 4. [Regularization](https://docs.google.com/presentation/d/1lg4oxRDvfUIEtzMJ7E-Lqv1cDNiwoNeT1r5T-XnFIQI/edit?usp=sharing)
 - Keras Sample Codes
   - [MLP on MNIST No Regularizer](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/keras/regularization/mlp-mnist-noreg.py)
