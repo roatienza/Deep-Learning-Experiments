@@ -1,4 +1,4 @@
-# Deep Learning: Theory and Experiments
+# Deep Learning Lecture Notes and Experiments
 ### Code samples have links to other repo that I maintain ([Advanced Deep Learning with Keras](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras) book) or contribute ([Keras](https://github.com/keras-team/keras))
 ## Lecture Notes
 0. Course Roadmap
