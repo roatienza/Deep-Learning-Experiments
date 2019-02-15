@@ -27,7 +27,7 @@
   - [(Code) MLP on MNIST](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter1-keras-quick-tour/mlp-mnist-1.3.2.py)
   - [(Notebook) MLP on MNIST](keras/mlp/mlp-mnist.ipynb)
 4. [Regularization](https://docs.google.com/presentation/d/1lg4oxRDvfUIEtzMJ7E-Lqv1cDNiwoNeT1r5T-XnFIQI/edit?usp=sharing)
-- Keras Sample Codes
+- Keras Sample Code
   - [(Notebook) MNIST MLP no Regularizer](keras/regularization/mlp-mnist-noreg.ipynb)
   - [(Code) MNIST MLP no Regularizer](keras/regularization/mlp-mnist-noreg.py)
   - [(Notebook) MNIST MLP with L2](keras/regularization/mlp-mnist-l2.ipynb)
