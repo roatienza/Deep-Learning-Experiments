@@ -28,10 +28,14 @@
   - [(Notebook) MLP on MNIST](keras/mlp/mlp-mnist.ipynb)
 4. [Regularization](https://docs.google.com/presentation/d/1lg4oxRDvfUIEtzMJ7E-Lqv1cDNiwoNeT1r5T-XnFIQI/edit?usp=sharing)
 - Keras Sample Codes
-  - [MLP on MNIST No Regularizer](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/keras/regularization/mlp-mnist-noreg.py)
-  - [MLP on MNIST with L2 Regularizer](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/keras/regularization/mlp-mnist-l2.py)
-  - [MLP on MNIST with Dropout Regularizer](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter1-keras-quick-tour/mlp-mnist-1.3.2.py)  
-  - [MLP on MNIST with Data Augmentation Regularizer](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/keras/regularization/mlp-mnist-data_augment.py)  
+  - [(Notebook) MNIST MLP no Regularizer](keras/regularization/mlp-mnist-noreg.ipynb)
+  - [(Code) MNIST MLP no Regularizer](keras/regularization/mlp-mnist-noreg.py)
+  - [(Notebook) MNIST MLP with L2](keras/regularization/mlp-mnist-l2.ipynb)
+  - [(Code) MNIST MLP with L2](keras/regularization/mlp-mnist-l2.py)
+  - [(Notebook) MNIST MLP with Dropout](keras/regularization/mlp-mnist-dropout.ipynb)
+  - [(Code) MNIST MLP with Dropout](keras/regularization/mlp-mnist-dropout.py) 
+  - [(Notebook) MNIST MLP with Data Augmentation](keras/regularization/mlp-mnist-data_augment.ipynb)
+  - [(Code) MLP on MNIST with Data Augmentation Regularizer](keras/regularization/mlp-mnist-data_augment.py)  
   
 5. [Optimization](https://docs.google.com/presentation/d/1wt53ds5dywq3WUm-jkdKFUjiHayBAV6-CSFAJg76Clg/edit?usp=sharing)
   
