@@ -16,7 +16,7 @@
 3. Deep Neural Networks
   - [Deep Feedforward Neural Networks, Cost, Output, Hidden Units](https://docs.google.com/presentation/d/1woHBsNgnwzjJndMcXXznaBKlLvWywuA6T7BFi0K7Yhg/edit?usp=sharing)
   - [Back Propagation](https://docs.google.com/presentation/d/1XD0tA6oxOETfFn1DTGJByhhyH3MF586OCN06WvAP22E/edit?usp=sharing)
-- Pytorch Sample Code
+- PyTorch Sample Code
   - [(Notebook) Backprop on a single unit MLP](backprop/backprop.ipynb)
 - Keras Sample Code
   - [Overview](https://docs.google.com/presentation/d/15Y1snbE73g8vw16RN6uehVHyDFxAK_b0iKcmId1j5qM/edit?usp=sharing)
