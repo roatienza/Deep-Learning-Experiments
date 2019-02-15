@@ -1,8 +1,6 @@
 '''
-A MLP network for MNIST digits classification
-
-Project: https://github.com/roatienza/dl-keras
-Usage: python3 <this file>
+MLP network for MNIST digits classification w/ data augment
+Test accuracy: 98.12
 '''
 
 from __future__ import absolute_import
@@ -37,7 +35,7 @@ x_test = x_test.astype('float32') / 255
 batch_size = 128
 hidden_units = 256
 dropout = 0.45
-data_augmentation = False
+data_augmentation = True
 epochs = 20
 max_batches = 2 * len(x_train) / batch_size
 
@@ -53,10 +51,10 @@ model.add(Activation('softmax'))
 model.summary()
 
 # loss function for one-hot vector
-# use of adam optimizer
+# use of sgd optimizer
 # accuracy is good metric for classification tasks
 model.compile(loss='categorical_crossentropy',
-              optimizer='adam',
+              optimizer='sgd',
               metrics=['accuracy'])
 
 # validate the model on test dataset to determine generalization

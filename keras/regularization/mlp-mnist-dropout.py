@@ -1,6 +1,7 @@
 '''
-MLP network for MNIST digits classification
-Test accuracy: 95.2%
+MLP network for MNIST digits classification with Dropout
+Test accuracy: 95.5%
+
 '''
 
 from __future__ import absolute_import
@@ -10,7 +11,7 @@ from __future__ import print_function
 # numpy package
 import numpy as np
 from keras.models import Sequential
-from keras.layers import Dense, Activation
+from keras.layers import Dense, Activation, Dropout
 from keras.datasets import mnist
 from keras.utils import to_categorical
 
@@ -37,14 +38,17 @@ x_test = x_test.astype('float32') / 255
 # network parameters
 batch_size = 128
 hidden_units = 256
+dropout = 0.2
 
-# this is 3-layer MLP with ReLU. No regularizer
+# this is 3-layer MLP with ReLU. Dropout reg.
 model = Sequential()
 model.add(Dense(hidden_units,
                 input_dim=input_size))
 model.add(Activation('relu'))
+model.add(Dropout(dropout))
 model.add(Dense(hidden_units))
 model.add(Activation('relu'))
+model.add(Dropout(dropout))
 model.add(Dense(num_labels))
 # this is the output for one-hot vector
 model.add(Activation('softmax'))
