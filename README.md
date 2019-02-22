@@ -25,10 +25,10 @@
   - [MLP on MNIST](keras/mlp/mlp-mnist.ipynb)
 4. [Regularization](https://docs.google.com/presentation/d/1lg4oxRDvfUIEtzMJ7E-Lqv1cDNiwoNeT1r5T-XnFIQI/edit?usp=sharing)
 - Keras Sample Code
-  - [MNIST MLP no Regularizer](keras/regularization/mlp-mnist-noreg.ipynb)
-  - [MNIST MLP with L2](keras/regularization/mlp-mnist-l2.ipynb)
-  - [MNIST MLP with Dropout](keras/regularization/mlp-mnist-dropout.ipynb)
-  - [MNIST MLP with Data Augmentation](keras/regularization/mlp-mnist-data_augment.ipynb) 
+  - [MLP on MNIST no Regularizer](keras/regularization/mlp-mnist-noreg.ipynb)
+  - [MLP on MNIST with L2](keras/regularization/mlp-mnist-l2.ipynb)
+  - [MLP on MNIST with Dropout](keras/regularization/mlp-mnist-dropout.ipynb)
+  - [MLP on MNIST with Data Augmentation](keras/regularization/mlp-mnist-data_augment.ipynb) 
   
 5. [Optimization](https://docs.google.com/presentation/d/1wt53ds5dywq3WUm-jkdKFUjiHayBAV6-CSFAJg76Clg/edit?usp=sharing)
   
