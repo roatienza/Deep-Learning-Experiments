@@ -36,7 +36,7 @@
 - Keras Sample Code
   - [CNN on MNIST](keras/cnn/cnn-mnist.ipynb)
   - [CNN on MNIST using Functional API](keras/cnn/cnn-functional.ipynb)
-  - [CNN on MNIST Siamese Network](cnn/cnn-siamese.ipynb)
+  - [CNN on MNIST Siamese Network](keras/cnn/cnn-siamese.ipynb)
   
 7. [Deep Networks](https://docs.google.com/presentation/d/14aFawAa4zNqvPRkhmS5YATVxSlS01fig7qnstecRgG0/edit?usp=sharing)
 - Keras Sample Code
