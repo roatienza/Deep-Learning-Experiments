@@ -17,33 +17,27 @@
   - [Deep Feedforward Neural Networks, Cost, Output, Hidden Units](https://docs.google.com/presentation/d/1woHBsNgnwzjJndMcXXznaBKlLvWywuA6T7BFi0K7Yhg/edit?usp=sharing)
   - [Back Propagation](https://docs.google.com/presentation/d/1XD0tA6oxOETfFn1DTGJByhhyH3MF586OCN06WvAP22E/edit?usp=sharing)
 - PyTorch Sample Code
-  - [(Notebook) Backprop on a single unit MLP](backprop/backprop.ipynb)
+  - [Backprop on a single unit MLP](backprop/backprop.ipynb)
 - Keras Sample Code
   - [Overview](https://docs.google.com/presentation/d/15Y1snbE73g8vw16RN6uehVHyDFxAK_b0iKcmId1j5qM/edit?usp=sharing)
-  - [(Code) MLP on Linear Model](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter1-keras-quick-tour/linear-model-1.2.1.py)
-  - [(Notebook) MLP on Linear Model](keras/mlp/linear.ipynb)
-  - [(Code) MNIST Sampler](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter1-keras-quick-tour/mnist-sampler-1.3.1.py)
-  - [(Notebook) MNIST Sampler](keras/mlp/mnist-sampler.ipynb)
-  - [(Code) MLP on MNIST](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter1-keras-quick-tour/mlp-mnist-1.3.2.py)
-  - [(Notebook) MLP on MNIST](keras/mlp/mlp-mnist.ipynb)
+  - [MLP on Linear Model](keras/mlp/linear.ipynb)
+  - [MNIST Sampler](keras/mlp/mnist-sampler.ipynb)
+  - [MLP on MNIST](keras/mlp/mlp-mnist.ipynb)
 4. [Regularization](https://docs.google.com/presentation/d/1lg4oxRDvfUIEtzMJ7E-Lqv1cDNiwoNeT1r5T-XnFIQI/edit?usp=sharing)
 - Keras Sample Code
-  - [(Notebook) MNIST MLP no Regularizer](keras/regularization/mlp-mnist-noreg.ipynb)
-  - [(Code) MNIST MLP no Regularizer](keras/regularization/mlp-mnist-noreg.py)
-  - [(Notebook) MNIST MLP with L2](keras/regularization/mlp-mnist-l2.ipynb)
-  - [(Code) MNIST MLP with L2](keras/regularization/mlp-mnist-l2.py)
-  - [(Notebook) MNIST MLP with Dropout](keras/regularization/mlp-mnist-dropout.ipynb)
-  - [(Code) MNIST MLP with Dropout](keras/regularization/mlp-mnist-dropout.py) 
-  - [(Notebook) MNIST MLP with Data Augmentation](keras/regularization/mlp-mnist-data_augment.ipynb)
-  - [(Code) MLP on MNIST with Data Augmentation Regularizer](keras/regularization/mlp-mnist-data_augment.py)  
+  - [MNIST MLP no Regularizer](keras/regularization/mlp-mnist-noreg.ipynb)
+  - [MNIST MLP with L2](keras/regularization/mlp-mnist-l2.ipynb)
+  - [MNIST MLP with Dropout](keras/regularization/mlp-mnist-dropout.ipynb)
+  - [MNIST MLP with Data Augmentation](keras/regularization/mlp-mnist-data_augment.ipynb) 
   
 5. [Optimization](https://docs.google.com/presentation/d/1wt53ds5dywq3WUm-jkdKFUjiHayBAV6-CSFAJg76Clg/edit?usp=sharing)
   
 6. [Convolutional Neural Networks (CNN)](https://docs.google.com/presentation/d/1vxCMwjbssYKisIWt2UYiuOFMsJaFv-5-I6mYvtJ6Hr8/edit?usp=sharing)
 - Keras Sample Code
-  - [CNN on MNIST](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter1-keras-quick-tour/cnn-mnist-1.4.1.py)
-  - [CNN using functional API](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter2-deep-networks/cnn-functional-2.1.1.py)
-  - [CNN Siamese Network](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter2-deep-networks/cnn-y-network-2.1.2.py)
+  - [CNN on MNIST](keras/cnn/cnn-mnist.ipynb)
+  - [CNN on MNIST using Functional API](keras/cnn/cnn-functional.ipynb)
+  - [CNN on MNIST Siamese Network](cnn/cnn-siamese.ipynb)
+  
 7. [Deep Networks](https://docs.google.com/presentation/d/14aFawAa4zNqvPRkhmS5YATVxSlS01fig7qnstecRgG0/edit?usp=sharing)
 - Keras Sample Code
   - [DenseNet](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter2-deep-networks/densenet-cifar10-2.4.1.py)  
