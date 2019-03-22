@@ -43,6 +43,9 @@
   - [DenseNet](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter2-deep-networks/densenet-cifar10-2.4.1.py)  
   - [ResNet](https://github.com/keras-team/keras/blob/master/examples/cifar10_resnet.py)
 8. [Embeddings](https://docs.google.com/presentation/d/1YtKWA53T2NqXoL0vnk8jWl1WCBWCLhbh5OWz_1JrGdU/edit?usp=sharing) 
+- Keras Sample Code
+  - [Simple Embedding and Sentiment Analysis](keras/embedding/sentiment_analysis.ipynb)
+  - [Glove Embedding](keras/embedding/glove_embedding.ipynb)
 9. [Recurrent Neural Networks, LSTM, GRU](https://docs.google.com/presentation/d/1qjQkUwnr2V--7JPz0H_wkzRyTYX3UtJsYrB3MQPGKLE/edit?usp=sharing)
 - Keras Sample Code
   - [SimpleRNN on MNIST](keras/rnn/simple-rnn-mnist.ipynb)
