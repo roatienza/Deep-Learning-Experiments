@@ -47,7 +47,7 @@ print("Loaded training data...")
 def build_dataset(words):
     count = collections.Counter(words).most_common()
     dictionary = {word: rank for rank, (word, _) in enumerate(count)}
-    reverse_dictionary = dict(zip(dictionary.values(), dictionary.keys()))
+    reverse_dictionary = {v: k for k, v in dictionary.items()}
     return dictionary, reverse_dictionary
 
 dictionary, reverse_dictionary = build_dataset(training_data)
