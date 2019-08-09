@@ -83,7 +83,7 @@
   - [Q-Learning on FrozenLake-v0](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter9-drl/q-frozenlake-9.5.1.py)
   - [DQN and DDQN on CartPole-v0](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter9-drl/dqn-cartpole-9.6.1.py)
 
-### Warning: The following are old experiments that are longer updated and maintained
+### Warning: The following are old experiments that are no longer updated and maintained
 ### [Tensorflow](https://www.tensorflow.org/) Experiments
 1. [Hello World!](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Intro/hello.py) 
 2. [Linear Algebra](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Math/linear_algebra.py)
