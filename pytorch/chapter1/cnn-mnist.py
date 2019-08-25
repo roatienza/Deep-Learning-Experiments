@@ -17,7 +17,7 @@ class Net(nn.Module):
         # (28,28), (14, 14), (7,7), (3,3)
         self.dropout1 = nn.Dropout(0.2)
         self.fc1 = nn.Linear(64 * 3 * 3, 10)
-        self.softmax1 = nn.Softmax(dim=1)
+        # self.softmax1 = F.softmax(dim=1)
 
     def forward(self, x):
         x = F.max_pool2d(F.relu(self.conv1(x)), 2)
@@ -26,7 +26,7 @@ class Net(nn.Module):
         x = x.view(-1, self.num_flat_features(x))
         x = self.dropout1(x)
         x = self.fc1(x)
-        x = self.softmax1(x)
+        x = F.softmax(x, dim=1)
         return x
 
     def num_flat_features(self, x):
@@ -37,9 +37,12 @@ class Net(nn.Module):
         return num_features
 
 
-
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 net = Net()
+net.to(device)
 print(net)
+print(device)
+
 
 transform = transforms.Compose([transforms.ToTensor()])
 x_train = datasets.MNIST(root='./data',
@@ -50,8 +53,8 @@ x_test = datasets.MNIST(root='./data',
                         train=False,
                         download=True,
                         transform=transform)
-print(len(x_train))
-print(len(x_test))
+print("Train dataset size:", len(x_train))
+print("Test dataset size", len(x_test))
 
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(net.parameters())
@@ -69,8 +72,8 @@ test_loader = torch.utils.data.DataLoader(x_test,
 log_interval = len(train_loader) // 10
 for epoch in range(10):
     running_loss = 0.0
-    for i, (inputs, labels) in enumerate(train_loader):
-        # inputs, labels = Variable(inputs), Variable(labels)
+    for i, data in enumerate(train_loader):
+        inputs, labels = data[0].to(device), data[1].to(device)
         optimizer.zero_grad()
         outputs = net(inputs)
         loss = criterion(outputs, labels)
