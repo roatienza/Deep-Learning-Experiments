@@ -89,4 +89,4 @@ elapsed_time = datetime.datetime.now() - start_time
 print("Elapsed time (train): %s" % elapsed_time)
 
 loss, acc = model.evaluate(x_test, y_test, batch_size=batch_size)
-print("\nTest accuracy: %.1f%%" % (100.0 * acc))
+print("\nTest accuracy: %.2f%%" % (100.0 * acc))
