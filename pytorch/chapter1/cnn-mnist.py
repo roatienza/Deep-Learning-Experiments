@@ -98,7 +98,8 @@ test_loss = 0
 correct = 0
 total = 0
 with torch.no_grad():
-    for inputs, labels in test_loader:
+    for data in test_loader:
+        inputs, labels = data[0].to(device), data[1].to(device)
         outputs = net(inputs)
         test_loss += criterion(outputs, labels).item()
         _, predicted = torch.max(outputs.data, 1)
