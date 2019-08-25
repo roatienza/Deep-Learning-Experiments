@@ -6,26 +6,25 @@ import torchvision.datasets as datasets
 import torchvision.transforms as transforms
 
 import datetime
+import argparse
 
-class Net(nn.Module):
+class Model(nn.Module):
 
     def __init__(self):
-        super(Net, self).__init__()
+        super(Model, self).__init__()
         # (channel, filters, kernel_size)
         self.conv1 = nn.Conv2d(1, 64, 3)
         self.conv2 = nn.Conv2d(64, 64, 3)
         self.conv3 = nn.Conv2d(64, 64, 3)
         # (28,28), (13, 13), (6,6), (3,3)
-        self.dropout1 = nn.Dropout(0.2)
         self.fc1 = nn.Linear(64 * 3 * 3, 10)
-        # self.softmax1 = F.softmax(dim=1)
 
     def forward(self, x):
         x = F.max_pool2d(F.relu(self.conv1(x)), 2)
         x = F.max_pool2d(F.relu(self.conv2(x)), 2)
         x = F.relu(self.conv3(x))
         x = x.view(-1, self.num_flat_features(x))
-        x = self.dropout1(x)
+        x = F.dropout(x, p=0.2, training=self.training)
         x = self.fc1(x)
         x = F.log_softmax(x, dim=1)
         return x
@@ -38,86 +37,125 @@ class Net(nn.Module):
         return num_features
 
 
-net = Net()
-device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-num_workers = 4
-#if torch.cuda.device_count() > 1:
-#    print("Available GPUs:", torch.cuda.device_count())
-#    net = nn.DataParallel(net)
-#else:
-#    num_workers = 2
-net.to(device)
-print(net)
-print(device)
-
-
-transform = transforms.Compose([transforms.ToTensor()])
-x_train = datasets.MNIST(root='./data',
-                         train=True,
-                         download=True,
-                         transform=transform)
-x_test = datasets.MNIST(root='./data',
-                        train=False,
-                        download=True,
-                        transform=transform)
-print("Train dataset size:", len(x_train))
-print("Test dataset size", len(x_test))
-
-criterion = nn.CrossEntropyLoss()
-optimizer = optim.Adam(net.parameters())
-
-
-train_loader = torch.utils.data.DataLoader(x_train,
-                                           batch_size=128,
-                                           shuffle=True,
-                                           num_workers=num_workers)
-
-test_loader = torch.utils.data.DataLoader(x_test,
-                                          batch_size=128,
-                                          shuffle=True,
-                                          num_workers=num_workers)
-log_interval = len(train_loader) // 10
-start_time = datetime.datetime.now()
-for epoch in range(10):
-    running_loss = 0.0
+def train(args, model, device, train_loader, optimizer, epoch):
+    model.train()
+    log_interval = len(train_loader) // 10
     for i, data in enumerate(train_loader):
         inputs, labels = data[0].to(device), data[1].to(device)
         optimizer.zero_grad()
-        outputs = net(inputs)
-        loss = criterion(outputs, labels)
+        outputs = model(inputs)
+        loss = F.nll_loss(outputs, labels)
         loss.backward()
         optimizer.step()
-        running_loss += loss.item()
         if (i + 1) % log_interval == 0:
             print('Epoch: {} [{}/{} ({:.0f}%)]\tLoss: {:.6f}'.format(
-                  epoch + 1,
-                  (i + 1) * len(inputs),
+                  epoch,
+                  i * len(data),
                   len(train_loader.dataset),
-                  100. * (i + 1)/ len(train_loader),
-                  running_loss / (1 + log_interval)))
-            running_loss = 0.0
+                  100. * i / len(train_loader),
+                  loss.item()))
 
-elapsed_time = datetime.datetime.now() - start_time
-print("Elapsed time (train): %s" % elapsed_time)
-# run a test loop
-test_loss = 0
-correct = 0
-total = 0
-with torch.no_grad():
-    for data in test_loader:
-        inputs, labels = data[0].to(device), data[1].to(device)
-        outputs = net(inputs)
-        test_loss += criterion(outputs, labels).item()
-        _, predicted = torch.max(outputs.data, 1)
-        total += labels.size(0)
-        correct += (predicted == labels).sum().item()
-        #pred = outputs.data.max(1)[1]  # get the index of the max log-probability
-        #correct += pred.eq(labels.data).sum()
+def test(args, model, device, test_loader):
+    model.eval()
+    test_loss = 0
+    correct = 0
+    with torch.no_grad():
+        for data in test_loader:
+            inputs, labels = data[0].to(device), data[1].to(device)
+            outputs = model(inputs)
+            test_loss += F.nll_loss(outputs, labels, reduction='sum').item()
+            pred = outputs.argmax(dim=1, keepdim=True)
+            correct += pred.eq(labels.view_as(pred)).sum().item()
 
-print('Accuracy of the network on the 10000 test images: %d %%' % (
-    100 * correct / total))
+    test_loss /= len(test_loader.dataset)
+    print('\nTest set: Average loss: {:.4f}, Accuracy: {}/{} ({:.2f}%)\n'.format(
+          test_loss,
+          correct,
+          len(test_loader.dataset),
+          100. * correct / len(test_loader.dataset)))
 
-#test_loss /= len(test_loader.dataset)
-#print('\nTest set: Average loss: {:.4f}, Accuracy: {}/{} ({:.0f}%)\n'.format(
-#        test_loss, correct, len(test_loader.dataset),
-#        100. * correct / len(test_loader.dataset)))
+
+def main():
+    parser = argparse.ArgumentParser(description='PyTorch MNIST Example')
+    parser.add_argument('--no-cuda',
+                        action='store_true',
+                        default=False,
+                        help='disables CUDA training')
+    parser.add_argument('--seed',
+                        type=int,
+                        default=1,
+                        metavar='S',
+                        help='random seed (default: 1)')
+    parser.add_argument('--batch-size',
+                        type=int,
+                        default=128,
+                        metavar='N',
+                        help='input batch size for training (default: 128)')
+    parser.add_argument('--epochs',
+                        type=int,
+                        default=10,
+                        metavar='N',
+                        help='number of epochs to train (default: 10)')
+    parser.add_argument('--save-model',
+                        action='store_true',
+                        default=False,
+                        help='For Saving the current Model')
+    args = parser.parse_args()
+    use_cuda = not args.no_cuda and torch.cuda.is_available()
+    torch.manual_seed(args.seed)
+
+    # kwargs = {'num_workers': 4, 'pin_memory': True} if use_cuda else {}
+    kwargs = {'num_workers': 4} if use_cuda else {}
+
+    #transform = transforms.Compose([transforms.ToTensor(),
+    #                                transforms.Normalize((0.1307,), (0.3081,))])
+    transform = transforms.Compose([transforms.ToTensor()])
+    x_train = datasets.MNIST(root='./data',
+                             train=True,
+                             download=True,
+                             transform=transform)
+
+    x_test = datasets.MNIST(root='./data',
+                            train=False,
+                            download=True,
+                            transform=transform)
+
+    print("Train dataset size:", len(x_train))
+    print("Test dataset size", len(x_test))
+
+
+    DataLoader = torch.utils.data.DataLoader
+    train_loader = DataLoader(x_train,
+                              shuffle=True,
+                              batch_size=args.batch_size,
+                              **kwargs)
+
+    test_loader = DataLoader(x_test,
+                             shuffle=True,
+                             batch_size=args.batch_size,
+                             **kwargs)
+
+
+    device = torch.device("cuda" if use_cuda else "cpu")
+    model = Model().to(device)
+    if torch.cuda.device_count() > 1:
+        print("Available GPUs:", torch.cuda.device_count())
+        # model = nn.DataParallel(model)
+    print(model)
+    print(device)
+    # criterion = nn.CrossEntropyLoss()
+    optimizer = optim.Adam(model.parameters())
+
+    start_time = datetime.datetime.now()
+    for epoch in range(1, args.epochs + 1):
+        train(args, model, device, train_loader, optimizer, epoch)
+    elapsed_time = datetime.datetime.now() - start_time
+    print("Elapsed time (train): %s" % elapsed_time)
+    test(args, model, device, test_loader)
+
+    if (args.save_model):
+        torch.save(model.state_dict(), "mnist_cnn.pt")
+
+
+if __name__ == '__main__':
+    main()
