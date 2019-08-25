@@ -5,6 +5,7 @@ import torch.optim as optim
 import torchvision.datasets as datasets
 import torchvision.transforms as transforms
 
+import datetime
 
 class Net(nn.Module):
 
@@ -70,6 +71,7 @@ test_loader = torch.utils.data.DataLoader(x_test,
                                           shuffle=True,
                                           num_workers=4)
 log_interval = len(train_loader) // 10
+start_time = datetime.datetime.now()
 for epoch in range(10):
     running_loss = 0.0
     for i, data in enumerate(train_loader):
@@ -89,6 +91,8 @@ for epoch in range(10):
                   running_loss / (1 + log_interval)))
             running_loss = 0.0
 
+elapsed_time = datetime.datetime.now() - start_time
+print("Elapsed time (train): %s" % elapsed_time)
 # run a test loop
 test_loss = 0
 correct = 0
