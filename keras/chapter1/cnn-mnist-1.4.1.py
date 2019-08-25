@@ -20,7 +20,8 @@ import numpy as np
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Activation, Dense, Dropout
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten
-from tensorflow.keras.utils import to_categorical, plot_model
+from tensorflow.keras.utils import to_categorical
+# from tensorflow.keras.utils import plot_model
 from tensorflow.keras.datasets import mnist
 
 import datetime
@@ -73,7 +74,7 @@ model.add(Dropout(dropout))
 model.add(Dense(num_labels))
 model.add(Activation('softmax'))
 model.summary()
-plot_model(model, to_file='cnn-mnist.png', show_shapes=True)
+# plot_model(model, to_file='cnn-mnist.png', show_shapes=True)
 
 # loss function for one-hot vector
 # use of adam optimizer
