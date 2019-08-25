@@ -15,7 +15,7 @@ class Net(nn.Module):
         self.conv1 = nn.Conv2d(1, 64, 3)
         self.conv2 = nn.Conv2d(64, 64, 3)
         self.conv3 = nn.Conv2d(64, 64, 3)
-        # (28,28), (14, 14), (7,7), (3,3)
+        # (28,28), (13, 13), (6,6), (3,3)
         self.dropout1 = nn.Dropout(0.2)
         self.fc1 = nn.Linear(64 * 3 * 3, 10)
         # self.softmax1 = F.softmax(dim=1)
@@ -27,7 +27,7 @@ class Net(nn.Module):
         x = x.view(-1, self.num_flat_features(x))
         x = self.dropout1(x)
         x = self.fc1(x)
-        x = F.softmax(x, dim=1)
+        x = F.log_softmax(x, dim=1)
         return x
 
     def num_flat_features(self, x):
@@ -38,8 +38,14 @@ class Net(nn.Module):
         return num_features
 
 
-device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 net = Net()
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+num_workers = 4
+#if torch.cuda.device_count() > 1:
+#    print("Available GPUs:", torch.cuda.device_count())
+#    net = nn.DataParallel(net)
+#else:
+#    num_workers = 2
 net.to(device)
 print(net)
 print(device)
@@ -64,12 +70,12 @@ optimizer = optim.Adam(net.parameters())
 train_loader = torch.utils.data.DataLoader(x_train,
                                            batch_size=128,
                                            shuffle=True,
-                                           num_workers=4)
+                                           num_workers=num_workers)
 
 test_loader = torch.utils.data.DataLoader(x_test,
                                           batch_size=128,
                                           shuffle=True,
-                                          num_workers=4)
+                                          num_workers=num_workers)
 log_interval = len(train_loader) // 10
 start_time = datetime.datetime.now()
 for epoch in range(10):
