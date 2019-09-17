@@ -13,29 +13,23 @@ class Model(nn.Module):
     def __init__(self):
         super(Model, self).__init__()
         # (channel, filters, kernel_size)
-        self.conv1 = nn.Conv2d(1, 64, 3)
-        self.conv2 = nn.Conv2d(64, 64, 3)
-        self.conv3 = nn.Conv2d(64, 64, 3)
-        # (28,28), (13, 13), (6,6), (3,3)
-        self.fc1 = nn.Linear(64 * 3 * 3, 10)
+        self.classifier = nn.Sequential(
+            nn.Conv2d(1, 64, 3),
+            nn.ReLU(),
+            nn.MaxPool2d(2),
+            nn.Conv2d(64, 64, 3),
+            nn.ReLU(),
+            nn.MaxPool2d(2),
+            nn.Conv2d(64, 64, 3),
+            nn.Dropout(0.2),
+            nn.Flatten(),
+            nn.Linear(64 * 3 * 3, 10),
+            nn.LogSoftmax(dim=1)
+        )
 
     def forward(self, x):
-        x = F.max_pool2d(F.relu(self.conv1(x)), 2)
-        x = F.max_pool2d(F.relu(self.conv2(x)), 2)
-        x = F.relu(self.conv3(x))
-        x = x.view(-1, self.num_flat_features(x))
-        x = F.dropout(x, p=0.2, training=self.training)
-        x = self.fc1(x)
-        x = F.log_softmax(x, dim=1)
+        x = self.classifier(x)
         return x
-
-    def num_flat_features(self, x):
-        size = x.size()[1:]  # all dimensions except the batch dimension
-        num_features = 1
-        for s in size:
-            num_features *= s
-        return num_features
-
 
 def train(args, model, device, train_loader, optimizer, epoch):
     model.train()
@@ -54,6 +48,7 @@ def train(args, model, device, train_loader, optimizer, epoch):
                   len(train_loader.dataset),
                   100. * i / len(train_loader),
                   loss.item()))
+
 
 def test(args, model, device, test_loader):
     model.eval()
