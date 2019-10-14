@@ -1,6 +1,6 @@
 '''
 DCGAN on MNIST using Keras
-Author: Pablo Rodriguez Bertorello
+Author: Rowel Atienza and Pablo Rodriguez Bertorello
 Project: https://github.com/roatienza/Deep-Learning-Experiments
 Dependencies: tensorflow 1.0 and keras 2.0
 Usage: python3 dcgan_mnist.py
