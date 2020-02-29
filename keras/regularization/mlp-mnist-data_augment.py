@@ -1,6 +1,14 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# ## MLP MNIST with data augmentation
+
+# In[ ]:
+
+
 '''
 MLP network for MNIST digits classification w/ data augment
-Test accuracy: 98.12
+Test accuracy: 97.7
 '''
 
 from __future__ import absolute_import
@@ -9,11 +17,16 @@ from __future__ import print_function
 
 # numpy package
 import numpy as np
-from keras.models import Sequential
-from keras.layers import Dense, Activation
-from keras.preprocessing.image import ImageDataGenerator
-from keras.datasets import mnist
-from keras.utils import to_categorical
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Activation
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.datasets import mnist
+from tensorflow.keras.utils import to_categorical
+
+from numpy.random import seed
+seed(12345)
+import tensorflow as tf
+tf.random.set_seed(12345)
 
 # load mnist dataset
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
@@ -34,10 +47,9 @@ x_test = x_test.astype('float32') / 255
 # network parameters
 batch_size = 128
 hidden_units = 256
-dropout = 0.45
 data_augmentation = True
 epochs = 20
-max_batches = 2 * len(x_train) / batch_size
+max_batches = len(x_train) / batch_size
 
 # this is 3-layer MLP with ReLU after each layer
 model = Sequential()
@@ -73,34 +85,44 @@ else:
     # we need [width, height, channel] dim for data aug
     x_train = np.reshape(x_train, [-1, image_size, image_size, 1])
     datagen = ImageDataGenerator(
-        featurewise_center=False,  # set input mean to 0 over the dataset
-        samplewise_center=False,  # set each sample mean to 0
-        featurewise_std_normalization=False,  # divide inputs by std of dataset
-        samplewise_std_normalization=False,  # divide each input by its std
-        zca_whitening=False,  # apply ZCA whitening
-        rotation_range=5.0,  # randomly rotate images in the range (deg 0 to 180)
-        width_shift_range=0.0,  # randomly shift images horizontally
-        height_shift_range=0.0,  # randomly shift images vertically
-        horizontal_flip=False,  # randomly flip images
-        vertical_flip=False)  # randomly flip images
+        featurewise_center=True,
+        featurewise_std_normalization=True,
+        rotation_range=20,
+        width_shift_range=0.2,
+        height_shift_range=0.2,
+        horizontal_flip=False)
 
     # Compute quantities required for featurewise normalization
     # (std, mean, and principal components if ZCA whitening is applied).
     datagen.fit(x_train)
+    # fits the model on batches with real-time data augmentation:
+    #model.fit_generator(datagen.flow(x_train, y_train, batch_size=32),
+    #                    steps_per_epoch=len(x_train) / 32, 
+    #                    epochs=epochs)
     for e in range(epochs):
+        print('Epoch', e)
         batches = 0
         for x_batch, y_batch in datagen.flow(x_train, y_train, batch_size=batch_size):
-            x_batch = np.reshape(x_batch, [-1, input_size])
-            model.fit(x_batch, y_batch, verbose=0)
+            x_batch = np.reshape(x_batch, [-1, image_size*image_size])
+            model.fit(x_batch, y_batch)
             batches += 1
-            print("Epoch %d/%d, Batch %d/%d" % (e+1, epochs, batches, max_batches))
-            if batches >= max_batches:
+            if batches >= len(x_train) / 32:
                 # we need to break the loop by hand because
                 # the generator loops indefinitely
                 break
 
 # Score trained model.
 x_test = np.reshape(x_test, [-1, input_size])
-scores = model.evaluate(x_test, y_test, verbose=1)
+scores = model.evaluate(x_test,
+                        y_test,
+                        batch_size=batch_size,
+                        verbose=False)
 print('Test loss:', scores[0])
-print('Test accuracy:', scores[1])
+print('Test accuracy: %0.1f%%' % (100 * scores[1]) )
+
+
+# In[ ]:
+
+
+
+
