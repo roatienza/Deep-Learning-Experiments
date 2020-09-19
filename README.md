@@ -9,6 +9,8 @@ So much have changed since this course was offerred. Hence, it is time to revise
 
 2) Lecture Notes w/ Less Clutter - Prior to this version, my lecture notes have too much text. In the 2020 version, I am trying to focus more on the key concepts while carefully explaining during lecture the idea behind these concepts. The lecture notes are closely coupled with sample implementations. This enables us to quickly move from concepts to actual code implementations.
 
+## Lecture Notes and Experiments
+
 0. Course Roadmap
   - [Deep Learning](https://docs.google.com/presentation/d/1JSmMV3SICXJ3SQOSj5WgJipssOpBYZKNZm1YnU5HO3g/edit?usp=sharing)
   - [Limits of Deep Learning](https://docs.google.com/presentation/d/13nsjiEjpiUpidxThT6hoCg19o0TMG-ho4tzgvuPkWV8/edit?usp=sharing)
@@ -21,7 +23,7 @@ So much have changed since this course was offerred. Hence, it is time to revise
     - [MNIST Classifier](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/MLP/code/tf.keras/mlp-mnist.ipynb)
 
 
-## Star, Fork, Citation
+## Star, Fork, Cite
 If you find this work useful, please give it a star, fork, or cite:
 
 ```
