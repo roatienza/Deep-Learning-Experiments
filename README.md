@@ -1,6 +1,41 @@
 # Deep Learning Lecture Notes and Experiments
 ### Code samples have links to other repo that I maintain ([Advanced Deep Learning with Keras](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras) book) or contribute ([Keras](https://github.com/keras-team/keras))
-## Lecture Notes
+
+## 2020 Version
+
+So much have changed since this course was offerred. Hence, it is time to revise. I will keep the original lecture notes at the bottom. They will no longer be maintained. I am introducing 2020 version. Big changes that will happen are as follows:
+
+1) Review of Machine Learning - Frustrated with the lack of depth in the ML part, I decided to develop a new course - [Foundations of Machine Learning](https://github.com/roatienza/ml). Before studying DL, a good grasp of ML is of paramount importance. Without ML, it is harder to understand DL and to move it forward.
+
+2) Lecture Notes w/ Less Clutter - Prior to this version, my lecture notes have too much text. In the 2020 version, I am trying to focus more on the key concepts while carefully explaining during lecture the idea behind these concepts. The lecture notes are closely coupled with sample implementations. This enables us to quickly move from concepts to actual code implementations.
+
+0. Course Roadmap
+  - [Deep Learning](https://docs.google.com/presentation/d/1JSmMV3SICXJ3SQOSj5WgJipssOpBYZKNZm1YnU5HO3g/edit?usp=sharing)
+  - [Limits of Deep Learning](https://docs.google.com/presentation/d/13nsjiEjpiUpidxThT6hoCg19o0TMG-ho4tzgvuPkWV8/edit?usp=sharing)
+  
+1. Multilayer Perceptron (MLP)
+  - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/MLP/MLP.pdf)
+  - Experiments
+    - [Linear Regression](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/MLP/code/tf.keras/linear.ipynb)
+    - [MNIST Sampler](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/MLP/code/tf.keras/mnist-sampler.ipynb)
+    - [MNIST Classifier](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/MLP/code/tf.keras/mlp-mnist.ipynb)
+
+
+## Star, Fork, Citation
+If you find this work useful, please give it a star, fork, or cite:
+
+```
+@misc{atienza2020dl,
+  title={Deep Learning Lecture Notes},
+  author={Atienza, Rowel},
+  year={2020},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/roatienza/Deep-Learning-Experiments}},
+}
+```
+
+## Lecture Notes (Old - will no longer be maintained)
 0. Course Roadmap
   - [Deep Learning](https://docs.google.com/presentation/d/1JSmMV3SICXJ3SQOSj5WgJipssOpBYZKNZm1YnU5HO3g/edit?usp=sharing)
   - [Limits of Deep Learning](https://docs.google.com/presentation/d/13nsjiEjpiUpidxThT6hoCg19o0TMG-ho4tzgvuPkWV8/edit?usp=sharing)
