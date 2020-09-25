@@ -22,6 +22,16 @@ So much have changed since this course was offerred. Hence, it is time to revise
     - [MNIST Sampler](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/MLP/code/tf.keras/mnist-sampler.ipynb)
     - [MNIST Classifier](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/MLP/code/tf.keras/mlp-mnist.ipynb)
 
+2. Convolutional Neural Network (CNN)
+  - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/cnn/CNN.pdf)
+  - Experiments
+    - [CNN MNNIST Classifier](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/cnn/code/cnn-mnist.ipynb)
+    - [CNN MNNIST Classifier using Functional API](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/cnn/code/cnn-functional.ipynb)
+    - [Y Network using Functional API](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/cnn/code/cnn-siamese.ipynb)
+  - Deep CNN
+    - [ResNet](https://github.com/keras-team/keras/blob/master/examples/cifar10_resnet.py)
+    - [DenseNet](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter2-deep-networks/densenet-cifar10-2.4.1.py)  
+    
 
 ## Star, Fork, Cite
 If you find this work useful, please give it a star, fork, or cite:
