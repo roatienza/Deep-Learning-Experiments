@@ -31,8 +31,13 @@ So much have changed since this course was offerred. Hence, it is time to revise
   - Deep CNN
     - [ResNet](https://github.com/keras-team/keras/blob/master/examples/cifar10_resnet.py)
     - [DenseNet](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter2-deep-networks/densenet-cifar10-2.4.1.py)  
+   
+ 3. Recurrent Neural Network (RNN)
+  - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/rnn/RNN.pdf)
+  - Experiments
+    - [RNN MNNIST Classifier](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/rnn/code/simple-rnn-mnist.ipynb)
+    - [LSTM MNNIST Classifier](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/rnn/code/cudnnlstm-mnist.ipynb)
     
-
 ## Star, Fork, Cite
 If you find this work useful, please give it a star, fork, or cite:
 
