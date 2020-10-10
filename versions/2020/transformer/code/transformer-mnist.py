@@ -4,9 +4,12 @@ import torch.nn.functional as F
 import torch.optim as optim
 import torchvision.datasets as datasets
 import torchvision.transforms as transforms
+import numpy as np
 
 import datetime
 import argparse
+import matplotlib.pyplot as plt
+import matplotlib
 
 from vit_pytorch import ViT
 from ui import AverageMeter, accuracy, progress_bar
@@ -88,8 +91,54 @@ def test(args, model, device, test_loader):
                          % (top1.avg, top5.avg))
     return top1.avg, top5.avg
 
+# https://debuggercafe.com/visualizing-filters-and-feature-maps-in-convolutional-neural-networks-using-pytorch/
+def visualize(args, model):
+    model_weights = []
+    conv_layers = []
+    model_children = list(model.children())
+    n_layers = 0 
+    for i in range(len(model_children)):
+        if type(model_children[i]) == nn.Conv2d:
+            n_layers += 1
+            model_weights.append(model_children[i].weight)
+            conv_layers.append(model_children[i])
+        elif type(model_children[i]) == nn.Sequential:
+            for j in range(len(model_children[i])):
+                child = model_children[i][j]
+                if type(child) == nn.Conv2d:
+                    n_layers += 1
+                    model_weights.append(child.weight)
+                    conv_layers.append(child)
+    print(f"Total convolutional layers: {n_layers}")
+    if n_layers == 0:
+        print("No weights and feature maps to plot")
+        return
 
+    if args.layer_num > n_layers - 1:
+        print(f"Max layer number is {n_layers}")
+        return
 
+    fig = plt.figure(figsize=(10, 10))
+    weights = model_weights[args.layer_num].detach().cpu().numpy()
+    n_features = weights.shape[0]
+    if args.feature_num > n_features - 1:
+        print(f"Max feature number is {n_features}")
+        return
+
+    weights = weights[args.feature_num].squeeze()
+    dim = int( np.sqrt( len(weights) ) )
+    weights = weights - np.amin(weights)
+    weights = weights / np.amax(weights)
+
+    axes = []
+    for i, weight in enumerate(weights):
+        ax = plt.subplot(dim, dim, i+1)
+        axes.append(ax)
+        im = plt.imshow(weight)
+        plt.axis('off')
+    
+    fig.colorbar(im, ax=axes)
+    plt.show()
 
 def main():
     parser = argparse.ArgumentParser(description='PyTorch MNIST Example')
@@ -108,6 +157,16 @@ def main():
                         default=10,
                         metavar='N',
                         help='number of epochs to train (default: 10)')
+    parser.add_argument('--layer-num',
+                        type=int,
+                        default=0,
+                        metavar='N',
+                        help='which layer to visualize (default: 0)')
+    parser.add_argument('--feature-num',
+                        type=int,
+                        default=0,
+                        metavar='N',
+                        help='which feature of a layer to visualize (default: 0)')
     parser.add_argument('--train',
                         action='store_true',
                         default=False,
@@ -127,6 +186,10 @@ def main():
                         action='store_true',
                         default=False,
                         help='use cnn model instead of transformer (default: False)')
+    parser.add_argument('--visualize',
+                        action='store_true',
+                        default=False,
+                        help='plot kernel and feature maps (default: False)')
     
     args = parser.parse_args()
     use_cuda = torch.cuda.is_available()
@@ -206,6 +269,9 @@ def main():
 
     elapsed_time = datetime.datetime.now() - start_time
     print("Elapsed time (train): %s" % elapsed_time)
+
+    if args.visualize:
+        visualize(args, model)
 
 
 if __name__ == '__main__':
