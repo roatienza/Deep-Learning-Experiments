@@ -13,8 +13,8 @@ from ui import AverageMeter, accuracy, progress_bar
 
 class CNNModel(nn.Module):
 
-    def __init__(self):
-        super(Model, self).__init__()
+    def __init__(self, n_classes=10):
+        super(CNNModel, self).__init__()
         # (channel, filters, kernel_size)
         self.classifier = nn.Sequential(
             nn.Conv2d(1, 64, 3),
@@ -26,8 +26,7 @@ class CNNModel(nn.Module):
             nn.Conv2d(64, 64, 3),
             nn.Dropout(0.2),
             nn.Flatten(),
-            nn.Linear(64 * 3 * 3, 10),
-            #nn.LogSoftmax(dim=1)
+            nn.Linear(64 * 3 * 3, n_classes),
         )
 
     def forward(self, x):
@@ -96,9 +95,9 @@ def main():
     parser = argparse.ArgumentParser(description='PyTorch MNIST Example')
     parser.add_argument('--lr',
                         type=float,
-                        default=0.01,
+                        default=1e-3,
                         metavar='S',
-                        help='learning rate')
+                        help='learning rate (default: 1e-3)')
     parser.add_argument('--batch-size',
                         type=int,
                         default=128,
@@ -109,18 +108,25 @@ def main():
                         default=10,
                         metavar='N',
                         help='number of epochs to train (default: 10)')
+    parser.add_argument('--train',
+                        action='store_true',
+                        default=False,
+                        help='train the model (default: False)')
     parser.add_argument('--save-model',
                         action='store_true',
                         default=False,
-                        help='For Saving the current Model')
+                        help='save the current model (default: False)')
+    parser.add_argument('--restore-model',
+                        default=None,
+                        help='restore & eval this model file (default: False)')
     parser.add_argument('--normalize',
                         action='store_true',
                         default=False,
-                        help='normalize input dataset')
+                        help='normalize input dataset (default: False)')
     parser.add_argument('--cnn',
                         action='store_true',
                         default=False,
-                        help='use cnn model')
+                        help='use cnn model instead of transformer (default: False)')
     
     args = parser.parse_args()
     use_cuda = torch.cuda.is_available()
@@ -159,14 +165,14 @@ def main():
     if args.cnn:
         model = CNNModel().to(device)
     else:
-        model = ViT(image_size = 28,
-                    patch_size = 14,
-                    num_classes = 10,
-                    dim = 128,
-                    depth = 6,
-                    heads = 8,
-                    mlp_dim = 128,
-                    channels = 1,
+        model = ViT(image_size=28,
+                    patch_size=14,
+                    num_classes=10,
+                    dim=128,
+                    depth=6,
+                    heads=8,
+                    mlp_dim=128,
+                    channels=1,
                     ).to(device)
 
     if torch.cuda.device_count() > 1:
@@ -175,22 +181,31 @@ def main():
     print("Model:", model)
     print("Device:", device)
     optimizer = optim.Adam(model.parameters())
-
+    
     start_time = datetime.datetime.now()
     best_top1 = 0
     best_top5 = 0
-    for epoch in range(1, args.epochs + 1):
-        top1, top5 = train(args, model, device, train_loader, test_loader, optimizer, epoch)
-        if top1 > best_top1:
-            print("New best Top 1: %0.2f%%, Top 5: %0.2f%%" % (top1, top5))
-            best_top1 = top1
-            best_top5 = top5
+    if args.restore_model is not None:
+        model.load_state_dict(torch.load(args.restore_model)) 
+        best_top1, best_top5 = test(args, model, device, test_loader)
+        print("Best Top 1: %0.2f%%, Top 5: %0.2f%%" % (best_top1, best_top5))
+
+    if args.train:
+        for epoch in range(1, args.epochs + 1):
+            top1, top5 = train(args, model, device, train_loader, test_loader, optimizer, epoch)
+            if top1 > best_top1:
+                print("New best Top 1: %0.2f%%, Top 5: %0.2f%%" % (top1, top5))
+                best_top1 = top1
+                best_top5 = top5
+                if args.save_model:
+                    filename = "cnn-mnist.pth" if args.cnn else "transformer-mnist.pth"
+                    torch.save(model.state_dict(), filename)
+                    print("Saving best model on file: ", filename)
+
+        print("Best Top 1: %0.2f%%, Top 5: %0.2f%% in %d epochs" % (best_top1, best_top5, args.epochs))
+
     elapsed_time = datetime.datetime.now() - start_time
     print("Elapsed time (train): %s" % elapsed_time)
-    print("Best Top 1: %0.2f%%, Top 5: %0.2f%%" % (best_top1, best_top5))
-
-    if args.save_model:
-        torch.save(model.state_dict(), "mnist.pth")
 
 
 if __name__ == '__main__':
