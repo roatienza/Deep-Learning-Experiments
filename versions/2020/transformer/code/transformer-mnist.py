@@ -11,6 +11,7 @@ import argparse
 import matplotlib.pyplot as plt
 import matplotlib
 
+from PIL import Image
 from vit_pytorch import ViT
 from ui import AverageMeter, accuracy, progress_bar
 
@@ -91,57 +92,79 @@ def test(args, model, device, test_loader):
                          % (top1.avg, top5.avg))
     return top1.avg, top5.avg
 
-# https://debuggercafe.com/visualizing-filters-and-feature-maps-in-convolutional-neural-networks-using-pytorch/
-def visualize(args, model):
-    model_weights = []
-    conv_layers = []
-    model_children = list(model.children())
+
+class SaveOutput:
+    def __init__(self):
+        self.outputs = []
+                            
+    def __call__(self, module, module_in, module_out):
+        self.outputs.append(module_out)
+                                                    
+    def clear(self):
+        self.outputs = []
+
+def viz_features(args, model):
+    save_output = SaveOutput()
+    hook_handles = []
+    kernels = []
     n_layers = 0 
-    for i in range(len(model_children)):
-        if type(model_children[i]) == nn.Conv2d:
+    for layer in model.modules():
+        if isinstance(layer, torch.nn.modules.conv.Conv2d):
+            handle = layer.register_forward_hook(save_output)
+            hook_handles.append(handle)
+            kernels.append(layer.weight)
             n_layers += 1
-            model_weights.append(model_children[i].weight)
-            conv_layers.append(model_children[i])
-        elif type(model_children[i]) == nn.Sequential:
-            for j in range(len(model_children[i])):
-                child = model_children[i][j]
-                if type(child) == nn.Conv2d:
-                    n_layers += 1
-                    model_weights.append(child.weight)
-                    conv_layers.append(child)
+
     print(f"Total convolutional layers: {n_layers}")
-    if n_layers == 0:
-        print("No weights and feature maps to plot")
-        return
 
-    if args.layer_num > n_layers - 1:
-        print(f"Max layer number is {n_layers}")
-        return
+    image = np.array(Image.open(args.image))
+    use_cuda = torch.cuda.is_available()
+    device = torch.device("cuda" if use_cuda else "cpu")
+    transform = transforms.Compose([transforms.ToTensor(),])
+    image = transform(image)
+    image = image.to(device)
+    image = image.unsqueeze(0)
+    pred = model(image)
+    features = save_output.outputs
 
+    for layer, data in enumerate(zip(features, kernels)):
+        maps, kernel = data
+        maps = maps.squeeze().detach().cpu().numpy()
+        dim = int( np.sqrt( len(maps) ) )
+        title = "Feature maps at CNN layer %d" % layer
+        plot_data(args, maps, dim, title)
+
+        kernel = kernel.detach().cpu().numpy()
+        kernel = kernel[:,args.feature_num,:,:]
+        kernel = kernel.squeeze()
+        dim = int( np.sqrt( len(kernel) ) )
+        title = "Kernel weights layer %d filter %d" % (layer, args.feature_num)
+        plot_data(args, kernel, dim, title)
+
+
+def plot_data(args, maps, dim, title=""):
     fig = plt.figure(figsize=(10, 10))
-    weights = model_weights[args.layer_num].detach().cpu().numpy()
-    n_features = weights.shape[0]
-    if args.feature_num > n_features - 1:
-        print(f"Max feature number is {n_features}")
-        return
 
-    weights = weights[args.feature_num].squeeze()
-    dim = int( np.sqrt( len(weights) ) )
-    weights = weights - np.amin(weights)
-    weights = weights / np.amax(weights)
+    maps = maps - np.amin(maps)
+    maps = maps / np.amax(maps)
 
     axes = []
-    for i, weight in enumerate(weights):
+    for i, m in enumerate(maps):
         ax = plt.subplot(dim, dim, i+1)
         axes.append(ax)
-        im = plt.imshow(weight)
+        im = plt.imshow(m, cmap="gray")
         plt.axis('off')
     
     fig.colorbar(im, ax=axes)
+    plt.suptitle(title, fontsize=14)
     plt.show()
+
 
 def main():
     parser = argparse.ArgumentParser(description='PyTorch MNIST Example')
+    parser.add_argument('--image',
+                        default='dataset/test/0_000.png',
+                        help='image to be classified')
     parser.add_argument('--lr',
                         type=float,
                         default=1e-3,
@@ -224,6 +247,7 @@ def main():
                              **kwargs)
 
 
+    use_cuda = torch.cuda.is_available()
     device = torch.device("cuda" if use_cuda else "cpu")
     if args.cnn:
         model = CNNModel().to(device)
@@ -271,7 +295,7 @@ def main():
     print("Elapsed time (train): %s" % elapsed_time)
 
     if args.visualize:
-        visualize(args, model)
+        viz_features(args, model)
 
 
 if __name__ == '__main__':
