@@ -25,8 +25,8 @@ So much have changed since this course was offerred. Hence, it is time to revise
 2. Convolutional Neural Network (CNN)
   - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/cnn/CNN.pdf)
   - Experiments
-    - [CNN MNNIST Classifier](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/cnn/code/cnn-mnist.ipynb)
-    - [CNN MNNIST Classifier using Functional API](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/cnn/code/cnn-functional.ipynb)
+    - [CNN MNIST Classifier](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/cnn/code/cnn-mnist.ipynb)
+    - [CNN MNIST Classifier using Functional API](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/cnn/code/cnn-functional.ipynb)
     - [Y Network using Functional API](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/cnn/code/cnn-siamese.ipynb)
   - Deep CNN
     - [ResNet](https://github.com/keras-team/keras/blob/master/examples/cifar10_resnet.py)
@@ -35,8 +35,13 @@ So much have changed since this course was offerred. Hence, it is time to revise
  3. Recurrent Neural Network (RNN)
   - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/rnn/RNN.pdf)
   - Experiments
-    - [RNN MNNIST Classifier](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/rnn/code/simple-rnn-mnist.ipynb)
-    - [LSTM MNNIST Classifier](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/rnn/code/cudnnlstm-mnist.ipynb)
+    - [RNN MNIST Classifier](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/rnn/code/simple-rnn-mnist.ipynb)
+    - [LSTM MNIST Classifier](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/rnn/code/cudnnlstm-mnist.ipynb)
+    
+ 4. Transformer
+  - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/transformer/Transformer.pdf)
+  - Experiments
+    - [Transformer MNIST Classifier](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/transformer/code)
     
 ## Star, Fork, Cite
 If you find this work useful, please give it a star, fork, or cite:
