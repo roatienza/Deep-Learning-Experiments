@@ -42,6 +42,17 @@ So much have changed since this course was offerred. Hence, it is time to revise
   - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/transformer/Transformer.pdf)
   - Experiments
     - [Transformer MNIST Classifier](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/transformer/code)
+  
+ 5. Regularizer
+   - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/regularizer/Regularizer.pdf)
+   - Experiments
+     - [MLP on MNIST no Regularizer](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/regularizer/code/mlp-mnist-noreg.ipynb)
+     - [MLP on MNIST with L2](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/regularizer/code/mlp-mnist-l2.ipynb)
+     - [MLP on MNIST with Dropout](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/regularizer/code/mlp-mnist-dropout.ipynb)
+     - [MLP on MNIST with Data Augmentation](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/regularizer/code/mlp-mnist-data_augment.ipynb) 
+     
+  5. Optimizer
+   - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/optimizer/Optimizer.pdf)
     
 ## Star, Fork, Cite
 If you find this work useful, please give it a star, fork, or cite:
