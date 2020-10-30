@@ -53,6 +53,16 @@ So much have changed since this course was offerred. Hence, it is time to revise
      
   5. Optimizer
    - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/optimizer/Optimizer.pdf)
+   
+  6. AutoEncoder
+   - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/autoencoder/AutoEncoders.pdf)
+   - Experiments
+     - [AutoEncoder](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter3-autoencoders/autoencoder-mnist-3.2.1.py)
+     - [Denoising AutoEncoder](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter3-autoencoders/denoising-autoencoder-mnist-3.3.1.py)
+     - [Colorization AutoEncoder](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter3-autoencoders/colorization-autoencoder-cifar10-3.4.1.py)
+  
+  7. Normalization
+    - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/normalization/Normalization.pdf)
     
 ## Star, Fork, Cite
 If you find this work useful, please give it a star, fork, or cite:
