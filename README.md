@@ -64,6 +64,20 @@ So much have changed since this course was offerred. Hence, it is time to revise
   7. Normalization
     - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/normalization/Normalization.pdf)
     
+  8. Generative Adversarial Networks
+     - [GAN](https://docs.google.com/presentation/d/13fiFibqjl9ps_CktJzMNAvoZXOlzHQDu8eRSb3a227g/edit?usp=sharing)
+     - [Improved GANs](https://docs.google.com/presentation/d/1tATpY1gzJo8x6Ziceln-KjcgEeqX-fnapL6IFdc9Wbk/edit?usp=sharing)
+     - [Disentangled GAN](https://docs.google.com/presentation/d/1XboUGxLB1wYqJppsYiToq120JLhAOiuxLMUNbSfy_dk/edit?usp=sharing)
+     - [Cross-Domain GAN](https://docs.google.com/presentation/d/17lizm6BGtDB7OIR1XQHGH-VzcoM5N0vBnjOhIlcAwZs/edit?usp=sharing)
+     - Experiments:
+           [DCGAN](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter4-gan/dcgan-mnist-4.2.1.py)
+           , [CGAN](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter4-gan/cgan-mnist-4.3.1.py)
+           , [WGAN](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter5-improved-gan/wgan-mnist-5.1.2.py)
+           , [LSGAN](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter5-improved-gan/lsgan-mnist-5.2.1.py)
+           , [ACGAN](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter5-improved-gan/acgan-mnist-5.3.1.py)
+           , [InfoGAN](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter6-disentangled-gan/infogan-mnist-6.1.1.py)
+           , [CycleGAN](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter7-cross-domain-gan/cyclegan-7.1.1.py)
+    
 ## Star, Fork, Cite
 If you find this work useful, please give it a star, fork, or cite:
 
@@ -163,27 +177,4 @@ If you find this work useful, please give it a star, fork, or cite:
 14. [Policy Gradient Methods](https://docs.google.com/presentation/d/1SsPomQARNVKuIW4UtsLYkylM1b_ZuTIySCZSdEkmGTM/edit?usp=sharing)
 - Keras Sample Code
   - [REINFORCE. REINFORCE w/ Baseline, Actor-Critic, and A2C](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter10-policy/policygradient-car-10.1.1.py)  
-### Warning: The following are old experiments that are no longer updated and maintained
-### [Tensorflow](https://www.tensorflow.org/) Experiments
-1. [Hello World!](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Intro/hello.py) 
-2. [Linear Algebra](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Math/linear_algebra.py)
-3. [Matrix Decomposition](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Math/decomposition.py)
-4. [Probability Distributions using TensorBoard](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Probability/distributions.py)
-5. [Linear Regression by PseudoInverse](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Regression/linear_inv.py)
-6. [Linear Regression by Gradient Descent](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Regression/linear_regression.py)
-6. [Under Fitting in Linear Regression](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Machine_Learning/underfit_regression.py)
-7. [Optimal Fitting in Linear Regression](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Machine_Learning/optfit_regression.py)
-8. [Over Fitting in Linear Regression](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Machine_Learning/overfit_regression.py)
-9. [Nearest Neighbor](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Machine_Learning/regression_nn.py)
-10. [Principal Component Analysis](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Machine_Learning/pca.py)
-11. [Logical Ops by a 2-layer NN (MSE)](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Neural_Networks/logic_gate_mse.py)
-12. [Logical Ops by a 2-layer NN (Cross Entropy)](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Neural_Networks/logic_gate_logits.py)
-13. NotMNIST Deep Feedforward Network: [Code for NN](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Deep_Networks/mnist_a2j_mlp.py) and [Code for Pickle](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Deep_Networks/mnist_a2j_2pickle.py)
-14. [NotMNIST CNN](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Deep_Networks/mnist_a2j_cnn.py)
-15. [word2vec](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Word2Vec/word2vec.py)
-16. [Word Prediction/Story Generation using LSTM](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/RNN/rnn_words.py). Belling the Cat by Aesop [Sample Text Story](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/RNN/belling_the_cat.txt)
 
-## [Keras](https://keras.io) on Tensorflow Experiments
-1. [NotMNIST Deep Feedforward Network](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Deep_Networks/mnist_a2j_mlp_keras.py)
-2. [NotMNIST CNN](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/Deep_Networks/mnist_a2j_cnn_keras.py)
-3. [DCGAN on MNIST](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/GAN/dcgan_mnist.py)
