@@ -17,14 +17,14 @@ So much have changed since this course was offerred. Hence, it is time to revise
   
 1. Multilayer Perceptron (MLP)
   - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/MLP/MLP.pdf)
-  - Experiments
+  - Experiments:
     - [Linear Regression](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/MLP/code/tf.keras/linear.ipynb)
     - [MNIST Sampler](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/MLP/code/tf.keras/mnist-sampler.ipynb)
     - [MNIST Classifier](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/MLP/code/tf.keras/mlp-mnist.ipynb)
 
 2. Convolutional Neural Network (CNN)
   - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/cnn/CNN.pdf)
-  - Experiments
+  - Experiments:
     - [CNN MNIST Classifier](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/cnn/code/cnn-mnist.ipynb)
     - [CNN MNIST Classifier using Functional API](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/cnn/code/cnn-functional.ipynb)
     - [Y Network using Functional API](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/cnn/code/cnn-siamese.ipynb)
@@ -34,18 +34,18 @@ So much have changed since this course was offerred. Hence, it is time to revise
    
  3. Recurrent Neural Network (RNN)
   - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/rnn/RNN.pdf)
-  - Experiments
+  - Experiments:
     - [RNN MNIST Classifier](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/rnn/code/simple-rnn-mnist.ipynb)
     - [LSTM MNIST Classifier](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/rnn/code/cudnnlstm-mnist.ipynb)
     
  4. Transformer
   - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/transformer/Transformer.pdf)
-  - Experiments
+  - Experiments:
     - [Transformer MNIST Classifier](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/transformer/code)
   
  5. Regularizer
    - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/regularizer/Regularizer.pdf)
-   - Experiments
+   - Experiments:
      - [MLP on MNIST no Regularizer](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/regularizer/code/mlp-mnist-noreg.ipynb)
      - [MLP on MNIST with L2](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/regularizer/code/mlp-mnist-l2.ipynb)
      - [MLP on MNIST with Dropout](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/regularizer/code/mlp-mnist-dropout.ipynb)
@@ -56,27 +56,39 @@ So much have changed since this course was offerred. Hence, it is time to revise
    
   6. AutoEncoder
    - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/autoencoder/AutoEncoders.pdf)
-   - Experiments
+   - Experiments:
      - [AutoEncoder](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter3-autoencoders/autoencoder-mnist-3.2.1.py)
      - [Denoising AutoEncoder](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter3-autoencoders/denoising-autoencoder-mnist-3.3.1.py)
      - [Colorization AutoEncoder](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter3-autoencoders/colorization-autoencoder-cifar10-3.4.1.py)
   
   7. Normalization
-    - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/normalization/Normalization.pdf)
+   - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/normalization/Normalization.pdf)
     
-  8. Generative Adversarial Networks
-     - [GAN](https://docs.google.com/presentation/d/13fiFibqjl9ps_CktJzMNAvoZXOlzHQDu8eRSb3a227g/edit?usp=sharing)
-     - [Improved GANs](https://docs.google.com/presentation/d/1tATpY1gzJo8x6Ziceln-KjcgEeqX-fnapL6IFdc9Wbk/edit?usp=sharing)
-     - [Disentangled GAN](https://docs.google.com/presentation/d/1XboUGxLB1wYqJppsYiToq120JLhAOiuxLMUNbSfy_dk/edit?usp=sharing)
-     - [Cross-Domain GAN](https://docs.google.com/presentation/d/17lizm6BGtDB7OIR1XQHGH-VzcoM5N0vBnjOhIlcAwZs/edit?usp=sharing)
-     - Experiments:
-           [DCGAN](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter4-gan/dcgan-mnist-4.2.1.py)
+  8. Generative Adversarial Network (GAN)
+   - [GAN](https://docs.google.com/presentation/d/13fiFibqjl9ps_CktJzMNAvoZXOlzHQDu8eRSb3a227g/edit?usp=sharing)
+   - [Improved GAN](https://docs.google.com/presentation/d/1tATpY1gzJo8x6Ziceln-KjcgEeqX-fnapL6IFdc9Wbk/edit?usp=sharing)
+   - [Disentangled GAN](https://docs.google.com/presentation/d/1XboUGxLB1wYqJppsYiToq120JLhAOiuxLMUNbSfy_dk/edit?usp=sharing)
+   - [Cross-Domain GAN](https://docs.google.com/presentation/d/17lizm6BGtDB7OIR1XQHGH-VzcoM5N0vBnjOhIlcAwZs/edit?usp=sharing)
+   - Experiments:
+     [DCGAN](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter4-gan/dcgan-mnist-4.2.1.py)
            , [CGAN](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter4-gan/cgan-mnist-4.3.1.py)
            , [WGAN](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter5-improved-gan/wgan-mnist-5.1.2.py)
            , [LSGAN](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter5-improved-gan/lsgan-mnist-5.2.1.py)
            , [ACGAN](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter5-improved-gan/acgan-mnist-5.3.1.py)
            , [InfoGAN](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter6-disentangled-gan/infogan-mnist-6.1.1.py)
            , [CycleGAN](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter7-cross-domain-gan/cyclegan-7.1.1.py)
+  
+  9. Variational AutoEncoder (VAE) 
+   - [Lecture Notes](https://docs.google.com/presentation/d/1ORVwhh5PgWEehcUQYL9t8nBCk9cj4TgXmUJIl6WMkpo/edit?usp=sharing)
+   - Experiments:
+     - [VAE MLP](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter8-vae/vae-mlp-mnist-8.1.1.py)
+     - [VAE CNN](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter8-vae/vae-cnn-mnist-8.1.2.py)
+     - [CVAE](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter8-vae/cvae-cnn-mnist-8.2.1.py)
+  
+  10. Object Detection 
+   - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/object_detection/Object_Detection.pdf)
+   - Experiments:
+     - [SSD](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/tree/master/chapter11-detection)
     
 ## Star, Fork, Cite
 If you find this work useful, please give it a star, fork, or cite:
