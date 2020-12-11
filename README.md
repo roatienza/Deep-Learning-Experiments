@@ -89,6 +89,22 @@ So much have changed since this course was offerred. Hence, it is time to revise
    - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/object_detection/Object_Detection.pdf)
    - Experiments:
      - [SSD](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/tree/master/chapter11-detection)
+     
+  11. Object Segmentation 
+   - [Lecture Notes](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2020/segmentation/Segmentation.pdf)
+   - Experiments:
+     - [FCN w/ PSPNet](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/tree/master/chapter12-segmentation)
+ 
+  12. [Deep Reinforcement Learning (DRL)](https://docs.google.com/presentation/d/1oZC5qGofbx-dlPcnr00_fPBK0GEtt6FnMdpsnA6XYX8/edit?usp=sharing)
+   - Experiments:
+     - [Q-Learning](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter9-drl/q-learning-9.3.1.py)
+     - [Q-Learning on FrozenLake-v0](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter9-drl/q-frozenlake-9.5.1.py)
+     - [DQN and DDQN on CartPole-v0](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter9-drl/dqn-cartpole-9.6.1.py)
+
+  13. [Policy Gradient Methods](https://docs.google.com/presentation/d/1SsPomQARNVKuIW4UtsLYkylM1b_ZuTIySCZSdEkmGTM/edit?usp=sharing)
+   - Experiments:
+     - [REINFORCE. REINFORCE w/ Baseline, Actor-Critic, and A2C](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter10-policy/policygradient-car-10.1.1.py)  
+   
     
 ## Star, Fork, Cite
 If you find this work useful, please give it a star, fork, or cite:
