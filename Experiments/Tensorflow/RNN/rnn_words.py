@@ -46,10 +46,8 @@ print("Loaded training data...")
 
 def build_dataset(words):
     count = collections.Counter(words).most_common()
-    dictionary = dict()
-    for word, _ in count:
-        dictionary[word] = len(dictionary)
-    reverse_dictionary = dict(zip(dictionary.values(), dictionary.keys()))
+    dictionary = {word: rank for rank, (word, _) in enumerate(count)}
+    reverse_dictionary = {v: k for k, v in dictionary.items()}
     return dictionary, reverse_dictionary
 
 dictionary, reverse_dictionary = build_dataset(training_data)
@@ -177,4 +175,3 @@ with tf.Session() as session:
             print(sentence)
         except:
             print("Word not in dictionary")
-
