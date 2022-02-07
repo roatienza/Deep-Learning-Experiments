@@ -1,6 +1,32 @@
 # Deep Learning Lecture Notes and Experiments
 ### Code samples have links to other repo that I maintain ([Advanced Deep Learning with Keras](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras) book) or contribute ([Keras](https://github.com/keras-team/keras))
 
+## 2022 Version
+Welcome to the 2022 version of Deep Learning course. We made major changes in the coverage and delivery of this course to reflect the recent advances in the field.
+
+What is new in 2022 version:
+
+1) Emphasis on tools to use and deploy deep learning models. In the past, we learn how to build and train models to perform certain tasks. However, often times we want to use a pre-trained model for immediate deployment. testing or demonstration. Hence, we will use tools such as `huggingface`, `gradio` and `streamlit` in our discussions.
+
+2) Emphasis on understanding deep learning building blocks. The ability to build, train and test models is important. However, when we want to optimize and deploy a deep learning model on a new hardware or run it on production, we need an in-depth understanding of the code implementation of our algorithms. Hence, there will be emphasis on low-level algorithms and their code implementations.
+
+3) Emphasis on practical applications. Deep learning can do a lot more than recognition. Hence, we will highlight practical applications in vision (detection, segmentation), speech (ASR, TTS) and text (sentiment, summarization).
+
+4) Various levels of abstraction. We will present deep learning concepts from low-level `numpy` and `einops`, to mid-level framework such as PyTorch, and to high-level APIs such as `huggingface`, `gradio` and `streamlit`. This enables us to use deep learning principles depending on the problem constraints.
+
+5) Emphasis on individual presentation of assignments, machine exercises and projects. Online learning is hard. To maximize student learning, this course focuses on exchange of ideas to ensure individual student progress. 
+
+Tentative syllabus:
+1. Deep learning tools - Python, Numpy, Einops, PyTorch, PyTorch Lighting, HuggingFace, Gradio, Streamlit, Colab, Deepnote, Kaggle
+2. Datasets - collection, labelling, loading, splitting, feeding
+3. Supervised Learning
+4. Building blocks - MLPs, CNNs, RNNs, Transformers
+5. Optimization and Regularization
+6. Unsupervised Learning
+7. AutoEncoders and Variational AutoEncoders
+8. Practical Applications
+
+
 ## 2020 Version
 
 So much have changed since this course was offerred. Hence, it is time to revise. I will keep the original lecture notes at the bottom. They will no longer be maintained. I am introducing 2020 version. Big changes that will happen are as follows:
