@@ -19,7 +19,7 @@ What is new in 2022 version:
 ### Coverage:
 1. Deep learning tools - Python, Numpy, Einops, PyTorch, Timm, HuggingFace, Gradio, Streamlit, Colab, Deepnote, Kaggle, etc.
   - Overview: [PDF](versions/2022/overview/Overview.pdf), [YouTube](https://youtu.be/zU37kvvkz0o)
-  - Development Environment and Code Editor: [PDF](versions/2022/tools/Tools_Env_Editor.pdf), [YouTube](https://youtu.be/LildU3tGGEo)
+  - Development Environment and Code Editor: [PDF](versions/2022/tools/Toolkit_Env_Editor.pdf), [YouTube](https://youtu.be/LildU3tGGEo)
 2. Datasets - collection, labelling, loading, splitting, feeding
 3. Supervised Learning
 4. Building blocks - MLPs, CNNs, RNNs, Transformers
