@@ -17,7 +17,7 @@ What is new in 2022 version:
 5) Emphasis on individual presentation of assignments, machine exercises and projects. Online learning is hard. To maximize student learning, this course focuses on exchange of ideas to ensure individual student progress. 
 
 ### Coverage:
-1. Deep learning tools - Python, Numpy, Einops, PyTorch, Timm, HuggingFace, Gradio, Streamlit, Colab, Deepnote, Kaggle, etc.
+1. Deep Learning Toolkit - Anaconda, Env, VSCode, Python, Numpy, Einops, PyTorch, Timm, HuggingFace, Gradio, Streamlit, Colab, Deepnote, Kaggle, etc.
   - Overview: [PDF](versions/2022/overview/Overview.pdf), [YouTube](https://youtu.be/zU37kvvkz0o)
   - Development Environment and Code Editor: [PDF](versions/2022/tools/Toolkit_Env_Editor.pdf), [YouTube](https://youtu.be/LildU3tGGEo)
 2. Datasets - collection, labelling, loading, splitting, feeding
