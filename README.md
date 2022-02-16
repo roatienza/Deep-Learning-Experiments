@@ -182,6 +182,7 @@ If you find this work useful, please give it a star, fork, or cite:
 5. [Optimization](https://docs.google.com/presentation/d/1wt53ds5dywq3WUm-jkdKFUjiHayBAV6-CSFAJg76Clg/edit?usp=sharing)
   
 6. [Convolutional Neural Networks (CNN)](https://docs.google.com/presentation/d/1vxCMwjbssYKisIWt2UYiuOFMsJaFv-5-I6mYvtJ6Hr8/edit?usp=sharing)
+- [Various Types of CNN](https://towardsdatascience.com/various-types-of-convolutional-neural-network-8b00c9a08a1b)
 - Keras Sample Code
   - [CNN on MNIST](keras/cnn/cnn-mnist.ipynb)
   - [CNN on MNIST using Functional API](keras/cnn/cnn-functional.ipynb)
