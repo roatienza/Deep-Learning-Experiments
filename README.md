@@ -21,6 +21,7 @@ What is new in 2022 version:
   - Overview: [PDF](versions/2022/overview/Overview.pdf), [YouTube](https://youtu.be/zU37kvvkz0o)
   - Development Environment and Code Editor: [PDF](versions/2022/tools/Toolkit_Env_Editor.pdf), [YouTube](https://youtu.be/LildU3tGGEo)
   - Python: [PDF](versions/2022/tools/Toolkit_Python.pdf), [YouTube](https://youtu.be/4Q1G5GuIXw8)
+  - Numpy: [PDF](versions/2022/tools/Toolkit_Numpy.pdf), [YouTube](https://youtu.be/_E9dnUY1Ets)
 2. Datasets - collection, labelling, loading, splitting, feeding
 3. Supervised Learning
 4. Building blocks - MLPs, CNNs, RNNs, Transformers
