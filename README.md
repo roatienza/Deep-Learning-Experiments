@@ -22,6 +22,7 @@ What is new in 2022 version:
   - Development Environment and Code Editor: [PDF](versions/2022/tools/Toolkit_Env_Editor.pdf), [YouTube](https://youtu.be/LildU3tGGEo)
   - Python: [PDF](versions/2022/tools/Toolkit_Python.pdf), [YouTube](https://youtu.be/4Q1G5GuIXw8)
   - Numpy: [PDF](versions/2022/tools/Toolkit_Numpy.pdf), [YouTube](https://youtu.be/_E9dnUY1Ets), [Jupyter](versions/2022/tools/python/np_demo.ipynb)
+  - Einsum: [PDF](versions/2022/tools/Toolkit_Einsum.pdf), [YouTube](https://youtu.be/IUs7aWs-axM), [Jupyter](versions/2022/tools/python/einsum_demo.ipynb)
 2. Datasets - collection, labelling, loading, splitting, feeding
 3. Supervised Learning
 4. Building blocks - MLPs, CNNs, RNNs, Transformers
