@@ -17,12 +17,13 @@ What is new in 2022 version:
 5) Emphasis on individual presentation of assignments, machine exercises and projects. Online learning is hard. To maximize student learning, this course focuses on exchange of ideas to ensure individual student progress. 
 
 ### Coverage:
-1. Deep Learning Toolkit - Anaconda, `venv`, VSCode, Python, Numpy, Einops, PyTorch, Timm, HuggingFace, Gradio, Streamlit, Colab, Deepnote, Kaggle, etc.
+1. Deep Learning Toolkit - Anaconda, `venv`, VSCode, Python, Numpy, Einops, Einops, PyTorch, Timm, HuggingFace, Gradio, Streamlit, Colab, Deepnote, Kaggle, etc.
   - Overview: [PDF](versions/2022/overview/Overview.pdf), [YouTube](https://youtu.be/zU37kvvkz0o)
   - Development Environment and Code Editor: [PDF](versions/2022/tools/Toolkit_Env_Editor.pdf), [YouTube](https://youtu.be/LildU3tGGEo)
   - Python: [PDF](versions/2022/tools/Toolkit_Python.pdf), [YouTube](https://youtu.be/4Q1G5GuIXw8)
   - Numpy: [PDF](versions/2022/tools/Toolkit_Numpy.pdf), [YouTube](https://youtu.be/_E9dnUY1Ets), [Jupyter](versions/2022/tools/python/np_demo.ipynb)
   - Einsum: [PDF](versions/2022/tools/Toolkit_Einsum.pdf), [YouTube](https://youtu.be/IUs7aWs-axM), [Jupyter](versions/2022/tools/python/einsum_demo.ipynb)
+  - Einops: [PDF](versions/2022/tools/Toolkit_Einops.pdf), [YouTube](https://youtu.be/ll1BlfYd4mU), [Jupyter](versions/2022/tools/python/einops_demo.ipynb)
 2. Datasets - collection, labelling, loading, splitting, feeding
 3. Supervised Learning
 4. Building blocks - MLPs, CNNs, RNNs, Transformers
