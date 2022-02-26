@@ -10,18 +10,18 @@ Assuming you already have  `anaconda` or `venv`, install the required python pac
 
 ### Coverage:
 
-| **AI, ML, Deep Learning** | | | |
+| **AI, ML and Deep Learning** | | | |
 | :--- | :---: | :---: | :---: |
-| Overview | [PDF](versions/2022/overview/Overview.pdf) | [YouTube](https://youtu.be/zU37kvvkz0o) | -  |
+| &nbsp;&nbsp;&nbsp;&nbsp;Overview | [PDF](versions/2022/overview/Overview.pdf) | [YouTube](https://youtu.be/zU37kvvkz0o) | -  |
 | **Toolkit**| | | |
-| Development Environment<br> & Code Editor | [PDF](versions/2022/tools/Toolkit_Env_Editor.pdf) | [YouTube](https://youtu.be/LildU3tGGEo) | -  |
-| Python | [PDF](versions/2022/tools/Toolkit_Python.pdf)| [YouTube](https://youtu.be/4Q1G5GuIXw8) | -  |
-| Numpy | [PDF](versions/2022/tools/Toolkit_Numpy.pdf) | [YouTube](https://youtu.be/_E9dnUY1Ets) | [Jupyter](versions/2022/tools/python/np_demo.ipynb) |
-| Einsum | [PDF](versions/2022/tools/Toolkit_Einsum.pdf) | [YouTube](https://youtu.be/IUs7aWs-axM) | [Jupyter](versions/2022/tools/python/einsum_demo.ipynb) |
-| Einops | [PDF](versions/2022/tools/Toolkit_Einops.pdf) | [YouTube](https://youtu.be/ll1BlfYd4mU) | [Jupyter](versions/2022/tools/python/einops_demo.ipynb) |
-| PyTorch & Timm | Soon | | |
-| HuggingFace, Gradio, Streamlit | Soon | | |
-| Colab, Kaggle, Deepnote | Soon | | |
+| &nbsp;&nbsp;&nbsp;&nbsp;Development Environment<br> &nbsp;&nbsp;&nbsp;&nbsp;and Code Editor | [PDF](versions/2022/tools/Toolkit_Env_Editor.pdf) | [YouTube](https://youtu.be/LildU3tGGEo) | -  |
+| &nbsp;&nbsp;&nbsp;&nbsp;Python | [PDF](versions/2022/tools/Toolkit_Python.pdf)| [YouTube](https://youtu.be/4Q1G5GuIXw8) | -  |
+| &nbsp;&nbsp;&nbsp;&nbsp;Numpy | [PDF](versions/2022/tools/Toolkit_Numpy.pdf) | [YouTube](https://youtu.be/_E9dnUY1Ets) | [Jupyter](versions/2022/tools/python/np_demo.ipynb) |
+| &nbsp;&nbsp;&nbsp;&nbsp;Einsum | [PDF](versions/2022/tools/Toolkit_Einsum.pdf) | [YouTube](https://youtu.be/IUs7aWs-axM) | [Jupyter](versions/2022/tools/python/einsum_demo.ipynb) |
+| &nbsp;&nbsp;&nbsp;&nbsp;Einops | [PDF](versions/2022/tools/Toolkit_Einops.pdf) | [YouTube](https://youtu.be/ll1BlfYd4mU) | [Jupyter](versions/2022/tools/python/einops_demo.ipynb) |
+| &nbsp;&nbsp;&nbsp;&nbsp;PyTorch & Timm | Soon | | |
+| &nbsp;&nbsp;&nbsp;&nbsp;HuggingFace, Gradio, Streamlit | Soon | | |
+| &nbsp;&nbsp;&nbsp;&nbsp;Colab, Kaggle, Deepnote | Soon | | |
 | **Datasets** | Soon | | |
 | **Supervised Learning** | Soon | | |
 | **Building blocks:<br> MLPs, CNNs, RNNs, Transformers** | Soon | | |
