@@ -1,0 +1,34 @@
+torch>=1.8.11
+torchvision>=0.9.1
+torchaudio>=0.8.1
+numpy
+scipy
+Pillow
+matplotlib
+scikit-image
+librosa
+timm
+
+# sudo apt-get install libsndfile-dev
+sndfile
+
+# To support object detection and segmentation
+
+# https://mmdetection.readthedocs.io/en/latest/get_started.html
+# (MacOS) 
+# git clone https://github.com/open-mmlab/mmcv.git
+# cd mmcv
+# MMCV_WITH_OPS=1 python3 -m pip install -e .
+
+# Ubuntu 
+#pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu111/torch1.8.0/index.html
+
+# 
+# mmdet-2.14.0
+# git clone https://github.com/open-mmlab/mmdetection.git
+# cd mmdetection
+# pip3 install -r requirements/build.txt
+# pip3 install -v -e . 
+
+# To use COCO datatset
+#pip3 install git+https://github.com/waleedka/coco.git#subdirectory=PythonAPI
