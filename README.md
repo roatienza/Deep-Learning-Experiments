@@ -3,8 +3,12 @@
 ## 2022 Version (Latest)
 Welcome to the 2022 version of Deep Learning course. We made major changes in the coverage and delivery of this course to reflect the recent advances in the field.
 
-### Coverage:
+### Install
+Assuming you already have  `anaconda` or `venv`, install the required python packages to run the experiments in this version.
 
+`pip install -r requirements.txt `
+
+### Coverage:
 
 | **AI, ML, Deep Learning** | | | |
 | :--- | :---: | :---: | :---: |
@@ -16,11 +20,11 @@ Welcome to the 2022 version of Deep Learning course. We made major changes in th
 | Einsum | [PDF](versions/2022/tools/Toolkit_Einsum.pdf) | [YouTube](https://youtu.be/IUs7aWs-axM) | [Jupyter](versions/2022/tools/python/einsum_demo.ipynb) |
 | Einops | [PDF](versions/2022/tools/Toolkit_Einops.pdf) | [YouTube](https://youtu.be/ll1BlfYd4mU) | [Jupyter](versions/2022/tools/python/einops_demo.ipynb) |
 | PyTorch & Timm | Soon | | |
-| HuggingFace<br> Gradio<br> Streamlit | Soon | | |
-| Colab<br> Kaggle<br>Deepnote | Soon | | |
+| HuggingFace, Gradio, Streamlit | Soon | | |
+| Colab, Kaggle, Deepnote | Soon | | |
 | **Datasets** | Soon | | |
 | **Supervised Learning** | Soon | | |
-| **Building blocks:<br> MLPs, CNNs, RNNs,<br> Transformers** | Soon | | |
+| **Building blocks:<br> MLPs, CNNs, RNNs, Transformers** | Soon | | |
 | **Backpropagation** | Soon | | |
 | **Optimization** | Soon | | |
 | **Regularization** | Soon | | |
