@@ -21,26 +21,26 @@
   - [Deep Feedforward Neural Networks, Cost, Output, Hidden Units](https://docs.google.com/presentation/d/1woHBsNgnwzjJndMcXXznaBKlLvWywuA6T7BFi0K7Yhg/edit?usp=sharing)
   - [Back Propagation](https://docs.google.com/presentation/d/1XD0tA6oxOETfFn1DTGJByhhyH3MF586OCN06WvAP22E/edit?usp=sharing)
 - PyTorch Sample Code
-  - [Backprop on a single unit MLP](../backprop/backprop.ipynb)
+  - [Backprop on a single unit MLP](2020/backprop/backprop.ipynb)
 - Keras Sample Code
   - [Overview](https://docs.google.com/presentation/d/15Y1snbE73g8vw16RN6uehVHyDFxAK_b0iKcmId1j5qM/edit?usp=sharing)
   - [MLP on Linear Model](keras/mlp/linear.ipynb)
-  - [MNIST Sampler](../keras/mlp/mnist-sampler.ipynb)
-  - [MLP on MNIST](../keras/mlp/mlp-mnist.ipynb)
+  - [MNIST Sampler](2020/keras/mlp/mnist-sampler.ipynb)
+  - [MLP on MNIST](2020/keras/mlp/mlp-mnist.ipynb)
 4. [Regularization](https://docs.google.com/presentation/d/1lg4oxRDvfUIEtzMJ7E-Lqv1cDNiwoNeT1r5T-XnFIQI/edit?usp=sharing)
 - Keras Sample Code
-  - [MLP on MNIST no Regularizer](../keras/regularization/mlp-mnist-noreg.ipynb)
-  - [MLP on MNIST with L2](../keras/regularization/mlp-mnist-l2.ipynb)
-  - [MLP on MNIST with Dropout](../keras/regularization/mlp-mnist-dropout.ipynb)
-  - [MLP on MNIST with Data Augmentation](../keras/regularization/mlp-mnist-data_augment.ipynb) 
+  - [MLP on MNIST no Regularizer](2020/keras/regularization/mlp-mnist-noreg.ipynb)
+  - [MLP on MNIST with L2](2020/keras/regularization/mlp-mnist-l2.ipynb)
+  - [MLP on MNIST with Dropout](2020/keras/regularization/mlp-mnist-dropout.ipynb)
+  - [MLP on MNIST with Data Augmentation](2020/keras/regularization/mlp-mnist-data_augment.ipynb) 
   
 5. [Optimization](https://docs.google.com/presentation/d/1wt53ds5dywq3WUm-jkdKFUjiHayBAV6-CSFAJg76Clg/edit?usp=sharing)
   
 6. [Convolutional Neural Networks (CNN)](https://docs.google.com/presentation/d/1vxCMwjbssYKisIWt2UYiuOFMsJaFv-5-I6mYvtJ6Hr8/edit?usp=sharing)
 - Keras Sample Code
-  - [CNN on MNIST](../keras/cnn/cnn-mnist.ipynb)
-  - [CNN on MNIST using Functional API](../keras/cnn/cnn-functional.ipynb)
-  - [CNN on MNIST Siamese Network](../keras/cnn/cnn-siamese.ipynb)
+  - [CNN on MNIST](2020/keras/cnn/cnn-mnist.ipynb)
+  - [CNN on MNIST using Functional API](2020/keras/cnn/cnn-functional.ipynb)
+  - [CNN on MNIST Siamese Network](2020/keras/cnn/cnn-siamese.ipynb)
   
 7. [Deep Networks](https://docs.google.com/presentation/d/14aFawAa4zNqvPRkhmS5YATVxSlS01fig7qnstecRgG0/edit?usp=sharing)
 - Keras Sample Code
@@ -49,11 +49,11 @@
 8. [Embeddings](https://docs.google.com/presentation/d/1YtKWA53T2NqXoL0vnk8jWl1WCBWCLhbh5OWz_1JrGdU/edit?usp=sharing) 
 - Keras Sample Code
   - [Simple Embedding and Sentiment Analysis](../keras/embedding/sentiment_analysis.ipynb)
-  - [Glove Embedding](../keras/embedding/glove_embedding.ipynb)
+  - [Glove Embedding](2020/keras/embedding/glove_embedding.ipynb)
 9. [Recurrent Neural Networks, LSTM, GRU](https://docs.google.com/presentation/d/1qjQkUwnr2V--7JPz0H_wkzRyTYX3UtJsYrB3MQPGKLE/edit?usp=sharing)
 - Keras Sample Code
-  - [SimpleRNN on MNIST](../keras/rnn/simple-rnn-mnist.ipynb)
-  - [CuDNNLSTM on MNIST](../keras/rnn/cudnnlstm-mnist.ipynb)
+  - [SimpleRNN on MNIST](2020/keras/rnn/simple-rnn-mnist.ipynb)
+  - [CuDNNLSTM on MNIST](2020/keras/rnn/cudnnlstm-mnist.ipynb)
 10. [AutoEncoders](https://docs.google.com/presentation/d/1gXWl0luuDe1qoQLSKdOUrzoq51WhhNLeq7x3PxQXYkA/edit?usp=sharing)
 - Keras Sample Code
   - [AutoEncoder](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter3-autoencoders/autoencoder-mnist-3.2.1.py)
