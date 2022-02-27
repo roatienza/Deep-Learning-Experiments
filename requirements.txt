@@ -8,6 +8,7 @@ matplotlib
 scikit-image
 librosa
 timm
+einops
 
 # sudo apt-get install libsndfile-dev
 sndfile
