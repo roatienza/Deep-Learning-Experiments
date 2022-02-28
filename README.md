@@ -19,7 +19,7 @@ Assuming you already have  `anaconda` or `venv`, install the required python pac
 | &nbsp;&nbsp;&nbsp;&nbsp;Numpy | [PDF](versions/2022/tools/Toolkit_Numpy.pdf) | [YouTube](https://youtu.be/_E9dnUY1Ets) | [Jupyter](versions/2022/tools/python/np_demo.ipynb) |
 | &nbsp;&nbsp;&nbsp;&nbsp;Einsum | [PDF](versions/2022/tools/Toolkit_Einsum.pdf) | [YouTube](https://youtu.be/IUs7aWs-axM) | [Jupyter](versions/2022/tools/python/einsum_demo.ipynb) |
 | &nbsp;&nbsp;&nbsp;&nbsp;Einops | [PDF](versions/2022/tools/Toolkit_Einops.pdf) | [YouTube](https://youtu.be/ll1BlfYd4mU) | [Jupyter](versions/2022/tools/python/einops_demo.ipynb) |
-| &nbsp;&nbsp;&nbsp;&nbsp;PyTorch & Timm | Soon | | |
+| &nbsp;&nbsp;&nbsp;&nbsp;PyTorch & Timm | [PDF](versions/2022/tools/Toolkit_PyTorch.pdf) | [YouTube](https://youtu.be/mK0CHqLCoXA) | [PyTorch/Timm](versions/2022/tools/python/pytorch_demo.ipynb) & <br> [Input](versions/2022/tools/python/input_demo.ipynb) Jupyter|
 | &nbsp;&nbsp;&nbsp;&nbsp;HuggingFace, Gradio, Streamlit | Soon | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;Colab, Kaggle, Deepnote | Soon | | |
 | **Datasets** | Soon | | |
