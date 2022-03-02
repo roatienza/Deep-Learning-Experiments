@@ -10,8 +10,11 @@ librosa
 timm
 einops
 
+gradio
+transformers
+
 # sudo apt-get install libsndfile-dev
-sndfile
+# sndfile
 
 # To support object detection and segmentation
 
