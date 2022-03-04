@@ -12,6 +12,7 @@ einops
 
 gradio
 transformers
+sentencepiece
 
 # sudo apt-get install libsndfile-dev
 # sndfile
