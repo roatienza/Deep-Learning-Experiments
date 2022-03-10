@@ -9,18 +9,11 @@ import time
 import math
 
 
-TOTAL_BAR_LENGTH = 65.
+TOTAL_BAR_LENGTH = 30.
 last_time = time.time()
 begin_time = last_time
 
-def get_term_width():
-    size = os.get_terminal_size()
-    if size is not None:
-        term_width = size.columns
-    else:
-        term_width = 60
-
-term_width = get_term_width()
+term_width = 60
 
 def progress_bar(current, total, msg=None):
     global last_time, begin_time
