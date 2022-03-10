@@ -14,6 +14,8 @@ gradio
 transformers
 sentencepiece
 
+wandb
+
 # sudo apt-get install libsndfile-dev
 # sndfile
 
