@@ -1,11 +1,27 @@
 '''
-Accelerate demo with fp16 and mixed precision.
+Accelerate demo with fp16 and multi-gpu support.
+Single CPU:
+    python accelerate_demo.py --cpu
+
+16-bit Floating Point:
+    python accelerate_demo.py --fp16
+
+Model from timm:
+    python accelerate_demo.py --timm
+
+Singe-GPU:
+    python accelerate_demo.py 
+
+Multi-GPU or Multi-CPU:
+    accelerate config
+    accelerate launch accelerate_demo.py
 '''
 
 import torch
 import wandb
 import datetime
 import timm
+import torchvision
 import argparse
 from torch.optim import SGD
 from torch.optim.lr_scheduler import CosineAnnealingLR
@@ -34,7 +50,14 @@ def run_experiment(args):
 
     # With timm, no need to manually replace the classifier head.
     # Just initialize the model with the correct number of classes.
-    model = timm.create_model('resnet18', pretrained=False, num_classes=10)
+    # However, timm model has a lower accuracy (TODO: why?)
+    if args.timm:
+        model = timm.create_model('resnet18', pretrained=False, num_classes=10)
+    else:
+        model = torchvision.models.resnet18(pretrained=False, progress=True)
+        model.fc = torch.nn.Linear(model.fc.in_features, 10) 
+    
+    # wandb will automatically log the model gradients.
     wandb.watch(model)
 
     loss = torch.nn.CrossEntropyLoss()
@@ -72,8 +95,7 @@ def run_experiment(args):
     scheduler = accelerator.prepare(scheduler)
     train_loader = accelerator.prepare(train_loader)
     test_loader = accelerator.prepare(test_loader)
-    loss = accelerator.prepare(loss)
-    
+
     model.eval()
     with torch.no_grad():
         pred = torch.argmax(model(image), dim=1).cpu().numpy()
@@ -82,7 +104,7 @@ def run_experiment(args):
         table_test.add_data(wandb.Image(image[i]),
                             label_human[label[i]], 
                             label_human[pred[i]])
-        print(label_human[label[i]], "vs. ",  label_human[pred[i]])
+        accelerator.print(label_human[label[i]], "vs. ",  label_human[pred[i]])
 
 
 
@@ -91,11 +113,14 @@ def run_experiment(args):
     best_acc = 0
     for epoch in range(wandb.config["epochs"]):
         train_acc, train_loss = train(epoch, model, optimizer, scheduler, train_loader, loss, accelerator)
-        test_acc, test_loss = test(model, test_loader, loss)
+        test_acc, test_loss = test(model, test_loader, loss, accelerator)
         if test_acc > best_acc:
             wandb.run.summary["Best accuracy"] = test_acc
             best_acc = test_acc
-            accelerator.save(model, "resnet18_best_acc.pth")
+            if args.fp16:
+                accelerator.save(model.state_dict(), "./resnet18_best_acc_fp16.pth")
+            else:
+                accelerator.save(model, "./resnet18_best_acc.pth")
         wandb.log({
             "Train accuracy": train_acc,
             "Test accuracy": test_acc,
@@ -105,8 +130,10 @@ def run_experiment(args):
         })
 
     elapsed_time = datetime.datetime.now() - start_time
-    print("Elapsed time: %s" % elapsed_time)
+    accelerator.print("Elapsed time: %s" % elapsed_time)
     wandb.run.summary["Elapsed train time"] = str(elapsed_time)
+    wandb.run.summary["Fp16 enabled"] = str(args.fp16)
+    wandb.run.summary["Using timm"] = str(args.timm)
 
     model.eval()
     with torch.no_grad():
@@ -115,7 +142,7 @@ def run_experiment(args):
     final_pred = []
     for i in range(8):
         final_pred.append(label_human[pred[i]])
-        print(label_human[label[i]], "vs. ",  final_pred[i])
+        accelerator.print(label_human[label[i]], "vs. ",  final_pred[i])
 
     table_test.add_column(name="Final Pred Label", data=final_pred)
 
@@ -146,7 +173,7 @@ def train(epoch, model, optimizer, scheduler, train_loader, loss, accelerator):
       accuracy = 100. * correct / len(train_loader.dataset)
       progress_bar(batch_idx,
                    len(train_loader),
-                   'Train Epoch: {}, Loss: {:.6f}, Acc: {:.2f}%'.format(epoch+1, 
+                   'Train Epoch: {}, Loss: {:0.2e}, Acc: {:.2f}%'.format(epoch+1, 
                    train_loss/train_samples, accuracy))
   
   train_loss /= len(train_loader.dataset)
@@ -155,7 +182,7 @@ def train(epoch, model, optimizer, scheduler, train_loader, loss, accelerator):
   return accuracy, train_loss
 
 
-def test(model, test_loader, loss):
+def test(model, test_loader, loss, accelerator):
   model.eval()
   test_loss = 0
   correct = 0
@@ -170,14 +197,17 @@ def test(model, test_loader, loss):
   test_loss /= len(test_loader.dataset)
   accuracy = 100. * correct / len(test_loader.dataset)
 
-  print('\nTest Loss: {:.4f}, Acc: {:.2f}%\n'.format(test_loss, accuracy))
+  accelerator.print('\nTest Loss: {:.4f}, Acc: {:.2f}%\n'.format(test_loss, accuracy))
 
   return accuracy, test_loss
 
 
 def main():
     parser = argparse.ArgumentParser(description="Simple example of training script.")
+    parser.add_argument("--timm", action="store_true", help="If passed, build model using timm library.")
     parser.add_argument("--fp16", action="store_true", help="If passed, will use FP16 training.")
+
+    # Seems that this is not supported in the Accelerator version installed
     parser.add_argument(
         "--mixed_precision",
         type=str,
@@ -187,6 +217,7 @@ def main():
         "between fp16 and bf16 (bfloat16). Bf16 requires PyTorch >= 1.10."
         "and an Nvidia Ampere GPU.",
     )
+    
     parser.add_argument("--cpu", action="store_true", help="If passed, will train on the CPU.")
     args = parser.parse_args()
     run_experiment(args)
