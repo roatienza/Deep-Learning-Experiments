@@ -22,6 +22,7 @@ Assuming you already have  `anaconda` or `venv`, install the required python pac
 | &nbsp;&nbsp;&nbsp;&nbsp;PyTorch & Timm | [PDF](versions/2022/tools/Toolkit_PyTorch.pdf) | [YouTube](https://youtu.be/mK0CHqLCoXA) | [PyTorch/Timm](versions/2022/tools/python/pytorch_demo.ipynb) & <br> [Input](versions/2022/tools/python/input_demo.ipynb) Jupyter|
 | &nbsp;&nbsp;&nbsp;&nbsp;Gradio & Hugging Face | [PDF](versions/2022/tools/Toolkit_Gradio.pdf) | [YouTube](https://youtu.be/b1NgUiTIUMc) | [Jupyter](versions/2022/tools/python/gradio_demo.ipynb) |
 | &nbsp;&nbsp;&nbsp;&nbsp;Weights and Biases|  | | [Jupyter](versions/2022/tools/python/wandb_demo.ipynb) |
+| &nbsp;&nbsp;&nbsp;&nbsp;Hugging Face Accelerator|  | | [Jupyter](versions/2022/tools/python/accelerate_demo.ipynb) & <br> [Python](versions/2022/tools/python/accelerate_demo.py) |
 | **Datasets** | Soon | | |
 | **Supervised Learning** | Soon | | |
 | **Building blocks:<br> MLPs, CNNs, RNNs, Transformers** | Soon | | |
