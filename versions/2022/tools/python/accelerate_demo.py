@@ -134,6 +134,7 @@ def run_experiment(args):
     wandb.run.summary["Elapsed train time"] = str(elapsed_time)
     wandb.run.summary["Fp16 enabled"] = str(args.fp16)
     wandb.run.summary["Using timm"] = str(args.timm)
+    wandb.run.summary["Using CPU"] = str(args.cpu)
 
     model.eval()
     with torch.no_grad():
@@ -217,7 +218,7 @@ def main():
         "between fp16 and bf16 (bfloat16). Bf16 requires PyTorch >= 1.10."
         "and an Nvidia Ampere GPU.",
     )
-    
+
     parser.add_argument("--cpu", action="store_true", help="If passed, will train on the CPU.")
     args = parser.parse_args()
     run_experiment(args)
