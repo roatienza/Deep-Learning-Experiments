@@ -13,6 +13,7 @@ einops
 gradio
 transformers
 sentencepiece
+accelerate
 
 wandb
 
