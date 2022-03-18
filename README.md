@@ -23,7 +23,7 @@ Assuming you already have  `anaconda` or `venv`, install the required python pac
 | &nbsp;&nbsp;&nbsp;&nbsp;Gradio & Hugging Face | [PDF](versions/2022/tools/Toolkit_Gradio.pdf) | [YouTube](https://youtu.be/b1NgUiTIUMc) | [Jupyter](versions/2022/tools/python/gradio_demo.ipynb) |
 | &nbsp;&nbsp;&nbsp;&nbsp;Weights and Biases| [PDF](versions/2022/tools/Toolkit_WandB_Accelerate.pdf) | [YouTube](https://youtu.be/vbxNFIqd2iw) | [Jupyter](versions/2022/tools/python/wandb_demo.ipynb) |
 | &nbsp;&nbsp;&nbsp;&nbsp;Hugging Face Accelerator|  Same as W&B | Same as W&B | [Jupyter](versions/2022/tools/python/accelerate_demo.ipynb) & <br> [Python](versions/2022/tools/python/accelerate_demo.py) |
-| **Datasets** | Soon | | |
+| **Datasets & Dataloaders** |  | | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/datasets/python/dataloader_demo.ipynb) |
 | **Supervised Learning** | Soon | | |
 | **Building blocks:<br> MLPs, CNNs, RNNs, Transformers** | Soon | | |
 | **Backpropagation** | Soon | | |
