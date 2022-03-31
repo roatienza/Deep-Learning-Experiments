@@ -22,4 +22,7 @@ versions/2022/tools/python/data
 versions/2022/tools/python/wandb
 versions/2022/tools/python/.ipynb_checkpoints
 versions/2022/datasets/python/wandb
+versions/2022/supervised/python/wandb
+versions/2022/supervised/python/data
+versions/2022/supervised/python/lightning_logs
 *.swp
