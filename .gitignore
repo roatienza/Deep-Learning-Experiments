@@ -17,6 +17,7 @@ _session_*
 .DS_Store
 diff.patch
 *.gz
+*.pt
 *.meta
 versions/2022/tools/python/data
 versions/2022/tools/python/wandb
@@ -27,4 +28,5 @@ versions/2022/supervised/python/data
 versions/2022/supervised/python/lightning_logs
 versions/2022/supervised/python/pl-mnist
 versions/2022/supervised/python/pl-kws
+versions/2022/supervised/python/test_audio
 *.swp
