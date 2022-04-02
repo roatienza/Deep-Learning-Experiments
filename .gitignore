@@ -26,4 +26,5 @@ versions/2022/supervised/python/wandb
 versions/2022/supervised/python/data
 versions/2022/supervised/python/lightning_logs
 versions/2022/supervised/python/pl-mnist
+versions/2022/supervised/python/pl-kws
 *.swp
