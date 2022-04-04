@@ -10,8 +10,8 @@ Assuming you already have  `anaconda` or `venv`, install the required python pac
 
 ### Coverage:
 
-| **AI, ML and Deep Learning** | Note | Video | Code |
-| :--- | :---: | :---: | :---: |
+| **AI, ML and Deep Learning** | **Note** | **Video** | **Code** |
+| :--- | :---: | :---: | :--- |
 | &nbsp;&nbsp;&nbsp;&nbsp;Overview | [PDF](versions/2022/overview/Overview.pdf) | [YouTube](https://youtu.be/zU37kvvkz0o) | -  |
 | **Toolkit**| | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;Development Environment<br> &nbsp;&nbsp;&nbsp;&nbsp;and Code Editor | [PDF](versions/2022/tools/Toolkit_Env_Editor.pdf) | [YouTube](https://youtu.be/LildU3tGGEo) | -  |
