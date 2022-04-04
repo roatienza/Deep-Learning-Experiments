@@ -2,10 +2,10 @@
 Runs an inference on a single audio file.
 Assumption is data file and checkpoint are in the same args.path
 
-Usage:
-    python3 kws-infer.py --wav-file test_audio/right.wav --checkpoint resnet18-kws-best-acc.pt
+Simple test:
+    python3 kws-infer.py --wav-file <path-to-wav-file>  
 
-To use microphone input, run:
+To use microphone input with GUI interface, run:
     python3 kws-infer.py --gui
 
     On RPi 4:
