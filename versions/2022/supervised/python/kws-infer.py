@@ -3,7 +3,7 @@ Runs an inference on a single audio file.
 Assumption is data file and checkpoint are in the same args.path
 
 Usage:
-    python3 kws-infer.py --wav-file test_audio/right.wav --model-path resnet18-kws-best-acc.pt
+    python3 kws-infer.py --wav-file test_audio/right.wav --checkpoint resnet18-kws-best-acc.pt
 
 To use microphone input, run:
     python3 kws-infer.py --gui
@@ -12,15 +12,16 @@ To use microphone input, run:
     python3 kws-infer.py --rpi --gui
 
 Dependencies:
+    sudo apt-get install libasound2-dev libportaudio2 
     pip3 install pysimplegui
     pip3 install sounddevice 
     pip3 install librosa
+    pip3 install validators
 
-    sudo apt-get install libasound2-dev libportaudio2 
 
 Inference time:
     0.03 sec Quad Core Intel i7 2.3GHz
-    0.09 sec on RPi 4
+    0.08 sec on RPi 4
 '''
 
 
@@ -32,6 +33,7 @@ import numpy as np
 import librosa
 import sounddevice as sd
 import time
+import validators
 from torchvision.transforms import ToTensor
 
 
@@ -43,9 +45,10 @@ def get_args():
     parser.add_argument("--win-length", type=int, default=None)
     parser.add_argument("--hop-length", type=int, default=512)
     parser.add_argument("--wav-file", type=str, default=None)
-    parser.add_argument("--model-path", type=str, default="resnet18-kws-best-acc.pt")
+    parser.add_argument("--checkpoint", type=str, default="https://github.com/roatienza/Deep-Learning-Experiments/releases/download/models/resnet18-kws-best-acc.pt")
     parser.add_argument("--gui", default=False, action="store_true")
     parser.add_argument("--rpi", default=False, action="store_true")
+    parser.add_argument("--threshold", type=float, default=0.5)
     args = parser.parse_args()
     return args
 
@@ -61,10 +64,16 @@ if __name__ == "__main__":
 
     args = get_args()
 
-    model_path = args.model_path if args.model_path else os.path.join(
-        args.path, "checkpoints", "resnet18-kws-best-acc.pt")
-    print("Loading model checkpoint: ", model_path)
-    scripted_module = torch.jit.load(model_path)
+    if validators.url(args.checkpoint):
+        checkpoint = args.checkpoint.rsplit('/', 1)[-1]
+        # check if checkpoint file exists
+        if not os.path.isfile(checkpoint):
+            torch.hub.download_url_to_file(args.checkpoint, checkpoint)
+    else:
+        checkpoint = args.checkpoint
+
+    print("Loading model checkpoint: ", checkpoint)
+    scripted_module = torch.jit.load(checkpoint)
 
     if args.gui:
         import PySimpleGUI as sg
@@ -106,10 +115,15 @@ if __name__ == "__main__":
         exit(0)
 
     layout = [ 
-        [sg.Text('Detecting...', justification='center', size=(10, 1), font=("Helvetica", 100), key='-OUTPUT-')],
-        [sg.Text('', size=(10, 1), font=("Helvetica", 24), key='-TIME-')],
+        [sg.Text('Say it!', justification='center', expand_y=True, expand_x=True, font=("Helvetica", 140), key='-OUTPUT-'),],
+        [sg.Text('', justification='center', expand_y=True, expand_x=True, font=("Helvetica", 100), key='-STATUS-'),],
+        [sg.Text('Speed', expand_x=True, font=("Helvetica", 28), key='-TIME-')],
     ]
-    window = sg.Window('KWS Inference', layout, finalize=True)
+
+    window = sg.Window('KWS Inference', layout, location=(0,0), resizable=True).Finalize()
+    window.Maximize()
+    window.BringToFront()
+
     total_runtime = 0
     n_loops = 0
     while True:
@@ -124,6 +138,8 @@ if __name__ == "__main__":
             continue
         start_time = time.time()
         if args.rpi:
+            # this is a workaround for RPi 4
+            # torch 1.11 requires a numpy >= 1.22.3 but librosa 0.9.1 requires == 1.21.5
             waveform = torch.FloatTensor(waveform.tolist())
             mel = np.array(transform(waveform).squeeze().tolist())
             mel = librosa.power_to_db(mel, ref=np.max).tolist()
@@ -136,15 +152,24 @@ if __name__ == "__main__":
             mel = ToTensor()(librosa.power_to_db(transform(waveform).squeeze().numpy(), ref=np.max))
         mel = mel.unsqueeze(0)
         pred = scripted_module(mel)
+        pred = torch.functional.F.softmax(pred, dim=1)
         max_prob =  pred.max()
         elapsed_time = time.time() - start_time
         total_runtime += elapsed_time
         n_loops += 1
         ave_pred_time = total_runtime / n_loops
-        if max_prob > 2.0:
+        if max_prob > args.threshold:
             pred = torch.argmax(pred, dim=1)
             human_label = f"{idx_to_class[pred.item()]}"
             window['-OUTPUT-'].update(human_label)
+            window['-OUTPUT-'].update(human_label)
+            if human_label == "stop":
+                window['-STATUS-'].update("Goodbye!")
+                # refresh window
+                window.refresh()
+                time.sleep(1)
+                break
+                
         else:
             window['-OUTPUT-'].update("...")
         
