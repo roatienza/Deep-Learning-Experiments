@@ -10,8 +10,8 @@ Assuming you already have  `anaconda` or `venv`, install the required python pac
 
 ### Coverage:
 
-| **AI, ML and Deep Learning** | Note | Video | Code |
-| :--- | :---: | :---: | :---: |
+| **AI, ML and Deep Learning** | **Note** | **Video** | **Code** |
+| :--- | :---: | :---: | :--- |
 | &nbsp;&nbsp;&nbsp;&nbsp;Overview | [PDF](versions/2022/overview/Overview.pdf) | [YouTube](https://youtu.be/zU37kvvkz0o) | -  |
 | **Toolkit**| | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;Development Environment<br> &nbsp;&nbsp;&nbsp;&nbsp;and Code Editor | [PDF](versions/2022/tools/Toolkit_Env_Editor.pdf) | [YouTube](https://youtu.be/LildU3tGGEo) | -  |
@@ -25,7 +25,7 @@ Assuming you already have  `anaconda` or `venv`, install the required python pac
 | &nbsp;&nbsp;&nbsp;&nbsp;Hugging Face Accelerator|  Same as W&B | Same as W&B | [Jupyter](versions/2022/tools/python/accelerate_demo.ipynb) & <br> [Python](versions/2022/tools/python/accelerate_demo.py) |
 | **Datasets & Dataloaders** | [PDF](versions/2022/datasets/Datasets.pdf) | [YouTube](https://youtu.be/7_t_yyF15jM) | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/datasets/python/dataloader_demo.ipynb) |
 | **Supervised Learning** | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/Supervised.pdf) | Soon | [MNIST](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/python/mnist_demo.ipynb) & [KWS](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/python/kws_demo.ipynb)|
-|  &nbsp;&nbsp;&nbsp;&nbsp;Keyword Spotting App | | | `cd versions/2022/supervised/python` <br> `python3 kws-infer.py --gui` |
+|  &nbsp;&nbsp;&nbsp;&nbsp;Keyword Spotting App | | | `cd versions/2022/supervised/python &&`<br>`python3 kws-infer.py --gui` |
 | **Building blocks:<br> MLPs, CNNs, RNNs, Transformers** | Soon | | |
 | **Backpropagation** | Soon | | |
 | **Optimization** | Soon | | |
