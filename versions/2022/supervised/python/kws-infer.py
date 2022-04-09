@@ -48,7 +48,7 @@ def get_args():
     parser.add_argument("--checkpoint", type=str, default="https://github.com/roatienza/Deep-Learning-Experiments/releases/download/models/resnet18-kws-best-acc.pt")
     parser.add_argument("--gui", default=False, action="store_true")
     parser.add_argument("--rpi", default=False, action="store_true")
-    parser.add_argument("--threshold", type=float, default=0.5)
+    parser.add_argument("--threshold", type=float, default=0.6)
     args = parser.parse_args()
     return args
 
