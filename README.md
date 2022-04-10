@@ -26,7 +26,7 @@ Assuming you already have  `anaconda` or `venv`, install the required python pac
 | **Datasets & Dataloaders** | [PDF](versions/2022/datasets/Datasets.pdf) | [YouTube](https://youtu.be/7_t_yyF15jM) | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/datasets/python/dataloader_demo.ipynb) |
 | **Supervised Learning** | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/Supervised.pdf) | [YouTube](https://youtu.be/mBjAaAU6CW0) | |
 | &nbsp;&nbsp;&nbsp;&nbsp;PyTorch Lightning | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/PyTorch_Lightning.pdf) | [YouTube](https://youtu.be/VxvOupw92tU) | [MNIST](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/python/mnist_demo.ipynb) & [KWS](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/python/kws_demo.ipynb) |
-|  &nbsp;&nbsp;&nbsp;&nbsp;Keyword Spotting App | | | `cd versions/2022/supervised/python &&`<br>`python3 kws-infer.py --gui` |
+|  &nbsp;&nbsp;&nbsp;&nbsp;[Keyword Spotting App](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/python/kws-infer.py) | | | `cd versions/2022/supervised/python &&`<br>`python3 kws-infer.py --gui` |
 | **Building blocks:<br> MLPs, CNNs, RNNs, Transformers** | Soon | | |
 | **Backpropagation** | Soon | | |
 | **Optimization** | Soon | | |
