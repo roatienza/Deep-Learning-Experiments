@@ -31,3 +31,5 @@ versions/2022/supervised/python/pl-kws
 versions/2022/supervised/python/test_audio
 *.swp
 data
+wandb
+*ckpt
