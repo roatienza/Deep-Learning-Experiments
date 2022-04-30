@@ -27,7 +27,8 @@ Assuming you already have  `anaconda` or `venv`, install the required python pac
 | **Supervised Learning** | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/Supervised.pdf) | [YouTube](https://youtu.be/mBjAaAU6CW0) | |
 | &nbsp;&nbsp;&nbsp;&nbsp;PyTorch Lightning | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/PyTorch_Lightning.pdf) | [YouTube](https://youtu.be/VxvOupw92tU) | [MNIST](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/python/mnist_demo.ipynb) & [KWS](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/python/kws_demo.ipynb) |
 |  &nbsp;&nbsp;&nbsp;&nbsp;[Keyword Spotting App](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/python/kws-infer.py) | | | `cd versions/2022/supervised/python &&`<br>`python3 kws-infer.py --gui` |
-| **Building blocks:<br> MLPs, CNNs, RNNs, Transformers** | Soon | | |
+| **Building blocks:<br> MLPs, CNNs, RNNs, Transformers** | | | |
+|  &nbsp;&nbsp;&nbsp;&nbsp;MLP | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/mlp/MLP.pdf) | [YouTube](https://youtu.be/Rolx9HVmRAc) | [MLP on CIFAR10](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/mlp/python/mlp_pytorch_demo.ipynb) |
 | **Backpropagation** | Soon | | |
 | **Optimization** | Soon | | |
 | **Regularization** | Soon | | |
