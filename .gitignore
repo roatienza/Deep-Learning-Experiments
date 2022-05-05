@@ -33,3 +33,4 @@ versions/2022/supervised/python/test_audio
 data
 wandb
 *ckpt
+lightning_logs/
