@@ -30,6 +30,7 @@ Assuming you already have  `anaconda` or `venv`, install the required python pac
 | **Building blocks:<br> MLPs, CNNs, RNNs, Transformers** | | | |
 |  &nbsp;&nbsp;&nbsp;&nbsp;MLP | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/mlp/MLP.pdf) | [YouTube](https://youtu.be/Rolx9HVmRAc) | [MLP on CIFAR10](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/mlp/python/mlp_pytorch_demo.ipynb) |
 |  &nbsp;&nbsp;&nbsp;&nbsp;CNN | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/cnn/CNN.pdf) | [YouTube](https://youtu.be/WZsaU-UV9KE) | [CNN on CIFAR10](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/cnn/python/cnn_pytorch_demo.ipynb) |
+|  &nbsp;&nbsp;&nbsp;&nbsp;Transformer | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/transformer/Transformer.pdf) | [YouTube](https://youtu.be/WZsaU-UV9KE) | [Transformer on CIFAR10](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/transformer/python/transformer_demo.ipynb) |
 | **Backpropagation** | Soon | | |
 | **Optimization** | Soon | | |
 | **Regularization** | Soon | | |
