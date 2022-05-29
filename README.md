@@ -35,7 +35,7 @@ Assuming you already have  `anaconda` or `venv`, install the required python pac
 | **Optimization** | Soon | | |
 | **Regularization** | Soon | | |
 | **Unsupervised Learning** | Soon | | |
-| **AutoEncoders** | Soon | | |
+| **AutoEncoders** | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/autoencoder/AutoEncoders.pdf) | [YouTube](https://youtu.be/uBqnwpC1kPc) | [AE MNIST](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/autoencoder/python/ae_pytorch_demo.ipynb) <br> [Colorization CIFAR10](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/autoencoder/python/colorize_pytorch_demo.ipynb)|
 | **Variational AutoEncoders** | Soon | | |
 | **Practical Applications:<br>Vision, Speech, NLP** | Soon | | |
 
