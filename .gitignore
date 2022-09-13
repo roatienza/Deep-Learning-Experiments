@@ -34,3 +34,4 @@ data
 wandb
 *ckpt
 lightning_logs/
+MNIST_data
