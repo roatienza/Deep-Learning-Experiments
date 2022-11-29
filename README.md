@@ -31,9 +31,9 @@ Assuming you already have  `anaconda` or `venv`, install the required python pac
 |  &nbsp;&nbsp;&nbsp;&nbsp;MLP | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/mlp/MLP.pdf) | [YouTube](https://youtu.be/Rolx9HVmRAc) | [MLP on CIFAR10](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/mlp/python/mlp_pytorch_demo.ipynb) |
 |  &nbsp;&nbsp;&nbsp;&nbsp;CNN | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/cnn/CNN.pdf) | [YouTube](https://youtu.be/WZsaU-UV9KE) | [CNN on CIFAR10](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/cnn/python/cnn_pytorch_demo.ipynb) |
 |  &nbsp;&nbsp;&nbsp;&nbsp;Transformer | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/transformer/Transformer.pdf) | [YouTube](https://youtu.be/6PmIoCnqcFU) | [Transformer on CIFAR10](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/transformer/python/transformer_demo.ipynb) |
-| **Backpropagation** | Soon | | |
-| **Optimization** | Soon | | |
-| **Regularization** | Soon | | |
+| **Backpropagation** | [PDF](https://github.com/roatienza/ml/blob/master/vector_calculus/Vector_Calculus.pdf) | | |
+| **Optimization** | [PDF](https://github.com/roatienza/ml/blob/master/optimization/Optimization.pdf) | | |
+| **Regularization** | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/regularization/Regularization.pdf) | | |
 | **Unsupervised Learning** | Soon | | |
 | **AutoEncoders** | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/autoencoder/AutoEncoders.pdf) | [YouTube](https://youtu.be/uBqnwpC1kPc) | [AE MNIST](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/autoencoder/python/ae_pytorch_demo.ipynb) <br> [Colorization CIFAR10](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/autoencoder/python/colorize_pytorch_demo.ipynb)|
 | **Variational AutoEncoders** | Soon | | |
