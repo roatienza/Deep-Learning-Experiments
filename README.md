@@ -1,6 +1,6 @@
 # Deep Learning Lecture Notes and Experiments
 
-## 2023 Version (latent)
+## 2023 Version (latest)
 
 WIP: LLM and Stable Diffusion
 
