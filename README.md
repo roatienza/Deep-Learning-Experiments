@@ -1,6 +1,10 @@
 # Deep Learning Lecture Notes and Experiments
 
-## 2022 Version (Latest)
+## 2023 Version (latent)
+
+WIP: LLM and Stable Diffusion
+
+## 2022 Version
 Welcome to the 2022 version of Deep Learning course. We made major changes in the coverage and delivery of this course to reflect the recent advances in the field.
 
 ### Install
