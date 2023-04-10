@@ -4,6 +4,12 @@
 
 WIP: LLM and Stable Diffusion
 
+| **AI, ML and Deep Learning** | **Note** | **Video** | **Code** |
+| :--- | :---: | :---: | :--- |
+| **LLM**| | | |
+| &nbsp;&nbsp;&nbsp;&nbsp;OpenAI and LangChain | - | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/langchain_quick_demo.ipynb)  |
+
+
 ## 2022 Version
 Welcome to the 2022 version of Deep Learning course. We made major changes in the coverage and delivery of this course to reflect the recent advances in the field.
 
