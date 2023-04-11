@@ -9,6 +9,7 @@ WIP: LLM and Stable Diffusion
 | **LLM**| | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;OpenAI and LangChain | - | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/langchain_quick_demo.ipynb)  |
 | &nbsp;&nbsp;&nbsp;&nbsp;Document Query | - | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/doc-query.ipynb)  |
+| &nbsp;&nbsp;&nbsp;&nbsp;Document Query using Chroma | - | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/doc-query-chroma.ipynb)  |
 
 
 ## 2022 Version
