@@ -36,3 +36,6 @@ wandb
 lightning_logs/
 MNIST_data
 .chroma/*
+*.pkl
+*.onnx
+*.bin
