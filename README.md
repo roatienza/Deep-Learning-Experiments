@@ -2,7 +2,7 @@
 
 ## 2023 Version (latest)
 
-WIP: LLM and Stable Diffusion
+WIP: LLM, SAM and Stable Diffusion
 
 | **AI, ML and Deep Learning** | **Note** | **Video** | **Code** |
 | :--- | :---: | :---: | :--- |
@@ -11,6 +11,8 @@ WIP: LLM and Stable Diffusion
 | &nbsp;&nbsp;&nbsp;&nbsp;Document Query | - | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/doc-query.ipynb)  |
 | &nbsp;&nbsp;&nbsp;&nbsp;Document Query using Chroma | - | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/doc-query-chroma.ipynb)  |
 | &nbsp;&nbsp;&nbsp;&nbsp;Dolly (Free LLM) | - | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/dolly-llm.ipynb)  |
+| **LVM**| | | |
+| &nbsp;&nbsp;&nbsp;&nbsp;Segment Anything Model (SAM) | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/lvm/SAM.pdf) | [Prompts](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/lvm/python/explore-sam.ipynb) & <br> [All Masks](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/lvm/python/automatic_mask_generator_example.ipynb)| 
 
 
 ## 2022 Version
