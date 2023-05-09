@@ -2,7 +2,7 @@
 
 ## 2023 Version (latest)
 
-WIP: LLM, SAM and Stable Diffusion
+WIP: Large Language Models (LLMs), Large Vision Models (LVMs)
 
 | **AI, ML and Deep Learning** | **Note** | **Video** | **Code** |
 | :--- | :---: | :---: | :--- |
