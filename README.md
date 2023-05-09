@@ -13,7 +13,7 @@ WIP: LLM, SAM and Stable Diffusion
 | &nbsp;&nbsp;&nbsp;&nbsp;Dolly (Free LLM) | - | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/dolly-llm.ipynb)  |
 | **LVM**| | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;Segment Anything Model (SAM) | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/lvm/SAM.pdf) | - | [Prompts](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/lvm/python/explore-sam.ipynb) & <br> [All Masks](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/lvm/python/automatic_mask_generator_example.ipynb)| 
-| &nbsp;&nbsp;&nbsp;&nbsp;Dolly (Open CLIP and CoCa) | - | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/lvm/python/clip.ipynb)  |
+| &nbsp;&nbsp;&nbsp;&nbsp; Open CLIP and CoCa | - | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/lvm/python/clip.ipynb)  |
 
 
 ## 2022 Version
