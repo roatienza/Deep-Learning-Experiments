@@ -2,7 +2,7 @@
 
 ## 2023 Version (latest)
 
-WIP: Large Language Models (LLMs), Large Vision Models (LVMs)
+WIP: Large Language Models (LLMs), Large Vision Models (LVMs), Agents
 
 | **AI, ML and Deep Learning** | **Note** | **Video** | **Code** |
 | :--- | :---: | :---: | :--- |
@@ -14,6 +14,9 @@ WIP: Large Language Models (LLMs), Large Vision Models (LVMs)
 | **LVM**| | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;Segment Anything Model (SAM) | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/lvm/SAM.pdf) | - | [Prompts](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/lvm/python/explore-sam.ipynb) & <br> [All Masks](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/lvm/python/automatic_mask_generator_example.ipynb)| 
 | &nbsp;&nbsp;&nbsp;&nbsp; Open CLIP and CoCa | - | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/lvm/python/clip.ipynb)  |
+| **Agents**| | | |
+| &nbsp;&nbsp;&nbsp;&nbsp; HuggingGPT | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/agents/HuggingGPT.pdf) | - | - |
+
 
 
 ## 2022 Version
