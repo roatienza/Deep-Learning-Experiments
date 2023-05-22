@@ -8,7 +8,7 @@ WIP: Large Language Models (LLMs), Large Vision Models (LVMs), Agents
 | :--- | :---: | :---: | :--- |
 | **LLM**| | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;LangChain | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/Chains.pdf) | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/langchain_quick_demo.ipynb)  |
-| &nbsp;&nbsp;&nbsp;&nbsp;Document Query | - | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/doc-query.ipynb)  |
+| &nbsp;&nbsp;&nbsp;&nbsp;LLM Fine Tuning and Document Query | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/LLM_FineTuning.pdf) | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/doc-query.ipynb)  |
 | &nbsp;&nbsp;&nbsp;&nbsp;Document Query using Chroma | - | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/doc-query-chroma.ipynb)  |
 | &nbsp;&nbsp;&nbsp;&nbsp;Dolly (Free LLM) | - | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/dolly-llm.ipynb)  |
 | **LVM**| | | |
