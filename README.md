@@ -8,12 +8,12 @@ WIP: Large Language Models (LLMs), Large Vision Models (LVMs), Agents
 | :--- | :---: | :---: | :--- |
 | **LLM**| | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;LangChain | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/Chains.pdf) | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/langchain_quick_demo.ipynb)  |
-| &nbsp;&nbsp;&nbsp;&nbsp;LLM Fine Tuning and Document Query | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/LLM_FineTuning.pdf) | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/doc-query.ipynb)  |
+| &nbsp;&nbsp;&nbsp;&nbsp;LLM Fine Tuning & Document Query | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/LLM_FineTuning.pdf) | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/doc-query.ipynb)  |
 | &nbsp;&nbsp;&nbsp;&nbsp;Document Query using Chroma | - | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/doc-query-chroma.ipynb)  |
 | &nbsp;&nbsp;&nbsp;&nbsp;Dolly (Free LLM) | - | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/dolly-llm.ipynb)  |
 | **LVM**| | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;Segment Anything Model (SAM) | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/lvm/SAM.pdf) | - | [Prompts](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/lvm/python/explore-sam.ipynb) & <br> [All Masks](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/lvm/python/automatic_mask_generator_example.ipynb)| 
-| &nbsp;&nbsp;&nbsp;&nbsp; Open CLIP and CoCa | - | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/lvm/python/clip.ipynb)  |
+| &nbsp;&nbsp;&nbsp;&nbsp; Open CLIP & CoCa | - | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/lvm/python/clip.ipynb)  |
 | **Agents**| | | |
 | &nbsp;&nbsp;&nbsp;&nbsp; HuggingGPT | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/agents/HuggingGPT.pdf) | - | [Agents](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/agents/python/agents.ipynb) |
 | **Large MultiModal Models (L3M)**| | | |
