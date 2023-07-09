@@ -29,7 +29,7 @@ class Net(nn.Module):
             num_features *= s
         return num_features
 
-net = Net()
+net = torch.compile(Net())
 print(net)
 
 # train the mode using MNIST
