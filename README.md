@@ -20,7 +20,7 @@ WIP: Large Language Models (LLMs), Large Vision Models (LVMs), Agents
 | &nbsp;&nbsp;&nbsp;&nbsp; ImageBind | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/multimodal/ImageBind.pdf) | - | [ImageBind](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/multimodal/python/imagebind.ipynb) |
 | **Stable Diffusion**| | | |
 | &nbsp;&nbsp;&nbsp;&nbsp; Diffusion | - | - | [Diffusers](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/diffusion/python/diffuser-tutorial.ipynb) |
-| &nbsp;&nbsp;&nbsp;&nbsp; ControlNet | - | - | [Diffusers](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/diffusion/python/controlnet_demo.ipynb) |
+| &nbsp;&nbsp;&nbsp;&nbsp; ControlNet | - | - | [ControlNet](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/diffusion/python/controlnet_demo.ipynb) |
 
 
 
