@@ -2,11 +2,15 @@
 
 ## 2023 Version (latest)
 
-WIP: Large Language Models (LLMs), Large Vision Models (LVMs), Agents
+Revised and expanded
 
 | **AI, ML and Deep Learning** | **Note** | **Video** | **Code** |
 | :--- | :---: | :---: | :--- |
 | Overview | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/overview/Overview.pdf) | - | - |
+| Supervised Learning | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/supervised/Supervised.pdf) | - | - |
+
+| **AI, ML and Deep Learning** | **Note** | **Video** | **Code** |
+| :--- | :---: | :---: | :--- |
 | **LLM**| | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;LangChain | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/Chains.pdf) | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/langchain_quick_demo.ipynb)  |
 | &nbsp;&nbsp;&nbsp;&nbsp;LLM Fine Tuning & Document Query | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/LLM_FineTuning.pdf) | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/doc-query.ipynb)  |
