@@ -8,6 +8,7 @@ Revised and expanded
 | :--- | :---: | :---: | :--- |
 | Overview | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/overview/Overview.pdf) | - | - |
 | Supervised Learning | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/supervised/Supervised.pdf) | - | - |
+| Multilayer Perceptron (MLP) | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/mlp/MLP.pdf) | - | - |
 
 | **AI, ML and Deep Learning** | **Note** | **Video** | **Code** |
 | :--- | :---: | :---: | :--- |
