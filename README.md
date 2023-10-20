@@ -4,12 +4,26 @@
 
 Revised and expanded
 
-| **AI, ML and Deep Learning** | **Note** | **Video** | **Code** |
+### Theory
+
+| **Topic** | **Note** | **Video** | **Code** |
 | :--- | :---: | :---: | :--- |
 | Overview | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/overview/Overview.pdf) | - | - |
 | Supervised Learning | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/supervised/Supervised.pdf) | - | - |
 | Multilayer Perceptron (MLP) | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/mlp/MLP.pdf) | - | - |
 | Optimization | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/optimizer/Optimizer.pdf) | - | - |
+
+
+### Practice
+| **Topic** | **Note** | **Video** | **Code** |
+| :--- | :---: | :---: | :--- |
+| Development Environment | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Env_Editor.pdf) | - | - |
+| Python | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Python.pdf) | - | - |
+| Numpy | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Numpy.pdf) | - | - |
+| PyTorch | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/PyTorch.pdf) | - | - |
+
+
+### Experiments on LLMs, LVMs and Agents
 
 | **AI, ML and Deep Learning** | **Note** | **Video** | **Code** |
 | :--- | :---: | :---: | :--- |
