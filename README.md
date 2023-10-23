@@ -12,6 +12,7 @@ Revised and expanded
 | Supervised Learning | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/supervised/Supervised.pdf) | - | - |
 | Multilayer Perceptron (MLP) | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/mlp/MLP.pdf) | - | - |
 | Optimization | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/optimizer/Optimizer.pdf) | - | - |
+| Regularization | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/regularizer/Regularization.pdf) | - | - |
 
 
 ### Practice
