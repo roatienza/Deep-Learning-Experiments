@@ -13,7 +13,8 @@ Revised and expanded
 | Multilayer Perceptron (MLP) | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/mlp/MLP.pdf) | - | - |
 | Optimization | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/optimizer/Optimizer.pdf) | - | - |
 | Regularization | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/regularizer/Regularization.pdf) | - | - |
-
+| CNN | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/cnn/CNN.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/cnn/demo/cnn_pytorch_demo.ipynb) |
+| Trasnformer | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/transformer/Transformer.pdf) | - | - |
 
 ### Practice
 | **Topic** | **Note** | **Video** | **Code** |
@@ -23,6 +24,7 @@ Revised and expanded
 | Numpy | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Numpy.pdf) | - | - |
 | PyTorch | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/PyTorch.pdf) | - | - |
 | Gradio | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Gradio.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/demo/gradio.ipynb) |
+| Efficiency | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/efficiency/Efficiency.pdf) | - | [Code](https://github.com/roatienza/benchmark) |
 
 
 ### Experiments on LLMs, LVMs and Agents
