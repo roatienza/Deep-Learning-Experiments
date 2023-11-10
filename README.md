@@ -14,7 +14,8 @@ Revised and expanded
 | Optimization | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/optimizer/Optimizer.pdf) | - | - |
 | Regularization | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/regularizer/Regularization.pdf) | - | - |
 | CNN | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/cnn/CNN.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/cnn/demo/cnn_pytorch_demo.ipynb) |
-| Transformer | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/transformer/Transformer.pdf) | - | - |
+| Transformer | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/transformer/Transformer.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/transformer/demo/transformer_cifar10.ipynb) |
+| Autoencoder | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/autoencoder/AutoEncoders.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/autoencoder/demo/autoencoder.ipynb) |
 
 ### Practice
 | **Topic** | **Note** | **Video** | **Code** |
