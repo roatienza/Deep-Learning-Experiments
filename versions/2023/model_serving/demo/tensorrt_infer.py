@@ -10,6 +10,9 @@ pip install nvidia-pyindex
 pip install --upgrade nvidia-tensorrt
 sudo apt-get install python3-libnvinfer-dev
 
+Reference:
+https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html
+
 Rowel Atienza
 github.com/roatienza
 2023
