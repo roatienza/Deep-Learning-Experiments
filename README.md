@@ -15,7 +15,7 @@ Revised and expanded
 | Regularization | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/regularizer/Regularization.pdf) | - | - |
 | CNN | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/cnn/CNN.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/cnn/demo/cnn_pytorch_demo.ipynb) |
 | Transformer | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/transformer/Transformer.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/transformer/demo/transformer_cifar10.ipynb) |
-| Autoencoder | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/autoencoder/AutoEncoders.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/autoencoder/demo/autoencoder.ipynb) |
+| Autoencoder (AE)| [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/autoencoder/AutoEncoders.pdf) | - | [AE & Denoising AE](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/autoencoder/demo/autoencoder.ipynb) <br> [Colorization AE](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/autoencoder/demo/colorization_ae.ipynb)  |
 
 ### Practice
 | **Topic** | **Note** | **Video** | **Code** |
@@ -26,6 +26,7 @@ Revised and expanded
 | PyTorch | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/PyTorch.pdf) | - | - |
 | Gradio | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Gradio.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/demo/gradio.ipynb) |
 | Efficiency | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/efficiency/Efficiency.pdf) | - | [Code](https://github.com/roatienza/benchmark) |
+| PyTorch Lightning | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/PyTorch_Lightning.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/cnn/demo/cnn_pytorch_demo.ipynb) |
 
 
 ### Experiments on LLMs, LVMs and Agents
