@@ -61,7 +61,6 @@ else: # use all including tensorrt
 print("Using providers:", providers)
 ort_session = onnxruntime.InferenceSession("resnet50.onnx", providers=providers,)
 outputs = ort_session.run( None, {"input1": image_array},)[0]
-print(outputs.shape)
 argmax_output = np.argmax(outputs)
 print("Class label index:", argmax_output)
 print("Predicted label:", idx2label[argmax_output])
