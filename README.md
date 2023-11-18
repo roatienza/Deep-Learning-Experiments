@@ -27,6 +27,11 @@ Revised and expanded
 | Gradio | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Gradio.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/demo/gradio.ipynb) |
 | Efficiency | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/efficiency/Efficiency.pdf) | - | [Code](https://github.com/roatienza/benchmark) |
 | PyTorch Lightning | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/PyTorch_Lightning.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/cnn/demo/cnn_pytorch_demo.ipynb) |
+| Model Packaging & Serving | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/Model_Serving.pdf) | - | [ONNX Export](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/torch2onnx.py) & <br>
+[ONNX Runtime](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/onnx_infer.py) & <br>
+[TorchScript & TensorRT](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/tensorrt_infer.py) & <br>
+[PyTriton Yolo Client](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/triton/yolo/client.ipynb) & <br>
+[PyTriton Yolo Server](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/triton/yolo/server.py)|
 
 
 ### Experiments on LLMs, LVMs and Agents
