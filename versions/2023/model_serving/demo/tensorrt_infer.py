@@ -35,10 +35,6 @@ if not os.path.isfile(filename):
 with open(filename) as f:
     idx2label = eval(f.read())
         
-# Load the ResNet50 pre-trained model
-model = resnet50(weights=ResNet50_Weights.IMAGENET1K_V1).cuda()
-model.eval()
-
 # Load the sample image
 image = Image.open("wonder_cat.jpg")
 
@@ -51,15 +47,18 @@ transform = transforms.Compose([
 input_tensor = transform(image).unsqueeze(0).cuda()
 
 # Print the shape of the input tensor
-print(input_tensor.shape)
+print("Input shape:", input_tensor.shape)
 
+# Load the ResNet50 pre-trained model
+model = resnet50(weights=ResNet50_Weights.IMAGENET1K_V1).cuda()
+model.eval()
 # Generate the traced TorchScript module
-traced_model = torch.jit.trace(model, example_inputs=torch.randn(1, 3, 224, 224).cuda())
+traced_model = torch.jit.trace(model, 
+                               example_inputs=torch.randn(1, 3, 224, 224).cuda())
 # Save the traced TorchScript module
 traced_model.save("traced_model.pt")
 # Test prediction of the traced model
 outputs = traced_model(input_tensor)
-print(outputs.shape)
 argmax_output = torch.argmax(outputs, dim=1).cpu().numpy()[0]
 print("Traced model label index:", argmax_output)
 print("Traced model label:", idx2label[argmax_output])
@@ -75,15 +74,37 @@ print("Scripted model label index:", argmax_output)
 print("Scripted model label:", idx2label[argmax_output])
 
 # Compile the traced TorchScript module using TensorRT (trt)
-compiled_model = torch_tensorrt.compile(traced_model, 
-                                        inputs = [input_tensor],
-                                        truncate_long_and_double = True,)
+trt_model = torch_tensorrt.compile(traced_model, 
+                                   inputs = [input_tensor],)
 
 # Save the compiled trt model
-compiled_model.save("trt_model.pt")
-outputs = compiled_model(input_tensor).cpu().numpy()
-print(outputs.shape)
+trt_model.save("trt_model.pt")
+outputs = trt_model(input_tensor).cpu().numpy()
 # Test prediction of the compiled trt model
 argmax_output = np.argmax(outputs)
 print("TensorRT label index:", argmax_output)
 print("TensorRT label:", idx2label[argmax_output])
+
+# Load traced model
+traced_model = torch.jit.load("traced_model.pt").cuda()
+# Test prediction of the traced model
+outputs = traced_model(input_tensor)
+argmax_output = torch.argmax(outputs, dim=1).cpu().numpy()[0]
+print("Loaded traced model label index:", argmax_output)
+print("Loaded traced model label:", idx2label[argmax_output])
+
+# Load scripted model
+scripted_model = torch.jit.load("scripted_model.pt").cuda()
+# Test prediction of the scripted model
+outputs = scripted_model(input_tensor)
+argmax_output = torch.argmax(outputs, dim=1).cpu().numpy()[0]
+print("Loaded scripted model label index:", argmax_output)
+print("Loaded scripted model label:", idx2label[argmax_output])
+
+# Load trt model
+trt_model = torch.jit.load("trt_model.pt").cuda()
+outputs = trt_model(input_tensor).cpu().numpy()
+# Test prediction of the compiled trt model
+argmax_output = np.argmax(outputs)
+print("Loaded TensorRT label index:", argmax_output)
+print("Loaded TensorRT label:", idx2label[argmax_output])
