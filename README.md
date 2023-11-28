@@ -17,6 +17,7 @@ Revised and expanded
 | Transformer | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/transformer/Transformer.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/transformer/demo/transformer_cifar10.ipynb) |
 | Autoencoder (AE)| [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/autoencoder/AutoEncoders.pdf) | - | [AE & Denoising AE](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/autoencoder/demo/autoencoder.ipynb) <br> [Colorization AE](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/autoencoder/demo/colorization_ae.ipynb)  |
 | Variational Autoencoder (VAE)| [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/vae/VAE.pdf) | - | [VAE](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/vae/demo/vae_mnist.ipynb) |
+| Generative Adversarial Network (GAN)| [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/gan/GAN.pdf) | - | - |
 
 ### Practice
 | **Topic** | **Note** | **Video** | **Code** |
