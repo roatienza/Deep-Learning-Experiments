@@ -49,7 +49,7 @@ image_array = np.transpose(image_array, (0, 3, 1, 2)).astype(np.float32)
 image_array /= 255.0
 
 # Choose the device to run the model on
-device = 'cpu'
+device = 'trt'
 if device == 'cpu':
     providers = ['CPUExecutionProvider']
 elif device == 'cuda':
