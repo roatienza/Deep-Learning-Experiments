@@ -16,6 +16,7 @@ Revised and expanded
 | CNN | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/cnn/CNN.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/cnn/demo/cnn_pytorch_demo.ipynb) |
 | Transformer | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/transformer/Transformer.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/transformer/demo/transformer_cifar10.ipynb) |
 | Autoencoder (AE)| [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/autoencoder/AutoEncoders.pdf) | - | [AE & Denoising AE](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/autoencoder/demo/autoencoder.ipynb) <br> [Colorization AE](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/autoencoder/demo/colorization_ae.ipynb)  |
+| Variational Autoencoder (VAE)| [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/vae/VAE.pdf) | - | [VAE](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/vae/demo/vae_mnist.ipynb) |
 
 ### Practice
 | **Topic** | **Note** | **Video** | **Code** |
@@ -27,11 +28,7 @@ Revised and expanded
 | Gradio | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Gradio.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/demo/gradio.ipynb) |
 | Efficiency | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/efficiency/Efficiency.pdf) | - | [Code](https://github.com/roatienza/benchmark) |
 | PyTorch Lightning | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/PyTorch_Lightning.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/cnn/demo/cnn_pytorch_demo.ipynb) |
-| Model Packaging & Serving | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/Model_Serving.pdf) | - | [ONNX Export](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/torch2onnx.py) & <br>
-[ONNX Runtime](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/onnx_infer.py) & <br>
-[TorchScript & TensorRT](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/tensorrt_infer.py) & <br>
-[PyTriton Yolo Client](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/triton/yolo/client.ipynb) & <br>
-[PyTriton Yolo Server](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/triton/yolo/server.py)|
+| Model Packaging & Serving | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/Model_Serving.pdf) | - | [ONNX Export](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/torch2onnx.py) <br> [ONNX Runtime](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/onnx_infer.py) <br> [TorchScript & TensorRT](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/tensorrt_infer.py) <br> [PyTriton Yolo Client](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/triton/yolo/client.ipynb) <br> [PyTriton Yolo Server](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/triton/yolo/server.py) |
 
 
 ### Experiments on LLMs, LVMs and Agents
