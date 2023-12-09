@@ -18,6 +18,7 @@ Revised and expanded
 | Autoencoder (AE)| [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/autoencoder/AutoEncoders.pdf) | - | [AE & Denoising AE](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/autoencoder/demo/autoencoder.ipynb) <br> [Colorization AE](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/autoencoder/demo/colorization_ae.ipynb)  |
 | Variational Autoencoder (VAE)| [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/vae/VAE.pdf) | - | [VAE](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/vae/demo/vae_mnist.ipynb) and [CVAE](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/vae/demo/cvae_mnist.ipynb) |
 | Generative Adversarial Network (GAN)| [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/gan/GAN.pdf) | - | [DCGAN](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/gan/demo/dcgan_mnist.ipynb) and [CGAN](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/gan/demo/cgan_mnist.ipynb) |
+| Intro to Large Language Models (LLMs) | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/LLM_Intro.pdf) | - | - |
 
 ### Practice
 | **Topic** | **Note** | **Video** | **Code** |
