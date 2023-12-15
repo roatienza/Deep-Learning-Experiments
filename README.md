@@ -19,6 +19,7 @@ Revised and expanded
 | Variational Autoencoder (VAE)| [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/vae/VAE.pdf) | - | [VAE](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/vae/demo/vae_mnist.ipynb) and [CVAE](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/vae/demo/cvae_mnist.ipynb) |
 | Generative Adversarial Network (GAN)| [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/gan/GAN.pdf) | - | [DCGAN](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/gan/demo/dcgan_mnist.ipynb) and [CGAN](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/gan/demo/cgan_mnist.ipynb) |
 | Intro to Large Language Models (LLMs) | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/LLM_Intro.pdf) | - | - |
+| LLM Data and Model | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/LLM_Data_Model.pdf) | - | - |
 
 ### Practice
 | **Topic** | **Note** | **Video** | **Code** |
@@ -32,6 +33,7 @@ Revised and expanded
 | PyTorch Lightning | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/PyTorch_Lightning.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/cnn/demo/cnn_pytorch_demo.ipynb) |
 | Model Packaging & Serving | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/Model_Serving.pdf) | - | [ONNX Export](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/torch2onnx.py) <br> [ONNX Runtime](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/onnx_infer.py) <br> [TorchScript & TensorRT](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/tensorrt_infer.py) <br> [PyTriton Yolo Client](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/triton/yolo/client.ipynb) <br> [PyTriton Yolo Server](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/triton/yolo/server.py) |
 | Docker | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/docker/Docker.pdf) | = | - | 
+| HuggingFcae | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/HuggingFace.pdf) | - | - |
 
 
 ### Experiments on LLMs, LVMs and Agents
