@@ -1,6 +1,6 @@
-torch>=1.8.11
-torchvision>=0.9.1
-torchaudio>=0.8.1
+torch
+torchvision
+torchaudio
 numpy
 scipy
 Pillow
@@ -9,7 +9,7 @@ scikit-image
 librosa
 timm
 einops
-
+lightning
 gradio
 transformers
 sentencepiece
