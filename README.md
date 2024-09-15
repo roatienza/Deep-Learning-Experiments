@@ -63,7 +63,7 @@ Revised and expanded
 ### Install
 Assuming you already have  `anaconda` or `venv`, install the required python packages to run the experiments in this version.
 
-`pip install -r requirements.txt `
+`pip install -r requirements.txt --upgrade`
 
 ## 2022
 
