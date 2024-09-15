@@ -1,6 +1,6 @@
 # Deep Learning Lecture Notes and Experiments
 
-## 2023 Version (latest)
+## 2023-2024 Version
 
 Revised and expanded
 
@@ -27,6 +27,8 @@ Revised and expanded
 | Development Environment | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Env_Editor.pdf) | - | - |
 | Python | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Python.pdf) | - | - |
 | Numpy | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Numpy.pdf) | - | - |
+| Einsum | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Einsum.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/demo/einsum_demo.ipynb) |
+| Einops | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Einops.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/demo/einops_demo.ipynb) |
 | PyTorch | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/PyTorch.pdf) | - | - |
 | Gradio | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Gradio.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/demo/gradio.ipynb) |
 | Efficiency | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/efficiency/Efficiency.pdf) | - | [Code](https://github.com/roatienza/benchmark) |
@@ -58,14 +60,12 @@ Revised and expanded
 
 
 
-
-## 2022 Version
-Welcome to the 2022 version of Deep Learning course. We made major changes in the coverage and delivery of this course to reflect the recent advances in the field.
-
 ### Install
 Assuming you already have  `anaconda` or `venv`, install the required python packages to run the experiments in this version.
 
 `pip install -r requirements.txt `
+
+## 2022
 
 ### Coverage:
 
@@ -98,18 +98,6 @@ Assuming you already have  `anaconda` or `venv`, install the required python pac
 | **Variational AutoEncoders** | Soon | | |
 | **Practical Applications:<br>Vision, Speech, NLP** | Soon | | |
 
-
-### What is new in 2022 version:
-
-1) Emphasis on tools to use and deploy deep learning models. In the past, we learn how to build and train models to perform certain tasks. However, often times we want to use a pre-trained model for immediate deployment. testing or demonstration. Hence, we will use tools such as `huggingface`, `gradio` and `streamlit` in our discussions.
-
-2) Emphasis on understanding deep learning building blocks. The ability to build, train and test models is important. However, when we want to optimize and deploy a deep learning model on a new hardware or run it on production, we need an in-depth understanding of the code implementation of our algorithms. Hence, there will be emphasis on low-level algorithms and their code implementations.
-
-3) Emphasis on practical applications. Deep learning can do a lot more than recognition. Hence, we will highlight practical applications in vision (detection, segmentation), speech (ASR, TTS) and text (sentiment, summarization).
-
-4) Various levels of abstraction. We will present deep learning concepts from low-level `numpy` and `einops`, to mid-level framework such as PyTorch, and to high-level APIs such as `huggingface`, `gradio` and `streamlit`. This enables us to use deep learning principles depending on the problem constraints.
-
-5) Emphasis on individual presentation of assignments, machine exercises and projects. Online learning is hard. To maximize student learning, this course focuses on exchange of ideas to ensure individual student progress. 
 
 
 ### Star, Fork, Cite
