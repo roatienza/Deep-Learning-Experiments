@@ -13,14 +13,17 @@ Revised and expanded
 | Multilayer Perceptron (MLP) | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/mlp/MLP.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/mlp/demo/mlp_mnist.ipynb) |
 | Convolutional Neural Network (CNN) | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/cnn/CNN.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/cnn/demo/cnn_mnist.ipynb) |
 | Recurrent Neural Network (RNN) | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/rnn/RNN.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/rnn/demo/rnn_mnist.ipynb) |
-| Transformer | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/transformer/Transformer.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/transformer/demo/transformer_cifar10.ipynb) |
+| Transformer | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/transformer/Transformer.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/transformer/demo/transformer_mnist.ipynb) |
+| Mamba | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2024/mamba/SSM.pdf) | - |  [SimpleMamba](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2024/mamba/demo/mamba_simple_mnist.ipynb) <br> [Mamba2](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2024/mamba/demo/mamba2_mnist.ipynb)
 | Optimization | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/optimizer/Optimizer.pdf) | - | - |
 | Regularization | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/regularizer/Regularization.pdf) | - | - |
+| Detection | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2024/detection/Detection.pdf) | - | - |
+| Segmentation | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2024/segmentation/Segmentation.pdf) | - | [SAM2](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2024/segmentation/python/sam2_demo.ipynb) |
 | Autoencoder (AE)| [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/autoencoder/AutoEncoders.pdf) | - | [AE & Denoising AE](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/autoencoder/demo/autoencoder.ipynb) <br> [Colorization AE](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/autoencoder/demo/colorization_ae.ipynb)  |
 | Variational Autoencoder (VAE)| [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/vae/VAE.pdf) | - | [VAE](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/vae/demo/vae_mnist.ipynb) and [CVAE](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/vae/demo/cvae_mnist.ipynb) |
 | Generative Adversarial Network (GAN)| [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/gan/GAN.pdf) | - | [DCGAN](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/gan/demo/dcgan_mnist.ipynb) and [CGAN](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/gan/demo/cgan_mnist.ipynb) |
-| Intro to Large Language Models (LLMs) | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/LLM_Intro.pdf) | - | - |
-| LLM Data and Model | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/LLM_Data_Model.pdf) | - | - |
+| Intro to Large Language Models (LLMs) | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/LLM_Intro.pdf) | - | [GPT2-TS-train](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2024/llm/python/gpt2_tinystories_fr_scratch.py), [GPT2-TS-val](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2024/llm/python/gpt2_val_tinystories_fr_scratch.ipynb)  |
+| LLM Data and Model | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/LLM_Data_Model.pdf) | - | [GPT2-TS-ft](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2024/llm/python/gpt2_tinystories.py), [GPT2-TS-ft-val](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2024/llm/python/gpt2_val_tinystories.ipynb) |
 
 ### Practice
 | **Topic** | **Note** | **Video** | **Code** |
@@ -31,34 +34,12 @@ Revised and expanded
 | Einsum | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Einsum.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/demo/einsum_demo.ipynb) |
 | Einops | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Einops.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/demo/einops_demo.ipynb) |
 | PyTorch | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/PyTorch.pdf) | - | - |
-| Gradio | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Gradio.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/demo/gradio.ipynb) |
+| Gradio | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Gradio.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/demo/gradio.ipynb) <br> [Llama Chat](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/demo/chat_gradio.ipynb)|
 | Efficiency | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/efficiency/Efficiency.pdf) | - | [Code](https://github.com/roatienza/benchmark) |
-| PyTorch Lightning | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/PyTorch_Lightning.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/cnn/demo/cnn_pytorch_demo.ipynb) |
+| PyTorch Lightning | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/PyTorch_Lightning.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/demo/lightning_mnist.ipynb) |
 | Model Packaging & Serving | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/Model_Serving.pdf) | - | [ONNX Export](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/torch2onnx.py) <br> [ONNX Runtime](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/onnx_infer.py) <br> [TorchScript & TensorRT](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/tensorrt_infer.py) <br> [PyTriton Yolo Client](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/triton/yolo/client.ipynb) <br> [PyTriton Yolo Server](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/model_serving/demo/triton/yolo/server.py) |
 | Docker | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/docker/Docker.pdf) | = | - | 
 | HuggingFcae | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/HuggingFace.pdf) | - | - |
-
-
-### Experiments on LLMs, LVMs and Agents
-
-| **AI, ML and Deep Learning** | **Note** | **Video** | **Code** |
-| :--- | :---: | :---: | :--- |
-| **LLM**| | | |
-| &nbsp;&nbsp;&nbsp;&nbsp;LangChain | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/Chains.pdf) | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/langchain_quick_demo.ipynb)  |
-| &nbsp;&nbsp;&nbsp;&nbsp;LLM Fine Tuning & Document Query | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/LLM_FineTuning.pdf) | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/doc-query.ipynb)  |
-| &nbsp;&nbsp;&nbsp;&nbsp;Document Query using Chroma | - | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/doc-query-chroma.ipynb)  |
-| &nbsp;&nbsp;&nbsp;&nbsp;Dolly (Free LLM) | - | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/llm/python/dolly-llm.ipynb)  |
-| **LVM**| | | |
-| &nbsp;&nbsp;&nbsp;&nbsp;Segment Anything Model (SAM) | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/lvm/SAM.pdf) | - | [Prompts](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/lvm/python/explore-sam.ipynb) & <br> [All Masks](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/lvm/python/automatic_mask_generator_example.ipynb)| 
-| &nbsp;&nbsp;&nbsp;&nbsp; Open CLIP & CoCa | - | - | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/lvm/python/clip.ipynb)  |
-| **Agents**| | | |
-| &nbsp;&nbsp;&nbsp;&nbsp; HuggingGPT | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/agents/HuggingGPT.pdf) | - | [Agents](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/agents/python/agents.ipynb) |
-| **Large MultiModal Models (L3M)**| | | |
-| &nbsp;&nbsp;&nbsp;&nbsp; ImageBind | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/multimodal/ImageBind.pdf) | - | [ImageBind](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/multimodal/python/imagebind.ipynb) |
-| **Stable Diffusion**| | | |
-| &nbsp;&nbsp;&nbsp;&nbsp; Diffusion | - | - | [Diffusers](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/diffusion/python/diffuser-tutorial.ipynb) |
-| &nbsp;&nbsp;&nbsp;&nbsp; ControlNet | - | - | [ControlNet](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/diffusion/python/controlnet_demo.ipynb) |
-
 
 
 ### Install
@@ -96,8 +77,6 @@ Assuming you already have  `anaconda` or `venv`, install the required python pac
 | **Regularization** | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/regularization/Regularization.pdf) | | |
 | **Unsupervised Learning** | Soon | | |
 | **AutoEncoders** | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/autoencoder/AutoEncoders.pdf) | [YouTube](https://youtu.be/uBqnwpC1kPc) | [AE MNIST](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/autoencoder/python/ae_pytorch_demo.ipynb) <br> [Colorization CIFAR10](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/autoencoder/python/colorize_pytorch_demo.ipynb)|
-| **Variational AutoEncoders** | Soon | | |
-| **Practical Applications:<br>Vision, Speech, NLP** | Soon | | |
 
 
 
