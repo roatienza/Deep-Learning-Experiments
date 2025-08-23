@@ -1,6 +1,6 @@
 # Deep Learning Lecture Notes and Experiments
 
-## 2023-2024 Version
+## 2025 Version
 
 Revised and expanded
 
@@ -8,8 +8,8 @@ Revised and expanded
 
 | **Topic** | **Note** | **Video** | **Code** |
 | :--- | :---: | :---: | :--- |
-| Overview | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/overview/Overview.pdf) | - | - |
-| Supervised Learning | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/supervised/Supervised.pdf) | - | - |
+| Overview | [PDF](https://drive.google.com/file/d/1-Y1KredRlVIuPrIE0hCEXuf0AXrBPvf7/view?usp=sharing) | - | - |
+| Supervised Learning | [PDF](https://drive.google.com/file/d/1Fk_f668zZCBncVBc0x67jgBowVQHe_fC/view?usp=sharing) | - | - |
 | Multilayer Perceptron (MLP) | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/mlp/MLP.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/mlp/demo/mlp_mnist.ipynb) |
 | Convolutional Neural Network (CNN) | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/cnn/CNN.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/cnn/demo/cnn_mnist.ipynb) |
 | Recurrent Neural Network (RNN) | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/rnn/RNN.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/rnn/demo/rnn_mnist.ipynb) |
