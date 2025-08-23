@@ -29,9 +29,9 @@ Revised and expanded
 ### Practice
 | **Topic** | **Note** | **Video** | **Code** |
 | :--- | :---: | :---: | :--- |
-| Development Environment | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Env_Editor.pdf) | - | - |
-| Python | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Python.pdf) | - | - |
-| Numpy | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Numpy.pdf) | - | - |
+| Development Environment | [PDF](https://drive.google.com/file/d/1XfHFtaDclbCtL5roegHyHlIi1L7q6Qxc/view?usp=sharing) | - | - |
+| Python | [PDF](https://drive.google.com/file/d/1v8NoB_YqDja1IQb7sScCUlJ2Kkyo8jAz/view?usp=sharing) | - | - |
+| Numpy | [PDF](https://drive.google.com/file/d/1HvYbJGmZa5joZsUiThQv2HLijl2p5M3P/view?usp=sharing) | - | - |
 | Einsum | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Einsum.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/demo/einsum_demo.ipynb) |
 | Einops | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Einops.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/demo/einops_demo.ipynb) |
 | PyTorch | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/PyTorch.pdf) | - | - |
@@ -47,38 +47,6 @@ Revised and expanded
 Assuming you already have  `anaconda` or `venv`, install the required python packages to run the experiments in this version.
 
 `pip install -r requirements.txt --upgrade`
-
-## 2022
-
-### Coverage:
-
-| **AI, ML and Deep Learning** | **Note** | **Video** | **Code** |
-| :--- | :---: | :---: | :--- |
-| &nbsp;&nbsp;&nbsp;&nbsp;Overview | [PDF](versions/2022/overview/Overview.pdf) | [YouTube](https://youtu.be/zU37kvvkz0o) | -  |
-| **Toolkit**| | | |
-| &nbsp;&nbsp;&nbsp;&nbsp;Development Environment<br> &nbsp;&nbsp;&nbsp;&nbsp;and Code Editor | [PDF](versions/2022/tools/Toolkit_Env_Editor.pdf) | [YouTube](https://youtu.be/LildU3tGGEo) | -  |
-| &nbsp;&nbsp;&nbsp;&nbsp;Python | [PDF](versions/2022/tools/Toolkit_Python.pdf)| [YouTube](https://youtu.be/4Q1G5GuIXw8) | -  |
-| &nbsp;&nbsp;&nbsp;&nbsp;Numpy | [PDF](versions/2022/tools/Toolkit_Numpy.pdf) | [YouTube](https://youtu.be/_E9dnUY1Ets) | [Jupyter](versions/2022/tools/python/np_demo.ipynb) |
-| &nbsp;&nbsp;&nbsp;&nbsp;Einsum | [PDF](versions/2022/tools/Toolkit_Einsum.pdf) | [YouTube](https://youtu.be/IUs7aWs-axM) | [Jupyter](versions/2022/tools/python/einsum_demo.ipynb) |
-| &nbsp;&nbsp;&nbsp;&nbsp;Einops | [PDF](versions/2022/tools/Toolkit_Einops.pdf) | [YouTube](https://youtu.be/ll1BlfYd4mU) | [Jupyter](versions/2022/tools/python/einops_demo.ipynb) & <br> [Jupyter (Audio)](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/tools/python/einops_audio.ipynb) |
-| &nbsp;&nbsp;&nbsp;&nbsp;PyTorch & Timm | [PDF](versions/2022/tools/Toolkit_PyTorch.pdf) | [YouTube](https://youtu.be/mK0CHqLCoXA) | [PyTorch/Timm](versions/2022/tools/python/pytorch_demo.ipynb) & <br> [Input](versions/2022/tools/python/input_demo.ipynb) Jupyter|
-| &nbsp;&nbsp;&nbsp;&nbsp;Gradio & Hugging Face | [PDF](versions/2022/tools/Toolkit_Gradio.pdf) | [YouTube](https://youtu.be/b1NgUiTIUMc) | [Jupyter](versions/2022/tools/python/gradio_demo.ipynb) |
-| &nbsp;&nbsp;&nbsp;&nbsp;Weights and Biases| [PDF](versions/2022/tools/Toolkit_WandB_Accelerate.pdf) | [YouTube](https://youtu.be/vbxNFIqd2iw) | [Jupyter](versions/2022/tools/python/wandb_demo.ipynb) |
-| &nbsp;&nbsp;&nbsp;&nbsp;Hugging Face Accelerator|  Same as W&B | Same as W&B | [Jupyter](versions/2022/tools/python/accelerate_demo.ipynb) & <br> [Python](versions/2022/tools/python/accelerate_demo.py) |
-| **Datasets & Dataloaders** | [PDF](versions/2022/datasets/Datasets.pdf) | [YouTube](https://youtu.be/7_t_yyF15jM) | [Jupyter](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/datasets/python/dataloader_demo.ipynb) |
-| **Supervised Learning** | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/Supervised.pdf) | [YouTube](https://youtu.be/mBjAaAU6CW0) | |
-| &nbsp;&nbsp;&nbsp;&nbsp;PyTorch Lightning | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/PyTorch_Lightning.pdf) | [YouTube](https://youtu.be/VxvOupw92tU) | [MNIST](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/python/mnist_demo.ipynb) & [KWS](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/python/kws_demo.ipynb) |
-|  &nbsp;&nbsp;&nbsp;&nbsp;[Keyword Spotting App](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/supervised/python/kws-infer.py) | | | `cd versions/2022/supervised/python &&`<br>`python3 kws-infer.py --gui` |
-| **Building blocks:<br> MLPs, CNNs, RNNs, Transformers** | | | |
-|  &nbsp;&nbsp;&nbsp;&nbsp;MLP | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/mlp/MLP.pdf) | [YouTube](https://youtu.be/Rolx9HVmRAc) | [MLP on CIFAR10](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/mlp/python/mlp_pytorch_demo.ipynb) |
-|  &nbsp;&nbsp;&nbsp;&nbsp;CNN | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/cnn/CNN.pdf) | [YouTube](https://youtu.be/WZsaU-UV9KE) | [CNN on CIFAR10](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/cnn/python/cnn_pytorch_demo.ipynb) |
-|  &nbsp;&nbsp;&nbsp;&nbsp;Transformer | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/transformer/Transformer.pdf) | [YouTube](https://youtu.be/6PmIoCnqcFU) | [Transformer on CIFAR10](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/transformer/python/transformer_demo.ipynb) |
-| **Backpropagation** | [PDF](https://github.com/roatienza/ml/blob/master/vector_calculus/Vector_Calculus.pdf) | | |
-| **Optimization** | [PDF](https://github.com/roatienza/ml/blob/master/optimization/Optimization.pdf) | | |
-| **Regularization** | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/regularization/Regularization.pdf) | | |
-| **Unsupervised Learning** | Soon | | |
-| **AutoEncoders** | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/autoencoder/AutoEncoders.pdf) | [YouTube](https://youtu.be/uBqnwpC1kPc) | [AE MNIST](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/autoencoder/python/ae_pytorch_demo.ipynb) <br> [Colorization CIFAR10](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2022/autoencoder/python/colorize_pytorch_demo.ipynb)|
-
 
 
 ### Star, Fork, Cite
