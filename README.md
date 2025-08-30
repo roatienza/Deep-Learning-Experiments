@@ -33,7 +33,7 @@ Revised and expanded
 | Python | [PDF](https://drive.google.com/file/d/1v8NoB_YqDja1IQb7sScCUlJ2Kkyo8jAz/view?usp=sharing) | - | - |
 | Numpy | [PDF](https://drive.google.com/file/d/1HvYbJGmZa5joZsUiThQv2HLijl2p5M3P/view?usp=sharing) | - | - |
 | Einsum | [PDF](https://drive.google.com/file/d/19XkVyBoCGUuXwWYmOu0y0x6B0cG6qdZY/view?usp=sharing) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/demo/einsum_demo.ipynb) |
-| Einops | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Einops.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/demo/einops_demo.ipynb) |
+| Einops | [PDF](https://drive.google.com/file/d/1R61Fu4ivLjhjgv37NzGutLABXM0RGnUJ/view?usp=sharing) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/demo/einops_demo.ipynb) |
 | PyTorch | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/PyTorch.pdf) | - | - |
 | Gradio | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/Gradio.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/demo/gradio.ipynb) <br> [Llama Chat](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/toolkit/demo/chat_gradio.ipynb)|
 | Efficiency | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/efficiency/Efficiency.pdf) | - | [Code](https://github.com/roatienza/benchmark) |
