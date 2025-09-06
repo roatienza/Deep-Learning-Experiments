@@ -16,7 +16,7 @@ Revised and expanded
 | Recurrent Neural Network (RNN) | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/rnn/RNN.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/rnn/demo/rnn_mnist.ipynb) |
 | Transformer | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/transformer/Transformer.pdf) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/transformer/demo/transformer_mnist.ipynb) |
 | Mamba | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2024/mamba/SSM.pdf) | - |  [SimpleMamba](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2024/mamba/demo/mamba_simple_mnist.ipynb) <br> [Mamba2](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2024/mamba/demo/mamba2_mnist.ipynb)
-| Optimization | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/optimizer/Optimizer.pdf) | - | - |
+| Optimization | [PDF](https://drive.google.com/file/d/1SKSODJ2Hl3P9jrsv3HT4IZ1BdZc2PpbO/view?usp=sharing) | - | - |
 | Regularization | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/regularizer/Regularization.pdf) | - | - |
 | Detection | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2024/detection/Detection.pdf) | - | - |
 | Segmentation | [PDF](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2024/segmentation/Segmentation.pdf) | - | [SAM2](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2024/segmentation/python/sam2_demo.ipynb) |
