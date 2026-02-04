@@ -10,7 +10,7 @@ Revised and expanded
 | :--- | :---: | :---: | :--- |
 | Overview | [PDF](https://drive.google.com/file/d/1-Y1KredRlVIuPrIE0hCEXuf0AXrBPvf7/view?usp=sharing) | - | - |
 | Supervised Learning | [PDF](https://drive.google.com/file/d/1Fk_f668zZCBncVBc0x67jgBowVQHe_fC/view?usp=sharing) | - | - |
-| Datasets and Dataloaders |[PDF](https://drive.google.com/file/d/1RIl9XFQ5b57kWJurCL8erEPgdj5-RxLR/view?usp=sharing) | - | - |
+| Datasets and Dataloaders |[PDF](https://drive.google.com/file/d/1YHg-YDeuflqfu9fDtE09sKQfsQMHMU6D/view?usp=sharing) | - | - |
 | Multilayer Perceptron (MLP) | [PDF](https://drive.google.com/file/d/1dn9zk5VA8__mSFJEgM0HAnZ3doA8IltJ/view?usp=sharing) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/mlp/demo/mlp_mnist.ipynb) |
 | Convolutional Neural Network (CNN) | [PDF](https://drive.google.com/file/d/1zVG4qYRWsoC4f7RED06fpaZEWbtnfHQI/view?usp=sharing) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/cnn/demo/cnn_mnist.ipynb) |
 | Recurrent Neural Network (RNN) | [PDF](https://drive.google.com/file/d/1bWV4qwnIbrCDNTaxa1X9yBboczc__Qo3/view?usp=sharing) | - | [Notebook](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/versions/2023/rnn/demo/rnn_mnist.ipynb) |
