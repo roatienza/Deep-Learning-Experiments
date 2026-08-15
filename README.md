@@ -1,6 +1,6 @@
 # Deep Learning Lecture Notes and Experiments
 
-## 2025 Version
+## 2026 Version
 
 Revised and expanded
 
