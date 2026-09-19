@@ -6,7 +6,7 @@ Revised and expanded
 
 ### Theory
 
-| **Topic** | **Note** | **Video** | **Code** |
+| **Topic** | **Note** | **Narrative** | **Code** |
 | :--- | :---: | :---: | :--- |
 | Overview | [PDF](https://drive.google.com/file/d/1-Y1KredRlVIuPrIE0hCEXuf0AXrBPvf7/view?usp=sharing) | - | - |
 | Supervised Learning | [PDF](https://drive.google.com/file/d/1Fk_f668zZCBncVBc0x67jgBowVQHe_fC/view?usp=sharing) | - | - |
