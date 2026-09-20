@@ -11,7 +11,7 @@ matplotlib.use('Agg')
 
 # Skip the `!pip install` cell (notebook-only magic)
 def _skip_pip(src):
-    return src.startswith('!pip')
+    return src.startswith('!pip') or '!pip' in src
 import matplotlib.pyplot as plt
 plt.show = lambda *a, **k: None
 
