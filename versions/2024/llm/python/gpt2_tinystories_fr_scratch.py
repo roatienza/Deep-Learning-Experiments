@@ -130,10 +130,15 @@ tokenized_train = dataset["train"].map(
     num_proc=4,
 )
 
-tokenized_test = dataset["validation"].map(
+# Limit the eval set to 1,000 samples.  The Trainer accumulates ALL logits in
+# RAM before calling compute_metrics; with 22k samples × 128 tokens × 50k vocab
+# that is ~5.7 GB per rank and OOMs.  1,000 samples (~1.3 GB) is enough for a
+# stable perplexity estimate.
+eval_subset = dataset["validation"].select(range(1000))
+tokenized_test = eval_subset.map(
     tokenize_function,
     batched=True,
-    remove_columns=dataset["validation"].column_names,
+    remove_columns=eval_subset.column_names,
     num_proc=4,
 )
 
@@ -178,15 +183,16 @@ def compute_metrics(eval_pred):
     shift_labels = labels[..., 1:].contiguous()
 
     # Compute cross-entropy loss over all non-padding positions.
+    # (padding positions are already masked to -100 in the labels by the
+    #  DataCollatorForLanguageModeling, so they are excluded automatically)
     loss = torch.nn.functional.cross_entropy(
         torch.from_numpy(shift_logits.reshape(-1, shift_logits.shape[-1])),
         torch.from_numpy(shift_labels.reshape(-1)),
     )
 
-    try:
-        perplexity = math.exp(loss.item())
-    except OverflowError:
-        perplexity = float("inf")
+    # Clamp to avoid overflow: exp(709) is the largest finite float64 value.
+    # Perplexity above ~1e308 is meaningless anyway.
+    perplexity = math.exp(min(loss.item(), 709.0))
 
     return {"perplexity": perplexity}
 
@@ -200,14 +206,15 @@ training_args = TrainingArguments(
     per_device_train_batch_size=2,
     per_device_eval_batch_size=2,
     gradient_accumulation_steps=8,   # effective batch size = 2 * 8 = 16
-    evaluation_strategy="steps",
+    eval_strategy="steps",
     eval_steps=500,                  # evaluate every 500 steps
+    eval_accumulation_steps=500,     # don't accumulate all eval logits in RAM
     save_steps=1000,                 # save a checkpoint every 1000 steps
     warmup_steps=500,                # linear LR warmup for the first 500 steps
     learning_rate=1e-4,              # higher than fine-tuning (5e-5) because
                                      # we start from random weights
     weight_decay=0.01,               # L2 regularisation on non-bias params
-    logging_dir="./logs",
+    # logging_dir removed (deprecated in transformers 5.x)
     logging_steps=100,               # log loss / LR every 100 steps
     load_best_model_at_end=True,     # reload the best checkpoint at the end
     metric_for_best_model="perplexity",
