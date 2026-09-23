@@ -161,38 +161,71 @@ data_collator = DataCollatorForLanguageModeling(
 # ---------------------------------------------------------------------------
 # 6. Evaluation metric  (perplexity)
 # ---------------------------------------------------------------------------
-def compute_metrics(eval_pred):
+def compute_metrics(eval_pred, compute_result=False):
     """Compute perplexity from the model's logits and labels.
 
     Perplexity = exp(mean cross-entropy loss).  A perplexity of 1 means the
     model is perfectly certain; a perplexity of V (vocab size) means it is
     uniformly random.  Lower is better.
 
+    With ``batch_eval_metrics=True`` the Trainer calls this function once per
+    batch.  ``compute_result`` is False for every batch except the last, where
+    it is True.  We accumulate the per-batch losses and return the aggregate
+    perplexity only on the final call.
+
     Args:
-        eval_pred: tuple (logits, labels) from the Trainer's evaluation loop.
-            logits: numpy array of shape (batch, seq_len, vocab_size)
-            labels: numpy array of shape (batch, seq_len)
+        eval_pred: EvalPrediction with ``predictions`` (logits) and
+            ``label_ids`` (labels).  Tensors with ``batch_eval_metrics=True``,
+            numpy arrays otherwise.
+        compute_result: True on the last eval batch, False otherwise.
 
     Returns:
-        dict with a single "perplexity" key.
+        dict with a single "perplexity" key (only on the last batch).
     """
+    # Accumulate per-batch loss x count so we can compute the weighted mean.
+    if not hasattr(compute_metrics, "_loss_sum"):
+        compute_metrics._loss_sum = 0.0
+        compute_metrics._token_count = 0
+
     logits, labels = eval_pred
+
+    # With batch_eval_metrics=True the Trainer passes raw Tensors;
+    # without it, numpy arrays.  Normalise to Tensors on CPU.
+    if not isinstance(logits, torch.Tensor):
+        logits = torch.from_numpy(logits)
+    if not isinstance(labels, torch.Tensor):
+        labels = torch.from_numpy(labels)
+    logits = logits.cpu()
+    labels = labels.cpu()
 
     # Shift so that position i predicts position i+1 (causal LM convention).
     shift_logits = logits[..., :-1, :].contiguous()
     shift_labels = labels[..., 1:].contiguous()
 
+    # Count non-padding tokens (labels != -100) for weighted averaging.
+    n_tokens = int((shift_labels != -100).sum())
+
     # Compute cross-entropy loss over all non-padding positions.
     # (padding positions are already masked to -100 in the labels by the
     #  DataCollatorForLanguageModeling, so they are excluded automatically)
     loss = torch.nn.functional.cross_entropy(
-        torch.from_numpy(shift_logits.reshape(-1, shift_logits.shape[-1])),
-        torch.from_numpy(shift_labels.reshape(-1)),
+        shift_logits.reshape(-1, shift_logits.shape[-1]),
+        shift_labels.reshape(-1),
     )
 
+    compute_metrics._loss_sum += loss.item() * n_tokens
+    compute_metrics._token_count += n_tokens
+
+    if not compute_result:
+        return {}
+
+    # Final batch: return the aggregate perplexity and reset accumulators.
+    avg_loss = compute_metrics._loss_sum / max(compute_metrics._token_count, 1)
+    compute_metrics._loss_sum = 0.0
+    compute_metrics._token_count = 0
+
     # Clamp to avoid overflow: exp(709) is the largest finite float64 value.
-    # Perplexity above ~1e308 is meaningless anyway.
-    perplexity = math.exp(min(loss.item(), 709.0))
+    perplexity = math.exp(min(avg_loss, 709.0))
 
     return {"perplexity": perplexity}
 
@@ -205,11 +238,22 @@ training_args = TrainingArguments(
     num_train_epochs=5,
     per_device_train_batch_size=2,
     per_device_eval_batch_size=2,
+    # Eval gathers the full eval-set logits across ranks for the built-in
+    # eval_loss; on 8x40GB with bf16 that gather OOMs at ~1.5 GiB on the
+    # busiest GPU.  128 samples/rank keeps the gather under ~0.5 GiB.
+    # (batch_eval_metrics=True already keeps our perplexity metric off the
+    #  gather path; this bounds the loss gather itself.)
     gradient_accumulation_steps=8,   # effective batch size = 2 * 8 = 16
     eval_strategy="steps",
     eval_steps=500,                  # evaluate every 500 steps
-    eval_accumulation_steps=500,     # don't accumulate all eval logits in RAM
+    # batch_eval_metrics=True: compute perplexity per-batch and free logits
+    # immediately.  Without this, the Trainer accumulates ALL eval logits on
+    # GPU (~20 GiB for 1000 samples x 128 tokens x 50k vocab) and OOMs.
+    batch_eval_metrics=True,
     save_steps=1000,                 # save a checkpoint every 1000 steps
+    # Disk is tight (root fs ~99% full): keep only the 3 most recent
+    # checkpoints so the run cannot die on a full filesystem mid-map.
+    save_total_limit=3,
     warmup_steps=500,                # linear LR warmup for the first 500 steps
     learning_rate=1e-4,              # higher than fine-tuning (5e-5) because
                                      # we start from random weights
@@ -238,7 +282,11 @@ trainer = Trainer(
 # ---------------------------------------------------------------------------
 # 9. Train
 # ---------------------------------------------------------------------------
-trainer.train()
+import os
+_ckpt_dir = os.path.join(training_args.output_dir, "checkpoint-33000")
+# Resume from the last saved checkpoint if present (e.g. after a crash/OOM),
+# otherwise train from scratch.
+trainer.train(resume_from_checkpoint=_ckpt_dir if os.path.isdir(_ckpt_dir) else None)
 
 
 # ---------------------------------------------------------------------------
