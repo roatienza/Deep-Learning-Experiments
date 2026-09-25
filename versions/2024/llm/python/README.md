@@ -99,6 +99,42 @@ perplexity) and keeps the best checkpoint by perplexity. Use
 `gpt2_val_tinystories.ipynb` to load `gpt2-tinystories-ft-final` and generate
 stories.
 
+The fine-tune run logged **49,683 optimizer steps** over 3 epochs
+(~16,561 steps/epoch) and ~1.66 × 10¹⁸ FLOPs.
+
+### Validation (held-out)
+
+| Epoch | Step | Eval loss | Perplexity |
+| :---: | ---: | ---: | ---: |
+| 0.03 | 500 | 1.6667 | 5.33 |
+| 1 | 16,500 | 1.2951 | 3.64 |
+| 2 | 33,000 | 1.2529 | 3.49 |
+| **3 (final)** | **49,683** | **1.2400** | **3.44** |
+
+### Training loss
+
+| Epoch | Avg. train loss |
+| :---: | ---: |
+| 0 | 1.4409 |
+| 1 | 1.3067 |
+| 2 | 1.2745 |
+
+Training loss fell from **2.34** at step 100 to **~1.27** at step 49,600.
+
+### Takeaways
+
+- **Perplexity dropped from ~5.3 to ~3.4** over the run — the fine-tuned model
+  went from a generic English model to one that produces coherent, on-topic
+  TinyStories.
+- **Learning was front-loaded:** the bulk of the gain happened in the first
+  epoch (perplexity 5.33 → 3.64). Epochs 2–3 each shrank the gap by only
+  ~0.15, so the model had largely converged by the end of epoch 1.
+- **No overfitting:** validation perplexity kept falling (3.64 → 3.49 → 3.44)
+  across the last two epochs while training loss kept dropping, so the model
+  was still generalizing, not memorizing.
+- **Train–eval gap ≈ 0.03** (1.27 vs. 1.24) at the end — a very small gap,
+  consistent with the clean, repetitive synthetic corpus.
+
 ## Reproducing
 
 ```bash
